@@ -1,5 +1,0 @@
-float32[12] q      # Desired joint positions (radians)
-float32[12] dq     # Desired joint velocities (rad/s)
-float32[12] kp     # Proportional gains (Nm/rad)
-float32[12] kd     # Derivative gains (Nm·s/rad)
-float32[12] tau    # Feedforward torques (Nm)

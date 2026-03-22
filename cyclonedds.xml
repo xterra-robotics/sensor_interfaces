@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="utf-8"?>
 <CycloneDDS
   xmlns="https://cdds.io/config"
@@ -8,9 +7,7 @@
   <Domain Id="any">
     <General>
       <Interfaces>
-        <NetworkInterface name="lo" priority="1" />
-        <NetworkInterface name="enP8p1s0" priority="2" />
-        <NetworkInterface name="wlP1p1s0" priority="3" />
+        <NetworkInterface name="wlo1" priority="1" />
       </Interfaces>
       <AllowMulticast>false</AllowMulticast>
     </General>
@@ -18,18 +15,12 @@
       <ParticipantIndex>auto</ParticipantIndex>
       <MaxAutoParticipantIndex>2000</MaxAutoParticipantIndex>
       <Peers>
-        <Peer address="localhost" />
-        <Peer address="192.168.123.102" />
-        <Peer address="192.168.123.101" />
-        <Peer address="172.19.65.10" />
+        <Peer address="172.29.99.77" />
       </Peers>
     </Discovery>
     <Tracing>
       <Verbosity>warning</Verbosity>
-      <OutputFile>
-        <!-- /app/server/log/cdds.log.${CYCLONEDDS_PID} -->
-         stdout
-       </OutputFile>
+      <OutputFile>stdout</OutputFile>
     </Tracing>
   </Domain>
 </CycloneDDS>
