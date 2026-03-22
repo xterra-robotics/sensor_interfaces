@@ -1,0 +1,35 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<CycloneDDS
+  xmlns="https://cdds.io/config"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://cdds.io/config https://raw.githubusercontent.com/eclipse-cyclonedds/cyclonedds/master/etc/cyclonedds.xsd"
+>
+  <Domain Id="any">
+    <General>
+      <Interfaces>
+        <NetworkInterface name="lo" priority="1" />
+        <NetworkInterface name="enP8p1s0" priority="2" />
+        <NetworkInterface name="wlP1p1s0" priority="3" />
+      </Interfaces>
+      <AllowMulticast>false</AllowMulticast>
+    </General>
+    <Discovery>
+      <ParticipantIndex>auto</ParticipantIndex>
+      <MaxAutoParticipantIndex>2000</MaxAutoParticipantIndex>
+      <Peers>
+        <Peer address="localhost" />
+        <Peer address="192.168.123.102" />
+        <Peer address="192.168.123.101" />
+        <Peer address="172.19.65.10" />
+      </Peers>
+    </Discovery>
+    <Tracing>
+      <Verbosity>warning</Verbosity>
+      <OutputFile>
+        <!-- /app/server/log/cdds.log.${CYCLONEDDS_PID} -->
+         stdout
+       </OutputFile>
+    </Tracing>
+  </Domain>
+</CycloneDDS>

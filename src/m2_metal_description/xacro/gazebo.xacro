@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <gazebo>
+    <plugin name="3dplot" filename="libLinkPlot3DPlugin.so">
+      <frequency>10</frequency>
+      <plot>
+        <link>base_link</link>
+        <pose>0 0 0 0 0 0</pose>
+        <material>Gazebo/Yellow</material>
+      </plot>
+    </plugin>
+  </gazebo>
+
+  <gazebo reference="FR_foot">
+    <material>Gazebo/Black</material>
+    <collision>
+      <surface>
+        <bounce>
+          <restitution_coefficient>0</restitution_coefficient>
+          <threshold>100000.0</threshold>
+        </bounce>
+        <friction>
+          <torsional>
+            <coefficient>0.3</coefficient>
+          </torsional>
+          <ode>
+            <mu>100.0</mu>
+            <mu2>50.0</mu2>
+            <torsional>
+              <coefficient>50.0</coefficient>
+            </torsional>
+          </ode>
+        </friction>
+        <contact>
+          <ode>
+            <kp>30000.0</kp>
+            <kd>1000.0</kd>
+            <max_vel>0.05</max_vel>
+            <min_depth>0.005</min_depth>
+            <soft_cfm>1e-3</soft_cfm>
+            <soft_erp>0.8</soft_erp>
+          </ode>
+        </contact>
+      </surface>
+    </collision>
+  </gazebo>
+
+  <gazebo reference="FL_foot">
+    <material>Gazebo/Black</material>
+    <collision>
+      <surface>
+        <bounce>
+          <restitution_coefficient>0</restitution_coefficient>
+          <threshold>100000.0</threshold>
+        </bounce>
+        <friction>
+          <torsional>
+            <coefficient>0.3</coefficient>
+          </torsional>
+          <ode>
+            <mu>100.0</mu>
+            <mu2>50.0</mu2>
+            <torsional>
+              <coefficient>50.0</coefficient>
+            </torsional>
+          </ode>
+        </friction>
+        <contact>
+          <ode>
+            <kp>30000.0</kp>
+            <kd>1000.0</kd>
+            <max_vel>0.05</max_vel>
+            <min_depth>0.005</min_depth>
+            <soft_cfm>1e-3</soft_cfm>
+            <soft_erp>0.8</soft_erp>
+          </ode>
+        </contact>
+      </surface>
+    </collision>
+  </gazebo>
+
+  <gazebo reference="RL_foot">
+    <material>Gazebo/Black</material>
+    <collision>
+      <surface>
+        <bounce>
+          <restitution_coefficient>0</restitution_coefficient>
+          <threshold>100000.0</threshold>
+        </bounce>
+        <friction>
+          <torsional>
+            <coefficient>0.3</coefficient>
+          </torsional>
+          <ode>
+            <mu>100.0</mu>
+            <mu2>50.0</mu2>
+            <torsional>
+              <coefficient>50.0</coefficient>
+            </torsional>
+          </ode>
+        </friction>
+        <contact>
+          <ode>
+            <kp>30000.0</kp>
+            <kd>1000.0</kd>
+            <max_vel>0.05</max_vel>
+            <min_depth>0.005</min_depth>
+            <soft_cfm>1e-3</soft_cfm>
+            <soft_erp>0.8</soft_erp>
+          </ode>
+        </contact>
+      </surface>
+    </collision>
+  </gazebo>
+
+  <gazebo reference="RR_foot">
+    <material>Gazebo/Black</material>
+    <collision>
+      <surface>
+        <bounce>
+          <restitution_coefficient>0</restitution_coefficient>
+          <threshold>100000.0</threshold>
+        </bounce>
+        <friction>
+          <torsional>
+            <coefficient>0.3</coefficient>
+          </torsional>
+          <ode>
+            <mu>100.0</mu>
+            <mu2>50.0</mu2>
+            <torsional>
+              <coefficient>50.0</coefficient>
+            </torsional>
+          </ode>
+        </friction>
+        <contact>
+          <ode>
+            <kp>30000.0</kp>
+            <kd>1000.0</kd>
+            <max_vel>0.05</max_vel>
+            <min_depth>0.005</min_depth>
+            <soft_cfm>1e-3</soft_cfm>
+            <soft_erp>0.8</soft_erp>
+          </ode>
+        </contact>
+      </surface>
+    </collision>
+  </gazebo>
+
+  <gazebo>
+    <plugin name="xterra_motor_controller" filename="libMotorController.so">
+      <update_rate>500.0</update_rate>
+      <kp0>50.0</kp0>
+      <kp1>50.0</kp1>
+      <kp2>50.0</kp2>
+      <kd0>3.0</kd0>
+      <kd1>3.0</kd1>
+      <kd2>3.0</kd2>
+    </plugin>
+  </gazebo>
+
+</robot>

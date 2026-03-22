@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+
+<robot name="m2_metal" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- <xacro:arg name="DEBUG" default="false" /> -->
+    <xacro:include filename="$(find m2_metal_description)/xacro/const.xacro" />
+    <xacro:include filename="$(find m2_metal_description)/xacro/leg.xacro" />
+    <xacro:include filename="$(find m2_metal_description)/xacro/materials.xacro" />
+    <xacro:include filename="$(find sensor_description)/xacro/threeD_lidar.xacro" />
+    <xacro:include filename="$(find sensor_description)/xacro/rgbd_cam.xacro" />
+    <xacro:include filename="$(find sensor_description)/xacro/d435.gazebo.xacro" />
+    <xacro:include filename="$(find sensor_description)/xacro/d435.urdf.xacro" />
+    <xacro:include filename="$(find sensor_description)/xacro/gemini_335.xacro" />
+    <xacro:include filename="$(find sensor_description)/xacro/livox_mid360.xacro" />
+
+    <!-- <xacro:if value="$(arg DEBUG)">
+        <link name="world" />
+        <joint name="base_static_joint" type="fixed">
+            <origin rpy="0 0 0" xyz="0 0 10" />
+            <parent link="world" />
+            <child link="base_link" />
+        </joint>
+    </xacro:if> -->
+
+    <!-- <link name="base_link">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0" />
+            <geometry>
+                <box size="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+    </link>
+    <joint name="floating_base" type="fixed">
+        <origin rpy="0 0 0" xyz="0 0 0" />
+        <parent link="base_link" />
+        <child link="base_link" />
+    </joint> -->
+
+    <link name="base_link">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0" />
+            <geometry>
+                <mesh filename="file://$(find m2_metal_description)/meshes/torso.STL" scale="1 1 1" />
+            </geometry>
+            <material name="svan_green" />
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0 0 0" />
+            <geometry>
+                <!-- <mesh
+                    filename="file://$(find m2_metal_description)/meshes/torso.STL" /> -->
+                <box size="0.3 0.22 0.12" />
+            </geometry>
+        </collision>
+        <inertial>
+            <origin rpy="0 0 0" xyz="${base_com_x} ${base_com_y} ${base_com_z}" />
+            <mass value="${base_mass}" />
+            <inertia
+                ixx="${base_ixx}" ixy="${base_ixy}" ixz="${base_ixz}"
+                iyy="${base_iyy}" iyz="${base_iyz}"
+                izz="${base_izz}" />
+        </inertial>
+    </link>
+
+    <gazebo reference="base_link">
+        <kinematic>true</kinematic>
+    </gazebo>
+
+    <!-- IMU -->
+    <link name="imu_link">
+        <visual>
+            <geometry>
+                <box size="0.001 0.001 0.001" />
+            </geometry>
+            <material name="grey" />
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.01 0.01 0.01" />
+            </geometry>
+        </collision>
+        <inertial>
+            <mass value="0.1" />
+            <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
+        </inertial>
+    </link>
+    <joint name="imu_joint" type="fixed">
+        <parent link="base_link" />
+        <child link="imu_link" />
+        <origin xyz="0 0 0.1" rpy="0 0 0" />
+    </joint>
+    <gazebo reference="imu_link">
+        <sensor name="imu_sensor" type="imu">
+            <always_on>true</always_on>
+            <update_rate>100.0</update_rate>
+            <!-- <imu>
+                <noise>
+                    <type>gaussian</type>
+                    <mean>0.0</mean>
+                    <stddev>0.0001</stddev>
+                </noise>
+            </imu> -->
+            <plugin name="imu_plugin" filename="libgazebo_ros_imu_sensor.so">
+                <ros>
+                    <topic>imu</topic>
+                    <remapping>~/out:=imu</remapping>
+                </ros>
+            </plugin>
+        </sensor>
+    </gazebo>
+
+    <link name="head_link">
+        <visual>
+            <origin rpy="1.57 0 0" xyz="-0.5985 1.28 -0.873" />
+            <geometry>
+                <mesh
+                    filename="file://$(find m2_metal_description)/meshes/M2_METAL_HEAD_2026.STL"
+                    scale="0.001 0.001 0.001" />
+            </geometry>
+            <material name="svan_green" />
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0 0 0" />
+            <geometry>
+                <box size="0.3 0.22 0.12" />
+            </geometry>
+        </collision>
+        <inertial>
+            <origin rpy="0 0 0" xyz="0 0 0" />
+            <mass value="2.2" />
+            <inertia
+                ixx="0.01" ixy="0" ixz="0"
+                iyy="0.01" iyz="0"
+                izz="0.01" />
+        </inertial>
+    </link>
+    <joint name="head_joint" type="fixed">
+        <parent link="base_link" />
+        <child link="head_link" />
+        <origin xyz="0.2 0 0.0" rpy="0 0 0" />
+    </joint>
+
+
+    <!-- <link name="head_link">
+        <visual>
+            <origin rpy="1.57 0 3.14" xyz="0.565 -1.265 -0.81" />
+            <geometry>
+                <mesh
+                    filename="file://$(find m2_metal_description)/meshes/camera_mount_15deg..STL"
+                    scale="0.001 0.001 0.001" />
+            </geometry>
+            <material name="svan_green" />
+        </visual>
+        <collision>
+            <origin rpy="0 0 0" xyz="0 0 0" />
+            <geometry>
+                <box size="0.3 0.22 0.12" />
+            </geometry>
+        </collision>
+        <inertial>
+            <origin rpy="0 0 0" xyz="0 0 0" />
+            <mass value="2.2" />
+            <inertia
+                ixx="0.01" ixy="0" ixz="0"
+                iyy="0.01" iyz="0"
+                izz="0.01" />
+        </inertial>
+    </link>
+    <joint name="head_joint" type="fixed">
+        <parent link="base_link" />
+        <child link="head_link" />
+        <origin xyz="0.2 0 0.0" rpy="0 0 0" />
+    </joint> -->
+
+    <!-- (1 for not mirrored , -1 for mirrored )-->
+    <!-- (1 for front_hind is true, -1 for front_hind is not true)-->
+    <xacro:leg name="FR" mirror="1" front_hind="1" />
+    <xacro:leg name="FL" mirror="-1" front_hind="1" />
+    <xacro:leg name="RR" mirror="1" front_hind="-1" />
+    <xacro:leg name="RL" mirror="-1" front_hind="-1" />
+
+    <xacro:livox_mid360_sensor name="mid360" parent="base_link">
+        <origin xyz="0.239 0.001 0.0625" rpy="0 0 0" />
+    </xacro:livox_mid360_sensor>
+
+    <xacro:sensor_gemini
+        update_rt="10.0" name="arm_cam" sensor_parent_link="base_link"
+        topics_ns="/sensors"
+        publish_pointcloud="true">
+        <origin xyz="0.26 0.0 0.015" rpy="-0.0 0.2618 0.0" />
+    </xacro:sensor_gemini>
+
+    <!-- <xacro:sensor_rgbd
+        update_rt="15.0" name="front_rgbd_cam" sensor_parent_link="base_link"
+        topics_ns="/sensors"
+        publish_pointcloud="true">
+        <origin xyz="0.13 0.0 0.097" rpy="-0.0 0.2618 0.0" />
+    </xacro:sensor_rgbd> -->
+
+    <!-- <xacro:sensor_d435
+        update_rt="15.0"
+        name="front_rgbd_cam"
+        sensor_parent_link="base_link"
+        topics_ns="/sensors"
+        publish_pointcloud="true">
+        <origin xyz="0.13 0.0 0.097" rpy="-0.0 0.2618 0.0" />
+    </xacro:sensor_d435> -->
+
+    <!-- <xacro:sensor_gemini
+        update_rt="15.0"
+        name="front_rgbd_cam"
+        sensor_parent_link="base_link"
+        topics_ns="/sensors"
+        publish_pointcloud="true">
+        <origin xyz="0.13 0.0 0.097" rpy="-0.0 0.2618 0.0" />
+    </xacro:sensor_gemini> -->
+
+    <xacro:include filename="$(find m2_metal_description)/xacro/gazebo.xacro" />
+
+</robot>

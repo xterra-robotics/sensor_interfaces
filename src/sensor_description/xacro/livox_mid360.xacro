@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="livox_mid360">
+
+    <xacro:macro name="livox_mid360_sensor" params="name parent *origin">
+
+        <xacro:property name="base_to_optical_z_offset" value="0.047" />
+
+        <xacro:property name="imu_x_wrt_o" value="0.011" />
+        <xacro:property name="imu_y_wrt_o" value="0.02329" />
+        <xacro:property name="imu_z_wrt_o" value="-0.04412" />
+
+        <xacro:property name="imu_z_wrt_a" value="${base_to_optical_z_offset + imu_z_wrt_o}" />
+
+        <xacro:property name="lidar_radius" value="0.0325" />
+        <xacro:property name="body_height" value="0.047" />
+
+        <xacro:property name="mesh_offset_x" value="0.66" />
+        <xacro:property name="mesh_offset_y" value="0.87" />
+        <xacro:property name="mesh_offset_z" value="-1.272" />
+        <xacro:property name="mesh_offset_r" value="0.0" />
+        <xacro:property name="mesh_offset_p" value="0.0" />
+        <xacro:property name="mesh_offset_yw" value="3.14" />
+
+        <link name="${name}_base_link">
+            <visual>
+                <origin xyz="${mesh_offset_x} ${mesh_offset_y} ${mesh_offset_z}"
+                    rpy="${mesh_offset_r} ${mesh_offset_p} ${mesh_offset_yw}" />
+                <geometry>
+                    <mesh filename="file://$(find sensor_description)/meshes/lydar.STL"
+                        scale="0.001 0.001 0.001" />
+                </geometry>
+                <material name="livox_grey">
+                    <color rgba="0.3 0.3 0.3 1.0" />
+                </material>
+            </visual>
+            <collision>
+                <origin xyz="${mesh_offset_x} ${mesh_offset_y} ${mesh_offset_z}"
+                    rpy="${mesh_offset_r} ${mesh_offset_p} ${mesh_offset_yw}" />
+                <geometry>
+                    <mesh filename="file://$(find sensor_description)/meshes/lydar.STL"
+                        scale="0.001 0.001 0.001" />
+                </geometry>
+            </collision>
+            <inertial>
+                <mass value="0.265" />
+                <origin xyz="0 0 ${body_height/2}" rpy="0 0 0" />
+                <inertia ixx="0.01" ixy="0" ixz="0"
+                    iyy="0.01" iyz="0"
+                    izz="0.01" />
+            </inertial>
+        </link>
+
+        <link name="${name}_optical_frame">
+            <inertial>
+                <mass value="1e-5" />
+                <origin xyz="0 0 0" rpy="0 0 0" />
+                <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+            </inertial>
+        </link>
+
+        <link name="${name}_imu_frame">
+            <inertial>
+                <mass value="0.01" />
+                <origin xyz="0 0 0" rpy="0 0 0" />
+                <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+            </inertial>
+        </link>
+
+
+        <joint name="${name}_base_mount_joint" type="fixed">
+            <xacro:insert_block name="origin" />
+            <parent link="${parent}" />
+            <child link="${name}_base_link" />
+        </joint>
+
+        <joint name="${name}_base_to_optical_joint" type="fixed">
+            <origin xyz="0 0 ${base_to_optical_z_offset}" rpy="0 0 0" />
+            <parent link="${name}_base_link" />
+            <child link="${name}_optical_frame" />
+        </joint>
+
+        <joint name="${name}_base_to_imu_joint" type="fixed">
+            <origin xyz="${imu_x_wrt_o} ${imu_y_wrt_o} ${imu_z_wrt_a}" rpy="0 0 0" />
+            <parent link="${name}_base_link" />
+            <child link="${name}_imu_frame" />
+            <!-- <axis xyz="0 0 1" />
+            <limit lower="0" upper="0" effort="0" velocity="0" /> -->
+        </joint>
+
+                             
+
+    </xacro:macro>
+
+</robot>

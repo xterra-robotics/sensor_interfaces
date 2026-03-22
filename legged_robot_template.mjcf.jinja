@@ -1,0 +1,47 @@
+<mujoco model="{{ robot_name }}">
+  <compiler angle="radian" coordinate="local"/>
+
+  <option timestep="{{ options.timestep }}" gravity="{{ options.gravity }}"/>
+
+  <asset>
+    <!-- Add meshes if needed; parameterize in config -->
+  </asset>
+
+  <worldbody>
+    <!-- Base body -->
+    <body name="{{ base.name }}" pos="{{ base.pos }}" quat="{{ base.quat }}">
+      <inertial pos="{{ base.inertial.origin.xyz }}" mass="{{ base.inertial.mass }}" diaginertia="{{ base.inertial.diaginertia }}"/>
+      <geom name="{{ base.geom.name }}" type="{{ base.geom.type }}" size="{{ base.geom.size }}" rgba="{{ base.geom.rgba }}"/>
+      <!-- Add more geoms if needed -->
+
+      <!-- Limbs (nested bodies for serial chains) -->
+      {% for limb in limbs %}
+      <!-- {% if limb.chain | length > 0 %} -->
+      <!-- <body name="{{ limb.prefix }}_{{ limb.chain[0].body.suffix }}" pos="{{ limb.chain[0].body.pos }}">
+        <joint name="{{ limb.prefix }}_{{ limb.chain[0].joint.suffix }}" type="{{ limb.chain[0].joint.type }}" axis="{{ limb.chain[0].joint.axis }}" range="{{ limb.chain[0].joint.range }}" limited="true"/>
+        <inertial pos="{{ limb.chain[0].body.inertial.pos }}" mass="{{ limb.chain[0].body.inertial.mass }}" diaginertia="{{ limb.chain[0].body.inertial.diaginertia }}"/>
+        <geom name="{{ limb.prefix }}_{{ limb.chain[0].body.suffix }}_geom" type="{{ limb.chain[0].body.geom.type }}" size="{{ limb.chain[0].body.geom.size }}" rgba="{{ limb.chain[0].body.geom.rgba }}"/> -->
+
+        {% for segment in limb.chain %}
+        <body name="{{ limb.prefix }}_{{ segment.body.suffix }}" pos="{{ segment.body.pos }}">
+          <joint name="{{ limb.prefix }}_{{ segment.joint.suffix }}" type="{{ segment.joint.type }}" axis="{{ segment.joint.axis }}" range="{{ segment.joint.range }}" limited="true"/>
+          <inertial pos="{{ segment.body.inertial.pos }}" mass="{{ segment.body.inertial.mass }}" diaginertia="{{ segment.body.inertial.diaginertia }}"/>
+          <geom name="{{ limb.prefix }}_{{ segment.body.suffix }}_geom" type="{{ segment.body.geom.type }}" size="{{ segment.body.geom.size }}" rgba="{{ segment.body.geom.rgba }}"/>
+        </body>
+        {% endfor %}
+      </body>
+      {% endif %}
+      {% endfor %}
+    </body>
+  </worldbody>
+
+  <actuator>
+    {% for limb in limbs %}
+    {% for segment in limb.chain %}
+    <motor name="{{ limb.prefix }}_{{ segment.joint.suffix }}" joint="{{ limb.prefix }}_{{ segment.joint.suffix }}" gear="{{ segment.joint.gear }}" ctrllimited="true" ctrlrange="{{ segment.joint.ctrlrange }}"/>
+    {% endfor %}
+    {% endfor %}
+  </actuator>
+
+  <!-- Add contact, equality, etc., as needed -->
+</mujoco>

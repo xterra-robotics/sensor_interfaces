@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot name="{{ robot_name }}">
+    <mujoco>
+        <compiler 
+        meshdir="{{ mesh_dir }}"
+        discardvisual="false"
+    />
+    </mujoco>
+  <!-- Base link -->
+  <link name="{{ base.name }}">
+    <inertial>
+      <origin xyz="{{ base.inertial.origin.xyz }}" rpy="{{ base.inertial.origin.rpy }}"/>
+      <mass value="{{ base.inertial.mass }}"/>
+      <inertia ixx="{{ base.inertial.inertia.ixx }}" ixy="{{ base.inertial.inertia.ixy }}" ixz="{{ base.inertial.inertia.ixz }}" iyy="{{ base.inertial.inertia.iyy }}" iyz="{{ base.inertial.inertia.iyz }}" izz="{{ base.inertial.inertia.izz }}"/>
+    </inertial>
+    <visual>
+      <origin xyz="{{ base.visual.origin.xyz }}" rpy="{{ base.visual.origin.rpy }}"/>
+      <geometry>
+        {% if base.visual.geometry.type == 'mesh' %}
+        <mesh filename="{{ base.geoms.mesh }}"/>
+        {% elif base.visual.geometry.type == 'box' %}
+        <box size="{{ base.geoms.box.size }}"/>
+        {% elif base.visual.geometry.type == 'cylinder' %}
+        <cylinder length="{{ base.geoms.cylinder.length }}" radius="{{ base.geoms.cylinder.radius }}"/>
+        {% endif %}
+      </geometry>
+      <material name="{{ base.visual.material.name }}"/>
+    </visual>
+    <collision>
+      <origin xyz="{{ base.collision.origin.xyz }}" rpy="{{ base.collision.origin.rpy }}"/>
+      <geometry>
+        {% if base.visual.geometry.type == 'mesh' %}
+        <mesh filename="{{ base.geoms.mesh }}"/>
+        {% elif base.collision.geometry.type == 'box' %}
+        <box size="{{ base.collision.geometry.size }}"/>
+        {% elif base.collision.geometry.type == 'cylinder' %}
+        <cylinder length="{{ base.geoms.cylinder.length }}" radius="{{ base.geoms.cylinder.radius }}"/>
+        {% endif %}
+      </geometry>
+    </collision>
+  </link>
+
+  {% if imu %}
+  <!-- IMU link (optional) -->
+  <link name="{{ imu.name }}"/>
+  <joint name="{{ imu.joint_name }}" type="fixed">
+    <parent link="{{ base.name }}"/>
+    <child link="{{ imu.name }}"/>
+    <origin xyz="{{ imu.origin.xyz }}" rpy="{{ imu.origin.rpy }}"/>
+  </joint>
+  {% endif %}
+
+  <!-- Limbs (generalized for legs/arms/chains) -->
+    {% for limb in limbs %}
+  {% set ns = namespace(parent= limb.attach_to | default(base.name)) %}
+  {% for segment in limb.chain %}
+  <joint name="{{ limb.prefix }}_{{ segment.suffix }}_{{ segment.joint.suffix }}" type="{{ segment.joint.type }}">
+    <parent link="{{ ns.parent }}"/>
+    <child link="{{ limb.prefix }}_{{ segment.suffix }}_{{ segment.link.suffix }}"/>
+    <origin xyz="{{ segment.joint.origin.xyz }}" rpy="{{ segment.joint.origin.rpy }}"/>
+    <axis xyz="{{ segment.joint.axis.xyz }}"/>
+    <limit lower="{{ segment.joint.limit.lower }}" upper="{{ segment.joint.limit.upper }}" effort="{{ segment.joint.limit.effort }}" velocity="{{ segment.joint.limit.velocity }}"/>
+  </joint>
+  <link name="{{ limb.prefix }}_{{ segment.suffix }}_{{ segment.link.suffix }}">
+    <inertial>
+      <origin xyz="{{ segment.link.inertial.origin.xyz }}" rpy="{{ segment.link.inertial.origin.rpy }}"/>
+      <mass value="{{ segment.link.inertial.mass }}"/>
+      <inertia ixx="{{ segment.link.inertial.inertia.ixx }}" ixy="{{ segment.link.inertial.inertia.ixy }}" ixz="{{ segment.link.inertial.inertia.ixz }}" iyy="{{ segment.link.inertial.inertia.iyy }}" iyz="{{ segment.link.inertial.inertia.iyz }}" izz="{{ segment.link.inertial.inertia.izz }}"/>
+    </inertial>
+    <visual>
+      <origin xyz="{{ segment.link.visual.origin.xyz }}" rpy="{{ segment.link.visual.origin.rpy }}"/>
+      <geometry>
+        {% if segment.link.visual.geometry.type == 'mesh' %}
+        <mesh filename="{{ segment.geoms.mesh.filename }}"/>
+        {% elif segment.link.visual.geometry.type == 'cylinder' %}
+        <cylinder length="{{ segment.geoms.cylinder.length }}" radius="{{ segment.geoms.cylinder.radius }}"/>
+        {% elif segment.link.visual.geometry.type == 'box' %}
+        <box size="{{ segment.geoms.box.size }}"/>
+        {% elif segment.link.visual.geometry.type == 'sphere' %}
+        <sphere radius="{{ segment.geoms.sphere.radius }}"/>
+        {% endif %}
+      </geometry>
+      <material name="{{ segment.link.visual.material.name }}"/>
+    </visual>
+    <collision>
+        {% if segment.link.collision.geometry.type == 'mesh' %}
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        {% else %}
+        <origin xyz="{{ segment.link.collision.origin.xyz }}" rpy="{{ segment.link.collision.origin.rpy }}"/>
+        {% endif %}  
+    <geometry>
+        {% if segment.link.collision.geometry.type == 'mesh' %}
+        <mesh filename="{{ segment.geoms.mesh.filename }}"/>
+        {% elif segment.link.collision.geometry.type == 'cylinder' %}
+        <cylinder length="{{ segment.geoms.cylinder.length }}" radius="{{ segment.geoms.cylinder.radius }}"/>
+        {% elif segment.link.collision.geometry.type == 'box' %}
+        <box size="{{ segment.geoms.box.size }}"/>
+        {% elif segment.link.collision.geometry.type == 'sphere' %}
+        <sphere radius="{{ segment.geoms.sphere.radius }}"/>
+        {% endif %}
+      </geometry>
+    </collision>
+  </link>
+  {% set ns.parent = limb.prefix ~ '_' ~ segment.suffix ~ '_' ~ segment.link.suffix %}
+  {% endfor %}
+    {% endfor %}
+
+  <!-- Transmissions for all joints -->
+  {% for limb in limbs %}
+  {% for segment in limb.chain %}
+  <transmission name="{{ limb.prefix }}_{{ segment.joint.suffix }}_trans">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="{{ limb.prefix }}_{{ segment.joint.suffix }}">
+      <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="{{ limb.prefix }}_{{ segment.joint.suffix }}_motor">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  {% endfor %}
+  {% endfor %}
+</robot>

@@ -1,0 +1,152 @@
+1751914915.648685 [0] optimal_li: config: Domain/General/MulticastRecvNetworkInterfaceAddresses/#text: preferred {}
+1751914915.648707 [0] optimal_li: config: Domain/General/Interfaces/NetworkInterface[@autodetermine]: false {}
+1751914915.648712 [0] optimal_li: config: Domain/General/Interfaces/NetworkInterface[@name]: lo {1}
+1751914915.648715 [0] optimal_li: config: Domain/General/Interfaces/NetworkInterface[@address]:  {}
+1751914915.648719 [0] optimal_li: config: Domain/General/Interfaces/NetworkInterface[@priority]: default {}
+1751914915.648722 [0] optimal_li: config: Domain/General/Interfaces/NetworkInterface[@prefer_multicast]: false {}
+1751914915.648726 [0] optimal_li: config: Domain/General/Interfaces/NetworkInterface[@presence_required]: true {}
+1751914915.648729 [0] optimal_li: config: Domain/General/Interfaces/NetworkInterface[@multicast]: default {1}
+1751914915.648733 [0] optimal_li: config: Domain/General/Interfaces/NetworkInterface[@allow_multicast]: default {}
+1751914915.648736 [0] optimal_li: config: Domain/General/ExternalNetworkAddress/#text: auto {}
+1751914915.648739 [0] optimal_li: config: Domain/General/ExternalNetworkMask/#text: 0.0.0.0 {}
+1751914915.648743 [0] optimal_li: config: Domain/General/AllowMulticast/#text: false {1}
+1751914915.648746 [0] optimal_li: config: Domain/General/MulticastTimeToLive/#text: 32 {}
+1751914915.648750 [0] optimal_li: config: Domain/General/DontRoute/#text: false {}
+1751914915.648753 [0] optimal_li: config: Domain/General/Transport/#text: udp {}
+1751914915.648756 [0] optimal_li: config: Domain/General/EnableMulticastLoopback/#text: false {1}
+1751914915.648760 [0] optimal_li: config: Domain/General/MaxMessageSize/#text: 14720 B {}
+1751914915.648763 [0] optimal_li: config: Domain/General/MaxRexmitMessageSize/#text: 1456 B {}
+1751914915.648767 [0] optimal_li: config: Domain/General/FragmentSize/#text: 1344 B {}
+1751914915.648770 [0] optimal_li: config: Domain/General/RedundantNetworking/#text: false {}
+1751914915.648773 [0] optimal_li: config: Domain/General/EntityAutoNaming/#text: empty {}
+1751914915.648777 [0] optimal_li: config: Domain/General/EntityAutoNaming[@seed]: 2326920023 3534887004 470193819 2929553469 1381225105 2571454317 489521655 3577815540 {}
+1751914915.648781 [0] optimal_li: config: Domain/Sizing/ReceiveBufferSize/#text: 1 MiB {}
+1751914915.648785 [0] optimal_li: config: Domain/Sizing/ReceiveBufferChunkSize/#text: 128 KiB {}
+1751914915.648788 [0] optimal_li: config: Domain/Compatibility/StandardsConformance/#text: lax {}
+1751914915.648792 [0] optimal_li: config: Domain/Compatibility/ExplicitlyPublishQosSetToDefault/#text: false {}
+1751914915.648795 [0] optimal_li: config: Domain/Compatibility/ManySocketsMode/#text: single {}
+1751914915.648798 [0] optimal_li: config: Domain/Compatibility/AssumeRtiHasPmdEndpoints/#text: false {}
+1751914915.648802 [0] optimal_li: config: Domain/Compatibility/ProtocolVersion/#text: 2.5 {}
+1751914915.648805 [0] optimal_li: config: Domain/Discovery/Tag/#text:  {}
+1751914915.648808 [0] optimal_li: config: Domain/Discovery/ExternalDomainId/#text: 0 {}
+1751914915.648812 [0] optimal_li: config: Domain/Discovery/DSGracePeriod/#text: 30 s {}
+1751914915.648816 [0] optimal_li: config: Domain/Discovery/Peers/Peer[@Address]: localhost {1}
+1751914915.648819 [0] optimal_li: config: Domain/Discovery/Peers/Peer[@PruneDelay]: default {}
+1751914915.648822 [0] optimal_li: config: Domain/Discovery/Peers[@AddLocalhost]: default {}
+1751914915.648826 [0] optimal_li: config: Domain/Discovery/ParticipantIndex/#text: auto {1}
+1751914915.648829 [0] optimal_li: config: Domain/Discovery/MaxAutoParticipantIndex/#text: 2000 {1}
+1751914915.648833 [0] optimal_li: config: Domain/Discovery/SPDPMulticastAddress/#text: 239.255.0.1 {}
+1751914915.648836 [0] optimal_li: config: Domain/Discovery/SPDPInterval/#text: default {}
+1751914915.648839 [0] optimal_li: config: Domain/Discovery/DefaultMulticastAddress/#text: auto {}
+1751914915.648842 [0] optimal_li: config: Domain/Discovery/InitialLocatorPruneDelay/#text: 30 s {}
+1751914915.648846 [0] optimal_li: config: Domain/Discovery/DiscoveredLocatorPruneDelay/#text: 1 min {}
+1751914915.648855 [0] optimal_li: config: Domain/Discovery/Ports/Base/#text: 7400 {}
+1751914915.648859 [0] optimal_li: config: Domain/Discovery/Ports/DomainGain/#text: 250 {}
+1751914915.648862 [0] optimal_li: config: Domain/Discovery/Ports/ParticipantGain/#text: 2 {}
+1751914915.648865 [0] optimal_li: config: Domain/Discovery/Ports/MulticastMetaOffset/#text: 0 {}
+1751914915.648868 [0] optimal_li: config: Domain/Discovery/Ports/UnicastMetaOffset/#text: 10 {}
+1751914915.648872 [0] optimal_li: config: Domain/Discovery/Ports/MulticastDataOffset/#text: 1 {}
+1751914915.648875 [0] optimal_li: config: Domain/Discovery/Ports/UnicastDataOffset/#text: 11 {}
+1751914915.648878 [0] optimal_li: config: Domain/Discovery/EnableTopicDiscoveryEndpoints/#text: false {}
+1751914915.648882 [0] optimal_li: config: Domain/Discovery/LeaseDuration/#text: 10 s {}
+1751914915.648889 [0] optimal_li: config: Domain/Tracing/Category/#text: fatal,error,warning,info,config {1}
+1751914915.648892 [0] optimal_li: config: Domain/Tracing/OutputFile/#text: cyclonedds.log {}
+1751914915.648896 [0] optimal_li: config: Domain/Tracing/AppendToFile/#text: false {}
+1751914915.648899 [0] optimal_li: config: Domain/Tracing/PacketCaptureFile/#text:  {}
+1751914915.648903 [0] optimal_li: config: Domain/Internal/DeliveryQueueMaxSamples/#text: 256 {}
+1751914915.648906 [0] optimal_li: config: Domain/Internal/PrimaryReorderMaxSamples/#text: 128 {}
+1751914915.648909 [0] optimal_li: config: Domain/Internal/SecondaryReorderMaxSamples/#text: 128 {}
+1751914915.648912 [0] optimal_li: config: Domain/Internal/DefragUnreliableMaxSamples/#text: 4 {}
+1751914915.648915 [0] optimal_li: config: Domain/Internal/DefragReliableMaxSamples/#text: 16 {}
+1751914915.648919 [0] optimal_li: config: Domain/Internal/BuiltinEndpointSet/#text: writers {}
+1751914915.648922 [0] optimal_li: config: Domain/Internal/MeasureHbToAckLatency/#text: false {}
+1751914915.648925 [0] optimal_li: config: Domain/Internal/SynchronousDeliveryPriorityThreshold/#text: 0 {}
+1751914915.648929 [0] optimal_li: config: Domain/Internal/SynchronousDeliveryLatencyBound/#text: inf {}
+1751914915.648932 [0] optimal_li: config: Domain/Internal/MaxParticipants/#text: 0 {}
+1751914915.648935 [0] optimal_li: config: Domain/Internal/AccelerateRexmitBlockSize/#text: 0 {}
+1751914915.648939 [0] optimal_li: config: Domain/Internal/RetransmitMerging/#text: never {}
+1751914915.648942 [0] optimal_li: config: Domain/Internal/RetransmitMergingPeriod/#text: 5 ms {}
+1751914915.648945 [0] optimal_li: config: Domain/Internal/HeartbeatInterval/#text: 100 ms {}
+1751914915.648949 [0] optimal_li: config: Domain/Internal/HeartbeatInterval[@min]: 5 ms {}
+1751914915.648952 [0] optimal_li: config: Domain/Internal/HeartbeatInterval[@minsched]: 20 ms {}
+1751914915.648955 [0] optimal_li: config: Domain/Internal/HeartbeatInterval[@max]: 8 s {}
+1751914915.648959 [0] optimal_li: config: Domain/Internal/MaxQueuedRexmitBytes/#text: 512 KiB {}
+1751914915.648962 [0] optimal_li: config: Domain/Internal/MaxQueuedRexmitMessages/#text: 200 {}
+1751914915.648965 [0] optimal_li: config: Domain/Internal/WriterLingerDuration/#text: 1 s {}
+1751914915.648968 [0] optimal_li: config: Domain/Internal/SocketReceiveBufferSize[@min]: default {}
+1751914915.648972 [0] optimal_li: config: Domain/Internal/SocketReceiveBufferSize[@max]: default {}
+1751914915.648975 [0] optimal_li: config: Domain/Internal/SocketSendBufferSize[@min]: 64 KiB {}
+1751914915.648978 [0] optimal_li: config: Domain/Internal/SocketSendBufferSize[@max]: default {}
+1751914915.648982 [0] optimal_li: config: Domain/Internal/NackDelay/#text: 100 ms {}
+1751914915.648985 [0] optimal_li: config: Domain/Internal/AckDelay/#text: 10 ms {}
+1751914915.648988 [0] optimal_li: config: Domain/Internal/AutoReschedNackDelay/#text: 3 s {}
+1751914915.648992 [0] optimal_li: config: Domain/Internal/PreEmptiveAckDelay/#text: 10 ms {}
+1751914915.648995 [0] optimal_li: config: Domain/Internal/SquashParticipants/#text: false {}
+1751914915.648998 [0] optimal_li: config: Domain/Internal/SPDPResponseMaxDelay/#text: 0 s {}
+1751914915.649006 [0] optimal_li: config: Domain/Internal/LateAckMode/#text: false {}
+1751914915.649010 [0] optimal_li: config: Domain/Internal/RetryOnRejectBestEffort/#text: false {}
+1751914915.649013 [0] optimal_li: config: Domain/Internal/GenerateKeyhash/#text: false {}
+1751914915.649016 [0] optimal_li: config: Domain/Internal/MaxSampleSize/#text: 2147483647 B {}
+1751914915.649019 [0] optimal_li: config: Domain/Internal/LivelinessMonitoring/#text: false {}
+1751914915.649023 [0] optimal_li: config: Domain/Internal/LivelinessMonitoring[@StackTraces]: true {}
+1751914915.649026 [0] optimal_li: config: Domain/Internal/LivelinessMonitoring[@Interval]: 1 s {}
+1751914915.649029 [0] optimal_li: config: Domain/Internal/MonitorPort/#text: -1 {}
+1751914915.649033 [0] optimal_li: config: Domain/Internal/PrioritizeRetransmit/#text: true {}
+1751914915.649036 [0] optimal_li: config: Domain/Internal/UseMulticastIfMreqn/#text: 0 {}
+1751914915.649040 [0] optimal_li: config: Domain/Internal/RediscoveryBlacklistDuration/#text: 0 s {}
+1751914915.649043 [0] optimal_li: config: Domain/Internal/RediscoveryBlacklistDuration[@enforce]: false {}
+1751914915.649046 [0] optimal_li: config: Domain/Internal/MultipleReceiveThreads/#text: default {}
+1751914915.649050 [0] optimal_li: config: Domain/Internal/MultipleReceiveThreads[@maxretries]: 4294967295 {}
+1751914915.649053 [0] optimal_li: config: Domain/Internal/Test/XmitLossiness/#text: 0 {}
+1751914915.649057 [0] optimal_li: config: Domain/Internal/Watermarks/WhcLow/#text: 1 KiB {}
+1751914915.649060 [0] optimal_li: config: Domain/Internal/Watermarks/WhcHigh/#text: 500 KiB {}
+1751914915.649063 [0] optimal_li: config: Domain/Internal/Watermarks/WhcHighInit/#text: 30 KiB {}
+1751914915.649067 [0] optimal_li: config: Domain/Internal/Watermarks/WhcAdaptive/#text: true {}
+1751914915.649070 [0] optimal_li: config: Domain/Internal/BurstSize/MaxRexmit/#text: 1 MiB {}
+1751914915.649074 [0] optimal_li: config: Domain/Internal/BurstSize/MaxInitTransmit/#text: 4294967295 {}
+1751914915.649077 [0] optimal_li: config: Domain/Internal/BurstSize/MaxFragsRexmitSample/#text: 1 {}
+1751914915.649080 [0] optimal_li: config: Domain/Internal/ExtendedPacketInfo/#text: true {}
+1751914915.649084 [0] optimal_li: config: Domain/Internal/EnableExpensiveChecks/#text:  [ignored] {}
+1751914915.649087 [0] optimal_li: config: Domain/TCP/NoDelay/#text: true {}
+1751914915.649091 [0] optimal_li: config: Domain/TCP/Port/#text: -1 {}
+1751914915.649094 [0] optimal_li: config: Domain/TCP/ReadTimeout/#text: 2 s {}
+1751914915.649097 [0] optimal_li: config: Domain/TCP/WriteTimeout/#text: 2 s {}
+1751914915.649101 [0] optimal_li: config: Domain/TCP/AlwaysUsePeeraddrForUnicast/#text: false {}
+1751914915.649104 [0] optimal_li: config: Domain/SSL/Enable/#text: false {}
+1751914915.649107 [0] optimal_li: config: Domain/SSL/CertificateVerification/#text: true {}
+1751914915.649111 [0] optimal_li: config: Domain/SSL/VerifyClient/#text: true {}
+1751914915.649114 [0] optimal_li: config: Domain/SSL/SelfSignedCertificates/#text: false {}
+1751914915.649117 [0] optimal_li: config: Domain/SSL/KeystoreFile/#text: keystore {}
+1751914915.649120 [0] optimal_li: config: Domain/SSL/KeyPassphrase/#text: secret {}
+1751914915.649124 [0] optimal_li: config: Domain/SSL/Ciphers/#text: ALL:!ADH:!LOW:!EXP:!MD5:@STRENGTH {}
+1751914915.649127 [0] optimal_li: config: Domain/SSL/EntropyFile/#text:  {}
+1751914915.649130 [0] optimal_li: config: Domain/SSL/MinimumTLSVersion/#text: 1.3 {}
+1751914915.649134 [0] optimal_li: config: Domain[@Id]: 0 {1}
+1751914915.649174 [0] optimal_li: started at 1751914915.06649143 -- 2025-07-07 19:01:55+00:00
+1751914915.649179 [0] optimal_li: Version: CycloneDDS 0.11.0 acf68805 
+1751914915.649182 [0] optimal_li: udp initialized
+1751914915.650077 [0] optimal_li: interfaces: lo udp/127.0.0.1(q1) wlo1 wireless udp/172.17.102.156(q9) docker0 udp/172.17.0.1(q9)
+1751914915.650087 [0] optimal_li: selected interfaces: lo (index 1 priority 2 mc {})
+1751914915.650099 [0] optimal_li: ownip: udp/127.0.0.1
+1751914915.650102 [0] optimal_li: extmask: invalid/0 (not applicable)
+1751914915.650111 [0] optimal_li: SPDP MC: udp/239.255.0.1
+1751914915.650114 [0] optimal_li: default MC: udp/239.255.0.1
+1751914915.650117 [0] optimal_li: SSM support included
+1751914915.650193 [0] optimal_li: rtps_init: trying to find a free participant index
+1751914915.650207 [0] optimal_li: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
+1751914915.650220 [0] optimal_li: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
+1751914915.650231 [0] optimal_li: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
+1751914915.650241 [0] optimal_li: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
+1751914915.650251 [0] optimal_li: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
+1751914915.650257 [0] optimal_li: rtps_init: uc ports: disc 7416 data 7417
+1751914915.650260 [0] optimal_li: rtps_init: domainid 0 participantid 4
+1751914915.650263 [0] optimal_li: Unicast Ports: discovery 7416 data 7417
+1751914915.650270 [0] optimal_li: failed to increase socket receive buffer size to 1048576 bytes, continuing with 425984 bytes
+1751914915.650276 [0] optimal_li: interface lo: transmit port 55821
+1751914915.650786 [0] optimal_li1751915149.462445 [0] dlio_odom_: udp finalized
+1751915149.468506 [0] dlio_odom_: Finis.
+5.650793 [0] optimal_li: adding self (ud1751915149.461935 [0] dlio_map_n: udp finalized
+1751915149.463233 [0] dlio_map_n: Finis.
+.. :11410 (prune delay 30000000000)
+1751915149.462628 [0] optimal_li: udp finalized
+1751915149.463165 [0] optimal_li: Finis.
