@@ -24,82 +24,16 @@ from ament_index_python.packages import get_package_share_directory
 from launch.actions import GroupAction
 from launch_ros.actions import SetRemap
 
-# common -> multi_sensor_mapping + pointcloud_to_laserscan + nav2 
-# hardware -> lair_autonomy_bridge + streaming_test
-# sim -> gazebo_ros + spawn_entity + rviz + lair_gazebo_bridge + camera_simulation_stream
-# special case -> elevation_mapping
 
 def generate_launch_description():
 
-    # ========================================================================
-    # 1. DECLARE ARGUMENTS
-    # ========================================================================
-    
-    simulation_arg = DeclareLaunchArgument(
-        'simulation',
-        default_value='false',
-        description='Set to true for Gazebo simulation, false for real hardware'
-    )
-
-    enable_elev_mapping_arg = DeclareLaunchArgument(
-        'enable_elevation_mapping',
-        default_value='false',
-        description='Enable elevation mapping (runs on both Sim and Hardware if true)'
-    )
 
     use_sim_time_arg = DeclareLaunchArgument(
         'use_sim_time',
         default_value='false',
         description='Use simulation (Gazebo) clock if true'
     )
-    
-    map_yaml_file_arg = DeclareLaunchArgument(
-        'map',
-        default_value=PathJoinSubstitution([
-            FindPackageShare('motion_planner'),
-            'map',
-            'tata_map7_2C.yaml'
-        ]),
-        description='Full path to map yaml file to load'
-    )
-
-    params_file_arg = DeclareLaunchArgument(
-        'params_file',
-        default_value=PathJoinSubstitution([
-            FindPackageShare('motion_planner'),
-            'config',
-            'm2_nav2_params.yaml'
-        ]),
-        description='Full path to the ROS2 parameters file to use for all launched nodes'
-    )
-
-    # ========================================================================
-    # 2. SETUP CONFIGURATIONS
-    # ========================================================================
-    simulation = LaunchConfiguration('simulation')
-    enable_elevation_mapping = LaunchConfiguration('enable_elevation_mapping')
     use_sim_time = LaunchConfiguration('use_sim_time')
-    map_yaml_file = LaunchConfiguration('map')
-    params_file = LaunchConfiguration('params_file')
-
-    # --- DYNAMIC GAZEBO MODEL PATH ---
-    motion_planner_share = get_package_share_directory('motion_planner')
-    gazebo_models_path = os.path.join(motion_planner_share, 'models')
-
-    existing_model_path = os.environ.get('GAZEBO_MODEL_PATH', '')
-    if existing_model_path:
-        gazebo_model_path_env = gazebo_models_path + ':' + existing_model_path
-    else:
-        gazebo_model_path_env = gazebo_models_path
-
-    set_gazebo_model_path = SetEnvironmentVariable(
-        name='GAZEBO_MODEL_PATH',
-        value=gazebo_model_path_env
-    )
-
-    # ========================================================================
-    # 3. SHARED RESOURCES 
-    # ========================================================================
     
     # Robot State Publisher
     robot_description = Command([
@@ -115,10 +49,6 @@ def generate_launch_description():
         ],
         output='screen'
     )
-
-    # Finds the world file dynamically
-    m2_metal_share = get_package_share_directory('m2_metal_description')
-    world_file = os.path.join(m2_metal_share, 'worlds', 'world4.world')
 
 
     realsense_launch = IncludeLaunchDescription(
@@ -138,11 +68,7 @@ def generate_launch_description():
     )
     
     return LaunchDescription([
-        simulation_arg,
-        enable_elev_mapping_arg,
         use_sim_time_arg,
-        map_yaml_file_arg,
-        params_file_arg,
         rsp,
 	    realsense_launch
     ])
