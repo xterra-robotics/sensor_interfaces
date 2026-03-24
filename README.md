@@ -6,15 +6,15 @@ This guide walks you through setting up the PC-side visualisation environment th
 
 ## ⚠️ Before You Start — Configure `cyclonedds.xml`
 
-> **There are 2 `cyclonedds.xml` files — one on the PC and one on the Jetson.**
+> **There are 2 `cyclonedds.xml` files — one on the laptop and one on the Jetson.**
 > Edit the WiFi interface names on **both** files and update the `<Peer>` IP addresses in **both** files.
 >
-> - In the **Jetson's** config → the **PC's** WiFi IP goes in `<Peer>`
-> - In the **PC's** config → the **Jetson's** WiFi IP goes in `<Peer>`
+> - In the **Jetson's** config → the **laptop's** WiFi IP goes in `<Peer>`
+> - In the **laptop's** config → the **Jetson's** WiFi IP goes in `<Peer>`
 >
 > Both machines must be on the **same WiFi network**.
 
-### What to change in the PC's `cyclonedds.xml`
+### What to change in the laptop's `cyclonedds.xml`
 
 Open `sensor_interfaces/cyclonedds.xml` in your editor and make the following two changes:
 
@@ -78,7 +78,7 @@ Expected output:
 ```
 /path/to/cyclonedds.xml        # should point to your cyclonedds.xml
 rmw_cyclonedds_cpp              # must be set to CycloneDDS
-0                               # must be 0
+0                               # or whatever domain ID your setup uses
 ```
 
 > If any of these are empty, re-run `source source_ros2_env.sh` and check the script for missing exports.
@@ -86,7 +86,9 @@ rmw_cyclonedds_cpp              # must be set to CycloneDDS
 ### Step 5 — Launch RViz2
 
 ```bash
-rviz2 -d demo.rviz
+./start_rviz.sh
 ```
 
----
+## Sensor Topics
+
+LiDAR point cloud data is streamed on `/livox/lidar` and camera image data is streamed on `/camera/color/image_raw`.
