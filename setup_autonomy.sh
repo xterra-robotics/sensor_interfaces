@@ -112,20 +112,15 @@ docker exec $CONTAINER_NAME bash -c "
     
     source /opt/ros/humble/setup.bash
     cd /home/ros2_ws
-    # sudo ./install_zbar.sh
-    # 2. Sequential Build Strategy
-    # Using a loop is cleaner than a massive chain of &&
-    # We exit immediately if any build fails (due to set -e implicit in bash -c if we added it, 
-    # but here we use && chaining logic via a function or direct execution).
-    
+      
     echo 'Starting sequential build process...'
     
     colcon build --packages-select sensor_description && source install/setup.bash && \
     colcon build --packages-select m2_metal_description && source install/setup.bash && \
     colcon build --packages-select xterra && source install/setup.bash && \
     colcon build --packages-select xterra_perception_api && source install/setup.bash && \
- 
-    echo 'Build Complete. RMW set to: \$RMW_IMPLEMENTATION'
+
+    echo 'Build Complete.'
 
     # 3. Launch Execution
     # We use the passed variables here

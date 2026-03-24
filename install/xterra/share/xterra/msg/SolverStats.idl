@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from xterra/msg/SolverStats.msg
+// generated code does not contain a copyright notice
+
+
+module xterra {
+  module msg {
+    typedef float float__6[6];
+    typedef float float__4[4];
+    struct SolverStats {
+      uint16 iters;
+
+      uint16 max_iters;
+
+      float__6 residual;
+
+      float__4 constraint_violation;
+
+      float time_ms;
+    };
+  };
+};

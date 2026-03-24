@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from xterra/msg/BaseOrientationWrenchDebug.msg
+// generated code does not contain a copyright notice
+
+
+module xterra {
+  module msg {
+    typedef float float__3[3];
+    struct BaseOrientationWrenchDebug {
+      float__3 base_wrench_base_tra;
+
+      float__3 base_wrench_base_ori;
+
+      float__3 base_wrench_legs;
+
+      float__3 base_wrench_full;
+    };
+  };
+};

@@ -1,0 +1,14 @@
+/home/ros2_ws/build/xterra/rosidl_adapter/xterra:msg/JointData.idl
+/home/ros2_ws/build/xterra/rosidl_adapter/xterra:msg/SensorData.idl
+/home/ros2_ws/build/xterra/rosidl_adapter/xterra:msg/MotorGainMultiplier.idl
+/home/ros2_ws/build/xterra/rosidl_adapter/xterra:msg/QuadLog.idl
+/home/ros2_ws/build/xterra/rosidl_adapter/xterra:msg/Point3D.idl
+/home/ros2_ws/build/xterra/rosidl_adapter/xterra:msg/Quaternion.idl
+/home/ros2_ws/build/xterra/rosidl_adapter/xterra:msg/SolverStats.idl
+/home/ros2_ws/build/xterra/rosidl_adapter/xterra:msg/RGBFrame.idl
+/home/ros2_ws/build/xterra/rosidl_adapter/xterra:msg/IndicatorData.idl
+/home/ros2_ws/build/xterra/rosidl_adapter/xterra:msg/BaseOrientationWrenchDebug.idl
+/home/ros2_ws/build/xterra/rosidl_adapter/xterra:msg/FloatScalar.idl
+/home/ros2_ws/build/xterra/rosidl_adapter/xterra:msg/JoyData.idl
+/home/ros2_ws/build/xterra/rosidl_adapter/xterra:msg/CameraFrame.idl
+/home/ros2_ws/build/xterra/rosidl_adapter/xterra:srv/CaptureImage.idl

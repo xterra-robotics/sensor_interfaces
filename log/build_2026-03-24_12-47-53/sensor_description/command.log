@@ -1,0 +1,6 @@
+Invoking command in '/home/ros2_ws/build/sensor_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros2_ws/src/sensor_description -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/sensor_description
+Invoked command in '/home/ros2_ws/build/sensor_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros2_ws/src/sensor_description -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/sensor_description
+Invoking command in '/home/ros2_ws/build/sensor_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/sensor_description
+Invoked command in '/home/ros2_ws/build/sensor_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/sensor_description
+Invoking command in '/home/ros2_ws/build/sensor_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/sensor_description
+Invoked command in '/home/ros2_ws/build/sensor_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/sensor_description

@@ -1,0 +1,60 @@
+** WARNING ** io features related to pcap will be disabled
+In file included from /home/ros2_ws/src/xterra_perception_api/include/orbbec/orbbec_camera_config.hpp:5,
+                 from /home/ros2_ws/src/xterra_perception_api/include/orbbec/orbbec_camera.hpp:12,
+                 from /home/ros2_ws/src/xterra_perception_api/src/orbbec/orbbec_camera.cpp:1:
+/home/ros2_ws/src/xterra_perception_api/include/camera_interface/camera_config.hpp: In constructor ‘xterra_perception_api::StreamConfig::StreamConfig(int, int, int, xterra_perception_api::StreamFormat, bool)’:
+/home/ros2_ws/src/xterra_perception_api/include/camera_interface/camera_config.hpp:31:22: warning: ‘xterra_perception_api::StreamConfig::format’ will be initialized after [-Wreorder]
+   31 |         StreamFormat format = StreamFormat::UNKNOWN;
+      |                      ^~~~~~
+/home/ros2_ws/src/xterra_perception_api/include/camera_interface/camera_config.hpp:29:14: warning:   ‘bool xterra_perception_api::StreamConfig::enabled’ [-Wreorder]
+   29 |         bool enabled = false;
+      |              ^~~~~~~
+/home/ros2_ws/src/xterra_perception_api/include/camera_interface/camera_config.hpp:35:9: warning:   when initialized here [-Wreorder]
+   35 |         StreamConfig(int w, int h, int f, StreamFormat fmt, bool en = true)
+      |         ^~~~~~~~~~~~
+In file included from /home/ros2_ws/src/xterra_perception_api/include/camera_interface/base_camera.hpp:15,
+                 from /home/ros2_ws/src/xterra_perception_api/include/orbbec/orbbec_multi_cam_manager.hpp:6,
+                 from /home/ros2_ws/src/xterra_perception_api/src/orbbec/orbbec_multi_cam_manager.cpp:1:
+/home/ros2_ws/src/xterra_perception_api/include/camera_interface/camera_config.hpp: In constructor ‘xterra_perception_api::StreamConfig::StreamConfig(int, int, int, xterra_perception_api::StreamFormat, bool)’:
+/home/ros2_ws/src/xterra_perception_api/include/camera_interface/camera_config.hpp:31:22: warning: ‘xterra_perception_api::StreamConfig::format’ will be initialized after [-Wreorder]
+   31 |         StreamFormat format = StreamFormat::UNKNOWN;
+      |                      ^~~~~~
+In file included from /home/ros2_ws/src/xterra_perception_api/include/camera_interface/base_camera.hpp:15,
+                 from /home/ros2_ws/src/xterra_perception_api/src/camera_interface/base_camera.cpp:1:
+/home/ros2_ws/src/xterra_perception_api/include/camera_interface/camera_config.hpp: In constructor ‘xterra_perception_api::StreamConfig::StreamConfig(int, int, int, xterra_perception_api::StreamFormat, bool)’:
+/home/ros2_ws/src/xterra_perception_api/include/camera_interface/camera_config.hpp:31:22: warning: ‘xterra_perception_api::StreamConfig::format’ will be initialized after [-Wreorder]
+   31 |         StreamFormat format = StreamFormat::UNKNOWN;
+      |                      ^~~~~~
+/home/ros2_ws/src/xterra_perception_api/include/camera_interface/camera_config.hpp:29:14: warning:   ‘bool xterra_perception_api::StreamConfig::enabled’ [-Wreorder]
+   29 |         bool enabled = false;
+      |              ^~~~~~~
+/home/ros2_ws/src/xterra_perception_api/include/camera_interface/camera_config.hpp:29:14: warning:   ‘bool xterra_perception_api::StreamConfig::enabled’ [-Wreorder]
+   29 |         bool enabled = false;
+      |              ^~~~~~~
+/home/ros2_ws/src/xterra_perception_api/include/camera_interface/camera_config.hpp:35:9: warning:   when initialized here [-Wreorder]
+   35 |         StreamConfig(int w, int h, int f, StreamFormat fmt, bool en = true)
+      |         ^~~~~~~~~~~~
+/home/ros2_ws/src/xterra_perception_api/include/camera_interface/camera_config.hpp:35:9: warning:   when initialized here [-Wreorder]
+   35 |         StreamConfig(int w, int h, int f, StreamFormat fmt, bool en = true)
+      |         ^~~~~~~~~~~~
+In file included from /home/ros2_ws/src/xterra_perception_api/src/orbbec/orbbec_camera.cpp:1:
+/home/ros2_ws/src/xterra_perception_api/include/orbbec/orbbec_camera.hpp: In constructor ‘xterra_perception_api::OrbbecCamera::OrbbecCamera(std::shared_ptr<ob::Device>, const xterra_perception_api::CameraConfig&, rclcpp::Logger, std::shared_ptr<xterra_perception_api::ImageOverlayUtils>)’:
+/home/ros2_ws/src/xterra_perception_api/include/orbbec/orbbec_camera.hpp:113:24: warning: ‘xterra_perception_api::OrbbecCamera::logger_’ will be initialized after [-Wreorder]
+  113 |         rclcpp::Logger logger_;
+      |                        ^~~~~~~
+/home/ros2_ws/src/xterra_perception_api/include/orbbec/orbbec_camera.hpp:95:44: warning:   ‘std::shared_ptr<xterra_perception_api::ImageOverlayUtils> xterra_perception_api::OrbbecCamera::overlay_utils_’ [-Wreorder]
+   95 |         std::shared_ptr<ImageOverlayUtils> overlay_utils_;
+      |                                            ^~~~~~~~~~~~~~
+/home/ros2_ws/src/xterra_perception_api/src/orbbec/orbbec_camera.cpp:6:5: warning:   when initialized here [-Wreorder]
+    6 |     OrbbecCamera::OrbbecCamera(std::shared_ptr<ob::Device> device,
+      |     ^~~~~~~~~~~~
+In file included from /home/ros2_ws/src/xterra_perception_api/src/orbbec/orbbec_camera.cpp:1:
+/home/ros2_ws/src/xterra_perception_api/include/orbbec/orbbec_camera.hpp:95:44: warning: ‘xterra_perception_api::OrbbecCamera::overlay_utils_’ will be initialized after [-Wreorder]
+   95 |         std::shared_ptr<ImageOverlayUtils> overlay_utils_;
+      |                                            ^~~~~~~~~~~~~~
+/home/ros2_ws/src/xterra_perception_api/include/orbbec/orbbec_camera.hpp:88:28: warning:   ‘xterra_perception_api::OrbbecCameraConfig xterra_perception_api::OrbbecCamera::orbbec_config_’ [-Wreorder]
+   88 |         OrbbecCameraConfig orbbec_config_;
+      |                            ^~~~~~~~~~~~~~
+/home/ros2_ws/src/xterra_perception_api/src/orbbec/orbbec_camera.cpp:6:5: warning:   when initialized here [-Wreorder]
+    6 |     OrbbecCamera::OrbbecCamera(std::shared_ptr<ob::Device> device,
+      |     ^~~~~~~~~~~~

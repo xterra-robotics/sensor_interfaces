@@ -1,0 +1,6 @@
+Invoking command in '/home/ros2_ws/build/xterra_perception_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros2_ws/src/xterra_perception_api -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/xterra_perception_api
+Invoked command in '/home/ros2_ws/build/xterra_perception_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros2_ws/src/xterra_perception_api -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/xterra_perception_api
+Invoking command in '/home/ros2_ws/build/xterra_perception_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/xterra_perception_api
+Invoked command in '/home/ros2_ws/build/xterra_perception_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/xterra_perception_api
+Invoking command in '/home/ros2_ws/build/xterra_perception_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/xterra_perception_api
+Invoked command in '/home/ros2_ws/build/xterra_perception_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/xterra_perception_api

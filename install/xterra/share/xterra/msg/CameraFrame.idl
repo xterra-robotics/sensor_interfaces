@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from xterra/msg/CameraFrame.msg
+// generated code does not contain a copyright notice
+
+
+module xterra {
+  module msg {
+    typedef uint8 uint8__2764800[2764800];
+    struct CameraFrame {
+      uint8__2764800 data;
+
+      uint16 width;
+
+      uint16 height;
+
+      uint8 channels;
+    };
+  };
+};

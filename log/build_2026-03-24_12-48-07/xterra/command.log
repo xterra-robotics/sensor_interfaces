@@ -1,0 +1,6 @@
+Invoking command in '/home/ros2_ws/build/xterra': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros2_ws/src/xterra -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/xterra
+Invoked command in '/home/ros2_ws/build/xterra' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros2_ws/src/xterra -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/xterra
+Invoking command in '/home/ros2_ws/build/xterra': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/xterra
+Invoked command in '/home/ros2_ws/build/xterra' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/xterra
+Invoking command in '/home/ros2_ws/build/xterra': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/xterra
+Invoked command in '/home/ros2_ws/build/xterra' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/xterra

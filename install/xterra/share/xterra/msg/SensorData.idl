@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from xterra/msg/SensorData.msg
+// generated code does not contain a copyright notice
+
+
+module xterra {
+  module msg {
+    typedef float float__12[12];
+    typedef float float__4[4];
+    typedef float float__3[3];
+    struct SensorData {
+      float__12 q;
+
+      float__12 dq;
+
+      float__12 ddq;
+
+      float__12 q_current;
+
+      float__12 d_current;
+
+      float__12 tau_est;
+
+      float__4 quat;
+
+      float__3 gyro;
+
+      float__3 accel;
+
+      float__3 rpy;
+    };
+  };
+};

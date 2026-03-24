@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from xterra/msg/RGBFrame.msg
+// generated code does not contain a copyright notice
+
+
+module xterra {
+  module msg {
+    typedef float float__6[6];
+    typedef uint8 uint8__12[12];
+    struct RGBFrame {
+      uint8 priority;
+
+      float__6 axes;
+
+      uint8__12 buttons;
+    };
+  };
+};

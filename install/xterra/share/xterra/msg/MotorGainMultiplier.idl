@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from xterra/msg/MotorGainMultiplier.msg
+// generated code does not contain a copyright notice
+
+
+module xterra {
+  module msg {
+    struct MotorGainMultiplier {
+      sequence<float> kp_scale;
+
+      sequence<float> kd_scale;
+    };
+  };
+};

@@ -1,0 +1,107 @@
+[0.038s] Invoking command in '/home/ros2_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/livox_ros_driver2:/workspace/pcl_overlay/install/pcl_ros:/opt/OrbbecSDK_v2.4.11/lib:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2_ws/install/realsense2_camera_msgs/lib:/home/ros2_ws/install/xterra_perception_api/lib:/home/ros2_ws/install/xterra/lib:/home/ros2_ws/install/livox_ros_driver2/lib:/workspace/pcl_overlay/install/pcl_ros/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2_ws/src/realsense-ros/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/realsense2_camera
+[0.217s] -- The C compiler identification is GNU 11.4.0
+[0.355s] -- The CXX compiler identification is GNU 11.4.0
+[0.380s] -- Detecting C compiler ABI info
+[0.592s] -- Detecting C compiler ABI info - done
+[0.613s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.614s] -- Detecting C compile features
+[0.615s] -- Detecting C compile features - done
+[0.627s] -- Detecting CXX compiler ABI info
+[0.846s] -- Detecting CXX compiler ABI info - done
+[0.872s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.873s] -- Detecting CXX compile features
+[0.875s] -- Detecting CXX compile features - done
+[0.878s] -- Create Release Build.
+[0.888s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.252s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.552s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.641s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.656s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.679s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.713s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.757s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.799s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.953s] -- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+[2.088s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.099s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.164s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.193s] -- Looking for pthread.h
+[2.407s] -- Looking for pthread.h - found
+[2.407s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.617s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.621s] -- Found Threads: TRUE  
+[2.896s] -- Found rclcpp_components: 16.0.18 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.954s] -- Found realsense2_camera_msgs: 4.54.1 (/home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake)
+[2.996s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.059s] -- Found tf2_ros: 0.25.19 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.338s] -- Found diagnostic_updater: 4.0.6 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[3.410s] -- Build for ROS2 Humble
+[3.624s] -- Configuring done
+[3.693s] -- Generating done
+[3.713s] -- Build files have been written to: /home/ros2_ws/build/realsense2_camera
+[3.758s] Invoked command in '/home/ros2_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/livox_ros_driver2:/workspace/pcl_overlay/install/pcl_ros:/opt/OrbbecSDK_v2.4.11/lib:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2_ws/install/realsense2_camera_msgs/lib:/home/ros2_ws/install/xterra_perception_api/lib:/home/ros2_ws/install/xterra/lib:/home/ros2_ws/install/livox_ros_driver2/lib:/workspace/pcl_overlay/install/pcl_ros/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2_ws/src/realsense-ros/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/realsense2_camera
+[3.763s] Invoking command in '/home/ros2_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/livox_ros_driver2:/workspace/pcl_overlay/install/pcl_ros:/opt/OrbbecSDK_v2.4.11/lib:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2_ws/install/realsense2_camera_msgs/lib:/home/ros2_ws/install/xterra_perception_api/lib:/home/ros2_ws/install/xterra/lib:/home/ros2_ws/install/livox_ros_driver2/lib:/workspace/pcl_overlay/install/pcl_ros/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2_ws/build/realsense2_camera -- -j6 -l6
+[3.925s] [ 12%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o[0m
+[3.925s] [ 12%] [32mBuilding CXX object CMakeFiles/realsense2_camera_node.dir/rclcpp_components/node_main_realsense2_camera_node.cpp.o[0m
+[3.925s] [ 18%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o[0m
+[3.935s] [ 31%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/rs_node_setup.cpp.o[0m
+[3.936s] [ 31%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/parameters.cpp.o[0m
+[3.955s] [ 37%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_sensor.cpp.o[0m
+[19.910s] [ 43%] [32m[1mLinking CXX executable realsense2_camera_node[0m
+[20.479s] [ 43%] Built target realsense2_camera_node
+[20.516s] [ 50%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_utils.cpp.o[0m
+[33.594s] [ 56%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.o[0m
+[36.974s] [ 62%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/sensor_params.cpp.o[0m
+[37.153s] [ 68%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/named_filter.cpp.o[0m
+[55.149s] [ 75%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/profile_manager.cpp.o[0m
+[59.930s] [ 81%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/image_publisher.cpp.o[0m
+[77.745s] [ 93%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_param_backend_foxy.cpp.o[0m
+[77.745s] [ 93%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/tfs.cpp.o[0m
+[109.753s] [100%] [32m[1mLinking CXX shared library librealsense2_camera.so[0m
+[111.975s] [100%] Built target realsense2_camera
+[112.016s] Invoked command in '/home/ros2_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/livox_ros_driver2:/workspace/pcl_overlay/install/pcl_ros:/opt/OrbbecSDK_v2.4.11/lib:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2_ws/install/realsense2_camera_msgs/lib:/home/ros2_ws/install/xterra_perception_api/lib:/home/ros2_ws/install/xterra/lib:/home/ros2_ws/install/livox_ros_driver2/lib:/workspace/pcl_overlay/install/pcl_ros/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2_ws/build/realsense2_camera -- -j6 -l6
+[112.024s] Invoking command in '/home/ros2_ws/build/realsense2_camera': AMENT_PREFIX_PATH=/home/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/livox_ros_driver2:/workspace/pcl_overlay/install/pcl_ros:/opt/OrbbecSDK_v2.4.11/lib:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2_ws/install/realsense2_camera_msgs/lib:/home/ros2_ws/install/xterra_perception_api/lib:/home/ros2_ws/install/xterra/lib:/home/ros2_ws/install/livox_ros_driver2/lib:/workspace/pcl_overlay/install/pcl_ros/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2_ws/build/realsense2_camera
+[112.051s] -- Install configuration: "Release"
+[112.052s] -- Installing: /home/ros2_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node
+[112.054s] -- Set runtime path of "/home/ros2_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node" to ""
+[112.054s] -- Installing: /home/ros2_ws/install/realsense2_camera/lib/librealsense2_camera.so
+[112.063s] -- Set runtime path of "/home/ros2_ws/install/realsense2_camera/lib/librealsense2_camera.so" to ""
+[112.063s] -- Installing: /home/ros2_ws/install/realsense2_camera/include
+[112.064s] -- Installing: /home/ros2_ws/install/realsense2_camera/include/ros_utils.h
+[112.064s] -- Installing: /home/ros2_ws/install/realsense2_camera/include/ros_param_backend.h
+[112.065s] -- Installing: /home/ros2_ws/install/realsense2_camera/include/realsense_node_factory.h
+[112.065s] -- Installing: /home/ros2_ws/install/realsense2_camera/include/dynamic_params.h
+[112.065s] -- Installing: /home/ros2_ws/install/realsense2_camera/include/sensor_params.h
+[112.065s] -- Installing: /home/ros2_ws/install/realsense2_camera/include/named_filter.h
+[112.066s] -- Installing: /home/ros2_ws/install/realsense2_camera/include/image_publisher.h
+[112.066s] -- Installing: /home/ros2_ws/install/realsense2_camera/include/base_realsense_node.h
+[112.066s] -- Installing: /home/ros2_ws/install/realsense2_camera/include/ros_sensor.h
+[112.066s] -- Installing: /home/ros2_ws/install/realsense2_camera/include/constants.h
+[112.067s] -- Installing: /home/ros2_ws/install/realsense2_camera/include/profile_manager.h
+[112.067s] -- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch
+[112.067s] -- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/default.rviz
+[112.068s] -- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_launch.py
+[112.069s] -- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_intra_process_demo_launch.py
+[112.070s] -- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch.py
+[112.070s] -- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.sh
+[112.071s] -- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.dsv
+[112.072s] -- Installing: /home/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/package_run_dependencies/realsense2_camera
+[112.072s] -- Installing: /home/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/parent_prefix_path/realsense2_camera
+[112.073s] -- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.sh
+[112.074s] -- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.dsv
+[112.074s] -- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/path.sh
+[112.075s] -- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/path.dsv
+[112.076s] -- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.bash
+[112.077s] -- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.sh
+[112.078s] -- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.zsh
+[112.078s] -- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.dsv
+[112.079s] -- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.dsv
+[112.080s] -- Installing: /home/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/packages/realsense2_camera
+[112.080s] -- Installing: /home/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/rclcpp_components/realsense2_camera
+[112.081s] -- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[112.082s] -- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[112.082s] -- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[112.083s] -- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake
+[112.084s] -- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake
+[112.085s] -- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.xml
+[112.097s] Invoked command in '/home/ros2_ws/build/realsense2_camera' returned '0': AMENT_PREFIX_PATH=/home/ros2_ws/install/realsense2_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/livox_ros_driver2:/workspace/pcl_overlay/install/pcl_ros:/opt/OrbbecSDK_v2.4.11/lib:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2_ws/install/realsense2_camera_msgs/lib:/home/ros2_ws/install/xterra_perception_api/lib:/home/ros2_ws/install/xterra/lib:/home/ros2_ws/install/livox_ros_driver2/lib:/workspace/pcl_overlay/install/pcl_ros/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib PYTHONPATH=/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2_ws/build/realsense2_camera

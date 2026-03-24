@@ -1,0 +1,43 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from xterra/msg/QuadLog.msg
+// generated code does not contain a copyright notice
+
+#include "xterra/msg/Point3D.idl"
+#include "xterra/msg/Quaternion.idl"
+
+module xterra {
+  module msg {
+    typedef float float__4[4];
+    typedef float float__12[12];
+    typedef float float__6[6];
+    struct QuadLog {
+      float__4 contact_state;
+
+      float__4 contact_prob;
+
+      float__12 contact_force;
+
+      xterra::msg::Point3D base_position;
+
+      xterra::msg::Quaternion base_orientation;
+
+      xterra::msg::Point3D linear_velocity;
+
+      xterra::msg::Point3D angular_velocity;
+
+      xterra::msg::Point3D plane_normal;
+
+      float__6 base_wrench;
+
+      float__12 joint_position;
+
+      float__12 joint_velocity;
+
+      float__12 joint_torque;
+
+      float__12 foot_position;
+
+      float__12 foot_velocity;
+    };
+  };
+};

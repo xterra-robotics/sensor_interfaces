@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "../rosidl_generator_py/xterra/_xterra_s.ep.rosidl_typesupport_c.c"
+  "../rosidl_generator_py/xterra/_xterra_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "../rosidl_generator_py/xterra/_xterra_s.ep.rosidl_typesupport_introspection_c.c"
+  "../rosidl_generator_py/xterra/msg/__init__.py"
+  "../rosidl_generator_py/xterra/msg/_base_orientation_wrench_debug.py"
+  "../rosidl_generator_py/xterra/msg/_base_orientation_wrench_debug_s.c"
+  "../rosidl_generator_py/xterra/msg/_camera_frame.py"
+  "../rosidl_generator_py/xterra/msg/_camera_frame_s.c"
+  "../rosidl_generator_py/xterra/msg/_float_scalar.py"
+  "../rosidl_generator_py/xterra/msg/_float_scalar_s.c"
+  "../rosidl_generator_py/xterra/msg/_indicator_data.py"
+  "../rosidl_generator_py/xterra/msg/_indicator_data_s.c"
+  "../rosidl_generator_py/xterra/msg/_joint_data.py"
+  "../rosidl_generator_py/xterra/msg/_joint_data_s.c"
+  "../rosidl_generator_py/xterra/msg/_joy_data.py"
+  "../rosidl_generator_py/xterra/msg/_joy_data_s.c"
+  "../rosidl_generator_py/xterra/msg/_motor_gain_multiplier.py"
+  "../rosidl_generator_py/xterra/msg/_motor_gain_multiplier_s.c"
+  "../rosidl_generator_py/xterra/msg/_point3_d.py"
+  "../rosidl_generator_py/xterra/msg/_point3_d_s.c"
+  "../rosidl_generator_py/xterra/msg/_quad_log.py"
+  "../rosidl_generator_py/xterra/msg/_quad_log_s.c"
+  "../rosidl_generator_py/xterra/msg/_quaternion.py"
+  "../rosidl_generator_py/xterra/msg/_quaternion_s.c"
+  "../rosidl_generator_py/xterra/msg/_rgb_frame.py"
+  "../rosidl_generator_py/xterra/msg/_rgb_frame_s.c"
+  "../rosidl_generator_py/xterra/msg/_sensor_data.py"
+  "../rosidl_generator_py/xterra/msg/_sensor_data_s.c"
+  "../rosidl_generator_py/xterra/msg/_solver_stats.py"
+  "../rosidl_generator_py/xterra/msg/_solver_stats_s.c"
+  "../rosidl_generator_py/xterra/srv/__init__.py"
+  "../rosidl_generator_py/xterra/srv/_capture_image.py"
+  "../rosidl_generator_py/xterra/srv/_capture_image_s.c"
+  "CMakeFiles/xterra__py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/xterra__py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

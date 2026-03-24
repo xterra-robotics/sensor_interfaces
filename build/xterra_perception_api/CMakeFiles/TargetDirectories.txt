@@ -1,0 +1,10 @@
+/home/ros2_ws/build/xterra_perception_api/CMakeFiles/uninstall.dir
+/home/ros2_ws/build/xterra_perception_api/CMakeFiles/xterra_perception_api_uninstall.dir
+/home/ros2_ws/build/xterra_perception_api/CMakeFiles/xterra_perception_api.dir
+/home/ros2_ws/build/xterra_perception_api/CMakeFiles/test.dir
+/home/ros2_ws/build/xterra_perception_api/CMakeFiles/edit_cache.dir
+/home/ros2_ws/build/xterra_perception_api/CMakeFiles/rebuild_cache.dir
+/home/ros2_ws/build/xterra_perception_api/CMakeFiles/list_install_components.dir
+/home/ros2_ws/build/xterra_perception_api/CMakeFiles/install.dir
+/home/ros2_ws/build/xterra_perception_api/CMakeFiles/install/local.dir
+/home/ros2_ws/build/xterra_perception_api/CMakeFiles/install/strip.dir

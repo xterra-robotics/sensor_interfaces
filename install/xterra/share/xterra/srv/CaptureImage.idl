@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from xterra/srv/CaptureImage.srv
+// generated code does not contain a copyright notice
+
+
+module xterra {
+  module srv {
+    struct CaptureImage_Request {
+      string camera_name;
+
+      string image_type;
+    };
+    struct CaptureImage_Response {
+      boolean reply;
+
+      string message;
+
+      string saved_path;
+    };
+  };
+};

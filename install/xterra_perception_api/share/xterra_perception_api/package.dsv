@@ -1,0 +1,11 @@
+source;share/xterra_perception_api/hook/cmake_prefix_path.ps1
+source;share/xterra_perception_api/hook/cmake_prefix_path.dsv
+source;share/xterra_perception_api/hook/cmake_prefix_path.sh
+source;share/xterra_perception_api/hook/ld_library_path_lib.ps1
+source;share/xterra_perception_api/hook/ld_library_path_lib.dsv
+source;share/xterra_perception_api/hook/ld_library_path_lib.sh
+source;share/xterra_perception_api/local_setup.bash
+source;share/xterra_perception_api/local_setup.dsv
+source;share/xterra_perception_api/local_setup.ps1
+source;share/xterra_perception_api/local_setup.sh
+source;share/xterra_perception_api/local_setup.zsh

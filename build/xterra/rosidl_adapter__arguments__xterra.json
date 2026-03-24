@@ -1,0 +1,19 @@
+{
+  "package_name": "xterra",
+  "non_idl_tuples": [
+    "/home/ros2_ws/src/xterra:msg/JointData.msg",
+    "/home/ros2_ws/src/xterra:msg/SensorData.msg",
+    "/home/ros2_ws/src/xterra:msg/MotorGainMultiplier.msg",
+    "/home/ros2_ws/src/xterra:msg/QuadLog.msg",
+    "/home/ros2_ws/src/xterra:msg/Point3D.msg",
+    "/home/ros2_ws/src/xterra:msg/Quaternion.msg",
+    "/home/ros2_ws/src/xterra:msg/SolverStats.msg",
+    "/home/ros2_ws/src/xterra:msg/RGBFrame.msg",
+    "/home/ros2_ws/src/xterra:msg/IndicatorData.msg",
+    "/home/ros2_ws/src/xterra:msg/BaseOrientationWrenchDebug.msg",
+    "/home/ros2_ws/src/xterra:msg/FloatScalar.msg",
+    "/home/ros2_ws/src/xterra:msg/JoyData.msg",
+    "/home/ros2_ws/src/xterra:msg/CameraFrame.msg",
+    "/home/ros2_ws/src/xterra:srv/CaptureImage.srv"
+  ]
+}

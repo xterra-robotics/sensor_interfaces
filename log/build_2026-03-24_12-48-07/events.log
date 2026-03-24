@@ -1,0 +1,1136 @@
+[0.000000] (-) TimerEvent: {}
+[0.000329] (-) JobUnselected: {'identifier': 'cyclonedds'}
+[0.000831] (-) JobUnselected: {'identifier': 'dds_utils'}
+[0.001477] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.001791] (-) JobUnselected: {'identifier': 'm2_metal_description'}
+[0.002143] (-) JobUnselected: {'identifier': 'orbbec_camera'}
+[0.002246] (-) JobUnselected: {'identifier': 'orbbec_camera_msgs'}
+[0.002330] (-) JobUnselected: {'identifier': 'orbbec_description'}
+[0.002412] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.002490] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.002567] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.002640] (-) JobUnselected: {'identifier': 'sensor_description'}
+[0.002702] (-) JobUnselected: {'identifier': 'xterra_perception_api'}
+[0.002781] (xterra) JobQueued: {'identifier': 'xterra', 'dependencies': OrderedDict()}
+[0.002859] (xterra) JobStarted: {'identifier': 'xterra'}
+[0.025584] (xterra) JobProgress: {'identifier': 'xterra', 'progress': 'cmake'}
+[0.026825] (xterra) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2_ws/src/xterra', '-DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/xterra'], 'cwd': '/home/ros2_ws/build/xterra', 'env': OrderedDict([('CMAKE_BUILD_PARALLEL_LEVEL', '3'), ('HOSTNAME', 'orin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:'), ('HOME', '/root'), ('OLDPWD', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('MAKEFLAGS', '-j3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('OrbbecSDK_DIR', '/usr/local/lib/cmake/OrbbecSDK'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros2_ws/build/xterra'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/opt/OrbbecSDK_v2.4.11/lib::/opt/ros/humble')]), 'shell': False}
+[0.099189] (-) TimerEvent: {}
+[0.199785] (-) TimerEvent: {}
+[0.300516] (-) TimerEvent: {}
+[0.401423] (-) TimerEvent: {}
+[0.502102] (-) TimerEvent: {}
+[0.602784] (-) TimerEvent: {}
+[0.703302] (-) TimerEvent: {}
+[0.803814] (-) TimerEvent: {}
+[0.904549] (-) TimerEvent: {}
+[1.005350] (-) TimerEvent: {}
+[1.105959] (-) TimerEvent: {}
+[1.206496] (-) TimerEvent: {}
+[1.306983] (-) TimerEvent: {}
+[1.407441] (-) TimerEvent: {}
+[1.507861] (-) TimerEvent: {}
+[1.608230] (-) TimerEvent: {}
+[1.708592] (-) TimerEvent: {}
+[1.809362] (-) TimerEvent: {}
+[1.815893] (xterra) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.909631] (-) TimerEvent: {}
+[1.952728] (xterra) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.974763] (xterra) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.009856] (-) TimerEvent: {}
+[2.110714] (-) TimerEvent: {}
+[2.156430] (xterra) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.181290] (xterra) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.182087] (xterra) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.183391] (xterra) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.194917] (xterra) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.210792] (-) TimerEvent: {}
+[2.311271] (-) TimerEvent: {}
+[2.397992] (xterra) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.411347] (-) TimerEvent: {}
+[2.424124] (xterra) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.424981] (xterra) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.426756] (xterra) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.436239] (xterra) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.511586] (-) TimerEvent: {}
+[2.612194] (-) TimerEvent: {}
+[2.712809] (-) TimerEvent: {}
+[2.746202] (xterra) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.813023] (-) TimerEvent: {}
+[2.913708] (-) TimerEvent: {}
+[2.998336] (xterra) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.013793] (-) TimerEvent: {}
+[3.094837] (xterra) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.106180] (xterra) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.113873] (-) TimerEvent: {}
+[3.124938] (xterra) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.151778] (xterra) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.187440] (xterra) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.214012] (-) TimerEvent: {}
+[3.284406] (xterra) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.290501] (xterra) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[3.314150] (-) TimerEvent: {}
+[3.339608] (xterra) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[3.359951] (xterra) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.414464] (-) TimerEvent: {}
+[3.515118] (-) TimerEvent: {}
+[3.538334] (xterra) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.539141] (xterra) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.615387] (-) TimerEvent: {}
+[3.716087] (-) TimerEvent: {}
+[3.730373] (xterra) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.733573] (xterra) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.816241] (-) TimerEvent: {}
+[3.871254] (xterra) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.916436] (-) TimerEvent: {}
+[4.016937] (-) TimerEvent: {}
+[4.117574] (-) TimerEvent: {}
+[4.218146] (-) TimerEvent: {}
+[4.318668] (-) TimerEvent: {}
+[4.419201] (-) TimerEvent: {}
+[4.519820] (-) TimerEvent: {}
+[4.620457] (-) TimerEvent: {}
+[4.721259] (-) TimerEvent: {}
+[4.742398] (xterra) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.821497] (-) TimerEvent: {}
+[4.922254] (-) TimerEvent: {}
+[5.022924] (-) TimerEvent: {}
+[5.123545] (-) TimerEvent: {}
+[5.224115] (-) TimerEvent: {}
+[5.324727] (-) TimerEvent: {}
+[5.425316] (-) TimerEvent: {}
+[5.525950] (-) TimerEvent: {}
+[5.626593] (-) TimerEvent: {}
+[5.678040] (xterra) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.726735] (-) TimerEvent: {}
+[5.827163] (-) TimerEvent: {}
+[5.927603] (-) TimerEvent: {}
+[6.028236] (-) TimerEvent: {}
+[6.128864] (-) TimerEvent: {}
+[6.229417] (-) TimerEvent: {}
+[6.329814] (-) TimerEvent: {}
+[6.430186] (-) TimerEvent: {}
+[6.530581] (-) TimerEvent: {}
+[6.631077] (-) TimerEvent: {}
+[6.717102] (xterra) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.731151] (-) TimerEvent: {}
+[6.831461] (-) TimerEvent: {}
+[6.931859] (-) TimerEvent: {}
+[7.049515] (-) TimerEvent: {}
+[7.149964] (-) TimerEvent: {}
+[7.250528] (-) TimerEvent: {}
+[7.351065] (-) TimerEvent: {}
+[7.360448] (xterra) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[7.451281] (-) TimerEvent: {}
+[7.551808] (-) TimerEvent: {}
+[7.652412] (-) TimerEvent: {}
+[7.752976] (-) TimerEvent: {}
+[7.853613] (-) TimerEvent: {}
+[7.954172] (-) TimerEvent: {}
+[8.054611] (-) TimerEvent: {}
+[8.155045] (-) TimerEvent: {}
+[8.255474] (-) TimerEvent: {}
+[8.355859] (-) TimerEvent: {}
+[8.456405] (-) TimerEvent: {}
+[8.557025] (-) TimerEvent: {}
+[8.657636] (-) TimerEvent: {}
+[8.698229] (xterra) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[8.757743] (-) TimerEvent: {}
+[8.858148] (-) TimerEvent: {}
+[8.958679] (-) TimerEvent: {}
+[9.059215] (-) TimerEvent: {}
+[9.159745] (-) TimerEvent: {}
+[9.260324] (-) TimerEvent: {}
+[9.360880] (-) TimerEvent: {}
+[9.461388] (-) TimerEvent: {}
+[9.561880] (-) TimerEvent: {}
+[9.662460] (-) TimerEvent: {}
+[9.762992] (-) TimerEvent: {}
+[9.863396] (-) TimerEvent: {}
+[9.963752] (-) TimerEvent: {}
+[10.064085] (-) TimerEvent: {}
+[10.164425] (-) TimerEvent: {}
+[10.264922] (-) TimerEvent: {}
+[10.365485] (-) TimerEvent: {}
+[10.465921] (-) TimerEvent: {}
+[10.566275] (-) TimerEvent: {}
+[10.666703] (-) TimerEvent: {}
+[10.767153] (-) TimerEvent: {}
+[10.867595] (-) TimerEvent: {}
+[10.968061] (-) TimerEvent: {}
+[11.068461] (-) TimerEvent: {}
+[11.168800] (-) TimerEvent: {}
+[11.269177] (-) TimerEvent: {}
+[11.369509] (-) TimerEvent: {}
+[11.469902] (-) TimerEvent: {}
+[11.570348] (-) TimerEvent: {}
+[11.670778] (-) TimerEvent: {}
+[11.771473] (-) TimerEvent: {}
+[11.872012] (-) TimerEvent: {}
+[11.972470] (-) TimerEvent: {}
+[12.073037] (-) TimerEvent: {}
+[12.173660] (-) TimerEvent: {}
+[12.274202] (-) TimerEvent: {}
+[12.374606] (-) TimerEvent: {}
+[12.474947] (-) TimerEvent: {}
+[12.575286] (-) TimerEvent: {}
+[12.675773] (-) TimerEvent: {}
+[12.682291] (xterra) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[12.682910] (xterra) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[12.683125] (xterra) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[12.683317] (xterra) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[12.726631] (xterra) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[12.775991] (-) TimerEvent: {}
+[12.876640] (-) TimerEvent: {}
+[12.884467] (xterra) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.976903] (-) TimerEvent: {}
+[13.024132] (xterra) StdoutLine: {'line': b'-- Generating done\n'}
+[13.054450] (xterra) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2_ws/build/xterra\n'}
+[13.077091] (-) TimerEvent: {}
+[13.092436] (xterra) CommandEnded: {'returncode': 0}
+[13.094839] (xterra) JobProgress: {'identifier': 'xterra', 'progress': 'build'}
+[13.097290] (xterra) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2_ws/build/xterra'], 'cwd': '/home/ros2_ws/build/xterra', 'env': OrderedDict([('CMAKE_BUILD_PARALLEL_LEVEL', '3'), ('HOSTNAME', 'orin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:'), ('HOME', '/root'), ('OLDPWD', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('MAKEFLAGS', '-j3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('OrbbecSDK_DIR', '/usr/local/lib/cmake/OrbbecSDK'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros2_ws/build/xterra'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/opt/OrbbecSDK_v2.4.11/lib::/opt/ros/humble')]), 'shell': False}
+[13.177408] (-) TimerEvent: {}
+[13.218889] (xterra) StdoutLine: {'line': b'[  1%] Generating C code for ROS interfaces\n'}
+[13.256872] (xterra) StdoutLine: {'line': b'[  1%] Generating C++ code for ROS interfaces\n'}
+[13.275037] (xterra) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_xterra\n'}
+[13.277449] (-) TimerEvent: {}
+[13.377833] (-) TimerEvent: {}
+[13.478424] (-) TimerEvent: {}
+[13.579003] (-) TimerEvent: {}
+[13.679569] (-) TimerEvent: {}
+[13.780168] (-) TimerEvent: {}
+[13.788830] (xterra) StdoutLine: {'line': b'running egg_info\n'}
+[13.790561] (xterra) StdoutLine: {'line': b'creating xterra.egg-info\n'}
+[13.791041] (xterra) StdoutLine: {'line': b'writing xterra.egg-info/PKG-INFO\n'}
+[13.791415] (xterra) StdoutLine: {'line': b'writing dependency_links to xterra.egg-info/dependency_links.txt\n'}
+[13.791845] (xterra) StdoutLine: {'line': b'writing top-level names to xterra.egg-info/top_level.txt\n'}
+[13.792296] (xterra) StdoutLine: {'line': b"writing manifest file 'xterra.egg-info/SOURCES.txt'\n"}
+[13.798811] (xterra) StdoutLine: {'line': b"reading manifest file 'xterra.egg-info/SOURCES.txt'\n"}
+[13.799921] (xterra) StdoutLine: {'line': b"writing manifest file 'xterra.egg-info/SOURCES.txt'\n"}
+[13.880388] (-) TimerEvent: {}
+[13.912068] (xterra) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_xterra_egg\n'}
+[13.980582] (-) TimerEvent: {}
+[14.081135] (-) TimerEvent: {}
+[14.181630] (-) TimerEvent: {}
+[14.282193] (-) TimerEvent: {}
+[14.382702] (-) TimerEvent: {}
+[14.483212] (-) TimerEvent: {}
+[14.583714] (-) TimerEvent: {}
+[14.684224] (-) TimerEvent: {}
+[14.784735] (-) TimerEvent: {}
+[14.885275] (-) TimerEvent: {}
+[14.985785] (-) TimerEvent: {}
+[15.086379] (-) TimerEvent: {}
+[15.187072] (-) TimerEvent: {}
+[15.287625] (-) TimerEvent: {}
+[15.388220] (-) TimerEvent: {}
+[15.488754] (-) TimerEvent: {}
+[15.589431] (-) TimerEvent: {}
+[15.690184] (-) TimerEvent: {}
+[15.790881] (-) TimerEvent: {}
+[15.892070] (-) TimerEvent: {}
+[15.992761] (-) TimerEvent: {}
+[16.094010] (-) TimerEvent: {}
+[16.194749] (-) TimerEvent: {}
+[16.295830] (-) TimerEvent: {}
+[16.396523] (-) TimerEvent: {}
+[16.497254] (-) TimerEvent: {}
+[16.561927] (xterra) StdoutLine: {'line': b'[  1%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/msg/detail/joint_data__functions.c.o\n'}
+[16.579796] (xterra) StdoutLine: {'line': b'[  2%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/msg/detail/sensor_data__functions.c.o\n'}
+[16.597502] (-) TimerEvent: {}
+[16.696334] (xterra) StdoutLine: {'line': b'[  3%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/msg/detail/motor_gain_multiplier__functions.c.o\n'}
+[16.697548] (-) TimerEvent: {}
+[16.716963] (xterra) StdoutLine: {'line': b'[  4%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/msg/detail/quad_log__functions.c.o\n'}
+[16.788785] (xterra) StdoutLine: {'line': b'[  4%] Built target xterra__cpp\n'}
+[16.797895] (-) TimerEvent: {}
+[16.814390] (xterra) StdoutLine: {'line': b'[  4%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/msg/detail/point3_d__functions.c.o\n'}
+[16.835902] (xterra) StdoutLine: {'line': b'[  5%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/msg/detail/quaternion__functions.c.o\n'}
+[16.860673] (xterra) StdoutLine: {'line': b'[  6%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/msg/detail/solver_stats__functions.c.o\n'}
+[16.898173] (-) TimerEvent: {}
+[16.952260] (xterra) StdoutLine: {'line': b'[  7%] Generating C++ type support dispatch for ROS interfaces\n'}
+[16.969452] (xterra) StdoutLine: {'line': b'[  8%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[16.993958] (xterra) StdoutLine: {'line': b'[  9%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/msg/detail/rgb_frame__functions.c.o\n'}
+[16.998307] (-) TimerEvent: {}
+[17.099389] (-) TimerEvent: {}
+[17.128016] (xterra) StdoutLine: {'line': b'[  9%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/msg/detail/indicator_data__functions.c.o\n'}
+[17.199603] (-) TimerEvent: {}
+[17.250061] (xterra) StdoutLine: {'line': b'[ 10%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/msg/detail/base_orientation_wrench_debug__functions.c.o\n'}
+[17.299802] (-) TimerEvent: {}
+[17.376486] (xterra) StdoutLine: {'line': b'[ 11%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/msg/detail/float_scalar__functions.c.o\n'}
+[17.399928] (-) TimerEvent: {}
+[17.499964] (xterra) StdoutLine: {'line': b'[ 12%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/msg/detail/joy_data__functions.c.o\n'}
+[17.501365] (-) TimerEvent: {}
+[17.601887] (-) TimerEvent: {}
+[17.624114] (xterra) StdoutLine: {'line': b'[ 12%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/msg/detail/camera_frame__functions.c.o\n'}
+[17.702095] (-) TimerEvent: {}
+[17.748153] (xterra) StdoutLine: {'line': b'[ 13%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/srv/detail/capture_image__functions.c.o\n'}
+[17.802312] (-) TimerEvent: {}
+[17.903169] (-) TimerEvent: {}
+[17.908743] (xterra) StdoutLine: {'line': b'[ 14%] Linking C shared library libxterra__rosidl_generator_c.so\n'}
+[18.003386] (-) TimerEvent: {}
+[18.011447] (xterra) StdoutLine: {'line': b'[ 14%] Built target xterra__rosidl_generator_c\n'}
+[18.042983] (xterra) StdoutLine: {'line': b'[ 14%] Generating C++ introspection for ROS interfaces\n'}
+[18.103590] (-) TimerEvent: {}
+[18.204497] (-) TimerEvent: {}
+[18.305050] (-) TimerEvent: {}
+[18.405644] (-) TimerEvent: {}
+[18.506196] (-) TimerEvent: {}
+[18.606739] (-) TimerEvent: {}
+[18.707277] (-) TimerEvent: {}
+[18.736064] (xterra) StdoutLine: {'line': b'[ 15%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/msg/joint_data__type_support.cpp.o\n'}
+[18.807505] (-) TimerEvent: {}
+[18.909414] (-) TimerEvent: {}
+[19.013398] (-) TimerEvent: {}
+[19.114051] (-) TimerEvent: {}
+[19.214660] (-) TimerEvent: {}
+[19.315272] (-) TimerEvent: {}
+[19.415924] (-) TimerEvent: {}
+[19.516567] (-) TimerEvent: {}
+[19.555419] (xterra) StdoutLine: {'line': b'[ 16%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/msg/sensor_data__type_support.cpp.o\n'}
+[19.616784] (-) TimerEvent: {}
+[19.717507] (-) TimerEvent: {}
+[19.726988] (xterra) StdoutLine: {'line': b'[ 17%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/msg/detail/dds_fastrtps/joint_data__type_support.cpp.o\n'}
+[19.817774] (-) TimerEvent: {}
+[19.918504] (-) TimerEvent: {}
+[20.019228] (-) TimerEvent: {}
+[20.120068] (-) TimerEvent: {}
+[20.220763] (-) TimerEvent: {}
+[20.275351] (xterra) StdoutLine: {'line': b'[ 17%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/msg/motor_gain_multiplier__type_support.cpp.o\n'}
+[20.321019] (-) TimerEvent: {}
+[20.421774] (-) TimerEvent: {}
+[20.523035] (-) TimerEvent: {}
+[20.598012] (xterra) StdoutLine: {'line': b'[ 18%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/msg/detail/joint_data__type_support.cpp.o\n'}
+[20.623253] (-) TimerEvent: {}
+[20.723892] (-) TimerEvent: {}
+[20.824595] (-) TimerEvent: {}
+[20.854062] (xterra) StdoutLine: {'line': b'[ 19%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/msg/detail/dds_fastrtps/sensor_data__type_support.cpp.o\n'}
+[20.924898] (-) TimerEvent: {}
+[21.012993] (xterra) StdoutLine: {'line': b'[ 20%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/msg/quad_log__type_support.cpp.o\n'}
+[21.025073] (-) TimerEvent: {}
+[21.125719] (-) TimerEvent: {}
+[21.226419] (-) TimerEvent: {}
+[21.327114] (-) TimerEvent: {}
+[21.427819] (-) TimerEvent: {}
+[21.528535] (-) TimerEvent: {}
+[21.629861] (-) TimerEvent: {}
+[21.699866] (xterra) StdoutLine: {'line': b'[ 21%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/msg/detail/sensor_data__type_support.cpp.o\n'}
+[21.730107] (-) TimerEvent: {}
+[21.752390] (xterra) StdoutLine: {'line': b'[ 22%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/msg/point3_d__type_support.cpp.o\n'}
+[21.830373] (-) TimerEvent: {}
+[21.931114] (-) TimerEvent: {}
+[21.996633] (xterra) StdoutLine: {'line': b'[ 22%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/msg/detail/dds_fastrtps/motor_gain_multiplier__type_support.cpp.o\n'}
+[22.031345] (-) TimerEvent: {}
+[22.132367] (-) TimerEvent: {}
+[22.233489] (-) TimerEvent: {}
+[22.334197] (-) TimerEvent: {}
+[22.434924] (-) TimerEvent: {}
+[22.492605] (xterra) StdoutLine: {'line': b'[ 22%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/msg/quaternion__type_support.cpp.o\n'}
+[22.535186] (-) TimerEvent: {}
+[22.635864] (-) TimerEvent: {}
+[22.736613] (-) TimerEvent: {}
+[22.814154] (xterra) StdoutLine: {'line': b'[ 23%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/msg/detail/motor_gain_multiplier__type_support.cpp.o\n'}
+[22.836909] (-) TimerEvent: {}
+[22.938460] (-) TimerEvent: {}
+[23.039591] (-) TimerEvent: {}
+[23.140319] (-) TimerEvent: {}
+[23.210882] (xterra) StdoutLine: {'line': b'[ 24%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/msg/detail/dds_fastrtps/quad_log__type_support.cpp.o\n'}
+[23.240591] (-) TimerEvent: {}
+[23.253156] (xterra) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/msg/solver_stats__type_support.cpp.o\n'}
+[23.340863] (-) TimerEvent: {}
+[23.441611] (-) TimerEvent: {}
+[23.542345] (-) TimerEvent: {}
+[23.643060] (-) TimerEvent: {}
+[23.743775] (-) TimerEvent: {}
+[23.844497] (-) TimerEvent: {}
+[23.916105] (xterra) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/msg/detail/quad_log__type_support.cpp.o\n'}
+[23.944811] (-) TimerEvent: {}
+[23.990699] (xterra) StdoutLine: {'line': b'[ 26%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/msg/rgb_frame__type_support.cpp.o\n'}
+[24.045074] (-) TimerEvent: {}
+[24.145878] (-) TimerEvent: {}
+[24.246588] (-) TimerEvent: {}
+[24.347307] (-) TimerEvent: {}
+[24.352015] (xterra) StdoutLine: {'line': b'[ 27%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/msg/detail/dds_fastrtps/point3_d__type_support.cpp.o\n'}
+[24.447578] (-) TimerEvent: {}
+[24.548290] (-) TimerEvent: {}
+[24.649001] (-) TimerEvent: {}
+[24.716199] (xterra) StdoutLine: {'line': b'[ 28%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/msg/indicator_data__type_support.cpp.o\n'}
+[24.749320] (-) TimerEvent: {}
+[24.850022] (-) TimerEvent: {}
+[24.950735] (-) TimerEvent: {}
+[25.051438] (-) TimerEvent: {}
+[25.059795] (xterra) StdoutLine: {'line': b'[ 29%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/msg/detail/point3_d__type_support.cpp.o\n'}
+[25.151706] (-) TimerEvent: {}
+[25.252420] (-) TimerEvent: {}
+[25.353175] (-) TimerEvent: {}
+[25.426593] (xterra) StdoutLine: {'line': b'[ 29%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/msg/base_orientation_wrench_debug__type_support.cpp.o\n'}
+[25.444695] (xterra) StdoutLine: {'line': b'[ 30%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/msg/detail/dds_fastrtps/quaternion__type_support.cpp.o\n'}
+[25.453348] (-) TimerEvent: {}
+[25.553951] (-) TimerEvent: {}
+[25.654652] (-) TimerEvent: {}
+[25.755353] (-) TimerEvent: {}
+[25.856052] (-) TimerEvent: {}
+[25.956791] (-) TimerEvent: {}
+[26.057670] (-) TimerEvent: {}
+[26.110235] (xterra) StdoutLine: {'line': b'[ 31%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/msg/detail/quaternion__type_support.cpp.o\n'}
+[26.140342] (xterra) StdoutLine: {'line': b'[ 32%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/msg/float_scalar__type_support.cpp.o\n'}
+[26.157905] (-) TimerEvent: {}
+[26.258578] (-) TimerEvent: {}
+[26.359292] (-) TimerEvent: {}
+[26.460004] (-) TimerEvent: {}
+[26.543589] (xterra) StdoutLine: {'line': b'[ 32%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/msg/detail/dds_fastrtps/solver_stats__type_support.cpp.o\n'}
+[26.560257] (-) TimerEvent: {}
+[26.660963] (-) TimerEvent: {}
+[26.761702] (-) TimerEvent: {}
+[26.862414] (-) TimerEvent: {}
+[26.880701] (xterra) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/msg/joy_data__type_support.cpp.o\n'}
+[26.962670] (-) TimerEvent: {}
+[27.063401] (-) TimerEvent: {}
+[27.130534] (xterra) StdoutLine: {'line': b'[ 34%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/msg/detail/solver_stats__type_support.cpp.o\n'}
+[27.163697] (-) TimerEvent: {}
+[27.264863] (-) TimerEvent: {}
+[27.366034] (-) TimerEvent: {}
+[27.467218] (-) TimerEvent: {}
+[27.567954] (-) TimerEvent: {}
+[27.612720] (xterra) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/msg/camera_frame__type_support.cpp.o\n'}
+[27.657684] (xterra) StdoutLine: {'line': b'[ 36%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/msg/detail/dds_fastrtps/rgb_frame__type_support.cpp.o\n'}
+[27.668177] (-) TimerEvent: {}
+[27.768793] (-) TimerEvent: {}
+[27.879558] (-) TimerEvent: {}
+[27.980296] (-) TimerEvent: {}
+[28.081059] (-) TimerEvent: {}
+[28.161008] (xterra) StdoutLine: {'line': b'[ 36%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/msg/detail/rgb_frame__type_support.cpp.o\n'}
+[28.181372] (-) TimerEvent: {}
+[28.282156] (-) TimerEvent: {}
+[28.350456] (xterra) StdoutLine: {'line': b'[ 36%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/srv/capture_image__type_support.cpp.o\n'}
+[28.382436] (-) TimerEvent: {}
+[28.483150] (-) TimerEvent: {}
+[28.583872] (-) TimerEvent: {}
+[28.684629] (-) TimerEvent: {}
+[28.765097] (xterra) StdoutLine: {'line': b'[ 37%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/msg/detail/dds_fastrtps/indicator_data__type_support.cpp.o\n'}
+[28.784903] (-) TimerEvent: {}
+[28.885704] (-) TimerEvent: {}
+[28.986408] (-) TimerEvent: {}
+[29.087124] (-) TimerEvent: {}
+[29.098636] (xterra) StdoutLine: {'line': b'[ 38%] Linking CXX shared library libxterra__rosidl_typesupport_cpp.so\n'}
+[29.187397] (-) TimerEvent: {}
+[29.204635] (xterra) StdoutLine: {'line': b'[ 39%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/msg/detail/indicator_data__type_support.cpp.o\n'}
+[29.214018] (xterra) StdoutLine: {'line': b'[ 39%] Built target xterra__rosidl_typesupport_cpp\n'}
+[29.245780] (xterra) StdoutLine: {'line': b'[ 40%] Generating C type support for eProsima Fast-RTPS\n'}
+[29.287600] (-) TimerEvent: {}
+[29.388234] (-) TimerEvent: {}
+[29.488892] (-) TimerEvent: {}
+[29.589554] (-) TimerEvent: {}
+[29.690358] (-) TimerEvent: {}
+[29.790978] (-) TimerEvent: {}
+[29.870513] (xterra) StdoutLine: {'line': b'[ 41%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/msg/detail/dds_fastrtps/base_orientation_wrench_debug__type_support.cpp.o\n'}
+[29.891239] (-) TimerEvent: {}
+[29.991880] (-) TimerEvent: {}
+[30.092522] (-) TimerEvent: {}
+[30.193207] (-) TimerEvent: {}
+[30.209760] (xterra) StdoutLine: {'line': b'[ 42%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/msg/detail/base_orientation_wrench_debug__type_support.cpp.o\n'}
+[30.293407] (-) TimerEvent: {}
+[30.394034] (-) TimerEvent: {}
+[30.494603] (-) TimerEvent: {}
+[30.595243] (-) TimerEvent: {}
+[30.695885] (-) TimerEvent: {}
+[30.796484] (-) TimerEvent: {}
+[30.897159] (-) TimerEvent: {}
+[30.966030] (xterra) StdoutLine: {'line': b'[ 42%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/msg/detail/dds_fastrtps/float_scalar__type_support.cpp.o\n'}
+[30.997324] (-) TimerEvent: {}
+[31.097872] (-) TimerEvent: {}
+[31.198436] (-) TimerEvent: {}
+[31.259484] (xterra) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/msg/detail/float_scalar__type_support.cpp.o\n'}
+[31.298738] (-) TimerEvent: {}
+[31.399507] (-) TimerEvent: {}
+[31.500256] (-) TimerEvent: {}
+[31.600968] (-) TimerEvent: {}
+[31.701714] (-) TimerEvent: {}
+[31.802438] (-) TimerEvent: {}
+[31.903132] (-) TimerEvent: {}
+[31.999709] (xterra) StdoutLine: {'line': b'[ 44%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/msg/detail/joint_data__type_support_c.cpp.o\n'}
+[32.003232] (-) TimerEvent: {}
+[32.069590] (xterra) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/msg/detail/dds_fastrtps/joy_data__type_support.cpp.o\n'}
+[32.103542] (-) TimerEvent: {}
+[32.204543] (-) TimerEvent: {}
+[32.279589] (xterra) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/msg/detail/joy_data__type_support.cpp.o\n'}
+[32.304805] (-) TimerEvent: {}
+[32.405920] (-) TimerEvent: {}
+[32.507046] (-) TimerEvent: {}
+[32.607832] (-) TimerEvent: {}
+[32.708570] (-) TimerEvent: {}
+[32.809338] (-) TimerEvent: {}
+[32.918121] (-) TimerEvent: {}
+[32.922244] (xterra) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/msg/detail/sensor_data__type_support_c.cpp.o\n'}
+[33.018390] (-) TimerEvent: {}
+[33.119120] (-) TimerEvent: {}
+[33.190606] (xterra) StdoutLine: {'line': b'[ 46%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/msg/detail/dds_fastrtps/camera_frame__type_support.cpp.o\n'}
+[33.219384] (-) TimerEvent: {}
+[33.316643] (xterra) StdoutLine: {'line': b'[ 47%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/msg/detail/camera_frame__type_support.cpp.o\n'}
+[33.319446] (-) TimerEvent: {}
+[33.420065] (-) TimerEvent: {}
+[33.520772] (-) TimerEvent: {}
+[33.621565] (-) TimerEvent: {}
+[33.722294] (-) TimerEvent: {}
+[33.823054] (-) TimerEvent: {}
+[33.855621] (xterra) StdoutLine: {'line': b'[ 48%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/msg/detail/motor_gain_multiplier__type_support_c.cpp.o\n'}
+[33.923327] (-) TimerEvent: {}
+[34.024059] (-) TimerEvent: {}
+[34.124745] (-) TimerEvent: {}
+[34.225448] (-) TimerEvent: {}
+[34.297490] (xterra) StdoutLine: {'line': b'[ 49%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/srv/detail/dds_fastrtps/capture_image__type_support.cpp.o\n'}
+[34.325733] (-) TimerEvent: {}
+[34.358644] (xterra) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/srv/detail/capture_image__type_support.cpp.o\n'}
+[34.426002] (-) TimerEvent: {}
+[34.526705] (-) TimerEvent: {}
+[34.627420] (-) TimerEvent: {}
+[34.728126] (-) TimerEvent: {}
+[34.770670] (xterra) StdoutLine: {'line': b'[ 51%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/msg/detail/quad_log__type_support_c.cpp.o\n'}
+[34.828406] (-) TimerEvent: {}
+[34.929221] (-) TimerEvent: {}
+[35.029957] (-) TimerEvent: {}
+[35.130675] (-) TimerEvent: {}
+[35.231397] (-) TimerEvent: {}
+[35.332113] (-) TimerEvent: {}
+[35.413684] (xterra) StdoutLine: {'line': b'[ 52%] Linking CXX shared library libxterra__rosidl_typesupport_introspection_cpp.so\n'}
+[35.432395] (-) TimerEvent: {}
+[35.436677] (xterra) StdoutLine: {'line': b'[ 52%] Linking CXX shared library libxterra__rosidl_typesupport_fastrtps_cpp.so\n'}
+[35.532677] (-) TimerEvent: {}
+[35.633434] (-) TimerEvent: {}
+[35.676950] (xterra) StdoutLine: {'line': b'[ 52%] Built target xterra__rosidl_typesupport_introspection_cpp\n'}
+[35.689825] (xterra) StdoutLine: {'line': b'[ 53%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/msg/detail/point3_d__type_support_c.cpp.o\n'}
+[35.692380] (xterra) StdoutLine: {'line': b'[ 53%] Built target xterra__rosidl_typesupport_fastrtps_cpp\n'}
+[35.707759] (xterra) StdoutLine: {'line': b'[ 54%] Generating C introspection for ROS interfaces\n'}
+[35.722658] (xterra) StdoutLine: {'line': b'[ 55%] Generating C type support dispatch for ROS interfaces\n'}
+[35.733611] (-) TimerEvent: {}
+[35.834633] (-) TimerEvent: {}
+[35.935666] (-) TimerEvent: {}
+[36.036307] (-) TimerEvent: {}
+[36.136963] (-) TimerEvent: {}
+[36.237618] (-) TimerEvent: {}
+[36.338156] (-) TimerEvent: {}
+[36.438763] (-) TimerEvent: {}
+[36.539350] (-) TimerEvent: {}
+[36.566315] (xterra) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/msg/detail/quaternion__type_support_c.cpp.o\n'}
+[36.639579] (-) TimerEvent: {}
+[36.740149] (-) TimerEvent: {}
+[36.840712] (-) TimerEvent: {}
+[36.945384] (-) TimerEvent: {}
+[37.046439] (-) TimerEvent: {}
+[37.147130] (-) TimerEvent: {}
+[37.247757] (-) TimerEvent: {}
+[37.348448] (-) TimerEvent: {}
+[37.449073] (-) TimerEvent: {}
+[37.496167] (xterra) StdoutLine: {'line': b'[ 56%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/msg/detail/solver_stats__type_support_c.cpp.o\n'}
+[37.549378] (-) TimerEvent: {}
+[37.559079] (xterra) StdoutLine: {'line': b'[ 56%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/msg/joint_data__type_support.cpp.o\n'}
+[37.647618] (xterra) StdoutLine: {'line': b'[ 57%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/msg/sensor_data__type_support.cpp.o\n'}
+[37.649433] (-) TimerEvent: {}
+[37.731316] (xterra) StdoutLine: {'line': b'[ 58%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/msg/motor_gain_multiplier__type_support.cpp.o\n'}
+[37.749719] (-) TimerEvent: {}
+[37.828684] (xterra) StdoutLine: {'line': b'[ 59%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/msg/quad_log__type_support.cpp.o\n'}
+[37.850025] (-) TimerEvent: {}
+[37.919489] (xterra) StdoutLine: {'line': b'[ 59%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/msg/point3_d__type_support.cpp.o\n'}
+[37.950311] (-) TimerEvent: {}
+[38.003929] (xterra) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/msg/quaternion__type_support.cpp.o\n'}
+[38.050597] (-) TimerEvent: {}
+[38.094372] (xterra) StdoutLine: {'line': b'[ 61%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/msg/solver_stats__type_support.cpp.o\n'}
+[38.150893] (-) TimerEvent: {}
+[38.179028] (xterra) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/msg/rgb_frame__type_support.cpp.o\n'}
+[38.251169] (-) TimerEvent: {}
+[38.264332] (xterra) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/msg/indicator_data__type_support.cpp.o\n'}
+[38.316670] (xterra) StdoutLine: {'line': b'[ 63%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/msg/detail/joint_data__type_support.c.o\n'}
+[38.351443] (-) TimerEvent: {}
+[38.352993] (xterra) StdoutLine: {'line': b'[ 64%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/msg/base_orientation_wrench_debug__type_support.cpp.o\n'}
+[38.437673] (xterra) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/msg/float_scalar__type_support.cpp.o\n'}
+[38.438365] (xterra) StdoutLine: {'line': b'[ 66%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/msg/detail/sensor_data__type_support.c.o\n'}
+[38.451722] (-) TimerEvent: {}
+[38.462448] (xterra) StdoutLine: {'line': b'[ 67%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/msg/detail/rgb_frame__type_support_c.cpp.o\n'}
+[38.528389] (xterra) StdoutLine: {'line': b'[ 68%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/msg/joy_data__type_support.cpp.o\n'}
+[38.551978] (-) TimerEvent: {}
+[38.572638] (xterra) StdoutLine: {'line': b'[ 68%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/msg/detail/motor_gain_multiplier__type_support.c.o\n'}
+[38.615629] (xterra) StdoutLine: {'line': b'[ 68%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/msg/camera_frame__type_support.cpp.o\n'}
+[38.652256] (-) TimerEvent: {}
+[38.682815] (xterra) StdoutLine: {'line': b'[ 69%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/msg/detail/quad_log__type_support.c.o\n'}
+[38.701019] (xterra) StdoutLine: {'line': b'[ 70%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/srv/capture_image__type_support.cpp.o\n'}
+[38.752541] (-) TimerEvent: {}
+[38.791849] (xterra) StdoutLine: {'line': b'[ 71%] Linking CXX shared library libxterra__rosidl_typesupport_c.so\n'}
+[38.810938] (xterra) StdoutLine: {'line': b'[ 72%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/msg/detail/point3_d__type_support.c.o\n'}
+[38.852802] (-) TimerEvent: {}
+[38.898583] (xterra) StdoutLine: {'line': b'[ 73%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/msg/detail/quaternion__type_support.c.o\n'}
+[38.899633] (xterra) StdoutLine: {'line': b'[ 73%] Built target xterra__rosidl_typesupport_c\n'}
+[38.926590] (xterra) StdoutLine: {'line': b'[ 74%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/msg/detail/indicator_data__type_support_c.cpp.o\n'}
+[38.953078] (-) TimerEvent: {}
+[38.990785] (xterra) StdoutLine: {'line': b'[ 74%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/msg/detail/solver_stats__type_support.c.o\n'}
+[39.053382] (-) TimerEvent: {}
+[39.091400] (xterra) StdoutLine: {'line': b'[ 75%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/msg/detail/rgb_frame__type_support.c.o\n'}
+[39.153651] (-) TimerEvent: {}
+[39.194942] (xterra) StdoutLine: {'line': b'[ 76%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/msg/detail/indicator_data__type_support.c.o\n'}
+[39.253944] (-) TimerEvent: {}
+[39.289561] (xterra) StdoutLine: {'line': b'[ 76%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/msg/detail/base_orientation_wrench_debug__type_support.c.o\n'}
+[39.354254] (-) TimerEvent: {}
+[39.367853] (xterra) StdoutLine: {'line': b'[ 76%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/msg/detail/base_orientation_wrench_debug__type_support_c.cpp.o\n'}
+[39.408690] (xterra) StdoutLine: {'line': b'[ 77%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/msg/detail/float_scalar__type_support.c.o\n'}
+[39.454514] (-) TimerEvent: {}
+[39.508450] (xterra) StdoutLine: {'line': b'[ 78%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/msg/detail/joy_data__type_support.c.o\n'}
+[39.554796] (-) TimerEvent: {}
+[39.622529] (xterra) StdoutLine: {'line': b'[ 79%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/msg/detail/camera_frame__type_support.c.o\n'}
+[39.654978] (-) TimerEvent: {}
+[39.729685] (xterra) StdoutLine: {'line': b'[ 79%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/srv/detail/capture_image__type_support.c.o\n'}
+[39.755235] (-) TimerEvent: {}
+[39.841837] (xterra) StdoutLine: {'line': b'[ 80%] Linking C shared library libxterra__rosidl_typesupport_introspection_c.so\n'}
+[39.855502] (-) TimerEvent: {}
+[39.862986] (xterra) StdoutLine: {'line': b'[ 81%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/msg/detail/float_scalar__type_support_c.cpp.o\n'}
+[39.936804] (xterra) StdoutLine: {'line': b'[ 81%] Built target xterra__rosidl_typesupport_introspection_c\n'}
+[39.955786] (-) TimerEvent: {}
+[39.963457] (xterra) StdoutLine: {'line': b'[ 82%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/msg/detail/joy_data__type_support_c.cpp.o\n'}
+[40.056054] (-) TimerEvent: {}
+[40.156765] (-) TimerEvent: {}
+[40.257496] (-) TimerEvent: {}
+[40.300151] (xterra) StdoutLine: {'line': b'[ 83%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/msg/detail/camera_frame__type_support_c.cpp.o\n'}
+[40.357777] (-) TimerEvent: {}
+[40.458522] (-) TimerEvent: {}
+[40.559255] (-) TimerEvent: {}
+[40.660009] (-) TimerEvent: {}
+[40.740310] (xterra) StdoutLine: {'line': b'[ 83%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/srv/detail/capture_image__type_support_c.cpp.o\n'}
+[40.760261] (-) TimerEvent: {}
+[40.861376] (-) TimerEvent: {}
+[40.962068] (-) TimerEvent: {}
+[41.062784] (-) TimerEvent: {}
+[41.163492] (-) TimerEvent: {}
+[41.264147] (-) TimerEvent: {}
+[41.364844] (-) TimerEvent: {}
+[41.465736] (-) TimerEvent: {}
+[41.566443] (-) TimerEvent: {}
+[41.667862] (-) TimerEvent: {}
+[41.684380] (xterra) StdoutLine: {'line': b'[ 84%] Linking CXX shared library libxterra__rosidl_typesupport_fastrtps_c.so\n'}
+[41.768118] (-) TimerEvent: {}
+[41.868872] (-) TimerEvent: {}
+[41.896294] (xterra) StdoutLine: {'line': b'[ 84%] Built target xterra__rosidl_typesupport_fastrtps_c\n'}
+[41.951687] (xterra) StdoutLine: {'line': b'[ 84%] Built target xterra\n'}
+[41.969035] (-) TimerEvent: {}
+[42.007692] (xterra) StdoutLine: {'line': b'[ 85%] Generating Python code for ROS interfaces\n'}
+[42.069307] (-) TimerEvent: {}
+[42.169883] (-) TimerEvent: {}
+[42.270417] (-) TimerEvent: {}
+[42.370959] (-) TimerEvent: {}
+[42.471545] (-) TimerEvent: {}
+[42.572143] (-) TimerEvent: {}
+[42.672596] (-) TimerEvent: {}
+[42.773042] (-) TimerEvent: {}
+[42.873521] (-) TimerEvent: {}
+[42.973966] (-) TimerEvent: {}
+[43.074415] (-) TimerEvent: {}
+[43.174892] (-) TimerEvent: {}
+[43.275298] (-) TimerEvent: {}
+[43.375723] (-) TimerEvent: {}
+[43.476169] (-) TimerEvent: {}
+[43.576608] (-) TimerEvent: {}
+[43.677034] (-) TimerEvent: {}
+[43.777459] (-) TimerEvent: {}
+[43.877848] (-) TimerEvent: {}
+[43.978224] (-) TimerEvent: {}
+[44.078614] (-) TimerEvent: {}
+[44.178956] (-) TimerEvent: {}
+[44.279384] (-) TimerEvent: {}
+[44.379913] (-) TimerEvent: {}
+[44.480374] (-) TimerEvent: {}
+[44.580825] (-) TimerEvent: {}
+[44.681244] (-) TimerEvent: {}
+[44.781622] (-) TimerEvent: {}
+[44.881991] (-) TimerEvent: {}
+[44.982373] (-) TimerEvent: {}
+[45.082775] (-) TimerEvent: {}
+[45.183209] (-) TimerEvent: {}
+[45.283696] (-) TimerEvent: {}
+[45.384156] (-) TimerEvent: {}
+[45.484561] (-) TimerEvent: {}
+[45.584939] (-) TimerEvent: {}
+[45.685298] (-) TimerEvent: {}
+[45.785714] (-) TimerEvent: {}
+[45.886332] (-) TimerEvent: {}
+[45.987062] (-) TimerEvent: {}
+[46.088084] (-) TimerEvent: {}
+[46.117442] (xterra) StdoutLine: {'line': b'[ 85%] Built target xterra__py\n'}
+[46.172059] (xterra) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/msg/_joint_data_s.c.o\n'}
+[46.173692] (xterra) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/msg/_motor_gain_multiplier_s.c.o\n'}
+[46.174021] (xterra) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/msg/_sensor_data_s.c.o\n'}
+[46.188332] (-) TimerEvent: {}
+[46.289047] (-) TimerEvent: {}
+[46.389826] (-) TimerEvent: {}
+[46.490552] (-) TimerEvent: {}
+[46.552915] (xterra) StdoutLine: {'line': b'[ 89%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/msg/_point3_d_s.c.o\n'}
+[46.553659] (xterra) StdoutLine: {'line': b'[ 89%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/msg/_quad_log_s.c.o\n'}
+[46.589734] (xterra) StdoutLine: {'line': b'[ 89%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/msg/_quaternion_s.c.o\n'}
+[46.591455] (-) TimerEvent: {}
+[46.692015] (-) TimerEvent: {}
+[46.792721] (-) TimerEvent: {}
+[46.819878] (xterra) StdoutLine: {'line': b'[ 90%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/msg/_solver_stats_s.c.o\n'}
+[46.851713] (xterra) StdoutLine: {'line': b'[ 91%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/msg/_rgb_frame_s.c.o\n'}
+[46.892803] (xterra) StdoutLine: {'line': b'[ 92%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/msg/_indicator_data_s.c.o\n'}
+[46.893617] (-) TimerEvent: {}
+[46.994049] (-) TimerEvent: {}
+[47.094795] (-) TimerEvent: {}
+[47.108825] (xterra) StdoutLine: {'line': b'[ 92%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/msg/_base_orientation_wrench_debug_s.c.o\n'}
+[47.130211] (xterra) StdoutLine: {'line': b'[ 93%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/msg/_float_scalar_s.c.o\n'}
+[47.157817] (xterra) StdoutLine: {'line': b'[ 94%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/msg/_joy_data_s.c.o\n'}
+[47.195053] (-) TimerEvent: {}
+[47.295733] (-) TimerEvent: {}
+[47.385979] (xterra) StdoutLine: {'line': b'[ 94%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/msg/_camera_frame_s.c.o\n'}
+[47.395982] (-) TimerEvent: {}
+[47.397077] (xterra) StdoutLine: {'line': b'[ 95%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/srv/_capture_image_s.c.o\n'}
+[47.496232] (-) TimerEvent: {}
+[47.596944] (-) TimerEvent: {}
+[47.670016] (xterra) StdoutLine: {'line': b'[ 96%] Linking C shared library rosidl_generator_py/xterra/libxterra__rosidl_generator_py.so\n'}
+[47.697465] (-) TimerEvent: {}
+[47.785479] (xterra) StdoutLine: {'line': b'[ 96%] Built target xterra__rosidl_generator_py\n'}
+[47.797704] (-) TimerEvent: {}
+[47.843358] (xterra) StdoutLine: {'line': b'[ 99%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/xterra/_xterra_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[47.937466] (-) TimerEvent: {}
+[47.937612] (xterra) StdoutLine: {'line': b'[ 99%] Building C object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/xterra/_xterra_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[47.937919] (xterra) StdoutLine: {'line': b'[ 99%] Building C object CMakeFiles/xterra__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/xterra/_xterra_s.ep.rosidl_typesupport_c.c.o\n'}
+[48.037785] (-) TimerEvent: {}
+[48.138484] (-) TimerEvent: {}
+[48.239165] (-) TimerEvent: {}
+[48.318091] (xterra) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/xterra/xterra_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[48.319550] (xterra) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/xterra/xterra_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[48.320825] (xterra) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/xterra/xterra_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[48.339382] (-) TimerEvent: {}
+[48.432874] (xterra) StdoutLine: {'line': b'[100%] Built target xterra__rosidl_typesupport_fastrtps_c__pyext\n'}
+[48.434589] (xterra) StdoutLine: {'line': b'[100%] Built target xterra__rosidl_typesupport_c__pyext\n'}
+[48.435004] (xterra) StdoutLine: {'line': b'[100%] Built target xterra__rosidl_typesupport_introspection_c__pyext\n'}
+[48.439457] (-) TimerEvent: {}
+[48.471115] (xterra) CommandEnded: {'returncode': 0}
+[48.474254] (xterra) JobProgress: {'identifier': 'xterra', 'progress': 'install'}
+[48.500603] (xterra) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2_ws/build/xterra'], 'cwd': '/home/ros2_ws/build/xterra', 'env': OrderedDict([('CMAKE_BUILD_PARALLEL_LEVEL', '3'), ('HOSTNAME', 'orin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:'), ('HOME', '/root'), ('OLDPWD', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('MAKEFLAGS', '-j3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('OrbbecSDK_DIR', '/usr/local/lib/cmake/OrbbecSDK'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros2_ws/build/xterra'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/opt/OrbbecSDK_v2.4.11/lib::/opt/ros/humble')]), 'shell': False}
+[48.522883] (xterra) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[48.523645] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/ament_index/resource_index/rosidl_interfaces/xterra\n'}
+[48.524033] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra\n'}
+[48.524432] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg\n'}
+[48.524695] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/float_scalar.h\n'}
+[48.524955] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/rgb_frame.h\n'}
+[48.525241] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/rosidl_generator_c__visibility_control.h\n'}
+[48.525588] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/sensor_data.h\n'}
+[48.525840] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/quad_log.h\n'}
+[48.526082] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/point3_d.h\n'}
+[48.526317] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/motor_gain_multiplier.h\n'}
+[48.526551] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/joint_data.h\n'}
+[48.526778] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail\n'}
+[48.527007] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__functions.c\n'}
+[48.527152] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__functions.c\n'}
+[48.527380] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__functions.h\n'}
+[48.527610] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__type_support.h\n'}
+[48.527841] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__functions.c\n'}
+[48.528076] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__struct.h\n'}
+[48.528299] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__type_support.h\n'}
+[48.528530] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__functions.h\n'}
+[48.529182] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__struct.h\n'}
+[48.529453] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__functions.h\n'}
+[48.529687] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__type_support.h\n'}
+[48.529915] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__struct.h\n'}
+[48.530061] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__functions.h\n'}
+[48.530285] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__struct.h\n'}
+[48.530424] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__functions.h\n'}
+[48.530649] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__functions.c\n'}
+[48.530903] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__functions.c\n'}
+[48.531138] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__functions.h\n'}
+[48.531389] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__struct.h\n'}
+[48.531620] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__functions.h\n'}
+[48.531839] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__type_support.h\n'}
+[48.532065] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__functions.h\n'}
+[48.532286] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__type_support.h\n'}
+[48.532512] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__type_support.h\n'}
+[48.532734] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__struct.h\n'}
+[48.532878] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__type_support.h\n'}
+[48.533103] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__type_support.h\n'}
+[48.533364] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__functions.h\n'}
+[48.533592] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__type_support.h\n'}
+[48.533818] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__type_support.h\n'}
+[48.534039] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__functions.c\n'}
+[48.534265] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__struct.h\n'}
+[48.534494] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__functions.c\n'}
+[48.534718] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__type_support.h\n'}
+[48.534934] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__functions.h\n'}
+[48.535182] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__functions.c\n'}
+[48.535435] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__functions.c\n'}
+[48.535682] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__functions.c\n'}
+[48.535924] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__functions.h\n'}
+[48.536170] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__functions.h\n'}
+[48.536416] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__struct.h\n'}
+[48.536649] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__functions.c\n'}
+[48.536896] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__functions.c\n'}
+[48.537196] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__struct.h\n'}
+[48.537585] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__struct.h\n'}
+[48.537977] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__functions.c\n'}
+[48.538145] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__type_support.h\n'}
+[48.538527] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__functions.h\n'}
+[48.538794] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__struct.h\n'}
+[48.539045] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__struct.h\n'}
+[48.539280] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__struct.h\n'}
+[48.539516] (-) TimerEvent: {}
+[48.539646] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__type_support.h\n'}
+[48.539889] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/base_orientation_wrench_debug.h\n'}
+[48.540132] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/solver_stats.h\n'}
+[48.540363] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/camera_frame.h\n'}
+[48.540593] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/quaternion.h\n'}
+[48.540823] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/joy_data.h\n'}
+[48.541060] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/indicator_data.h\n'}
+[48.541505] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv\n'}
+[48.541651] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail\n'}
+[48.541897] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__type_support.h\n'}
+[48.542139] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__functions.c\n'}
+[48.542372] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__struct.h\n'}
+[48.542596] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__functions.h\n'}
+[48.542745] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/capture_image.h\n'}
+[48.543118] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/environment/library_path.sh\n'}
+[48.543465] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/environment/library_path.dsv\n'}
+[48.543912] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/lib/libxterra__rosidl_generator_c.so\n'}
+[48.544818] (xterra) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/xterra/lib/libxterra__rosidl_generator_c.so" to ""\n'}
+[48.545225] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra\n'}
+[48.545558] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg\n'}
+[48.545781] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[48.546008] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail\n'}
+[48.546155] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__rosidl_typesupport_fastrtps_c.h\n'}
+[48.546389] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__rosidl_typesupport_fastrtps_c.h\n'}
+[48.546622] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__rosidl_typesupport_fastrtps_c.h\n'}
+[48.546860] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__rosidl_typesupport_fastrtps_c.h\n'}
+[48.547094] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__rosidl_typesupport_fastrtps_c.h\n'}
+[48.547331] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__rosidl_typesupport_fastrtps_c.h\n'}
+[48.547563] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__rosidl_typesupport_fastrtps_c.h\n'}
+[48.547795] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__rosidl_typesupport_fastrtps_c.h\n'}
+[48.548035] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__rosidl_typesupport_fastrtps_c.h\n'}
+[48.548273] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__rosidl_typesupport_fastrtps_c.h\n'}
+[48.548505] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__rosidl_typesupport_fastrtps_c.h\n'}
+[48.548882] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__rosidl_typesupport_fastrtps_c.h\n'}
+[48.549029] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__rosidl_typesupport_fastrtps_c.h\n'}
+[48.549294] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv\n'}
+[48.549486] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail\n'}
+[48.549630] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__rosidl_typesupport_fastrtps_c.h\n'}
+[48.549782] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_fastrtps_c.so\n'}
+[48.550095] (xterra) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[48.550489] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra\n'}
+[48.550722] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg\n'}
+[48.550962] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/motor_gain_multiplier.hpp\n'}
+[48.551194] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/base_orientation_wrench_debug.hpp\n'}
+[48.551419] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/sensor_data.hpp\n'}
+[48.551726] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/quaternion.hpp\n'}
+[48.552087] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/float_scalar.hpp\n'}
+[48.552342] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[48.552583] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/indicator_data.hpp\n'}
+[48.552820] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/quad_log.hpp\n'}
+[48.553079] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail\n'}
+[48.553373] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__type_support.hpp\n'}
+[48.553516] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__builder.hpp\n'}
+[48.553755] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__builder.hpp\n'}
+[48.553988] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__struct.hpp\n'}
+[48.554219] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__traits.hpp\n'}
+[48.554451] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__type_support.hpp\n'}
+[48.554685] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__builder.hpp\n'}
+[48.554920] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__traits.hpp\n'}
+[48.555060] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__type_support.hpp\n'}
+[48.555293] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__traits.hpp\n'}
+[48.555514] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__builder.hpp\n'}
+[48.555743] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__builder.hpp\n'}
+[48.555964] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__struct.hpp\n'}
+[48.556192] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__type_support.hpp\n'}
+[48.556416] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__traits.hpp\n'}
+[48.556636] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__type_support.hpp\n'}
+[48.556862] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__traits.hpp\n'}
+[48.557103] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__type_support.hpp\n'}
+[48.557428] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__type_support.hpp\n'}
+[48.557668] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__builder.hpp\n'}
+[48.557910] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__traits.hpp\n'}
+[48.558146] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__struct.hpp\n'}
+[48.558377] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__struct.hpp\n'}
+[48.558517] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__traits.hpp\n'}
+[48.558734] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__struct.hpp\n'}
+[48.558986] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__builder.hpp\n'}
+[48.559240] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__struct.hpp\n'}
+[48.559491] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__builder.hpp\n'}
+[48.559733] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__type_support.hpp\n'}
+[48.559963] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__traits.hpp\n'}
+[48.560190] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__struct.hpp\n'}
+[48.560416] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__traits.hpp\n'}
+[48.560639] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__traits.hpp\n'}
+[48.560890] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__builder.hpp\n'}
+[48.561138] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__struct.hpp\n'}
+[48.561404] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__type_support.hpp\n'}
+[48.561653] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__struct.hpp\n'}
+[48.561898] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__type_support.hpp\n'}
+[48.562151] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__struct.hpp\n'}
+[48.562396] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__traits.hpp\n'}
+[48.562648] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__type_support.hpp\n'}
+[48.562894] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__struct.hpp\n'}
+[48.563131] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__builder.hpp\n'}
+[48.563497] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__struct.hpp\n'}
+[48.563793] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__struct.hpp\n'}
+[48.564065] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__traits.hpp\n'}
+[48.564311] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__builder.hpp\n'}
+[48.564553] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__type_support.hpp\n'}
+[48.564792] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__builder.hpp\n'}
+[48.565040] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__traits.hpp\n'}
+[48.565316] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__builder.hpp\n'}
+[48.565567] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__type_support.hpp\n'}
+[48.565812] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/joy_data.hpp\n'}
+[48.566078] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/point3_d.hpp\n'}
+[48.566327] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/solver_stats.hpp\n'}
+[48.566552] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/camera_frame.hpp\n'}
+[48.566790] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/rgb_frame.hpp\n'}
+[48.567021] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/joint_data.hpp\n'}
+[48.567354] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv\n'}
+[48.567586] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail\n'}
+[48.567809] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__type_support.hpp\n'}
+[48.567950] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__traits.hpp\n'}
+[48.568109] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__struct.hpp\n'}
+[48.568819] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__builder.hpp\n'}
+[48.569105] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/capture_image.hpp\n'}
+[48.569382] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra\n'}
+[48.569528] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg\n'}
+[48.569663] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail\n'}
+[48.569887] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[48.570133] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[48.570371] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[48.570607] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[48.570841] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[48.571078] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[48.571307] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[48.571539] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[48.571769] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[48.571996] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[48.572224] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[48.572447] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[48.572696] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/dds_fastrtps\n'}
+[48.573055] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[48.573318] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[48.573482] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv\n'}
+[48.573783] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail\n'}
+[48.573917] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[48.574050] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/dds_fastrtps\n'}
+[48.574183] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_fastrtps_cpp.so\n'}
+[48.575096] (xterra) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[48.575312] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra\n'}
+[48.575706] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg\n'}
+[48.575954] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[48.576194] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail\n'}
+[48.576434] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__type_support.c\n'}
+[48.576665] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__rosidl_typesupport_introspection_c.h\n'}
+[48.576898] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__rosidl_typesupport_introspection_c.h\n'}
+[48.577148] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__type_support.c\n'}
+[48.578409] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__rosidl_typesupport_introspection_c.h\n'}
+[48.579041] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__rosidl_typesupport_introspection_c.h\n'}
+[48.579428] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__rosidl_typesupport_introspection_c.h\n'}
+[48.579885] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__type_support.c\n'}
+[48.580324] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__rosidl_typesupport_introspection_c.h\n'}
+[48.580676] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__rosidl_typesupport_introspection_c.h\n'}
+[48.581114] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__type_support.c\n'}
+[48.581376] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__type_support.c\n'}
+[48.581860] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__type_support.c\n'}
+[48.582237] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__rosidl_typesupport_introspection_c.h\n'}
+[48.582612] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__type_support.c\n'}
+[48.583079] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__rosidl_typesupport_introspection_c.h\n'}
+[48.583298] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__type_support.c\n'}
+[48.583625] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__rosidl_typesupport_introspection_c.h\n'}
+[48.583832] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__rosidl_typesupport_introspection_c.h\n'}
+[48.584031] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__rosidl_typesupport_introspection_c.h\n'}
+[48.584224] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__type_support.c\n'}
+[48.584410] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__rosidl_typesupport_introspection_c.h\n'}
+[48.584815] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__type_support.c\n'}
+[48.585025] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__type_support.c\n'}
+[48.585259] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__type_support.c\n'}
+[48.585811] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__type_support.c\n'}
+[48.586185] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv\n'}
+[48.586575] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail\n'}
+[48.586906] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__rosidl_typesupport_introspection_c.h\n'}
+[48.587329] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__type_support.c\n'}
+[48.587540] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_introspection_c.so\n'}
+[48.587947] (xterra) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_introspection_c.so" to ""\n'}
+[48.588263] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_c.so\n'}
+[48.588615] (xterra) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_c.so" to ""\n'}
+[48.589016] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra\n'}
+[48.589331] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg\n'}
+[48.589753] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail\n'}
+[48.590073] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__type_support.cpp\n'}
+[48.590525] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__type_support.cpp\n'}
+[48.590853] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__rosidl_typesupport_introspection_cpp.hpp\n'}
+[48.591205] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__type_support.cpp\n'}
+[48.591525] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[48.591938] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__type_support.cpp\n'}
+[48.592338] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[48.592668] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__type_support.cpp\n'}
+[48.593165] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__rosidl_typesupport_introspection_cpp.hpp\n'}
+[48.593508] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__type_support.cpp\n'}
+[48.593853] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__type_support.cpp\n'}
+[48.594064] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__rosidl_typesupport_introspection_cpp.hpp\n'}
+[48.594332] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__rosidl_typesupport_introspection_cpp.hpp\n'}
+[48.594536] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__type_support.cpp\n'}
+[48.594727] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__rosidl_typesupport_introspection_cpp.hpp\n'}
+[48.594915] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[48.595230] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[48.595548] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__type_support.cpp\n'}
+[48.595746] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[48.595936] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__type_support.cpp\n'}
+[48.596343] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__rosidl_typesupport_introspection_cpp.hpp\n'}
+[48.596645] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__rosidl_typesupport_introspection_cpp.hpp\n'}
+[48.596955] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__rosidl_typesupport_introspection_cpp.hpp\n'}
+[48.597191] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__type_support.cpp\n'}
+[48.597396] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__type_support.cpp\n'}
+[48.597707] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__type_support.cpp\n'}
+[48.598037] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv\n'}
+[48.598462] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail\n'}
+[48.598883] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__type_support.cpp\n'}
+[48.599091] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__rosidl_typesupport_introspection_cpp.hpp\n'}
+[48.599283] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_introspection_cpp.so\n'}
+[48.599480] (xterra) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[48.599796] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_cpp.so\n'}
+[48.600118] (xterra) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_cpp.so" to ""\n'}
+[48.600495] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/environment/pythonpath.sh\n'}
+[48.600884] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/environment/pythonpath.dsv\n'}
+[48.601322] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra-0.0.0-py3.10.egg-info\n'}
+[48.601665] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[48.601975] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[48.602412] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[48.602742] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[48.603057] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra\n'}
+[48.603470] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/xterra_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[48.603791] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/_xterra_s.ep.rosidl_typesupport_c.c\n'}
+[48.604099] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg\n'}
+[48.604469] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_sensor_data.py\n'}
+[48.604840] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_quaternion.py\n'}
+[48.605272] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_indicator_data.py\n'}
+[48.605504] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_quaternion_s.c\n'}
+[48.605900] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_solver_stats_s.c\n'}
+[48.606310] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_joy_data_s.c\n'}
+[48.606743] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_sensor_data_s.c\n'}
+[48.607069] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_motor_gain_multiplier_s.c\n'}
+[48.607382] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_float_scalar.py\n'}
+[48.607696] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_quad_log.py\n'}
+[48.607895] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_joint_data_s.c\n'}
+[48.608220] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_float_scalar_s.c\n'}
+[48.608419] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_rgb_frame.py\n'}
+[48.608750] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_point3_d.py\n'}
+[48.609167] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_joy_data.py\n'}
+[48.609509] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_indicator_data_s.c\n'}
+[48.609918] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_camera_frame_s.c\n'}
+[48.610121] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_motor_gain_multiplier.py\n'}
+[48.610434] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_base_orientation_wrench_debug.py\n'}
+[48.610754] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_point3_d_s.c\n'}
+[48.610961] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_rgb_frame_s.c\n'}
+[48.611148] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_quad_log_s.c\n'}
+[48.611333] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_joint_data.py\n'}
+[48.611519] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/__init__.py\n'}
+[48.611730] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_solver_stats.py\n'}
+[48.611922] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_base_orientation_wrench_debug_s.c\n'}
+[48.612105] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_camera_frame.py\n'}
+[48.612301] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/libxterra__rosidl_generator_py.so\n'}
+[48.612532] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/_xterra_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[48.612730] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/xterra_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[48.612922] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/srv\n'}
+[48.613106] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/srv/_capture_image_s.c\n'}
+[48.613733] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/srv/_capture_image.py\n'}
+[48.613925] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/srv/__init__.py\n'}
+[48.614182] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/_xterra_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[48.614360] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/xterra_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[48.614533] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/__init__.py\n'}
+[48.639779] (-) TimerEvent: {}
+[48.740163] (-) TimerEvent: {}
+[48.746978] (xterra) StdoutLine: {'line': b"Listing '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra'...\n"}
+[48.747652] (xterra) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/__init__.py'...\n"}
+[48.747840] (xterra) StdoutLine: {'line': b"Listing '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg'...\n"}
+[48.747993] (xterra) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/__init__.py'...\n"}
+[48.748217] (xterra) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_base_orientation_wrench_debug.py'...\n"}
+[48.748370] (xterra) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_camera_frame.py'...\n"}
+[48.748514] (xterra) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_float_scalar.py'...\n"}
+[48.748651] (xterra) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_indicator_data.py'...\n"}
+[48.748784] (xterra) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_joint_data.py'...\n"}
+[48.748916] (xterra) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_joy_data.py'...\n"}
+[48.749046] (xterra) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_motor_gain_multiplier.py'...\n"}
+[48.749242] (xterra) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_point3_d.py'...\n"}
+[48.749383] (xterra) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_quad_log.py'...\n"}
+[48.749514] (xterra) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_quaternion.py'...\n"}
+[48.749646] (xterra) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_rgb_frame.py'...\n"}
+[48.749779] (xterra) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_sensor_data.py'...\n"}
+[48.749906] (xterra) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_solver_stats.py'...\n"}
+[48.750035] (xterra) StdoutLine: {'line': b"Listing '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/srv'...\n"}
+[48.750160] (xterra) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/srv/__init__.py'...\n"}
+[48.750287] (xterra) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/srv/_capture_image.py'...\n"}
+[48.767506] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/xterra_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[48.769172] (xterra) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/xterra_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[48.770124] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/xterra_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[48.770349] (xterra) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/xterra_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[48.770512] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/xterra_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[48.771561] (xterra) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/xterra_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[48.771822] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/lib/libxterra__rosidl_generator_py.so\n'}
+[48.772458] (xterra) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/xterra/lib/libxterra__rosidl_generator_py.so" to ""\n'}
+[48.772880] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/JointData.idl\n'}
+[48.773177] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/SensorData.idl\n'}
+[48.773442] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/MotorGainMultiplier.idl\n'}
+[48.773585] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/QuadLog.idl\n'}
+[48.773837] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/Point3D.idl\n'}
+[48.774082] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/Quaternion.idl\n'}
+[48.774393] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/SolverStats.idl\n'}
+[48.774698] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/RGBFrame.idl\n'}
+[48.775011] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/IndicatorData.idl\n'}
+[48.775329] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/BaseOrientationWrenchDebug.idl\n'}
+[48.775623] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/FloatScalar.idl\n'}
+[48.775933] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/JoyData.idl\n'}
+[48.776236] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/CameraFrame.idl\n'}
+[48.776758] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/srv/CaptureImage.idl\n'}
+[48.777095] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/JointData.msg\n'}
+[48.777454] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/SensorData.msg\n'}
+[48.777839] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/MotorGainMultiplier.msg\n'}
+[48.778153] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/QuadLog.msg\n'}
+[48.778463] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/Point3D.msg\n'}
+[48.778757] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/Quaternion.msg\n'}
+[48.779055] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/SolverStats.msg\n'}
+[48.779381] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/RGBFrame.msg\n'}
+[48.779671] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/IndicatorData.msg\n'}
+[48.780022] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/BaseOrientationWrenchDebug.msg\n'}
+[48.780344] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/FloatScalar.msg\n'}
+[48.780664] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/JoyData.msg\n'}
+[48.781008] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/CameraFrame.msg\n'}
+[48.781426] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/srv/CaptureImage.srv\n'}
+[48.781728] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/srv/CaptureImage_Request.msg\n'}
+[48.782073] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/srv/CaptureImage_Response.msg\n'}
+[48.782534] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/ament_index/resource_index/package_run_dependencies/xterra\n'}
+[48.783002] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/ament_index/resource_index/parent_prefix_path/xterra\n'}
+[48.783416] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/environment/ament_prefix_path.sh\n'}
+[48.783836] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/environment/ament_prefix_path.dsv\n'}
+[48.784185] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/environment/path.sh\n'}
+[48.784865] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/environment/path.dsv\n'}
+[48.785091] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/local_setup.bash\n'}
+[48.785467] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/local_setup.sh\n'}
+[48.785790] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/local_setup.zsh\n'}
+[48.786051] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/local_setup.dsv\n'}
+[48.786299] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/package.dsv\n'}
+[48.786637] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/ament_index/resource_index/packages/xterra\n'}
+[48.787088] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/export_xterra__rosidl_generator_cExport.cmake\n'}
+[48.787458] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/export_xterra__rosidl_generator_cExport-noconfig.cmake\n'}
+[48.787826] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/export_xterra__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[48.788196] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/export_xterra__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[48.788538] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/export_xterra__rosidl_generator_cppExport.cmake\n'}
+[48.788910] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/export_xterra__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[48.789373] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/export_xterra__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[48.789759] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/xterra__rosidl_typesupport_introspection_cExport.cmake\n'}
+[48.790073] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/xterra__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[48.790449] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/xterra__rosidl_typesupport_cExport.cmake\n'}
+[48.790845] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/xterra__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[48.791230] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/xterra__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[48.791573] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/xterra__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[48.791939] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/xterra__rosidl_typesupport_cppExport.cmake\n'}
+[48.792285] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/xterra__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[48.792652] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/export_xterra__rosidl_generator_pyExport.cmake\n'}
+[48.792977] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/export_xterra__rosidl_generator_pyExport-noconfig.cmake\n'}
+[48.793439] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/rosidl_cmake-extras.cmake\n'}
+[48.793706] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[48.794047] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[48.794352] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[48.794703] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[48.795105] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[48.795403] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[48.795714] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/xterraConfig.cmake\n'}
+[48.795952] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/xterraConfig-version.cmake\n'}
+[48.796273] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/package.xml\n'}
+[48.804530] (xterra) CommandEnded: {'returncode': 0}
+[48.841637] (-) TimerEvent: {}
+[48.873459] (xterra) JobEnded: {'identifier': 'xterra', 'rc': 0}
+[48.875370] (-) EventReactorShutdown: {}

@@ -11,6 +11,7 @@ cleanup() {
 # Trap the SIGINT signal (Ctrl+C) and execute the cleanup function
 trap cleanup SIGINT
 
+source install/setup.bash
 
 # 1. Start LiDAR
 echo ">>> Starting LiDAR..."

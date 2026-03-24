@@ -1,0 +1,4 @@
+source;share/m2_metal_description/local_setup.bash
+source;share/m2_metal_description/local_setup.dsv
+source;share/m2_metal_description/local_setup.sh
+source;share/m2_metal_description/local_setup.zsh

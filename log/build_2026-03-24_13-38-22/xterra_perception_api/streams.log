@@ -1,0 +1,41 @@
+[0.043s] Invoking command in '/home/ros2_ws/build/xterra_perception_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/xterra_perception_api
+[0.231s] Consolidate compiler generated dependencies of target xterra_perception_api
+[0.300s] [100%] Built target xterra_perception_api
+[0.348s] Invoked command in '/home/ros2_ws/build/xterra_perception_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/xterra_perception_api
+[0.390s] Invoking command in '/home/ros2_ws/build/xterra_perception_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/xterra_perception_api
+[0.422s] -- Install configuration: ""
+[0.423s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/library_path.sh
+[0.423s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/library_path.dsv
+[0.423s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include
+[0.423s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/camera_interface
+[0.423s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/camera_interface/camera_config.hpp
+[0.423s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/camera_interface/base_camera.hpp
+[0.424s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/orbbec
+[0.424s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/orbbec/orbbec_multi_cam_manager.hpp
+[0.424s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/orbbec/orbbec_camera.hpp
+[0.424s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/orbbec/orbbec_camera_config.hpp
+[0.424s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/utils
+[0.425s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/utils/image_overlay_utils.hpp
+[0.426s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/lib/libxterra_perception_api.so
+[0.426s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/config
+[0.426s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/config/camera_meta_data.yaml
+[0.427s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/ament_index/resource_index/package_run_dependencies/xterra_perception_api
+[0.427s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/ament_index/resource_index/parent_prefix_path/xterra_perception_api
+[0.427s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/ament_prefix_path.sh
+[0.427s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/ament_prefix_path.dsv
+[0.428s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/path.sh
+[0.428s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/path.dsv
+[0.428s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/local_setup.bash
+[0.428s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/local_setup.sh
+[0.428s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/local_setup.zsh
+[0.428s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/local_setup.dsv
+[0.429s] -- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/package.dsv
+[0.429s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/ament_index/resource_index/packages/xterra_perception_api
+[0.432s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/export_xterra_perception_apiExport.cmake
+[0.433s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/export_xterra_perception_apiExport-noconfig.cmake
+[0.433s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/ament_cmake_export_targets-extras.cmake
+[0.433s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.434s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/xterra_perception_apiConfig.cmake
+[0.434s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/xterra_perception_apiConfig-version.cmake
+[0.434s] -- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/package.xml
+[0.442s] Invoked command in '/home/ros2_ws/build/xterra_perception_api' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/xterra_perception_api

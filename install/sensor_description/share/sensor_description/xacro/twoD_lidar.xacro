@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <xacro:macro name="cylinder_inertia" params="mass radius length">
+        <xacro:property name="ixx_iyy_val"
+            value="${(1/12) * mass * (3 * radius * radius + length * length)}" />
+        <xacro:property name="izz_val" value="${(1/2) * mass * radius * radius}" />
+        <inertial>
+            <mass value="${mass}" />
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <inertia ixx="${ixx_iyy_val}" ixy="0.0" ixz="0.0"
+                iyy="${ixx_iyy_val}" iyz="0.0"
+                izz="${izz_val}" />
+        </inertial>
+    </xacro:macro>
+
+    <xacro:macro name="two_d_lidar"
+        params="prefix parent_link xyz rpy radius length mass:=1.0
+        min_angle_rad max_angle_rad samples:=720 horizontal_resolution:=1
+        update_rate_hz:=10.0 visualize_rays:=false
+        output_topic_name:=scan 
+        range_min_m:=0.1 range_max_m:=30.0 range_resolution_m:=0.01
+        material_name:=Gazebo/Black">
+
+        <xacro:property name="lidar_link_name" value="${prefix}_lidar_link" />
+        <xacro:property name="lidar_joint_name" value="${prefix}_lidar_joint" />
+        <xacro:property name="lidar_sensor_name" value="${prefix}_lidar_sensor" />
+        <xacro:property name="lidar_plugin_name" value="${prefix}_lidar_controller" />
+
+        <link name="${lidar_link_name}">
+            <visual>
+                <geometry>
+                    <mesh filename="file://$(find sensor_description)/meshes/rplidar.dae"
+                    />
+                </geometry>
+                <material name="silver" />
+            </visual>
+            <collision>
+                <geometry>
+                    <mesh filename="file://$(find sensor_description)/meshes/rplidar.dae"
+                    />
+                </geometry>
+            </collision>
+            <xacro:cylinder_inertia mass="${mass}" radius="${radius}" length="${length}" />
+        </link>
+
+        <joint name="${lidar_joint_name}" type="fixed">
+            <parent link="${parent_link}" />
+            <child link="${lidar_link_name}" />
+            <origin xyz="${xyz}" rpy="${rpy}" />
+        </joint>
+
+        <gazebo reference="${lidar_link_name}">
+            <material>${material_name}</material>
+            <sensor name="${lidar_sensor_name}" type="ray">
+                <pose>0 0 0 0 0 0</pose>
+                <visualize>${visualize_rays}</visualize>
+                <update_rate>${update_rate_hz}</update_rate>
+                <ray>
+                    <scan>
+                        <horizontal>
+                            <samples>${samples}</samples>
+                            <resolution>${horizontal_resolution}</resolution>
+                            <min_angle>${min_angle_rad}</min_angle>
+                            <max_angle>${max_angle_rad}</max_angle>
+                        </horizontal>
+                    </scan>
+                    <range>
+                        <min>${range_min_m}</min>
+                        <max>${range_max_m}</max>
+                        <resolution>${range_resolution_m}</resolution>
+                    </range>
+                    <noise>
+                        <type>gaussian</type>
+                        <mean>0.0</mean>
+                        <stddev>0.01</stddev>
+                    </noise>
+                </ray>
+                <plugin name="${lidar_plugin_name}" filename="libgazebo_ros_ray_sensor.so">
+                    <ros>
+                        <argument>~/out:=${output_topic_name}</argument>
+                    </ros>
+                    <output_type>sensor_msgs/LaserScan</output_type>
+                    <frame_name>${lidar_link_name}</frame_name>
+                </plugin>
+            </sensor>
+        </gazebo>
+    </xacro:macro>
+
+</robot>
