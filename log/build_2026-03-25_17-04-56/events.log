@@ -1,0 +1,1319 @@
+[0.000000] (-) TimerEvent: {}
+[0.000811] (-) JobUnselected: {'identifier': 'cyclonedds'}
+[0.001447] (-) JobUnselected: {'identifier': 'dds_utils'}
+[0.001511] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.001559] (-) JobUnselected: {'identifier': 'm2_metal_description'}
+[0.001903] (-) JobUnselected: {'identifier': 'orbbec_camera'}
+[0.001961] (-) JobUnselected: {'identifier': 'orbbec_camera_msgs'}
+[0.002003] (-) JobUnselected: {'identifier': 'orbbec_description'}
+[0.002041] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.002081] (-) JobUnselected: {'identifier': 'sensor_description'}
+[0.002746] (-) JobUnselected: {'identifier': 'xterra'}
+[0.002846] (-) JobUnselected: {'identifier': 'xterra_perception_api'}
+[0.002929] (realsense2_camera_msgs) JobQueued: {'identifier': 'realsense2_camera_msgs', 'dependencies': OrderedDict()}
+[0.003012] (realsense2_camera) JobQueued: {'identifier': 'realsense2_camera', 'dependencies': OrderedDict([('realsense2_camera_msgs', '/home/ros2_ws/install/realsense2_camera_msgs')])}
+[0.003093] (realsense2_camera_msgs) JobStarted: {'identifier': 'realsense2_camera_msgs'}
+[0.027974] (realsense2_camera_msgs) JobProgress: {'identifier': 'realsense2_camera_msgs', 'progress': 'cmake'}
+[0.031828] (realsense2_camera_msgs) JobProgress: {'identifier': 'realsense2_camera_msgs', 'progress': 'build'}
+[0.033305] (realsense2_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2_ws/build/realsense2_camera_msgs', '--', '-j6', '-l6'], 'cwd': '/home/ros2_ws/build/realsense2_camera_msgs', 'env': OrderedDict([('HOSTNAME', 'xterra-orin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2_ws/install/xterra_perception_api/lib:/home/ros2_ws/install/xterra/lib:/home/ros2_ws/install/realsense2_camera/lib:/home/ros2_ws/install/realsense2_camera_msgs/lib:/home/ros2_ws/install/livox_ros_driver2/lib:/workspace/pcl_overlay/install/pcl_ros/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:'), ('HOME', '/root'), ('CYCLONEDDS_URI', 'file:///home/ros2_ws/cyclonedds.xml'), ('OLDPWD', '/home/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install:/workspace/pcl_overlay/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('OrbbecSDK_DIR', '/usr/local/lib/cmake/OrbbecSDK'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/livox_ros_driver2:/workspace/pcl_overlay/install/pcl_ros:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros2_ws/build/realsense2_camera_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages:/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/livox_ros_driver2:/workspace/pcl_overlay/install/pcl_ros:/opt/OrbbecSDK_v2.4.11/lib::/opt/ros/humble')]), 'shell': False}
+[0.099252] (-) TimerEvent: {}
+[0.124598] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199458] (-) TimerEvent: {}
+[0.300359] (-) TimerEvent: {}
+[0.401243] (-) TimerEvent: {}
+[0.497815] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.501379] (-) TimerEvent: {}
+[0.516101] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.530241] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.601692] (-) TimerEvent: {}
+[0.650624] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.701765] (-) TimerEvent: {}
+[0.730130] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.764743] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.801880] (-) TimerEvent: {}
+[0.902510] (-) TimerEvent: {}
+[1.003372] (-) TimerEvent: {}
+[1.104396] (-) TimerEvent: {}
+[1.205337] (-) TimerEvent: {}
+[1.306261] (-) TimerEvent: {}
+[1.407258] (-) TimerEvent: {}
+[1.508258] (-) TimerEvent: {}
+[1.529826] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.15 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[1.534384] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.15 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[1.539109] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.15 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[1.545475] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.608380] (-) TimerEvent: {}
+[1.709110] (-) TimerEvent: {}
+[1.810096] (-) TimerEvent: {}
+[1.911028] (-) TimerEvent: {}
+[2.011871] (-) TimerEvent: {}
+[2.107842] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.111957] (-) TimerEvent: {}
+[2.212640] (-) TimerEvent: {}
+[2.313950] (-) TimerEvent: {}
+[2.416114] (-) TimerEvent: {}
+[2.517525] (-) TimerEvent: {}
+[2.619319] (-) TimerEvent: {}
+[2.720598] (-) TimerEvent: {}
+[2.822829] (-) TimerEvent: {}
+[2.860386] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.922152] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.922942] (-) TimerEvent: {}
+[2.974653] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.976239] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.976579] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[3.023158] (-) TimerEvent: {}
+[3.074667] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.15 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[3.077947] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.15 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[3.119579] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.123251] (-) TimerEvent: {}
+[3.224232] (-) TimerEvent: {}
+[3.325835] (-) TimerEvent: {}
+[3.337057] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[3.385881] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2_ws/build/realsense2_camera_msgs\n'}
+[3.426336] (-) TimerEvent: {}
+[3.505493] (realsense2_camera_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c.o\x1b[0m\n'}
+[3.506267] (realsense2_camera_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/imu_info__functions.c.o\x1b[0m\n'}
+[3.506477] (realsense2_camera_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__functions.c.o\x1b[0m\n'}
+[3.507324] (realsense2_camera_msgs) StdoutLine: {'line': b'[  7%] Built target realsense2_camera_msgs__cpp\n'}
+[3.509000] (realsense2_camera_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/extrinsics__functions.c.o\x1b[0m\n'}
+[3.526532] (-) TimerEvent: {}
+[3.551866] (realsense2_camera_msgs) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_copy_realsense2_camera_msgs\n'}
+[3.577005] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/imu_info__type_support.cpp.o\x1b[0m\n'}
+[3.626851] (-) TimerEvent: {}
+[3.635719] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/imu_info__type_support.cpp.o\x1b[0m\n'}
+[3.659725] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[3.664436] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/metadata__type_support.cpp.o\x1b[0m\n'}
+[3.693176] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library librealsense2_camera_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.694038] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/imu_info__type_support.cpp.o\x1b[0m\n'}
+[3.727158] (-) TimerEvent: {}
+[3.805895] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 21%] Built target realsense2_camera_msgs__rosidl_generator_c\n'}
+[3.827532] (-) TimerEvent: {}
+[3.832655] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[3.927813] (-) TimerEvent: {}
+[4.029618] (-) TimerEvent: {}
+[4.131637] (-) TimerEvent: {}
+[4.234133] (-) TimerEvent: {}
+[4.335985] (-) TimerEvent: {}
+[4.409468] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[4.436278] (-) TimerEvent: {}
+[4.537563] (-) TimerEvent: {}
+[4.638887] (-) TimerEvent: {}
+[4.740152] (-) TimerEvent: {}
+[4.841389] (-) TimerEvent: {}
+[4.879155] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/metadata__type_support.cpp.o\x1b[0m\n'}
+[4.880679] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/srv/detail/dds_fastrtps/device_info__type_support.cpp.o\x1b[0m\n'}
+[4.890082] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/srv/detail/device_info__type_support.cpp.o\x1b[0m\n'}
+[4.941693] (-) TimerEvent: {}
+[4.944766] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/metadata__type_support.cpp.o\x1b[0m\n'}
+[5.041990] (-) TimerEvent: {}
+[5.143083] (-) TimerEvent: {}
+[5.244156] (-) TimerEvent: {}
+[5.248117] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/srv/device_info__type_support.cpp.o\x1b[0m\n'}
+[5.344397] (-) TimerEvent: {}
+[5.445396] (-) TimerEvent: {}
+[5.546401] (-) TimerEvent: {}
+[5.647495] (-) TimerEvent: {}
+[5.649893] (realsense2_camera_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[5.653708] (realsense2_camera_msgs) StdoutLine: {'line': b'writing realsense2_camera_msgs.egg-info/PKG-INFO\n'}
+[5.655666] (realsense2_camera_msgs) StdoutLine: {'line': b'writing dependency_links to realsense2_camera_msgs.egg-info/dependency_links.txt\n'}
+[5.656499] (realsense2_camera_msgs) StdoutLine: {'line': b'writing top-level names to realsense2_camera_msgs.egg-info/top_level.txt\n'}
+[5.664523] (realsense2_camera_msgs) StdoutLine: {'line': b"reading manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'\n"}
+[5.667039] (realsense2_camera_msgs) StdoutLine: {'line': b"writing manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'\n"}
+[5.747722] (-) TimerEvent: {}
+[5.800941] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 34%] Built target ament_cmake_python_build_realsense2_camera_msgs_egg\n'}
+[5.848034] (-) TimerEvent: {}
+[5.875829] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/imu_info__type_support_c.cpp.o\x1b[0m\n'}
+[5.882462] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/imu_info__type_support.c.o\x1b[0m\n'}
+[5.948344] (-) TimerEvent: {}
+[6.045269] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/extrinsics__type_support.c.o\x1b[0m\n'}
+[6.048500] (-) TimerEvent: {}
+[6.094893] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/extrinsics__type_support_c.cpp.o\x1b[0m\n'}
+[6.106736] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.110246] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.148895] (-) TimerEvent: {}
+[6.163596] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/metadata__type_support.c.o\x1b[0m\n'}
+[6.240655] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 49%] Built target realsense2_camera_msgs__rosidl_typesupport_cpp\n'}
+[6.249148] (-) TimerEvent: {}
+[6.282035] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/srv/detail/device_info__type_support.c.o\x1b[0m\n'}
+[6.321923] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/imu_info__type_support.cpp.o\x1b[0m\n'}
+[6.332395] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.349469] (-) TimerEvent: {}
+[6.378765] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 56%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp\n'}
+[6.400941] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.414101] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/metadata__type_support_c.cpp.o\x1b[0m\n'}
+[6.423543] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[6.449788] (-) TimerEvent: {}
+[6.498164] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 63%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c\n'}
+[6.527249] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/metadata__type_support.cpp.o\x1b[0m\n'}
+[6.528150] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/srv/device_info__type_support.cpp.o\x1b[0m\n'}
+[6.550100] (-) TimerEvent: {}
+[6.628691] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/srv/detail/device_info__type_support_c.cpp.o\x1b[0m\n'}
+[6.629482] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.641469] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 72%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[6.650399] (-) TimerEvent: {}
+[6.749278] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 74%] Built target realsense2_camera_msgs__rosidl_typesupport_c\n'}
+[6.750487] (-) TimerEvent: {}
+[6.852898] (-) TimerEvent: {}
+[6.954423] (-) TimerEvent: {}
+[7.056116] (-) TimerEvent: {}
+[7.157708] (-) TimerEvent: {}
+[7.259139] (-) TimerEvent: {}
+[7.360332] (-) TimerEvent: {}
+[7.461403] (-) TimerEvent: {}
+[7.562503] (-) TimerEvent: {}
+[7.615043] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.662794] (-) TimerEvent: {}
+[7.763917] (-) TimerEvent: {}
+[7.824918] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 78%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c\n'}
+[7.864188] (-) TimerEvent: {}
+[7.885424] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 78%] Built target realsense2_camera_msgs\n'}
+[7.941355] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 80%] Built target realsense2_camera_msgs__py\n'}
+[7.964424] (-) TimerEvent: {}
+[8.000420] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_imu_info_s.c.o\x1b[0m\n'}
+[8.001178] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/srv/_device_info_s.c.o\x1b[0m\n'}
+[8.001382] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_extrinsics_s.c.o\x1b[0m\n'}
+[8.001544] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_metadata_s.c.o\x1b[0m\n'}
+[8.065150] (-) TimerEvent: {}
+[8.167105] (-) TimerEvent: {}
+[8.267988] (-) TimerEvent: {}
+[8.368512] (-) TimerEvent: {}
+[8.469017] (-) TimerEvent: {}
+[8.569568] (-) TimerEvent: {}
+[8.670239] (-) TimerEvent: {}
+[8.770774] (-) TimerEvent: {}
+[8.871255] (-) TimerEvent: {}
+[8.972059] (-) TimerEvent: {}
+[9.073675] (-) TimerEvent: {}
+[9.176485] (-) TimerEvent: {}
+[9.278750] (-) TimerEvent: {}
+[9.344677] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/librealsense2_camera_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[9.378842] (-) TimerEvent: {}
+[9.452113] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 89%] Built target realsense2_camera_msgs__rosidl_generator_py\n'}
+[9.479100] (-) TimerEvent: {}
+[9.508555] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.509413] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.509829] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.579797] (-) TimerEvent: {}
+[9.681766] (-) TimerEvent: {}
+[9.782917] (-) TimerEvent: {}
+[9.817539] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[9.818382] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[9.830010] (realsense2_camera_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[9.883785] (-) TimerEvent: {}
+[9.924702] (realsense2_camera_msgs) StdoutLine: {'line': b'[100%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[9.925528] (realsense2_camera_msgs) StdoutLine: {'line': b'[100%] Built target realsense2_camera_msgs__rosidl_typesupport_c__pyext\n'}
+[9.953292] (realsense2_camera_msgs) StdoutLine: {'line': b'[100%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.983468] (-) TimerEvent: {}
+[9.987919] (realsense2_camera_msgs) CommandEnded: {'returncode': 0}
+[9.991303] (realsense2_camera_msgs) JobProgress: {'identifier': 'realsense2_camera_msgs', 'progress': 'install'}
+[10.018728] (realsense2_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2_ws/build/realsense2_camera_msgs'], 'cwd': '/home/ros2_ws/build/realsense2_camera_msgs', 'env': OrderedDict([('HOSTNAME', 'xterra-orin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2_ws/install/xterra_perception_api/lib:/home/ros2_ws/install/xterra/lib:/home/ros2_ws/install/realsense2_camera/lib:/home/ros2_ws/install/realsense2_camera_msgs/lib:/home/ros2_ws/install/livox_ros_driver2/lib:/workspace/pcl_overlay/install/pcl_ros/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:'), ('HOME', '/root'), ('CYCLONEDDS_URI', 'file:///home/ros2_ws/cyclonedds.xml'), ('OLDPWD', '/home/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install:/workspace/pcl_overlay/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('OrbbecSDK_DIR', '/usr/local/lib/cmake/OrbbecSDK'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/livox_ros_driver2:/workspace/pcl_overlay/install/pcl_ros:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros2_ws/build/realsense2_camera_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages:/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/livox_ros_driver2:/workspace/pcl_overlay/install/pcl_ros:/opt/OrbbecSDK_v2.4.11/lib::/opt/ros/humble')]), 'shell': False}
+[10.048351] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.050272] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/realsense2_camera_msgs\n'}
+[10.051312] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs\n'}
+[10.051820] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg\n'}
+[10.052212] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/extrinsics.h\n'}
+[10.052893] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/metadata.h\n'}
+[10.053464] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.053794] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail\n'}
+[10.054281] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__functions.h\n'}
+[10.054729] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__struct.h\n'}
+[10.055071] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__functions.c\n'}
+[10.055418] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.h\n'}
+[10.055735] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__struct.h\n'}
+[10.056067] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.h\n'}
+[10.056396] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.h\n'}
+[10.056741] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__functions.h\n'}
+[10.057065] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__functions.c\n'}
+[10.057384] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__struct.h\n'}
+[10.057699] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__functions.c\n'}
+[10.058103] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__functions.h\n'}
+[10.058474] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/imu_info.h\n'}
+[10.059092] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv\n'}
+[10.059818] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/device_info.h\n'}
+[10.060182] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail\n'}
+[10.060508] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__functions.h\n'}
+[10.061115] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.h\n'}
+[10.061837] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__functions.c\n'}
+[10.062219] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__struct.h\n'}
+[10.062574] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.sh\n'}
+[10.062905] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/library_path.dsv\n'}
+[10.063348] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_c.so\n'}
+[10.064247] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_c.so" to ""\n'}
+[10.064649] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs\n'}
+[10.064998] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg\n'}
+[10.065299] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.065627] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail\n'}
+[10.065979] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h\n'}
+[10.066223] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h\n'}
+[10.066515] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h\n'}
+[10.066743] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv\n'}
+[10.066960] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail\n'}
+[10.067320] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_c.h\n'}
+[10.067649] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[10.067991] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.068290] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs\n'}
+[10.068580] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg\n'}
+[10.068859] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.069171] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail\n'}
+[10.069444] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h\n'}
+[10.069716] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_c.h\n'}
+[10.070040] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.c\n'}
+[10.070315] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h\n'}
+[10.070552] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.c\n'}
+[10.070865] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.c\n'}
+[10.071099] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv\n'}
+[10.071344] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail\n'}
+[10.071720] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.c\n'}
+[10.071949] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_c.h\n'}
+[10.072216] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so\n'}
+[10.072572] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.072843] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_c.so\n'}
+[10.073073] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_c.so" to ""\n'}
+[10.073288] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs\n'}
+[10.073552] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg\n'}
+[10.073829] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[10.074110] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/extrinsics.hpp\n'}
+[10.074330] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail\n'}
+[10.074642] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__struct.hpp\n'}
+[10.074877] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__builder.hpp\n'}
+[10.075101] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__traits.hpp\n'}
+[10.075402] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.hpp\n'}
+[10.075792] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__traits.hpp\n'}
+[10.076504] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__struct.hpp\n'}
+[10.076885] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.hpp\n'}
+[10.077481] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__struct.hpp\n'}
+[10.077830] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__builder.hpp\n'}
+[10.078320] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__builder.hpp\n'}
+[10.078917] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__traits.hpp\n'}
+[10.079721] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.hpp\n'}
+[10.080362] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/metadata.hpp\n'}
+[10.081028] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/imu_info.hpp\n'}
+[10.081574] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv\n'}
+[10.081893] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/device_info.hpp\n'}
+[10.082244] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail\n'}
+[10.082553] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__traits.hpp\n'}
+[10.083080] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__builder.hpp\n'}
+[10.083554] (-) TimerEvent: {}
+[10.084040] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.hpp\n'}
+[10.084970] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__struct.hpp\n'}
+[10.085440] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs\n'}
+[10.085765] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg\n'}
+[10.086076] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail\n'}
+[10.086375] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.086750] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.086990] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/dds_fastrtps\n'}
+[10.087274] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.087592] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.087880] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv\n'}
+[10.088111] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail\n'}
+[10.088327] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.088730] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/dds_fastrtps\n'}
+[10.089005] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.089226] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[10.089504] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs\n'}
+[10.089731] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg\n'}
+[10.089945] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail\n'}
+[10.090218] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.090492] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.090747] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/metadata__type_support.cpp\n'}
+[10.091036] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.091319] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/extrinsics__type_support.cpp\n'}
+[10.091676] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/msg/detail/imu_info__type_support.cpp\n'}
+[10.091958] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv\n'}
+[10.092184] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail\n'}
+[10.092456] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.092711] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/include/realsense2_camera_msgs/realsense2_camera_msgs/srv/detail/device_info__type_support.cpp\n'}
+[10.093001] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[10.093684] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[10.094066] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_cpp.so\n'}
+[10.095212] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[10.095705] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.sh\n'}
+[10.096093] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/pythonpath.dsv\n'}
+[10.096419] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.54.1-py3.10.egg-info\n'}
+[10.096709] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.54.1-py3.10.egg-info/SOURCES.txt\n'}
+[10.096954] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.54.1-py3.10.egg-info/PKG-INFO\n'}
+[10.097258] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.54.1-py3.10.egg-info/dependency_links.txt\n'}
+[10.097492] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs-4.54.1-py3.10.egg-info/top_level.txt\n'}
+[10.097785] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs\n'}
+[10.098077] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.098368] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[10.098599] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[10.098914] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.099218] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg\n'}
+[10.099622] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_extrinsics_s.c\n'}
+[10.099940] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_extrinsics.py\n'}
+[10.100196] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_metadata.py\n'}
+[10.100484] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_imu_info.py\n'}
+[10.100763] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_imu_info_s.c\n'}
+[10.101034] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_metadata_s.c\n'}
+[10.101314] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/__init__.py\n'}
+[10.101539] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/librealsense2_camera_msgs__rosidl_generator_py.so\n'}
+[10.101814] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv\n'}
+[10.102093] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_device_info.py\n'}
+[10.102365] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_device_info_s.c\n'}
+[10.102669] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/__init__.py\n'}
+[10.102975] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[10.103288] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[10.103768] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/__init__.py\n'}
+[10.183663] (-) TimerEvent: {}
+[10.212652] (realsense2_camera_msgs) StdoutLine: {'line': b"Listing '/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs'...\n"}
+[10.213034] (realsense2_camera_msgs) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/__init__.py'...\n"}
+[10.213288] (realsense2_camera_msgs) StdoutLine: {'line': b"Listing '/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg'...\n"}
+[10.213516] (realsense2_camera_msgs) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/__init__.py'...\n"}
+[10.213735] (realsense2_camera_msgs) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_extrinsics.py'...\n"}
+[10.214019] (realsense2_camera_msgs) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_imu_info.py'...\n"}
+[10.214263] (realsense2_camera_msgs) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/msg/_metadata.py'...\n"}
+[10.214480] (realsense2_camera_msgs) StdoutLine: {'line': b"Listing '/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv'...\n"}
+[10.214696] (realsense2_camera_msgs) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/__init__.py'...\n"}
+[10.214909] (realsense2_camera_msgs) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/srv/_device_info.py'...\n"}
+[10.228502] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[10.229528] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[10.230097] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[10.230963] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[10.231525] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[10.232349] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[10.232668] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_py.so\n'}
+[10.233476] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_py.so" to ""\n'}
+[10.234628] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.idl\n'}
+[10.235246] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.idl\n'}
+[10.236264] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.idl\n'}
+[10.236884] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.idl\n'}
+[10.237504] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.msg\n'}
+[10.238069] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.msg\n'}
+[10.238602] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.msg\n'}
+[10.239215] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo.srv\n'}
+[10.239892] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo_Request.msg\n'}
+[10.240428] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/srv/DeviceInfo_Response.msg\n'}
+[10.241534] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/package_run_dependencies/realsense2_camera_msgs\n'}
+[10.242589] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/parent_prefix_path/realsense2_camera_msgs\n'}
+[10.243486] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.sh\n'}
+[10.244208] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/ament_prefix_path.dsv\n'}
+[10.244901] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.sh\n'}
+[10.245511] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/environment/path.dsv\n'}
+[10.246132] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.bash\n'}
+[10.246776] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.sh\n'}
+[10.247423] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.zsh\n'}
+[10.248101] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/local_setup.dsv\n'}
+[10.248702] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.dsv\n'}
+[10.249723] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/packages/realsense2_camera_msgs\n'}
+[10.251413] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cExport.cmake\n'}
+[10.252124] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.253498] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[10.254214] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[10.255505] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.256218] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.257544] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport.cmake\n'}
+[10.258393] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.259752] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_cppExport.cmake\n'}
+[10.260986] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[10.261653] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[10.262870] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.263561] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.264793] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[10.265453] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.266656] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_pyExport.cmake\n'}
+[10.267311] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/export_realsense2_camera_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[10.268013] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[10.268641] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.269286] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.269907] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.270572] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.271173] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.271915] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.272528] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig.cmake\n'}
+[10.273056] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake/realsense2_camera_msgsConfig-version.cmake\n'}
+[10.273624] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/package.xml\n'}
+[10.283749] (-) TimerEvent: {}
+[10.288647] (realsense2_camera_msgs) CommandEnded: {'returncode': 0}
+[10.381206] (realsense2_camera_msgs) JobEnded: {'identifier': 'realsense2_camera_msgs', 'rc': 0}
+[10.384907] (-) TimerEvent: {}
+[10.385434] (realsense2_camera) JobStarted: {'identifier': 'realsense2_camera'}
+[10.414333] (realsense2_camera) JobProgress: {'identifier': 'realsense2_camera', 'progress': 'cmake'}
+[10.417648] (realsense2_camera) JobProgress: {'identifier': 'realsense2_camera', 'progress': 'build'}
+[10.418462] (realsense2_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2_ws/build/realsense2_camera', '--', '-j6', '-l6'], 'cwd': '/home/ros2_ws/build/realsense2_camera', 'env': OrderedDict([('HOSTNAME', 'xterra-orin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2_ws/install/realsense2_camera_msgs/lib:/home/ros2_ws/install/xterra_perception_api/lib:/home/ros2_ws/install/xterra/lib:/home/ros2_ws/install/realsense2_camera/lib:/home/ros2_ws/install/livox_ros_driver2/lib:/workspace/pcl_overlay/install/pcl_ros/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib'), ('HOME', '/root'), ('CYCLONEDDS_URI', 'file:///home/ros2_ws/cyclonedds.xml'), ('OLDPWD', '/home/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install:/workspace/pcl_overlay/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('OrbbecSDK_DIR', '/usr/local/lib/cmake/OrbbecSDK'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/livox_ros_driver2:/workspace/pcl_overlay/install/pcl_ros:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros2_ws/build/realsense2_camera'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages:/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/livox_ros_driver2:/workspace/pcl_overlay/install/pcl_ros:/opt/OrbbecSDK_v2.4.11/lib:/opt/ros/humble')]), 'shell': False}
+[10.485033] (-) TimerEvent: {}
+[10.514060] (realsense2_camera) StdoutLine: {'line': b'-- Create Release Build.\n'}
+[10.514642] (realsense2_camera) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[10.585162] (-) TimerEvent: {}
+[10.685713] (-) TimerEvent: {}
+[10.786200] (-) TimerEvent: {}
+[10.831635] (realsense2_camera) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[10.886337] (-) TimerEvent: {}
+[10.903183] (realsense2_camera) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[10.908603] (realsense2_camera) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[10.921511] (realsense2_camera) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[10.942044] (realsense2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.968620] (realsense2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.986421] (-) TimerEvent: {}
+[10.995485] (realsense2_camera) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[11.086532] (-) TimerEvent: {}
+[11.149335] (realsense2_camera) StdoutLine: {'line': b'-- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[11.186634] (-) TimerEvent: {}
+[11.248162] (realsense2_camera) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[11.254898] (realsense2_camera) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[11.286734] (-) TimerEvent: {}
+[11.317110] (realsense2_camera) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[11.387159] (-) TimerEvent: {}
+[11.478673] (realsense2_camera) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.18 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[11.487264] (-) TimerEvent: {}
+[11.526453] (realsense2_camera) StdoutLine: {'line': b'-- Found realsense2_camera_msgs: 4.54.1 (/home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake)\n'}
+[11.557197] (realsense2_camera) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[11.587423] (-) TimerEvent: {}
+[11.599746] (realsense2_camera) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.19 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[11.687524] (-) TimerEvent: {}
+[11.762585] (realsense2_camera) StdoutLine: {'line': b'-- Found diagnostic_updater: 4.0.6 (/opt/ros/humble/share/diagnostic_updater/cmake)\n'}
+[11.787639] (-) TimerEvent: {}
+[11.808998] (realsense2_camera) StdoutLine: {'line': b'-- Build for ROS2 Humble\n'}
+[11.887751] (-) TimerEvent: {}
+[11.988222] (-) TimerEvent: {}
+[12.010545] (realsense2_camera) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.088616] (-) TimerEvent: {}
+[12.140866] (realsense2_camera) StdoutLine: {'line': b'-- Generating done\n'}
+[12.165811] (realsense2_camera) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2_ws/build/realsense2_camera\n'}
+[12.188711] (-) TimerEvent: {}
+[12.282065] (realsense2_camera) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_sensor.cpp.o\x1b[0m\n'}
+[12.282825] (realsense2_camera) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/parameters.cpp.o\x1b[0m\n'}
+[12.283041] (realsense2_camera) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o\x1b[0m\n'}
+[12.283214] (realsense2_camera) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o\x1b[0m\n'}
+[12.283470] (realsense2_camera) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_node.dir/rclcpp_components/node_main_realsense2_camera_node.cpp.o\x1b[0m\n'}
+[12.283651] (realsense2_camera) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/rs_node_setup.cpp.o\x1b[0m\n'}
+[12.288953] (-) TimerEvent: {}
+[12.389977] (-) TimerEvent: {}
+[12.491065] (-) TimerEvent: {}
+[12.592172] (-) TimerEvent: {}
+[12.693289] (-) TimerEvent: {}
+[12.794395] (-) TimerEvent: {}
+[12.895532] (-) TimerEvent: {}
+[12.996635] (-) TimerEvent: {}
+[13.097743] (-) TimerEvent: {}
+[13.198850] (-) TimerEvent: {}
+[13.299950] (-) TimerEvent: {}
+[13.401055] (-) TimerEvent: {}
+[13.502165] (-) TimerEvent: {}
+[13.603251] (-) TimerEvent: {}
+[13.704384] (-) TimerEvent: {}
+[13.805515] (-) TimerEvent: {}
+[13.906646] (-) TimerEvent: {}
+[14.007997] (-) TimerEvent: {}
+[14.109148] (-) TimerEvent: {}
+[14.210254] (-) TimerEvent: {}
+[14.311453] (-) TimerEvent: {}
+[14.412561] (-) TimerEvent: {}
+[14.513759] (-) TimerEvent: {}
+[14.615153] (-) TimerEvent: {}
+[14.716350] (-) TimerEvent: {}
+[14.817544] (-) TimerEvent: {}
+[14.918747] (-) TimerEvent: {}
+[15.020100] (-) TimerEvent: {}
+[15.121249] (-) TimerEvent: {}
+[15.222432] (-) TimerEvent: {}
+[15.323698] (-) TimerEvent: {}
+[15.424840] (-) TimerEvent: {}
+[15.526046] (-) TimerEvent: {}
+[15.627270] (-) TimerEvent: {}
+[15.728477] (-) TimerEvent: {}
+[15.829672] (-) TimerEvent: {}
+[15.930858] (-) TimerEvent: {}
+[16.032070] (-) TimerEvent: {}
+[16.133273] (-) TimerEvent: {}
+[16.234474] (-) TimerEvent: {}
+[16.335744] (-) TimerEvent: {}
+[16.437753] (-) TimerEvent: {}
+[16.538969] (-) TimerEvent: {}
+[16.640165] (-) TimerEvent: {}
+[16.741352] (-) TimerEvent: {}
+[16.842613] (-) TimerEvent: {}
+[16.943838] (-) TimerEvent: {}
+[17.045032] (-) TimerEvent: {}
+[17.146241] (-) TimerEvent: {}
+[17.247491] (-) TimerEvent: {}
+[17.348649] (-) TimerEvent: {}
+[17.449829] (-) TimerEvent: {}
+[17.551025] (-) TimerEvent: {}
+[17.652185] (-) TimerEvent: {}
+[17.753363] (-) TimerEvent: {}
+[17.854586] (-) TimerEvent: {}
+[17.955776] (-) TimerEvent: {}
+[18.056957] (-) TimerEvent: {}
+[18.158134] (-) TimerEvent: {}
+[18.259333] (-) TimerEvent: {}
+[18.360698] (-) TimerEvent: {}
+[18.461912] (-) TimerEvent: {}
+[18.563162] (-) TimerEvent: {}
+[18.664354] (-) TimerEvent: {}
+[18.765529] (-) TimerEvent: {}
+[18.866732] (-) TimerEvent: {}
+[18.967916] (-) TimerEvent: {}
+[19.069104] (-) TimerEvent: {}
+[19.170270] (-) TimerEvent: {}
+[19.271485] (-) TimerEvent: {}
+[19.372722] (-) TimerEvent: {}
+[19.473909] (-) TimerEvent: {}
+[19.575104] (-) TimerEvent: {}
+[19.676291] (-) TimerEvent: {}
+[19.777479] (-) TimerEvent: {}
+[19.878696] (-) TimerEvent: {}
+[19.980049] (-) TimerEvent: {}
+[20.081274] (-) TimerEvent: {}
+[20.182555] (-) TimerEvent: {}
+[20.283852] (-) TimerEvent: {}
+[20.385010] (-) TimerEvent: {}
+[20.486208] (-) TimerEvent: {}
+[20.587441] (-) TimerEvent: {}
+[20.688594] (-) TimerEvent: {}
+[20.789730] (-) TimerEvent: {}
+[20.890924] (-) TimerEvent: {}
+[20.992345] (-) TimerEvent: {}
+[21.093531] (-) TimerEvent: {}
+[21.194727] (-) TimerEvent: {}
+[21.295923] (-) TimerEvent: {}
+[21.397075] (-) TimerEvent: {}
+[21.498261] (-) TimerEvent: {}
+[21.599521] (-) TimerEvent: {}
+[21.700685] (-) TimerEvent: {}
+[21.801904] (-) TimerEvent: {}
+[21.903157] (-) TimerEvent: {}
+[22.004444] (-) TimerEvent: {}
+[22.105611] (-) TimerEvent: {}
+[22.206819] (-) TimerEvent: {}
+[22.308033] (-) TimerEvent: {}
+[22.409190] (-) TimerEvent: {}
+[22.510399] (-) TimerEvent: {}
+[22.611686] (-) TimerEvent: {}
+[22.712872] (-) TimerEvent: {}
+[22.814067] (-) TimerEvent: {}
+[22.915276] (-) TimerEvent: {}
+[23.016452] (-) TimerEvent: {}
+[23.117641] (-) TimerEvent: {}
+[23.218829] (-) TimerEvent: {}
+[23.320083] (-) TimerEvent: {}
+[23.421271] (-) TimerEvent: {}
+[23.522413] (-) TimerEvent: {}
+[23.623600] (-) TimerEvent: {}
+[23.724750] (-) TimerEvent: {}
+[23.825941] (-) TimerEvent: {}
+[23.927095] (-) TimerEvent: {}
+[24.028320] (-) TimerEvent: {}
+[24.129505] (-) TimerEvent: {}
+[24.230682] (-) TimerEvent: {}
+[24.331933] (-) TimerEvent: {}
+[24.433077] (-) TimerEvent: {}
+[24.534211] (-) TimerEvent: {}
+[24.635415] (-) TimerEvent: {}
+[24.736550] (-) TimerEvent: {}
+[24.837755] (-) TimerEvent: {}
+[24.938928] (-) TimerEvent: {}
+[25.040206] (-) TimerEvent: {}
+[25.141694] (-) TimerEvent: {}
+[25.243283] (-) TimerEvent: {}
+[25.344627] (-) TimerEvent: {}
+[25.445810] (-) TimerEvent: {}
+[25.547014] (-) TimerEvent: {}
+[25.648312] (-) TimerEvent: {}
+[25.749495] (-) TimerEvent: {}
+[25.850669] (-) TimerEvent: {}
+[25.951917] (-) TimerEvent: {}
+[26.053408] (-) TimerEvent: {}
+[26.081774] (realsense2_camera) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX executable realsense2_camera_node\x1b[0m\n'}
+[26.153733] (-) TimerEvent: {}
+[26.254924] (-) TimerEvent: {}
+[26.356263] (-) TimerEvent: {}
+[26.457429] (-) TimerEvent: {}
+[26.530363] (realsense2_camera) StdoutLine: {'line': b'[ 43%] Built target realsense2_camera_node\n'}
+[26.557747] (-) TimerEvent: {}
+[26.558852] (realsense2_camera) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_utils.cpp.o\x1b[0m\n'}
+[26.658040] (-) TimerEvent: {}
+[26.759243] (-) TimerEvent: {}
+[26.860422] (-) TimerEvent: {}
+[26.961599] (-) TimerEvent: {}
+[27.062752] (-) TimerEvent: {}
+[27.163973] (-) TimerEvent: {}
+[27.265114] (-) TimerEvent: {}
+[27.366351] (-) TimerEvent: {}
+[27.467576] (-) TimerEvent: {}
+[27.568713] (-) TimerEvent: {}
+[27.669884] (-) TimerEvent: {}
+[27.771109] (-) TimerEvent: {}
+[27.872283] (-) TimerEvent: {}
+[27.973465] (-) TimerEvent: {}
+[28.074632] (-) TimerEvent: {}
+[28.175807] (-) TimerEvent: {}
+[28.276947] (-) TimerEvent: {}
+[28.378102] (-) TimerEvent: {}
+[28.479290] (-) TimerEvent: {}
+[28.580494] (-) TimerEvent: {}
+[28.681666] (-) TimerEvent: {}
+[28.782878] (-) TimerEvent: {}
+[28.884089] (-) TimerEvent: {}
+[28.985257] (-) TimerEvent: {}
+[29.086425] (-) TimerEvent: {}
+[29.187678] (-) TimerEvent: {}
+[29.288825] (-) TimerEvent: {}
+[29.389998] (-) TimerEvent: {}
+[29.491212] (-) TimerEvent: {}
+[29.592386] (-) TimerEvent: {}
+[29.693582] (-) TimerEvent: {}
+[29.794801] (-) TimerEvent: {}
+[29.896025] (-) TimerEvent: {}
+[29.997197] (-) TimerEvent: {}
+[30.098389] (-) TimerEvent: {}
+[30.199626] (-) TimerEvent: {}
+[30.300764] (-) TimerEvent: {}
+[30.401945] (-) TimerEvent: {}
+[30.503131] (-) TimerEvent: {}
+[30.604317] (-) TimerEvent: {}
+[30.705512] (-) TimerEvent: {}
+[30.806725] (-) TimerEvent: {}
+[30.907975] (-) TimerEvent: {}
+[31.009134] (-) TimerEvent: {}
+[31.110347] (-) TimerEvent: {}
+[31.211586] (-) TimerEvent: {}
+[31.312749] (-) TimerEvent: {}
+[31.413934] (-) TimerEvent: {}
+[31.515154] (-) TimerEvent: {}
+[31.616329] (-) TimerEvent: {}
+[31.717515] (-) TimerEvent: {}
+[31.818739] (-) TimerEvent: {}
+[31.919917] (-) TimerEvent: {}
+[32.021093] (-) TimerEvent: {}
+[32.122296] (-) TimerEvent: {}
+[32.223548] (-) TimerEvent: {}
+[32.324719] (-) TimerEvent: {}
+[32.425881] (-) TimerEvent: {}
+[32.527099] (-) TimerEvent: {}
+[32.628261] (-) TimerEvent: {}
+[32.729455] (-) TimerEvent: {}
+[32.830652] (-) TimerEvent: {}
+[32.931862] (-) TimerEvent: {}
+[33.033019] (-) TimerEvent: {}
+[33.134219] (-) TimerEvent: {}
+[33.235460] (-) TimerEvent: {}
+[33.336656] (-) TimerEvent: {}
+[33.437882] (-) TimerEvent: {}
+[33.539094] (-) TimerEvent: {}
+[33.640324] (-) TimerEvent: {}
+[33.741534] (-) TimerEvent: {}
+[33.842788] (-) TimerEvent: {}
+[33.944043] (-) TimerEvent: {}
+[34.045250] (-) TimerEvent: {}
+[34.146546] (-) TimerEvent: {}
+[34.247826] (-) TimerEvent: {}
+[34.349079] (-) TimerEvent: {}
+[34.450337] (-) TimerEvent: {}
+[34.551666] (-) TimerEvent: {}
+[34.652824] (-) TimerEvent: {}
+[34.754049] (-) TimerEvent: {}
+[34.855230] (-) TimerEvent: {}
+[34.956441] (-) TimerEvent: {}
+[35.057661] (-) TimerEvent: {}
+[35.158870] (-) TimerEvent: {}
+[35.260082] (-) TimerEvent: {}
+[35.361369] (-) TimerEvent: {}
+[35.462644] (-) TimerEvent: {}
+[35.563922] (-) TimerEvent: {}
+[35.665119] (-) TimerEvent: {}
+[35.766350] (-) TimerEvent: {}
+[35.867594] (-) TimerEvent: {}
+[35.968797] (-) TimerEvent: {}
+[36.070028] (-) TimerEvent: {}
+[36.171242] (-) TimerEvent: {}
+[36.272455] (-) TimerEvent: {}
+[36.369126] (realsense2_camera) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.o\x1b[0m\n'}
+[36.372616] (-) TimerEvent: {}
+[36.473556] (-) TimerEvent: {}
+[36.574722] (-) TimerEvent: {}
+[36.675822] (-) TimerEvent: {}
+[36.776954] (-) TimerEvent: {}
+[36.878147] (-) TimerEvent: {}
+[36.979285] (-) TimerEvent: {}
+[37.080453] (-) TimerEvent: {}
+[37.179795] (realsense2_camera) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/sensor_params.cpp.o\x1b[0m\n'}
+[37.180607] (-) TimerEvent: {}
+[37.281431] (-) TimerEvent: {}
+[37.382602] (-) TimerEvent: {}
+[37.483772] (-) TimerEvent: {}
+[37.584974] (-) TimerEvent: {}
+[37.686164] (-) TimerEvent: {}
+[37.787421] (-) TimerEvent: {}
+[37.888617] (-) TimerEvent: {}
+[37.989812] (-) TimerEvent: {}
+[38.091083] (-) TimerEvent: {}
+[38.192356] (-) TimerEvent: {}
+[38.293608] (-) TimerEvent: {}
+[38.394873] (-) TimerEvent: {}
+[38.496117] (-) TimerEvent: {}
+[38.597331] (-) TimerEvent: {}
+[38.698572] (-) TimerEvent: {}
+[38.799824] (-) TimerEvent: {}
+[38.901079] (-) TimerEvent: {}
+[39.002353] (-) TimerEvent: {}
+[39.086296] (realsense2_camera) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/named_filter.cpp.o\x1b[0m\n'}
+[39.102675] (-) TimerEvent: {}
+[39.203952] (-) TimerEvent: {}
+[39.305164] (-) TimerEvent: {}
+[39.406366] (-) TimerEvent: {}
+[39.508426] (-) TimerEvent: {}
+[39.609608] (-) TimerEvent: {}
+[39.710825] (-) TimerEvent: {}
+[39.812061] (-) TimerEvent: {}
+[39.913232] (-) TimerEvent: {}
+[40.014446] (-) TimerEvent: {}
+[40.115687] (-) TimerEvent: {}
+[40.216950] (-) TimerEvent: {}
+[40.318186] (-) TimerEvent: {}
+[40.419439] (-) TimerEvent: {}
+[40.520585] (-) TimerEvent: {}
+[40.621815] (-) TimerEvent: {}
+[40.723069] (-) TimerEvent: {}
+[40.824332] (-) TimerEvent: {}
+[40.925624] (-) TimerEvent: {}
+[41.026882] (-) TimerEvent: {}
+[41.128222] (-) TimerEvent: {}
+[41.229449] (-) TimerEvent: {}
+[41.330689] (-) TimerEvent: {}
+[41.431901] (-) TimerEvent: {}
+[41.533133] (-) TimerEvent: {}
+[41.634378] (-) TimerEvent: {}
+[41.735696] (-) TimerEvent: {}
+[41.836917] (-) TimerEvent: {}
+[41.938207] (-) TimerEvent: {}
+[42.039546] (-) TimerEvent: {}
+[42.140752] (-) TimerEvent: {}
+[42.241970] (-) TimerEvent: {}
+[42.343204] (-) TimerEvent: {}
+[42.444443] (-) TimerEvent: {}
+[42.545698] (-) TimerEvent: {}
+[42.646994] (-) TimerEvent: {}
+[42.748282] (-) TimerEvent: {}
+[42.849474] (-) TimerEvent: {}
+[42.950714] (-) TimerEvent: {}
+[43.051992] (-) TimerEvent: {}
+[43.153180] (-) TimerEvent: {}
+[43.254377] (-) TimerEvent: {}
+[43.355703] (-) TimerEvent: {}
+[43.456906] (-) TimerEvent: {}
+[43.558192] (-) TimerEvent: {}
+[43.659476] (-) TimerEvent: {}
+[43.760696] (-) TimerEvent: {}
+[43.862053] (-) TimerEvent: {}
+[43.963296] (-) TimerEvent: {}
+[44.064530] (-) TimerEvent: {}
+[44.165771] (-) TimerEvent: {}
+[44.267036] (-) TimerEvent: {}
+[44.368321] (-) TimerEvent: {}
+[44.469578] (-) TimerEvent: {}
+[44.570845] (-) TimerEvent: {}
+[44.672078] (-) TimerEvent: {}
+[44.773360] (-) TimerEvent: {}
+[44.874669] (-) TimerEvent: {}
+[44.976013] (-) TimerEvent: {}
+[45.077327] (-) TimerEvent: {}
+[45.178623] (-) TimerEvent: {}
+[45.279945] (-) TimerEvent: {}
+[45.381146] (-) TimerEvent: {}
+[45.482389] (-) TimerEvent: {}
+[45.583723] (-) TimerEvent: {}
+[45.685059] (-) TimerEvent: {}
+[45.786420] (-) TimerEvent: {}
+[45.887859] (-) TimerEvent: {}
+[45.989181] (-) TimerEvent: {}
+[46.090504] (-) TimerEvent: {}
+[46.191890] (-) TimerEvent: {}
+[46.293201] (-) TimerEvent: {}
+[46.394401] (-) TimerEvent: {}
+[46.495801] (-) TimerEvent: {}
+[46.597094] (-) TimerEvent: {}
+[46.698422] (-) TimerEvent: {}
+[46.799706] (-) TimerEvent: {}
+[46.900916] (-) TimerEvent: {}
+[47.002182] (-) TimerEvent: {}
+[47.103492] (-) TimerEvent: {}
+[47.204720] (-) TimerEvent: {}
+[47.306055] (-) TimerEvent: {}
+[47.407437] (-) TimerEvent: {}
+[47.508743] (-) TimerEvent: {}
+[47.610084] (-) TimerEvent: {}
+[47.711412] (-) TimerEvent: {}
+[47.812692] (-) TimerEvent: {}
+[47.914016] (-) TimerEvent: {}
+[48.015338] (-) TimerEvent: {}
+[48.116666] (-) TimerEvent: {}
+[48.217946] (-) TimerEvent: {}
+[48.319275] (-) TimerEvent: {}
+[48.420582] (-) TimerEvent: {}
+[48.521924] (-) TimerEvent: {}
+[48.623296] (-) TimerEvent: {}
+[48.724646] (-) TimerEvent: {}
+[48.826041] (-) TimerEvent: {}
+[48.927290] (-) TimerEvent: {}
+[49.028497] (-) TimerEvent: {}
+[49.129818] (-) TimerEvent: {}
+[49.231090] (-) TimerEvent: {}
+[49.332301] (-) TimerEvent: {}
+[49.433558] (-) TimerEvent: {}
+[49.534825] (-) TimerEvent: {}
+[49.636138] (-) TimerEvent: {}
+[49.737486] (-) TimerEvent: {}
+[49.838799] (-) TimerEvent: {}
+[49.940089] (-) TimerEvent: {}
+[50.041337] (-) TimerEvent: {}
+[50.142589] (-) TimerEvent: {}
+[50.243838] (-) TimerEvent: {}
+[50.345453] (-) TimerEvent: {}
+[50.447077] (-) TimerEvent: {}
+[50.548691] (-) TimerEvent: {}
+[50.650161] (-) TimerEvent: {}
+[50.751874] (-) TimerEvent: {}
+[50.853409] (-) TimerEvent: {}
+[50.954985] (-) TimerEvent: {}
+[51.056223] (-) TimerEvent: {}
+[51.157449] (-) TimerEvent: {}
+[51.258664] (-) TimerEvent: {}
+[51.359878] (-) TimerEvent: {}
+[51.461055] (-) TimerEvent: {}
+[51.562250] (-) TimerEvent: {}
+[51.663555] (-) TimerEvent: {}
+[51.764862] (-) TimerEvent: {}
+[51.866284] (-) TimerEvent: {}
+[51.967627] (-) TimerEvent: {}
+[52.068889] (-) TimerEvent: {}
+[52.170255] (-) TimerEvent: {}
+[52.271608] (-) TimerEvent: {}
+[52.372856] (-) TimerEvent: {}
+[52.474180] (-) TimerEvent: {}
+[52.577160] (-) TimerEvent: {}
+[52.678916] (-) TimerEvent: {}
+[52.780657] (-) TimerEvent: {}
+[52.882359] (-) TimerEvent: {}
+[52.984191] (-) TimerEvent: {}
+[53.086073] (-) TimerEvent: {}
+[53.187748] (-) TimerEvent: {}
+[53.289420] (-) TimerEvent: {}
+[53.391200] (-) TimerEvent: {}
+[53.447634] (realsense2_camera) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/profile_manager.cpp.o\x1b[0m\n'}
+[53.491554] (-) TimerEvent: {}
+[53.593251] (-) TimerEvent: {}
+[53.694453] (-) TimerEvent: {}
+[53.795698] (-) TimerEvent: {}
+[53.896903] (-) TimerEvent: {}
+[53.998112] (-) TimerEvent: {}
+[54.099521] (-) TimerEvent: {}
+[54.200844] (-) TimerEvent: {}
+[54.302227] (-) TimerEvent: {}
+[54.403682] (-) TimerEvent: {}
+[54.505122] (-) TimerEvent: {}
+[54.606577] (-) TimerEvent: {}
+[54.707928] (-) TimerEvent: {}
+[54.809336] (-) TimerEvent: {}
+[54.910673] (-) TimerEvent: {}
+[55.012085] (-) TimerEvent: {}
+[55.113465] (-) TimerEvent: {}
+[55.214728] (-) TimerEvent: {}
+[55.283277] (realsense2_camera) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/image_publisher.cpp.o\x1b[0m\n'}
+[55.315078] (-) TimerEvent: {}
+[55.416321] (-) TimerEvent: {}
+[55.517512] (-) TimerEvent: {}
+[55.618762] (-) TimerEvent: {}
+[55.720071] (-) TimerEvent: {}
+[55.789132] (realsense2_camera) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/tfs.cpp.o\x1b[0m\n'}
+[55.820382] (-) TimerEvent: {}
+[55.921745] (-) TimerEvent: {}
+[56.022962] (-) TimerEvent: {}
+[56.124173] (-) TimerEvent: {}
+[56.225346] (-) TimerEvent: {}
+[56.326562] (-) TimerEvent: {}
+[56.427735] (-) TimerEvent: {}
+[56.528887] (-) TimerEvent: {}
+[56.630051] (-) TimerEvent: {}
+[56.732029] (-) TimerEvent: {}
+[56.833233] (-) TimerEvent: {}
+[56.934566] (-) TimerEvent: {}
+[57.035781] (-) TimerEvent: {}
+[57.136999] (-) TimerEvent: {}
+[57.238276] (-) TimerEvent: {}
+[57.339540] (-) TimerEvent: {}
+[57.440717] (-) TimerEvent: {}
+[57.541947] (-) TimerEvent: {}
+[57.643188] (-) TimerEvent: {}
+[57.744493] (-) TimerEvent: {}
+[57.845752] (-) TimerEvent: {}
+[57.947064] (-) TimerEvent: {}
+[58.048276] (-) TimerEvent: {}
+[58.149526] (-) TimerEvent: {}
+[58.250834] (-) TimerEvent: {}
+[58.352055] (-) TimerEvent: {}
+[58.453317] (-) TimerEvent: {}
+[58.554580] (-) TimerEvent: {}
+[58.655810] (-) TimerEvent: {}
+[58.757072] (-) TimerEvent: {}
+[58.858332] (-) TimerEvent: {}
+[58.959626] (-) TimerEvent: {}
+[59.060834] (-) TimerEvent: {}
+[59.162058] (-) TimerEvent: {}
+[59.263407] (-) TimerEvent: {}
+[59.364611] (-) TimerEvent: {}
+[59.465934] (-) TimerEvent: {}
+[59.567239] (-) TimerEvent: {}
+[59.668462] (-) TimerEvent: {}
+[59.769662] (-) TimerEvent: {}
+[59.870930] (-) TimerEvent: {}
+[59.972195] (-) TimerEvent: {}
+[60.073448] (-) TimerEvent: {}
+[60.174724] (-) TimerEvent: {}
+[60.276126] (-) TimerEvent: {}
+[60.377533] (-) TimerEvent: {}
+[60.478957] (-) TimerEvent: {}
+[60.580499] (-) TimerEvent: {}
+[60.681991] (-) TimerEvent: {}
+[60.783644] (-) TimerEvent: {}
+[60.885057] (-) TimerEvent: {}
+[60.986447] (-) TimerEvent: {}
+[61.087880] (-) TimerEvent: {}
+[61.189277] (-) TimerEvent: {}
+[61.290607] (-) TimerEvent: {}
+[61.391997] (-) TimerEvent: {}
+[61.493372] (-) TimerEvent: {}
+[61.594616] (-) TimerEvent: {}
+[61.695909] (-) TimerEvent: {}
+[61.797134] (-) TimerEvent: {}
+[61.898435] (-) TimerEvent: {}
+[61.999724] (-) TimerEvent: {}
+[62.100947] (-) TimerEvent: {}
+[62.202271] (-) TimerEvent: {}
+[62.303589] (-) TimerEvent: {}
+[62.404809] (-) TimerEvent: {}
+[62.506232] (-) TimerEvent: {}
+[62.607546] (-) TimerEvent: {}
+[62.708779] (-) TimerEvent: {}
+[62.810100] (-) TimerEvent: {}
+[62.911387] (-) TimerEvent: {}
+[63.012595] (-) TimerEvent: {}
+[63.113815] (-) TimerEvent: {}
+[63.215089] (-) TimerEvent: {}
+[63.316328] (-) TimerEvent: {}
+[63.417564] (-) TimerEvent: {}
+[63.518807] (-) TimerEvent: {}
+[63.620551] (-) TimerEvent: {}
+[63.722157] (-) TimerEvent: {}
+[63.823882] (-) TimerEvent: {}
+[63.925470] (-) TimerEvent: {}
+[64.024999] (realsense2_camera) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_param_backend_foxy.cpp.o\x1b[0m\n'}
+[64.025822] (-) TimerEvent: {}
+[64.127132] (-) TimerEvent: {}
+[64.228711] (-) TimerEvent: {}
+[64.330020] (-) TimerEvent: {}
+[64.431218] (-) TimerEvent: {}
+[64.532417] (-) TimerEvent: {}
+[64.633662] (-) TimerEvent: {}
+[64.734890] (-) TimerEvent: {}
+[64.836110] (-) TimerEvent: {}
+[64.937322] (-) TimerEvent: {}
+[65.038562] (-) TimerEvent: {}
+[65.139876] (-) TimerEvent: {}
+[65.241120] (-) TimerEvent: {}
+[65.342374] (-) TimerEvent: {}
+[65.443832] (-) TimerEvent: {}
+[65.545418] (-) TimerEvent: {}
+[65.646958] (-) TimerEvent: {}
+[65.748456] (-) TimerEvent: {}
+[65.849852] (-) TimerEvent: {}
+[65.951231] (-) TimerEvent: {}
+[66.052444] (-) TimerEvent: {}
+[66.153713] (-) TimerEvent: {}
+[66.255024] (-) TimerEvent: {}
+[66.356523] (-) TimerEvent: {}
+[66.457790] (-) TimerEvent: {}
+[66.559030] (-) TimerEvent: {}
+[66.660239] (-) TimerEvent: {}
+[66.761502] (-) TimerEvent: {}
+[66.862746] (-) TimerEvent: {}
+[66.963976] (-) TimerEvent: {}
+[67.065193] (-) TimerEvent: {}
+[67.166400] (-) TimerEvent: {}
+[67.267650] (-) TimerEvent: {}
+[67.368961] (-) TimerEvent: {}
+[67.470173] (-) TimerEvent: {}
+[67.571692] (-) TimerEvent: {}
+[67.672869] (-) TimerEvent: {}
+[67.774099] (-) TimerEvent: {}
+[67.875295] (-) TimerEvent: {}
+[67.976510] (-) TimerEvent: {}
+[68.077667] (-) TimerEvent: {}
+[68.178840] (-) TimerEvent: {}
+[68.280073] (-) TimerEvent: {}
+[68.381324] (-) TimerEvent: {}
+[68.482477] (-) TimerEvent: {}
+[68.583691] (-) TimerEvent: {}
+[68.684970] (-) TimerEvent: {}
+[68.786070] (-) TimerEvent: {}
+[68.887337] (-) TimerEvent: {}
+[68.988473] (-) TimerEvent: {}
+[69.089554] (-) TimerEvent: {}
+[69.190665] (-) TimerEvent: {}
+[69.291807] (-) TimerEvent: {}
+[69.392900] (-) TimerEvent: {}
+[69.494028] (-) TimerEvent: {}
+[69.595121] (-) TimerEvent: {}
+[69.696327] (-) TimerEvent: {}
+[69.797470] (-) TimerEvent: {}
+[69.898671] (-) TimerEvent: {}
+[69.999939] (-) TimerEvent: {}
+[70.101167] (-) TimerEvent: {}
+[70.202312] (-) TimerEvent: {}
+[70.303485] (-) TimerEvent: {}
+[70.404745] (-) TimerEvent: {}
+[70.505829] (-) TimerEvent: {}
+[70.607007] (-) TimerEvent: {}
+[70.708224] (-) TimerEvent: {}
+[70.809350] (-) TimerEvent: {}
+[70.910491] (-) TimerEvent: {}
+[71.011749] (-) TimerEvent: {}
+[71.112863] (-) TimerEvent: {}
+[71.213994] (-) TimerEvent: {}
+[71.315078] (-) TimerEvent: {}
+[71.416219] (-) TimerEvent: {}
+[71.517403] (-) TimerEvent: {}
+[71.618627] (-) TimerEvent: {}
+[71.719826] (-) TimerEvent: {}
+[71.820988] (-) TimerEvent: {}
+[71.922151] (-) TimerEvent: {}
+[72.023266] (-) TimerEvent: {}
+[72.124469] (-) TimerEvent: {}
+[72.225618] (-) TimerEvent: {}
+[72.326650] (-) TimerEvent: {}
+[72.427798] (-) TimerEvent: {}
+[72.528882] (-) TimerEvent: {}
+[72.629944] (-) TimerEvent: {}
+[72.731009] (-) TimerEvent: {}
+[72.832132] (-) TimerEvent: {}
+[72.935563] (-) TimerEvent: {}
+[73.037084] (-) TimerEvent: {}
+[73.138265] (-) TimerEvent: {}
+[73.239427] (-) TimerEvent: {}
+[73.340600] (-) TimerEvent: {}
+[73.441741] (-) TimerEvent: {}
+[73.542874] (-) TimerEvent: {}
+[73.644159] (-) TimerEvent: {}
+[73.745296] (-) TimerEvent: {}
+[73.846481] (-) TimerEvent: {}
+[73.947642] (-) TimerEvent: {}
+[74.048718] (-) TimerEvent: {}
+[74.149843] (-) TimerEvent: {}
+[74.251030] (-) TimerEvent: {}
+[74.352254] (-) TimerEvent: {}
+[74.453420] (-) TimerEvent: {}
+[74.554506] (-) TimerEvent: {}
+[74.655585] (-) TimerEvent: {}
+[74.757033] (-) TimerEvent: {}
+[74.858194] (-) TimerEvent: {}
+[74.959313] (-) TimerEvent: {}
+[75.060497] (-) TimerEvent: {}
+[75.161603] (-) TimerEvent: {}
+[75.262745] (-) TimerEvent: {}
+[75.364253] (-) TimerEvent: {}
+[75.465479] (-) TimerEvent: {}
+[75.566590] (-) TimerEvent: {}
+[75.667768] (-) TimerEvent: {}
+[75.768940] (-) TimerEvent: {}
+[75.870427] (-) TimerEvent: {}
+[75.971608] (-) TimerEvent: {}
+[76.073042] (-) TimerEvent: {}
+[76.174194] (-) TimerEvent: {}
+[76.275383] (-) TimerEvent: {}
+[76.376547] (-) TimerEvent: {}
+[76.477995] (-) TimerEvent: {}
+[76.579181] (-) TimerEvent: {}
+[76.680399] (-) TimerEvent: {}
+[76.781853] (-) TimerEvent: {}
+[76.883397] (-) TimerEvent: {}
+[76.984517] (-) TimerEvent: {}
+[77.085679] (-) TimerEvent: {}
+[77.186899] (-) TimerEvent: {}
+[77.288164] (-) TimerEvent: {}
+[77.389383] (-) TimerEvent: {}
+[77.490462] (-) TimerEvent: {}
+[77.591609] (-) TimerEvent: {}
+[77.693057] (-) TimerEvent: {}
+[77.794550] (-) TimerEvent: {}
+[77.895948] (-) TimerEvent: {}
+[77.997096] (-) TimerEvent: {}
+[78.098240] (-) TimerEvent: {}
+[78.199742] (-) TimerEvent: {}
+[78.300901] (-) TimerEvent: {}
+[78.402011] (-) TimerEvent: {}
+[78.503157] (-) TimerEvent: {}
+[78.604298] (-) TimerEvent: {}
+[78.705728] (-) TimerEvent: {}
+[78.807239] (-) TimerEvent: {}
+[78.908395] (-) TimerEvent: {}
+[79.009753] (-) TimerEvent: {}
+[79.110899] (-) TimerEvent: {}
+[79.212027] (-) TimerEvent: {}
+[79.313207] (-) TimerEvent: {}
+[79.414364] (-) TimerEvent: {}
+[79.515503] (-) TimerEvent: {}
+[79.616608] (-) TimerEvent: {}
+[79.717802] (-) TimerEvent: {}
+[79.819269] (-) TimerEvent: {}
+[79.920440] (-) TimerEvent: {}
+[80.021556] (-) TimerEvent: {}
+[80.123080] (-) TimerEvent: {}
+[80.224235] (-) TimerEvent: {}
+[80.325718] (-) TimerEvent: {}
+[80.426982] (-) TimerEvent: {}
+[80.528131] (-) TimerEvent: {}
+[80.629270] (-) TimerEvent: {}
+[80.730750] (-) TimerEvent: {}
+[80.832289] (-) TimerEvent: {}
+[80.933434] (-) TimerEvent: {}
+[81.034573] (-) TimerEvent: {}
+[81.135986] (-) TimerEvent: {}
+[81.237115] (-) TimerEvent: {}
+[81.338291] (-) TimerEvent: {}
+[81.439471] (-) TimerEvent: {}
+[81.540639] (-) TimerEvent: {}
+[81.642075] (-) TimerEvent: {}
+[81.743221] (-) TimerEvent: {}
+[81.844751] (-) TimerEvent: {}
+[81.945821] (-) TimerEvent: {}
+[82.046904] (-) TimerEvent: {}
+[82.148091] (-) TimerEvent: {}
+[82.249248] (-) TimerEvent: {}
+[82.350793] (-) TimerEvent: {}
+[82.451945] (-) TimerEvent: {}
+[82.553315] (-) TimerEvent: {}
+[82.654761] (-) TimerEvent: {}
+[82.756170] (-) TimerEvent: {}
+[82.857279] (-) TimerEvent: {}
+[82.958730] (-) TimerEvent: {}
+[83.059915] (-) TimerEvent: {}
+[83.161351] (-) TimerEvent: {}
+[83.262437] (-) TimerEvent: {}
+[83.363608] (-) TimerEvent: {}
+[83.464716] (-) TimerEvent: {}
+[83.565849] (-) TimerEvent: {}
+[83.667000] (-) TimerEvent: {}
+[83.768194] (-) TimerEvent: {}
+[83.869641] (-) TimerEvent: {}
+[83.971156] (-) TimerEvent: {}
+[84.072682] (-) TimerEvent: {}
+[84.173815] (-) TimerEvent: {}
+[84.275278] (-) TimerEvent: {}
+[84.376492] (-) TimerEvent: {}
+[84.477971] (-) TimerEvent: {}
+[84.579491] (-) TimerEvent: {}
+[84.680618] (-) TimerEvent: {}
+[84.781781] (-) TimerEvent: {}
+[84.882878] (-) TimerEvent: {}
+[84.984135] (-) TimerEvent: {}
+[85.085417] (-) TimerEvent: {}
+[85.186748] (-) TimerEvent: {}
+[85.288700] (-) TimerEvent: {}
+[85.390735] (-) TimerEvent: {}
+[85.492557] (-) TimerEvent: {}
+[85.593564] (-) TimerEvent: {}
+[85.694281] (-) TimerEvent: {}
+[85.794883] (-) TimerEvent: {}
+[85.895644] (-) TimerEvent: {}
+[85.996276] (-) TimerEvent: {}
+[86.096846] (-) TimerEvent: {}
+[86.197469] (-) TimerEvent: {}
+[86.298127] (-) TimerEvent: {}
+[86.398820] (-) TimerEvent: {}
+[86.499972] (-) TimerEvent: {}
+[86.600788] (-) TimerEvent: {}
+[86.701629] (-) TimerEvent: {}
+[86.802311] (-) TimerEvent: {}
+[86.903041] (-) TimerEvent: {}
+[87.003879] (-) TimerEvent: {}
+[87.104545] (-) TimerEvent: {}
+[87.205242] (-) TimerEvent: {}
+[87.305978] (-) TimerEvent: {}
+[87.406756] (-) TimerEvent: {}
+[87.507832] (-) TimerEvent: {}
+[87.608680] (-) TimerEvent: {}
+[87.709510] (-) TimerEvent: {}
+[87.810268] (-) TimerEvent: {}
+[87.911022] (-) TimerEvent: {}
+[88.011809] (-) TimerEvent: {}
+[88.112559] (-) TimerEvent: {}
+[88.213274] (-) TimerEvent: {}
+[88.313973] (-) TimerEvent: {}
+[88.414741] (-) TimerEvent: {}
+[88.515898] (-) TimerEvent: {}
+[88.616851] (-) TimerEvent: {}
+[88.718040] (-) TimerEvent: {}
+[88.774161] (realsense2_camera) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library librealsense2_camera.so\x1b[0m\n'}
+[88.818297] (-) TimerEvent: {}
+[88.919576] (-) TimerEvent: {}
+[89.020785] (-) TimerEvent: {}
+[89.122209] (-) TimerEvent: {}
+[89.223565] (-) TimerEvent: {}
+[89.324680] (-) TimerEvent: {}
+[89.426126] (-) TimerEvent: {}
+[89.527342] (-) TimerEvent: {}
+[89.628620] (-) TimerEvent: {}
+[89.730042] (-) TimerEvent: {}
+[89.831254] (-) TimerEvent: {}
+[89.932663] (-) TimerEvent: {}
+[90.034092] (-) TimerEvent: {}
+[90.135258] (-) TimerEvent: {}
+[90.236391] (-) TimerEvent: {}
+[90.337685] (-) TimerEvent: {}
+[90.438801] (-) TimerEvent: {}
+[90.540168] (-) TimerEvent: {}
+[90.641319] (-) TimerEvent: {}
+[90.703973] (realsense2_camera) StdoutLine: {'line': b'[100%] Built target realsense2_camera\n'}
+[90.742222] (realsense2_camera) CommandEnded: {'returncode': 0}
+[90.743787] (-) TimerEvent: {}
+[90.746353] (realsense2_camera) JobProgress: {'identifier': 'realsense2_camera', 'progress': 'install'}
+[90.747274] (realsense2_camera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2_ws/build/realsense2_camera'], 'cwd': '/home/ros2_ws/build/realsense2_camera', 'env': OrderedDict([('HOSTNAME', 'xterra-orin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2_ws/install/realsense2_camera_msgs/lib:/home/ros2_ws/install/xterra_perception_api/lib:/home/ros2_ws/install/xterra/lib:/home/ros2_ws/install/realsense2_camera/lib:/home/ros2_ws/install/livox_ros_driver2/lib:/workspace/pcl_overlay/install/pcl_ros/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib'), ('HOME', '/root'), ('CYCLONEDDS_URI', 'file:///home/ros2_ws/cyclonedds.xml'), ('OLDPWD', '/home/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install:/workspace/pcl_overlay/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('OrbbecSDK_DIR', '/usr/local/lib/cmake/OrbbecSDK'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/livox_ros_driver2:/workspace/pcl_overlay/install/pcl_ros:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros2_ws/build/realsense2_camera'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages:/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/livox_ros_driver2:/workspace/pcl_overlay/install/pcl_ros:/opt/OrbbecSDK_v2.4.11/lib:/opt/ros/humble')]), 'shell': False}
+[90.775099] (realsense2_camera) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[90.778024] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node\n'}
+[90.779396] (realsense2_camera) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node" to ""\n'}
+[90.779981] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/lib/librealsense2_camera.so\n'}
+[90.787793] (realsense2_camera) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/realsense2_camera/lib/librealsense2_camera.so" to ""\n'}
+[90.788192] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera/include\n'}
+[90.788391] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/include/ros_utils.h\n'}
+[90.788609] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/include/ros_param_backend.h\n'}
+[90.788877] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/include/realsense_node_factory.h\n'}
+[90.789160] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/include/dynamic_params.h\n'}
+[90.789428] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/include/sensor_params.h\n'}
+[90.789728] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/include/named_filter.h\n'}
+[90.789998] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/include/image_publisher.h\n'}
+[90.790268] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/include/base_realsense_node.h\n'}
+[90.790593] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/include/ros_sensor.h\n'}
+[90.790901] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/include/constants.h\n'}
+[90.791214] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/include/profile_manager.h\n'}
+[90.791773] (realsense2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch\n'}
+[90.792565] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/default.rviz\n'}
+[90.793327] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_launch.py\n'}
+[90.794085] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_intra_process_demo_launch.py\n'}
+[90.794733] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch.py\n'}
+[90.795509] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.sh\n'}
+[90.795916] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.dsv\n'}
+[90.796717] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/package_run_dependencies/realsense2_camera\n'}
+[90.797428] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/parent_prefix_path/realsense2_camera\n'}
+[90.797808] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.sh\n'}
+[90.798203] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.dsv\n'}
+[90.798580] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/path.sh\n'}
+[90.798961] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/environment/path.dsv\n'}
+[90.799290] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.bash\n'}
+[90.799707] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.sh\n'}
+[90.800070] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.zsh\n'}
+[90.800395] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/local_setup.dsv\n'}
+[90.800735] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.dsv\n'}
+[90.801412] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/packages/realsense2_camera\n'}
+[90.802064] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/share/ament_index/resource_index/rclcpp_components/realsense2_camera\n'}
+[90.802767] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[90.803148] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[90.803564] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[90.803911] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake\n'}
+[90.804216] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake\n'}
+[90.804554] (realsense2_camera) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/realsense2_camera/share/realsense2_camera/package.xml\n'}
+[90.810232] (realsense2_camera) CommandEnded: {'returncode': 0}
+[90.844272] (-) TimerEvent: {}
+[90.944402] (realsense2_camera) JobEnded: {'identifier': 'realsense2_camera', 'rc': 0}
+[90.947685] (-) TimerEvent: {}
+[90.948064] (-) EventReactorShutdown: {}

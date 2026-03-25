@@ -16,7 +16,6 @@ WORKDIR /home/ros2_ws
 # -------- 4. Install ROS 2 Desktop components manually ----------------------
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-       # ros-${ROS_DISTRO}-desktop \
         ros-${ROS_DISTRO}-rmw-cyclonedds-cpp \
         python3-rosdep \
         python3-colcon-common-extensions \
@@ -44,7 +43,7 @@ RUN apt-get update && \
 # -------- 7. ROS 2 additional tools ----------------------------------------
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-	ros-${ROS_DISTRO}-xacro \
+        ros-${ROS_DISTRO}-xacro \
         ros-${ROS_DISTRO}-joint-state-publisher \
         ros-${ROS_DISTRO}-joint-state-publisher-gui \
         ros-${ROS_DISTRO}-pcl-conversions \
@@ -76,7 +75,6 @@ VOLUME ["/workspace"]
 # -------- 7.8. Make PCL-ROS overlay available system-wide ------------------
 RUN echo "source /workspace/pcl_overlay/install/setup.bash" >> /root/.bashrc
 
-
 # -------- 8. Development libraries -----------------------------------------
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
@@ -88,7 +86,7 @@ RUN apt-get update && \
         nlohmann-json3-dev libdw-dev && \
     rm -rf /var/lib/apt/lists/*
 
-# -------- 9. Image transport packages for Orbbec -------------------------
+# -------- 9. Image transport packages for Orbbec/RealSense -----------------
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
         ros-${ROS_DISTRO}-image-transport \
@@ -114,15 +112,87 @@ ENV OrbbecSDK_DIR="/usr/local/lib/cmake/OrbbecSDK"
 RUN echo 'SUBSYSTEM=="usb", ATTR{idVendor}=="2bc5", MODE="0666", GROUP="plugdev"' > /etc/udev/rules.d/56-orbbec-usb.rules && \
     echo 'KERNEL=="hidraw*", ATTRS{idVendor}=="2bc5", MODE="0666", GROUP="plugdev"' >> /etc/udev/rules.d/56-orbbec-usb.rules
 
-# -------- 11. Clone + build Orbbec ROS 2 wrapper ---------------------------
+# ===========================================================================
+# 10.6. REALSENSE — Build librealsense v2.54.2 (system library)
+# ===========================================================================
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+        libgtk-3-dev \
+        libglfw3-dev && \
+    rm -rf /var/lib/apt/lists/*
+
+RUN git clone https://github.com/IntelRealSense/librealsense.git /tmp/librealsense && \
+    cd /tmp/librealsense && \
+    git checkout v2.54.2 && \
+    # Install udev rules
+    cp config/99-realsense-libusb.rules /etc/udev/rules.d/ && \
+    # Build with FORCE_LIBUVC (required for Jetson / no kernel patch)
+    mkdir -p build && cd build && \
+    cmake .. \
+        -DFORCE_LIBUVC=ON \
+        -DCMAKE_BUILD_TYPE=Release \
+        -DBUILD_PYTHON_BINDINGS=OFF \
+        -DBUILD_EXAMPLES=OFF \
+        -DBUILD_GRAPHICAL_EXAMPLES=OFF && \
+    make -j$(nproc) && \
+    make install && \
+    ldconfig && \
+    # Cleanup
+    rm -rf /tmp/librealsense
+
+# ===========================================================================
+# 10.7. LIVOX — Build Livox-SDK2 (system library)
+# ===========================================================================
+RUN git clone https://github.com/Livox-SDK/Livox-SDK2.git /tmp/Livox-SDK2 && \
+    cd /tmp/Livox-SDK2 && \
+    mkdir build && cd build && \
+    cmake .. -DCMAKE_BUILD_TYPE=Release && \
+    make -j$(nproc) && \
+    make install && \
+    ldconfig && \
+    # Cleanup
+    rm -rf /tmp/Livox-SDK2
+
+# ===========================================================================
+# 11. Clone ALL ROS 2 packages into src
+# ===========================================================================
 RUN mkdir -p src && \
     cd src && \
+    # --- Orbbec ---
     git clone https://github.com/orbbec/OrbbecSDK_ROS2.git && \
-    cd OrbbecSDK_ROS2 && git checkout v2-main && \
-    cd /home/ros2_ws && \
+    cd OrbbecSDK_ROS2 && git checkout v2-main && cd .. && \
+    # --- RealSense ---
+    git clone https://github.com/IntelRealSense/realsense-ros.git && \
+    cd realsense-ros && git checkout ros2-master && cd .. && \
+    # --- Livox ---
+    git clone https://github.com/Livox-SDK/livox_ros_driver2.git && \
+    cd livox_ros_driver2 && \
+    # Fix: ROS2 uses package_ROS2.xml
+    if [ -f "package_ROS2.xml" ] && [ ! -f "package.xml" ]; then \
+        cp package_ROS2.xml package.xml; \
+    fi && \
+    cd /home/ros2_ws
+
+# -------- Install all ROS dependencies for all packages --------------------
+RUN apt-get update && \
     source /opt/ros/${ROS_DISTRO}/setup.bash && \
-    colcon build --event-handlers console_direct+ \
-                  --cmake-args -DCMAKE_BUILD_TYPE=Release
+    rosdep install --from-paths src --ignore-src -r -y \
+        --skip-keys="\
+            librealsense2 \
+            ros-humble-rviz-common \
+            ros-humble-rviz-rendering \
+            ros-humble-rviz-default-plugins \
+            libapr1-dev \
+            libaprutil1-dev \
+            ros-humble-launch-pytest \
+            python3-tqdm \
+            python3-requests \
+        " && \
+    apt-get install -y --no-install-recommends \
+        python3-tqdm \
+        python3-requests && \
+    rm -rf /var/lib/apt/lists/*
+
 
 # -------- 12. Convenience: auto-source environments -------------------------
 RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> /root/.bashrc && \
@@ -130,4 +200,3 @@ RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> /root/.bashrc && \
 
 # -------- 13. Entrypoint ----------------------------------------------------
 ENTRYPOINT ["/ros_entrypoint.sh"]
-CMD ["bash", "-i"]

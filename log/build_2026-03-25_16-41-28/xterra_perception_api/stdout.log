@@ -1,0 +1,104 @@
+-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- looking for PCL_COMMON
+-- looking for PCL_KDTREE
+-- looking for PCL_OCTREE
+-- looking for PCL_SEARCH
+-- looking for PCL_SAMPLE_CONSENSUS
+-- looking for PCL_FILTERS
+-- looking for PCL_2D
+-- looking for PCL_GEOMETRY
+-- looking for PCL_IO
+-- looking for PCL_FEATURES
+-- looking for PCL_ML
+-- looking for PCL_SEGMENTATION
+-- looking for PCL_VISUALIZATION
+-- looking for PCL_SURFACE
+-- looking for PCL_REGISTRATION
+-- looking for PCL_KEYPOINTS
+-- looking for PCL_TRACKING
+-- looking for PCL_RECOGNITION
+-- looking for PCL_STEREO
+-- looking for PCL_APPS
+-- looking for PCL_IN_HAND_SCANNER
+-- looking for PCL_MODELER
+-- looking for PCL_POINT_CLOUD_EDITOR
+-- looking for PCL_OUTOFCORE
+-- looking for PCL_PEOPLE
+-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/ros2_ws/src/xterra_perception_api/include;$<BUILD_INTERFACE:/home/ros2_ws/src/xterra_perception_api/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ros2_ws/build/xterra_perception_api
+[ 75%] Building CXX object CMakeFiles/xterra_perception_api.dir/src/orbbec/orbbec_camera.cpp.o
+[ 75%] Building CXX object CMakeFiles/xterra_perception_api.dir/src/orbbec/orbbec_multi_cam_manager.cpp.o
+[ 75%] Building CXX object CMakeFiles/xterra_perception_api.dir/src/camera_interface/base_camera.cpp.o
+[100%] Linking CXX shared library libxterra_perception_api.so
+[100%] Built target xterra_perception_api
+-- Install configuration: ""
+-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/library_path.sh
+-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/library_path.dsv
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/camera_interface
+-- Installing: /home/ros2_ws/install/xterra_perception_api/include/camera_interface/camera_config.hpp
+-- Installing: /home/ros2_ws/install/xterra_perception_api/include/camera_interface/base_camera.hpp
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/orbbec
+-- Installing: /home/ros2_ws/install/xterra_perception_api/include/orbbec/orbbec_multi_cam_manager.hpp
+-- Installing: /home/ros2_ws/install/xterra_perception_api/include/orbbec/orbbec_camera.hpp
+-- Installing: /home/ros2_ws/install/xterra_perception_api/include/orbbec/orbbec_camera_config.hpp
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/utils
+-- Installing: /home/ros2_ws/install/xterra_perception_api/include/utils/image_overlay_utils.hpp
+-- Installing: /home/ros2_ws/install/xterra_perception_api/lib/libxterra_perception_api.so
+-- Set runtime path of "/home/ros2_ws/install/xterra_perception_api/lib/libxterra_perception_api.so" to ""
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/config
+-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/config/camera_meta_data.yaml
+-- Installing: /home/ros2_ws/install/xterra_perception_api/share/ament_index/resource_index/package_run_dependencies/xterra_perception_api
+-- Installing: /home/ros2_ws/install/xterra_perception_api/share/ament_index/resource_index/parent_prefix_path/xterra_perception_api
+-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/ament_prefix_path.sh
+-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/ament_prefix_path.dsv
+-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/path.sh
+-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/path.dsv
+-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/local_setup.bash
+-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/local_setup.sh
+-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/local_setup.zsh
+-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/local_setup.dsv
+-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/package.dsv
+-- Installing: /home/ros2_ws/install/xterra_perception_api/share/ament_index/resource_index/packages/xterra_perception_api
+-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/export_xterra_perception_apiExport.cmake
+-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/export_xterra_perception_apiExport-noconfig.cmake
+-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/xterra_perception_apiConfig.cmake
+-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/xterra_perception_apiConfig-version.cmake
+-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/package.xml

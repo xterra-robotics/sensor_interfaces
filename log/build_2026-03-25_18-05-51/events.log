@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.000328] (-) JobUnselected: {'identifier': 'cyclonedds'}
+[0.001293] (-) JobUnselected: {'identifier': 'dds_utils'}
+[0.001585] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.001920] (-) JobUnselected: {'identifier': 'm2_metal_description'}
+[0.001970] (-) JobUnselected: {'identifier': 'orbbec_camera'}
+[0.002066] (-) JobUnselected: {'identifier': 'orbbec_camera_msgs'}
+[0.002144] (-) JobUnselected: {'identifier': 'orbbec_description'}
+[0.002217] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.002286] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.002358] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.002432] (-) JobUnselected: {'identifier': 'sensor_description'}
+[0.002540] (-) JobUnselected: {'identifier': 'xterra'}
+[0.002620] (xterra_perception_api) JobQueued: {'identifier': 'xterra_perception_api', 'dependencies': OrderedDict()}
+[0.002705] (xterra_perception_api) JobStarted: {'identifier': 'xterra_perception_api'}
+[0.024999] (xterra_perception_api) JobProgress: {'identifier': 'xterra_perception_api', 'progress': 'cmake'}
+[0.029804] (xterra_perception_api) JobProgress: {'identifier': 'xterra_perception_api', 'progress': 'build'}
+[0.031555] (xterra_perception_api) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2_ws/build/xterra_perception_api'], 'cwd': '/home/ros2_ws/build/xterra_perception_api', 'env': OrderedDict([('CMAKE_BUILD_PARALLEL_LEVEL', '3'), ('HOSTNAME', 'xterra-orin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2_ws/install/xterra_perception_api/lib:/home/ros2_ws/install/xterra/lib:/home/ros2_ws/install/realsense2_camera/lib:/home/ros2_ws/install/realsense2_camera_msgs/lib:/home/ros2_ws/install/livox_ros_driver2/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:'), ('HOME', '/root'), ('OLDPWD', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('MAKEFLAGS', '-j3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('OrbbecSDK_DIR', '/usr/local/lib/cmake/OrbbecSDK'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/livox_ros_driver2:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros2_ws/build/xterra_perception_api'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages:/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/livox_ros_driver2:/opt/OrbbecSDK_v2.4.11/lib::/opt/ros/humble')]), 'shell': False}
+[0.099278] (-) TimerEvent: {}
+[0.199914] (-) TimerEvent: {}
+[0.202675] (xterra_perception_api) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target xterra_perception_api\n'}
+[0.300242] (-) TimerEvent: {}
+[0.381851] (xterra_perception_api) StdoutLine: {'line': b'[100%] Built target xterra_perception_api\n'}
+[0.400502] (-) TimerEvent: {}
+[0.417237] (xterra_perception_api) CommandEnded: {'returncode': 0}
+[0.421278] (xterra_perception_api) JobProgress: {'identifier': 'xterra_perception_api', 'progress': 'install'}
+[0.449737] (xterra_perception_api) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2_ws/build/xterra_perception_api'], 'cwd': '/home/ros2_ws/build/xterra_perception_api', 'env': OrderedDict([('CMAKE_BUILD_PARALLEL_LEVEL', '3'), ('HOSTNAME', 'xterra-orin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2_ws/install/xterra_perception_api/lib:/home/ros2_ws/install/xterra/lib:/home/ros2_ws/install/realsense2_camera/lib:/home/ros2_ws/install/realsense2_camera_msgs/lib:/home/ros2_ws/install/livox_ros_driver2/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:'), ('HOME', '/root'), ('OLDPWD', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('MAKEFLAGS', '-j3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('OrbbecSDK_DIR', '/usr/local/lib/cmake/OrbbecSDK'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/livox_ros_driver2:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros2_ws/build/xterra_perception_api'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages:/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/livox_ros_driver2:/opt/OrbbecSDK_v2.4.11/lib::/opt/ros/humble')]), 'shell': False}
+[0.482357] (xterra_perception_api) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.483481] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/library_path.sh\n'}
+[0.483833] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/library_path.dsv\n'}
+[0.484039] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include\n'}
+[0.484207] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/camera_interface\n'}
+[0.484348] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/camera_interface/camera_config.hpp\n'}
+[0.484483] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/camera_interface/base_camera.hpp\n'}
+[0.484656] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/orbbec\n'}
+[0.484931] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/orbbec/orbbec_multi_cam_manager.hpp\n'}
+[0.485168] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/orbbec/orbbec_camera.hpp\n'}
+[0.485324] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/orbbec/orbbec_camera_config.hpp\n'}
+[0.485523] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/utils\n'}
+[0.485697] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/utils/image_overlay_utils.hpp\n'}
+[0.486167] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/lib/libxterra_perception_api.so\n'}
+[0.486612] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/config\n'}
+[0.487405] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/config/camera_meta_data.yaml\n'}
+[0.487835] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/ament_index/resource_index/package_run_dependencies/xterra_perception_api\n'}
+[0.488230] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/ament_index/resource_index/parent_prefix_path/xterra_perception_api\n'}
+[0.488567] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/ament_prefix_path.sh\n'}
+[0.489585] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/ament_prefix_path.dsv\n'}
+[0.489787] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/path.sh\n'}
+[0.489924] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/path.dsv\n'}
+[0.490109] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/local_setup.bash\n'}
+[0.490243] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/local_setup.sh\n'}
+[0.490371] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/local_setup.zsh\n'}
+[0.490605] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/local_setup.dsv\n'}
+[0.490822] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/package.dsv\n'}
+[0.490987] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/ament_index/resource_index/packages/xterra_perception_api\n'}
+[0.493205] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/export_xterra_perception_apiExport.cmake\n'}
+[0.493806] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/export_xterra_perception_apiExport-noconfig.cmake\n'}
+[0.493950] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.494114] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.494257] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/xterra_perception_apiConfig.cmake\n'}
+[0.494390] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/xterra_perception_apiConfig-version.cmake\n'}
+[0.494517] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/package.xml\n'}
+[0.497644] (xterra_perception_api) CommandEnded: {'returncode': 0}
+[0.500633] (-) TimerEvent: {}
+[0.581023] (xterra_perception_api) JobEnded: {'identifier': 'xterra_perception_api', 'rc': 0}
+[0.583538] (-) EventReactorShutdown: {}

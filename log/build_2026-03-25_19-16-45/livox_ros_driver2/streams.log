@@ -1,0 +1,229 @@
+[0.030s] Invoking command in '/home/ros2_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros2_ws/src/livox_ros_driver2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/livox_ros_driver2
+[0.070s] -- livox_ros_driver2 version: 1.2.4
+[0.070s] -- Found ament_cmake_auto: 1.3.13 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.388s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.615s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.620s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.702s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.837s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.845s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.896s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.186s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.265s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[1.990s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.002s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.313s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.326s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.341s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.633s] -- Found Qhull version 8.0.2
+[2.939s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.369s] -- Checking for module 'apr-1'
+[3.401s] --   Found apr-1, version 1.7.0
+[3.470s] /usr/include/apr-1.0
+[3.470s] apr-1
+[4.045s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.613s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.357s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.415s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.470s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.470s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.471s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[5.607s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.655s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.667s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.668s] -- Configured cppcheck include dirs: /home/ros2_ws/src/livox_ros_driver2/3rdparty;/home/ros2_ws/src/livox_ros_driver2/src
+[5.668s] -- Configured cppcheck exclude dirs and/or files: 
+[5.677s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.677s] -- Configured cpplint exclude dirs and/or files: 
+[5.679s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.682s] -- Added test 'lint_cmake' to check CMake code style
+[5.684s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.693s] -- Added test 'uncrustify' to check C / C++ code style
+[5.693s] -- Configured uncrustify additional arguments: 
+[5.695s] -- Added test 'xmllint' to check XML markup files
+[5.705s] -- Configuring done
+[5.928s] -- Generating done
+[5.985s] -- Build files have been written to: /home/ros2_ws/build/livox_ros_driver2
+[6.054s] Invoked command in '/home/ros2_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros2_ws/src/livox_ros_driver2 -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/livox_ros_driver2
+[6.059s] Invoking command in '/home/ros2_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/livox_ros_driver2
+[6.192s] Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_generator_c
+[6.221s] [  5%] Built target livox_interfaces2__cpp
+[6.222s] [  8%] Built target livox_interfaces2__rosidl_generator_c
+[6.249s] [  8%] Built target ament_cmake_python_symlink_livox_ros_driver2
+[6.255s] Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_cpp
+[6.259s] Consolidate compiler generated dependencies of target livox_ros_driver2_node
+[6.286s] Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[6.296s] [ 15%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[6.305s] [ 19%] Built target livox_ros_driver2_node
+[6.324s] [ 26%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[6.326s] Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_introspection_c
+[6.334s] Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_c
+[6.359s] [ 33%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[6.359s] Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[6.367s] [ 40%] Built target livox_interfaces2__rosidl_typesupport_c
+[6.391s] [ 47%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[6.396s] Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[6.431s] [ 54%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[6.487s] Consolidate compiler generated dependencies of target livox_ros_driver2
+[6.493s] [ 54%] Built target livox_interfaces2
+[6.560s] [ 57%] Built target livox_interfaces2__py
+[6.560s] [ 57%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.o
+[6.590s] [ 59%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.o
+[6.885s] running egg_info
+[6.886s] writing livox_ros_driver2.egg-info/PKG-INFO
+[6.887s] writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+[6.888s] writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+[6.894s] reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[6.896s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[7.012s] [ 59%] Built target ament_cmake_python_build_livox_ros_driver2_egg
+[7.047s] Consolidate compiler generated dependencies of target livox_interfaces2__rosidl_generator_py
+[7.084s] [ 64%] Built target livox_interfaces2__rosidl_generator_py
+[7.120s] Consolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[7.155s] [ 68%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[7.191s] Consolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[7.227s] [ 71%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[7.260s] Consolidate compiler generated dependencies of target livox_ros_driver2__rosidl_typesupport_c__pyext
+[7.294s] [ 75%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[7.321s] [ 77%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.o
+[26.282s] [ 78%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.o
+[26.704s] [ 80%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.o
+[28.420s] [ 82%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.o
+[29.269s] [ 84%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.o
+[30.185s] [ 85%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.o
+[31.260s] [ 87%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.o
+[31.266s] [ 89%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.o
+[31.807s] [ 91%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o
+[32.280s] [ 92%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.o
+[33.275s] [ 94%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.o
+[34.519s] [ 96%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.o
+[35.450s] [ 98%] Building CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.o
+[37.557s] [100%] Linking CXX shared library liblivox_ros_driver2.so
+[39.732s] [100%] Built target livox_ros_driver2
+[39.768s] Invoked command in '/home/ros2_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/livox_ros_driver2
+[39.799s] Invoking command in '/home/ros2_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/livox_ros_driver2
+[39.830s] -- Install configuration: ""
+[39.833s] -- Execute custom install script
+[39.834s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2
+[39.835s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.h
+[39.835s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.h
+[39.836s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.h
+[39.836s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.h
+[39.836s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.h
+[39.836s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.h
+[39.837s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.h
+[39.837s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.h
+[39.837s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h
+[39.837s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.sh
+[39.838s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.dsv
+[39.839s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+[39.839s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h
+[39.839s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[39.840s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+[39.840s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h
+[39.841s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[39.841s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp
+[39.842s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.hpp
+[39.842s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__builder.hpp
+[39.842s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp
+[39.842s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__traits.hpp
+[39.843s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.hpp
+[39.843s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__builder.hpp
+[39.843s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.hpp
+[39.843s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__traits.hpp
+[39.844s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.hpp
+[39.844s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_cpp__visibility_control.hpp
+[39.845s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[39.845s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp
+[39.845s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[39.846s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+[39.846s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp
+[39.847s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.sh
+[39.847s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.dsv
+[39.848s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/PKG-INFO
+[39.848s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/SOURCES.txt
+[39.848s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/dependency_links.txt
+[39.848s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/top_level.txt
+[39.850s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py
+[39.850s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c
+[39.850s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c
+[39.850s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c
+[39.851s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so
+[39.851s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[39.851s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[39.851s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[39.852s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py
+[39.852s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py
+[39.852s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg_s.c
+[39.852s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py
+[39.853s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point_s.c
+[39.853s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[39.854s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[39.854s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[39.854s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.idl
+[39.855s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.idl
+[39.855s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.msg
+[39.855s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.msg
+[39.856s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node
+[39.856s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2.so
+[39.857s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/HAP_config.json
+[39.857s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_config.json
+[39.858s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS1.rviz
+[39.858s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS2.rviz
+[39.858s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/config/mixed_HAP_MID360_config.json
+[39.859s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_HAP_launch.py
+[39.859s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_MID360_launch.py
+[39.859s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_HAP_launch.py
+[39.859s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_MID360_launch.py
+[39.859s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_mixed.py
+[39.860s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/ament_index/resource_index/package_run_dependencies/livox_ros_driver2
+[39.860s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/ament_index/resource_index/parent_prefix_path/livox_ros_driver2
+[39.861s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.sh
+[39.861s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.dsv
+[39.861s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.sh
+[39.862s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.dsv
+[39.862s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.bash
+[39.862s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.sh
+[39.862s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.zsh
+[39.863s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.dsv
+[39.863s] -- Symlinking: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv
+[39.888s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/ament_index/resource_index/packages/livox_ros_driver2
+[39.889s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/ament_index/resource_index/rclcpp_components/livox_ros_driver2
+[39.889s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake-extras.cmake
+[39.889s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake
+[39.889s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_include_directories-extras.cmake
+[39.890s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_libraries-extras.cmake
+[39.890s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_targets-extras.cmake
+[39.890s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[39.891s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[39.891s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake
+[39.891s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config-version.cmake
+[39.891s] -- Up-to-date symlink: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/package.xml
+[39.892s] -- Up-to-date: /home/ros2_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so
+[39.892s] -- Up-to-date: /home/ros2_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so
+[39.893s] -- Up-to-date: /home/ros2_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so
+[39.893s] -- Up-to-date: /home/ros2_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so
+[39.893s] -- Up-to-date: /home/ros2_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
+[39.894s] -- Up-to-date: /home/ros2_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so
+[39.895s] -- Up-to-date: /home/ros2_ws/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so
+[39.997s] Listing '/home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2'...
+[39.997s] Compiling '/home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py'...
+[39.997s] Listing '/home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg'...
+[40.014s] -- Up-to-date: /home/ros2_ws/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so
+[40.015s] -- Up-to-date: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport.cmake
+[40.015s] -- Up-to-date: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport-noconfig.cmake
+[40.015s] -- Up-to-date: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport.cmake
+[40.016s] -- Up-to-date: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[40.017s] -- Up-to-date: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport.cmake
+[40.017s] -- Up-to-date: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[40.017s] -- Up-to-date: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport.cmake
+[40.017s] -- Up-to-date: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport-noconfig.cmake
+[40.017s] -- Up-to-date: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cppExport.cmake
+[40.017s] -- Up-to-date: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport.cmake
+[40.018s] -- Up-to-date: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[40.018s] -- Up-to-date: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport.cmake
+[40.018s] -- Up-to-date: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[40.018s] -- Up-to-date: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport.cmake
+[40.018s] -- Up-to-date: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport-noconfig.cmake
+[40.018s] -- Up-to-date: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport.cmake
+[40.019s] -- Up-to-date: /home/ros2_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport-noconfig.cmake
+[40.027s] Invoked command in '/home/ros2_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/livox_ros_driver2

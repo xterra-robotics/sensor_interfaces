@@ -1,0 +1,510 @@
+[0.000000] (-) TimerEvent: {}
+[0.000432] (-) JobUnselected: {'identifier': 'cyclonedds'}
+[0.000807] (-) JobUnselected: {'identifier': 'dds_utils'}
+[0.001405] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.001454] (-) JobUnselected: {'identifier': 'm2_metal_description'}
+[0.001729] (-) JobUnselected: {'identifier': 'orbbec_camera'}
+[0.002050] (-) JobUnselected: {'identifier': 'orbbec_camera_msgs'}
+[0.002148] (-) JobUnselected: {'identifier': 'orbbec_description'}
+[0.002223] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.002293] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.002361] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.002431] (-) JobUnselected: {'identifier': 'sensor_description'}
+[0.002500] (-) JobUnselected: {'identifier': 'xterra'}
+[0.002579] (xterra_perception_api) JobQueued: {'identifier': 'xterra_perception_api', 'dependencies': OrderedDict()}
+[0.002663] (xterra_perception_api) JobStarted: {'identifier': 'xterra_perception_api'}
+[0.024045] (xterra_perception_api) JobProgress: {'identifier': 'xterra_perception_api', 'progress': 'cmake'}
+[0.026519] (xterra_perception_api) JobProgress: {'identifier': 'xterra_perception_api', 'progress': 'build'}
+[0.028317] (xterra_perception_api) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2_ws/build/xterra_perception_api'], 'cwd': '/home/ros2_ws/build/xterra_perception_api', 'env': OrderedDict([('CMAKE_BUILD_PARALLEL_LEVEL', '3'), ('HOSTNAME', 'xterra-orin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2_ws/install/xterra_perception_api/lib:/home/ros2_ws/install/xterra/lib:/home/ros2_ws/install/realsense2_camera/lib:/home/ros2_ws/install/realsense2_camera_msgs/lib:/home/ros2_ws/install/livox_ros_driver2/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:'), ('HOME', '/root'), ('OLDPWD', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('MAKEFLAGS', '-j3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('OrbbecSDK_DIR', '/usr/local/lib/cmake/OrbbecSDK'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/livox_ros_driver2:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros2_ws/build/xterra_perception_api'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages:/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/livox_ros_driver2:/opt/OrbbecSDK_v2.4.11/lib::/opt/ros/humble')]), 'shell': False}
+[0.099275] (-) TimerEvent: {}
+[0.121492] (xterra_perception_api) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199438] (-) TimerEvent: {}
+[0.299956] (-) TimerEvent: {}
+[0.400583] (-) TimerEvent: {}
+[0.432776] (xterra_perception_api) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500286] (xterra_perception_api) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.500849] (-) TimerEvent: {}
+[0.505398] (xterra_perception_api) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.518166] (xterra_perception_api) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.538714] (xterra_perception_api) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.565608] (xterra_perception_api) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600966] (-) TimerEvent: {}
+[0.634149] (xterra_perception_api) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.637092] (xterra_perception_api) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.675533] (xterra_perception_api) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.701090] (-) TimerEvent: {}
+[0.778760] (xterra_perception_api) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.801222] (-) TimerEvent: {}
+[0.864852] (xterra_perception_api) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.901345] (-) TimerEvent: {}
+[0.930174] (xterra_perception_api) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.936602] (xterra_perception_api) StdoutLine: {'line': b'-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.001603] (-) TimerEvent: {}
+[1.005379] (xterra_perception_api) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.096764] (xterra_perception_api) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)\n'}
+[1.101651] (-) TimerEvent: {}
+[1.202025] (-) TimerEvent: {}
+[1.302646] (-) TimerEvent: {}
+[1.403301] (-) TimerEvent: {}
+[1.504371] (-) TimerEvent: {}
+[1.605844] (-) TimerEvent: {}
+[1.706759] (-) TimerEvent: {}
+[1.807270] (-) TimerEvent: {}
+[1.908224] (-) TimerEvent: {}
+[2.009043] (-) TimerEvent: {}
+[2.017710] (xterra_perception_api) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.032278] (xterra_perception_api) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.032899] (xterra_perception_api) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[2.109164] (-) TimerEvent: {}
+[2.209613] (-) TimerEvent: {}
+[2.310503] (-) TimerEvent: {}
+[2.371543] (xterra_perception_api) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.383786] (xterra_perception_api) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.396146] (xterra_perception_api) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.410559] (-) TimerEvent: {}
+[2.510938] (-) TimerEvent: {}
+[2.611752] (-) TimerEvent: {}
+[2.712688] (-) TimerEvent: {}
+[2.717012] (xterra_perception_api) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.813199] (-) TimerEvent: {}
+[2.914131] (-) TimerEvent: {}
+[3.014773] (-) TimerEvent: {}
+[3.052049] (xterra_perception_api) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.114901] (-) TimerEvent: {}
+[3.215659] (-) TimerEvent: {}
+[3.316246] (-) TimerEvent: {}
+[3.371733] (xterra_perception_api) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[3.372529] (xterra_perception_api) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[3.372939] (xterra_perception_api) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[3.373598] (xterra_perception_api) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[3.374329] (xterra_perception_api) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[3.375059] (xterra_perception_api) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[3.375840] (xterra_perception_api) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[3.376483] (xterra_perception_api) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[3.377076] (xterra_perception_api) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[3.377941] (xterra_perception_api) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[3.378747] (xterra_perception_api) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[3.379425] (xterra_perception_api) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[3.380325] (xterra_perception_api) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[3.381258] (xterra_perception_api) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[3.382052] (xterra_perception_api) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[3.382917] (xterra_perception_api) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[3.383753] (xterra_perception_api) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[3.384530] (xterra_perception_api) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[3.385565] (xterra_perception_api) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[3.386289] (xterra_perception_api) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[3.387832] (xterra_perception_api) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[3.388405] (xterra_perception_api) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[3.388997] (xterra_perception_api) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[3.389553] (xterra_perception_api) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[3.390359] (xterra_perception_api) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[3.395661] (xterra_perception_api) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[3.416309] (-) TimerEvent: {}
+[3.484803] (xterra_perception_api) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.516464] (-) TimerEvent: {}
+[3.616898] (-) TimerEvent: {}
+[3.694703] (xterra_perception_api) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.700208] (xterra_perception_api) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.701676] (xterra_perception_api) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ros2_ws/src/xterra_perception_api/include;$<BUILD_INTERFACE:/home/ros2_ws/src/xterra_perception_api/include>\n'}
+[3.701998] (xterra_perception_api) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.707145] (xterra_perception_api) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.707430] (xterra_perception_api) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.711020] (xterra_perception_api) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.716972] (-) TimerEvent: {}
+[3.717621] (xterra_perception_api) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.717904] (xterra_perception_api) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.720690] (xterra_perception_api) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.725737] (xterra_perception_api) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.817241] (-) TimerEvent: {}
+[3.917808] (-) TimerEvent: {}
+[3.923555] (xterra_perception_api) StdoutLine: {'line': b'-- Generating done\n'}
+[3.953108] (xterra_perception_api) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2_ws/build/xterra_perception_api\n'}
+[4.018486] (-) TimerEvent: {}
+[4.096924] (xterra_perception_api) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/xterra_perception_api.dir/src/orbbec/orbbec_camera.cpp.o\n'}
+[4.097603] (xterra_perception_api) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/xterra_perception_api.dir/src/orbbec/orbbec_multi_cam_manager.cpp.o\n'}
+[4.097777] (xterra_perception_api) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/xterra_perception_api.dir/src/camera_interface/base_camera.cpp.o\n'}
+[4.118623] (-) TimerEvent: {}
+[4.219229] (-) TimerEvent: {}
+[4.319663] (-) TimerEvent: {}
+[4.420066] (-) TimerEvent: {}
+[4.520456] (-) TimerEvent: {}
+[4.621046] (-) TimerEvent: {}
+[4.721839] (-) TimerEvent: {}
+[4.822858] (-) TimerEvent: {}
+[4.923537] (-) TimerEvent: {}
+[5.024181] (-) TimerEvent: {}
+[5.124806] (-) TimerEvent: {}
+[5.225382] (-) TimerEvent: {}
+[5.326946] (-) TimerEvent: {}
+[5.427624] (-) TimerEvent: {}
+[5.528299] (-) TimerEvent: {}
+[5.628959] (-) TimerEvent: {}
+[5.729790] (-) TimerEvent: {}
+[5.830392] (-) TimerEvent: {}
+[5.931062] (-) TimerEvent: {}
+[6.032133] (-) TimerEvent: {}
+[6.132750] (-) TimerEvent: {}
+[6.233230] (-) TimerEvent: {}
+[6.333812] (-) TimerEvent: {}
+[6.434401] (-) TimerEvent: {}
+[6.534904] (-) TimerEvent: {}
+[6.635380] (-) TimerEvent: {}
+[6.735929] (-) TimerEvent: {}
+[6.836618] (-) TimerEvent: {}
+[6.937254] (-) TimerEvent: {}
+[7.037778] (-) TimerEvent: {}
+[7.138283] (-) TimerEvent: {}
+[7.238766] (-) TimerEvent: {}
+[7.339233] (-) TimerEvent: {}
+[7.439763] (-) TimerEvent: {}
+[7.540369] (-) TimerEvent: {}
+[7.640928] (-) TimerEvent: {}
+[7.741514] (-) TimerEvent: {}
+[7.842092] (-) TimerEvent: {}
+[7.942679] (-) TimerEvent: {}
+[8.043176] (-) TimerEvent: {}
+[8.143676] (-) TimerEvent: {}
+[8.244138] (-) TimerEvent: {}
+[8.344602] (-) TimerEvent: {}
+[8.445119] (-) TimerEvent: {}
+[8.545696] (-) TimerEvent: {}
+[8.646433] (-) TimerEvent: {}
+[8.747141] (-) TimerEvent: {}
+[8.847721] (-) TimerEvent: {}
+[8.948343] (-) TimerEvent: {}
+[9.049122] (-) TimerEvent: {}
+[9.149744] (-) TimerEvent: {}
+[9.250252] (-) TimerEvent: {}
+[9.350769] (-) TimerEvent: {}
+[9.451346] (-) TimerEvent: {}
+[9.551921] (-) TimerEvent: {}
+[9.652417] (-) TimerEvent: {}
+[9.752916] (-) TimerEvent: {}
+[9.853356] (-) TimerEvent: {}
+[9.953956] (-) TimerEvent: {}
+[10.054689] (-) TimerEvent: {}
+[10.155405] (-) TimerEvent: {}
+[10.256155] (-) TimerEvent: {}
+[10.356937] (-) TimerEvent: {}
+[10.457671] (-) TimerEvent: {}
+[10.558433] (-) TimerEvent: {}
+[10.659521] (-) TimerEvent: {}
+[10.760357] (-) TimerEvent: {}
+[10.861137] (-) TimerEvent: {}
+[10.961894] (-) TimerEvent: {}
+[11.062605] (-) TimerEvent: {}
+[11.163215] (-) TimerEvent: {}
+[11.264189] (-) TimerEvent: {}
+[11.365243] (-) TimerEvent: {}
+[11.465984] (-) TimerEvent: {}
+[11.566733] (-) TimerEvent: {}
+[11.667821] (-) TimerEvent: {}
+[11.768935] (-) TimerEvent: {}
+[11.870031] (-) TimerEvent: {}
+[11.971140] (-) TimerEvent: {}
+[12.072229] (-) TimerEvent: {}
+[12.173309] (-) TimerEvent: {}
+[12.274044] (-) TimerEvent: {}
+[12.374646] (-) TimerEvent: {}
+[12.475127] (-) TimerEvent: {}
+[12.575718] (-) TimerEvent: {}
+[12.676453] (-) TimerEvent: {}
+[12.777330] (-) TimerEvent: {}
+[12.878405] (-) TimerEvent: {}
+[12.979507] (-) TimerEvent: {}
+[13.080266] (-) TimerEvent: {}
+[13.181009] (-) TimerEvent: {}
+[13.281753] (-) TimerEvent: {}
+[13.382359] (-) TimerEvent: {}
+[13.482904] (-) TimerEvent: {}
+[13.583591] (-) TimerEvent: {}
+[13.684348] (-) TimerEvent: {}
+[13.785109] (-) TimerEvent: {}
+[13.885860] (-) TimerEvent: {}
+[13.986584] (-) TimerEvent: {}
+[14.087379] (-) TimerEvent: {}
+[14.188112] (-) TimerEvent: {}
+[14.288851] (-) TimerEvent: {}
+[14.389582] (-) TimerEvent: {}
+[14.490317] (-) TimerEvent: {}
+[14.591067] (-) TimerEvent: {}
+[14.691792] (-) TimerEvent: {}
+[14.792410] (-) TimerEvent: {}
+[14.893333] (-) TimerEvent: {}
+[14.994095] (-) TimerEvent: {}
+[15.094855] (-) TimerEvent: {}
+[15.195591] (-) TimerEvent: {}
+[15.296227] (-) TimerEvent: {}
+[15.396862] (-) TimerEvent: {}
+[15.497497] (-) TimerEvent: {}
+[15.598217] (-) TimerEvent: {}
+[15.698786] (-) TimerEvent: {}
+[15.799501] (-) TimerEvent: {}
+[15.900114] (-) TimerEvent: {}
+[16.000693] (-) TimerEvent: {}
+[16.101322] (-) TimerEvent: {}
+[16.202360] (-) TimerEvent: {}
+[16.303098] (-) TimerEvent: {}
+[16.403825] (-) TimerEvent: {}
+[16.504432] (-) TimerEvent: {}
+[16.605001] (-) TimerEvent: {}
+[16.705594] (-) TimerEvent: {}
+[16.806167] (-) TimerEvent: {}
+[16.906668] (-) TimerEvent: {}
+[17.007323] (-) TimerEvent: {}
+[17.108052] (-) TimerEvent: {}
+[17.208767] (-) TimerEvent: {}
+[17.309383] (-) TimerEvent: {}
+[17.410032] (-) TimerEvent: {}
+[17.510753] (-) TimerEvent: {}
+[17.611500] (-) TimerEvent: {}
+[17.712235] (-) TimerEvent: {}
+[17.812975] (-) TimerEvent: {}
+[17.913635] (-) TimerEvent: {}
+[18.014199] (-) TimerEvent: {}
+[18.114667] (-) TimerEvent: {}
+[18.191385] (xterra_perception_api) StderrLine: {'line': b'In file included from /home/ros2_ws/src/xterra_perception_api/include/orbbec/orbbec_camera_config.hpp:5,\n'}
+[18.192031] (xterra_perception_api) StderrLine: {'line': b'                 from /home/ros2_ws/src/xterra_perception_api/include/orbbec/orbbec_camera.hpp:12,\n'}
+[18.192297] (xterra_perception_api) StderrLine: {'line': b'                 from /home/ros2_ws/src/xterra_perception_api/src/orbbec/orbbec_camera.cpp:1:\n'}
+[18.192447] (xterra_perception_api) StderrLine: {'line': b'/home/ros2_ws/src/xterra_perception_api/include/camera_interface/camera_config.hpp: In constructor \xe2\x80\x98xterra_perception_api::StreamConfig::StreamConfig(int, int, int, xterra_perception_api::StreamFormat, bool)\xe2\x80\x99:\n'}
+[18.192599] (xterra_perception_api) StderrLine: {'line': b'/home/ros2_ws/src/xterra_perception_api/include/camera_interface/camera_config.hpp:31:22: warning: \xe2\x80\x98xterra_perception_api::StreamConfig::format\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[18.192817] (xterra_perception_api) StderrLine: {'line': b'   31 |         StreamFormat format = StreamFormat::UNKNOWN;\n'}
+[18.192966] (xterra_perception_api) StderrLine: {'line': b'      |                      ^~~~~~\n'}
+[18.193102] (xterra_perception_api) StderrLine: {'line': b'/home/ros2_ws/src/xterra_perception_api/include/camera_interface/camera_config.hpp:29:14: warning:   \xe2\x80\x98bool xterra_perception_api::StreamConfig::enabled\xe2\x80\x99 [-Wreorder]\n'}
+[18.193237] (xterra_perception_api) StderrLine: {'line': b'   29 |         bool enabled = false;\n'}
+[18.193367] (xterra_perception_api) StderrLine: {'line': b'      |              ^~~~~~~\n'}
+[18.193491] (xterra_perception_api) StderrLine: {'line': b'/home/ros2_ws/src/xterra_perception_api/include/camera_interface/camera_config.hpp:35:9: warning:   when initialized here [-Wreorder]\n'}
+[18.193617] (xterra_perception_api) StderrLine: {'line': b'   35 |         StreamConfig(int w, int h, int f, StreamFormat fmt, bool en = true)\n'}
+[18.193745] (xterra_perception_api) StderrLine: {'line': b'      |         ^~~~~~~~~~~~\n'}
+[18.214836] (-) TimerEvent: {}
+[18.315304] (-) TimerEvent: {}
+[18.415907] (-) TimerEvent: {}
+[18.516629] (-) TimerEvent: {}
+[18.563179] (xterra_perception_api) StderrLine: {'line': b'In file included from /home/ros2_ws/src/xterra_perception_api/include/camera_interface/base_camera.hpp:15,\n'}
+[18.563879] (xterra_perception_api) StderrLine: {'line': b'                 from /home/ros2_ws/src/xterra_perception_api/include/orbbec/orbbec_multi_cam_manager.hpp:6,\n'}
+[18.564065] (xterra_perception_api) StderrLine: {'line': b'                 from /home/ros2_ws/src/xterra_perception_api/src/orbbec/orbbec_multi_cam_manager.cpp:1:\n'}
+[18.564210] (xterra_perception_api) StderrLine: {'line': b'/home/ros2_ws/src/xterra_perception_api/include/camera_interface/camera_config.hpp: In constructor \xe2\x80\x98xterra_perception_api::StreamConfig::StreamConfig(int, int, int, xterra_perception_api::StreamFormat, bool)\xe2\x80\x99:\n'}
+[18.564357] (xterra_perception_api) StderrLine: {'line': b'/home/ros2_ws/src/xterra_perception_api/include/camera_interface/camera_config.hpp:31:22: warning: \xe2\x80\x98xterra_perception_api::StreamConfig::format\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[18.564557] (xterra_perception_api) StderrLine: {'line': b'   31 |         StreamFormat format = StreamFormat::UNKNOWN;\n'}
+[18.564725] (xterra_perception_api) StderrLine: {'line': b'      |                      ^~~~~~\n'}
+[18.564855] (xterra_perception_api) StderrLine: {'line': b'/home/ros2_ws/src/xterra_perception_api/include/camera_interface/camera_config.hpp:29:14: warning:   \xe2\x80\x98bool xterra_perception_api::StreamConfig::enabled\xe2\x80\x99 [-Wreorder]\n'}
+[18.564981] (xterra_perception_api) StderrLine: {'line': b'   29 |         bool enabled = false;\n'}
+[18.565103] (xterra_perception_api) StderrLine: {'line': b'      |              ^~~~~~~\n'}
+[18.565222] (xterra_perception_api) StderrLine: {'line': b'/home/ros2_ws/src/xterra_perception_api/include/camera_interface/camera_config.hpp:35:9: warning:   when initialized here [-Wreorder]\n'}
+[18.565341] (xterra_perception_api) StderrLine: {'line': b'   35 |         StreamConfig(int w, int h, int f, StreamFormat fmt, bool en = true)\n'}
+[18.565465] (xterra_perception_api) StderrLine: {'line': b'      |         ^~~~~~~~~~~~\n'}
+[18.616808] (-) TimerEvent: {}
+[18.717370] (-) TimerEvent: {}
+[18.817942] (-) TimerEvent: {}
+[18.918461] (-) TimerEvent: {}
+[19.019135] (-) TimerEvent: {}
+[19.119847] (-) TimerEvent: {}
+[19.220475] (-) TimerEvent: {}
+[19.232796] (xterra_perception_api) StderrLine: {'line': b'In file included from /home/ros2_ws/src/xterra_perception_api/include/camera_interface/base_camera.hpp:15,\n'}
+[19.233534] (xterra_perception_api) StderrLine: {'line': b'                 from /home/ros2_ws/src/xterra_perception_api/src/camera_interface/base_camera.cpp:1:\n'}
+[19.233715] (xterra_perception_api) StderrLine: {'line': b'/home/ros2_ws/src/xterra_perception_api/include/camera_interface/camera_config.hpp: In constructor \xe2\x80\x98xterra_perception_api::StreamConfig::StreamConfig(int, int, int, xterra_perception_api::StreamFormat, bool)\xe2\x80\x99:\n'}
+[19.233877] (xterra_perception_api) StderrLine: {'line': b'/home/ros2_ws/src/xterra_perception_api/include/camera_interface/camera_config.hpp:31:22: warning: \xe2\x80\x98xterra_perception_api::StreamConfig::format\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[19.234093] (xterra_perception_api) StderrLine: {'line': b'   31 |         StreamFormat format = StreamFormat::UNKNOWN;\n'}
+[19.234234] (xterra_perception_api) StderrLine: {'line': b'      |                      ^~~~~~\n'}
+[19.234370] (xterra_perception_api) StderrLine: {'line': b'/home/ros2_ws/src/xterra_perception_api/include/camera_interface/camera_config.hpp:29:14: warning:   \xe2\x80\x98bool xterra_perception_api::StreamConfig::enabled\xe2\x80\x99 [-Wreorder]\n'}
+[19.234499] (xterra_perception_api) StderrLine: {'line': b'   29 |         bool enabled = false;\n'}
+[19.234618] (xterra_perception_api) StderrLine: {'line': b'      |              ^~~~~~~\n'}
+[19.234739] (xterra_perception_api) StderrLine: {'line': b'/home/ros2_ws/src/xterra_perception_api/include/camera_interface/camera_config.hpp:35:9: warning:   when initialized here [-Wreorder]\n'}
+[19.234863] (xterra_perception_api) StderrLine: {'line': b'   35 |         StreamConfig(int w, int h, int f, StreamFormat fmt, bool en = true)\n'}
+[19.234986] (xterra_perception_api) StderrLine: {'line': b'      |         ^~~~~~~~~~~~\n'}
+[19.320722] (-) TimerEvent: {}
+[19.421333] (-) TimerEvent: {}
+[19.521991] (-) TimerEvent: {}
+[19.622614] (-) TimerEvent: {}
+[19.723300] (-) TimerEvent: {}
+[19.824032] (-) TimerEvent: {}
+[19.924734] (-) TimerEvent: {}
+[20.025432] (-) TimerEvent: {}
+[20.126172] (-) TimerEvent: {}
+[20.226901] (-) TimerEvent: {}
+[20.327615] (-) TimerEvent: {}
+[20.428289] (-) TimerEvent: {}
+[20.529312] (-) TimerEvent: {}
+[20.630405] (-) TimerEvent: {}
+[20.731145] (-) TimerEvent: {}
+[20.832337] (-) TimerEvent: {}
+[20.933115] (-) TimerEvent: {}
+[21.034195] (-) TimerEvent: {}
+[21.135226] (-) TimerEvent: {}
+[21.236307] (-) TimerEvent: {}
+[21.337394] (-) TimerEvent: {}
+[21.438119] (-) TimerEvent: {}
+[21.538831] (-) TimerEvent: {}
+[21.639595] (-) TimerEvent: {}
+[21.740384] (-) TimerEvent: {}
+[21.798359] (xterra_perception_api) StderrLine: {'line': b'In file included from /home/ros2_ws/src/xterra_perception_api/src/orbbec/orbbec_camera.cpp:1:\n'}
+[21.799085] (xterra_perception_api) StderrLine: {'line': b'/home/ros2_ws/src/xterra_perception_api/include/orbbec/orbbec_camera.hpp: In constructor \xe2\x80\x98xterra_perception_api::OrbbecCamera::OrbbecCamera(std::shared_ptr<ob::Device>, const xterra_perception_api::CameraConfig&, rclcpp::Logger, std::shared_ptr<xterra_perception_api::ImageOverlayUtils>)\xe2\x80\x99:\n'}
+[21.799371] (xterra_perception_api) StderrLine: {'line': b'/home/ros2_ws/src/xterra_perception_api/include/orbbec/orbbec_camera.hpp:113:24: warning: \xe2\x80\x98xterra_perception_api::OrbbecCamera::logger_\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[21.799556] (xterra_perception_api) StderrLine: {'line': b'  113 |         rclcpp::Logger logger_;\n'}
+[21.799699] (xterra_perception_api) StderrLine: {'line': b'      |                        ^~~~~~~\n'}
+[21.799831] (xterra_perception_api) StderrLine: {'line': b'/home/ros2_ws/src/xterra_perception_api/include/orbbec/orbbec_camera.hpp:95:44: warning:   \xe2\x80\x98std::shared_ptr<xterra_perception_api::ImageOverlayUtils> xterra_perception_api::OrbbecCamera::overlay_utils_\xe2\x80\x99 [-Wreorder]\n'}
+[21.799964] (xterra_perception_api) StderrLine: {'line': b'   95 |         std::shared_ptr<ImageOverlayUtils> overlay_utils_;\n'}
+[21.800091] (xterra_perception_api) StderrLine: {'line': b'      |                                            ^~~~~~~~~~~~~~\n'}
+[21.800214] (xterra_perception_api) StderrLine: {'line': b'/home/ros2_ws/src/xterra_perception_api/src/orbbec/orbbec_camera.cpp:6:5: warning:   when initialized here [-Wreorder]\n'}
+[21.800341] (xterra_perception_api) StderrLine: {'line': b'    6 |     OrbbecCamera::OrbbecCamera(std::shared_ptr<ob::Device> device,\n'}
+[21.800466] (xterra_perception_api) StderrLine: {'line': b'      |     ^~~~~~~~~~~~\n'}
+[21.800587] (xterra_perception_api) StderrLine: {'line': b'In file included from /home/ros2_ws/src/xterra_perception_api/src/orbbec/orbbec_camera.cpp:1:\n'}
+[21.800796] (xterra_perception_api) StderrLine: {'line': b'/home/ros2_ws/src/xterra_perception_api/include/orbbec/orbbec_camera.hpp:95:44: warning: \xe2\x80\x98xterra_perception_api::OrbbecCamera::overlay_utils_\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[21.800937] (xterra_perception_api) StderrLine: {'line': b'   95 |         std::shared_ptr<ImageOverlayUtils> overlay_utils_;\n'}
+[21.801063] (xterra_perception_api) StderrLine: {'line': b'      |                                            ^~~~~~~~~~~~~~\n'}
+[21.801180] (xterra_perception_api) StderrLine: {'line': b'/home/ros2_ws/src/xterra_perception_api/include/orbbec/orbbec_camera.hpp:88:28: warning:   \xe2\x80\x98xterra_perception_api::OrbbecCameraConfig xterra_perception_api::OrbbecCamera::orbbec_config_\xe2\x80\x99 [-Wreorder]\n'}
+[21.801304] (xterra_perception_api) StderrLine: {'line': b'   88 |         OrbbecCameraConfig orbbec_config_;\n'}
+[21.801423] (xterra_perception_api) StderrLine: {'line': b'      |                            ^~~~~~~~~~~~~~\n'}
+[21.801544] (xterra_perception_api) StderrLine: {'line': b'/home/ros2_ws/src/xterra_perception_api/src/orbbec/orbbec_camera.cpp:6:5: warning:   when initialized here [-Wreorder]\n'}
+[21.801665] (xterra_perception_api) StderrLine: {'line': b'    6 |     OrbbecCamera::OrbbecCamera(std::shared_ptr<ob::Device> device,\n'}
+[21.801788] (xterra_perception_api) StderrLine: {'line': b'      |     ^~~~~~~~~~~~\n'}
+[21.841034] (-) TimerEvent: {}
+[21.942061] (-) TimerEvent: {}
+[22.042818] (-) TimerEvent: {}
+[22.143590] (-) TimerEvent: {}
+[22.244349] (-) TimerEvent: {}
+[22.345135] (-) TimerEvent: {}
+[22.445869] (-) TimerEvent: {}
+[22.546487] (-) TimerEvent: {}
+[22.646977] (-) TimerEvent: {}
+[22.747530] (-) TimerEvent: {}
+[22.848118] (-) TimerEvent: {}
+[22.949082] (-) TimerEvent: {}
+[23.049856] (-) TimerEvent: {}
+[23.150626] (-) TimerEvent: {}
+[23.251382] (-) TimerEvent: {}
+[23.352138] (-) TimerEvent: {}
+[23.452946] (-) TimerEvent: {}
+[23.553668] (-) TimerEvent: {}
+[23.654378] (-) TimerEvent: {}
+[23.755074] (-) TimerEvent: {}
+[23.855769] (-) TimerEvent: {}
+[23.956476] (-) TimerEvent: {}
+[24.057264] (-) TimerEvent: {}
+[24.158315] (-) TimerEvent: {}
+[24.258925] (-) TimerEvent: {}
+[24.359544] (-) TimerEvent: {}
+[24.460191] (-) TimerEvent: {}
+[24.560889] (-) TimerEvent: {}
+[24.661551] (-) TimerEvent: {}
+[24.762241] (-) TimerEvent: {}
+[24.862947] (-) TimerEvent: {}
+[24.963567] (-) TimerEvent: {}
+[25.064072] (-) TimerEvent: {}
+[25.164514] (-) TimerEvent: {}
+[25.265121] (-) TimerEvent: {}
+[25.365794] (-) TimerEvent: {}
+[25.466414] (-) TimerEvent: {}
+[25.567426] (-) TimerEvent: {}
+[25.668121] (-) TimerEvent: {}
+[25.768781] (-) TimerEvent: {}
+[25.890453] (-) TimerEvent: {}
+[25.991469] (-) TimerEvent: {}
+[26.092496] (-) TimerEvent: {}
+[26.193200] (-) TimerEvent: {}
+[26.293899] (-) TimerEvent: {}
+[26.394573] (-) TimerEvent: {}
+[26.495256] (-) TimerEvent: {}
+[26.595944] (-) TimerEvent: {}
+[26.696631] (-) TimerEvent: {}
+[26.797741] (-) TimerEvent: {}
+[26.898839] (-) TimerEvent: {}
+[26.999928] (-) TimerEvent: {}
+[27.100983] (-) TimerEvent: {}
+[27.202055] (-) TimerEvent: {}
+[27.302760] (-) TimerEvent: {}
+[27.403829] (-) TimerEvent: {}
+[27.504496] (-) TimerEvent: {}
+[27.605497] (-) TimerEvent: {}
+[27.706473] (-) TimerEvent: {}
+[27.807423] (-) TimerEvent: {}
+[27.908413] (-) TimerEvent: {}
+[28.009442] (-) TimerEvent: {}
+[28.110423] (-) TimerEvent: {}
+[28.211388] (-) TimerEvent: {}
+[28.312394] (-) TimerEvent: {}
+[28.413426] (-) TimerEvent: {}
+[28.514111] (-) TimerEvent: {}
+[28.615094] (-) TimerEvent: {}
+[28.716164] (-) TimerEvent: {}
+[28.817172] (-) TimerEvent: {}
+[28.917866] (-) TimerEvent: {}
+[29.018671] (-) TimerEvent: {}
+[29.119331] (-) TimerEvent: {}
+[29.219993] (-) TimerEvent: {}
+[29.320414] (-) TimerEvent: {}
+[29.421059] (-) TimerEvent: {}
+[29.521705] (-) TimerEvent: {}
+[29.622089] (-) TimerEvent: {}
+[29.722725] (-) TimerEvent: {}
+[29.823395] (-) TimerEvent: {}
+[29.923916] (-) TimerEvent: {}
+[30.024724] (-) TimerEvent: {}
+[30.125417] (-) TimerEvent: {}
+[30.226118] (-) TimerEvent: {}
+[30.326666] (-) TimerEvent: {}
+[30.427341] (-) TimerEvent: {}
+[30.528323] (-) TimerEvent: {}
+[30.629046] (-) TimerEvent: {}
+[30.674454] (xterra_perception_api) StdoutLine: {'line': b'[100%] Linking CXX shared library libxterra_perception_api.so\n'}
+[30.729303] (-) TimerEvent: {}
+[30.830014] (-) TimerEvent: {}
+[30.930707] (-) TimerEvent: {}
+[31.031427] (-) TimerEvent: {}
+[31.132439] (-) TimerEvent: {}
+[31.233696] (-) TimerEvent: {}
+[31.335787] (-) TimerEvent: {}
+[31.437027] (-) TimerEvent: {}
+[31.537715] (-) TimerEvent: {}
+[31.638386] (-) TimerEvent: {}
+[31.738973] (-) TimerEvent: {}
+[31.839560] (-) TimerEvent: {}
+[31.940234] (-) TimerEvent: {}
+[32.040934] (-) TimerEvent: {}
+[32.141572] (-) TimerEvent: {}
+[32.242242] (-) TimerEvent: {}
+[32.312521] (xterra_perception_api) StdoutLine: {'line': b'[100%] Built target xterra_perception_api\n'}
+[32.342328] (xterra_perception_api) CommandEnded: {'returncode': 0}
+[32.343779] (-) TimerEvent: {}
+[32.344922] (xterra_perception_api) JobProgress: {'identifier': 'xterra_perception_api', 'progress': 'install'}
+[32.373484] (xterra_perception_api) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2_ws/build/xterra_perception_api'], 'cwd': '/home/ros2_ws/build/xterra_perception_api', 'env': OrderedDict([('CMAKE_BUILD_PARALLEL_LEVEL', '3'), ('HOSTNAME', 'xterra-orin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2_ws/install/xterra_perception_api/lib:/home/ros2_ws/install/xterra/lib:/home/ros2_ws/install/realsense2_camera/lib:/home/ros2_ws/install/realsense2_camera_msgs/lib:/home/ros2_ws/install/livox_ros_driver2/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:'), ('HOME', '/root'), ('OLDPWD', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('MAKEFLAGS', '-j3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('OrbbecSDK_DIR', '/usr/local/lib/cmake/OrbbecSDK'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/livox_ros_driver2:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros2_ws/build/xterra_perception_api'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages:/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/livox_ros_driver2:/opt/OrbbecSDK_v2.4.11/lib::/opt/ros/humble')]), 'shell': False}
+[32.401142] (xterra_perception_api) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[32.401764] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/library_path.sh\n'}
+[32.402408] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/library_path.dsv\n'}
+[32.402760] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include\n'}
+[32.403076] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/camera_interface\n'}
+[32.403309] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/include/camera_interface/camera_config.hpp\n'}
+[32.403468] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/include/camera_interface/base_camera.hpp\n'}
+[32.403766] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/orbbec\n'}
+[32.404001] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/include/orbbec/orbbec_multi_cam_manager.hpp\n'}
+[32.404231] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/include/orbbec/orbbec_camera.hpp\n'}
+[32.404528] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/include/orbbec/orbbec_camera_config.hpp\n'}
+[32.404686] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/utils\n'}
+[32.404831] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/include/utils/image_overlay_utils.hpp\n'}
+[32.405067] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/lib/libxterra_perception_api.so\n'}
+[32.410938] (xterra_perception_api) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/xterra_perception_api/lib/libxterra_perception_api.so" to ""\n'}
+[32.411152] (xterra_perception_api) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/config\n'}
+[32.411284] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/config/camera_meta_data.yaml\n'}
+[32.411511] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/share/ament_index/resource_index/package_run_dependencies/xterra_perception_api\n'}
+[32.411768] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/share/ament_index/resource_index/parent_prefix_path/xterra_perception_api\n'}
+[32.412172] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/ament_prefix_path.sh\n'}
+[32.412532] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/ament_prefix_path.dsv\n'}
+[32.413231] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/path.sh\n'}
+[32.413785] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/path.dsv\n'}
+[32.414034] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/local_setup.bash\n'}
+[32.414293] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/local_setup.sh\n'}
+[32.414623] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/local_setup.zsh\n'}
+[32.414942] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/local_setup.dsv\n'}
+[32.415264] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/package.dsv\n'}
+[32.415598] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/share/ament_index/resource_index/packages/xterra_perception_api\n'}
+[32.416072] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/export_xterra_perception_apiExport.cmake\n'}
+[32.416462] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/export_xterra_perception_apiExport-noconfig.cmake\n'}
+[32.416835] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[32.417156] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[32.417499] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/xterra_perception_apiConfig.cmake\n'}
+[32.417771] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/xterra_perception_apiConfig-version.cmake\n'}
+[32.418085] (xterra_perception_api) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/package.xml\n'}
+[32.422973] (xterra_perception_api) CommandEnded: {'returncode': 0}
+[32.444687] (-) TimerEvent: {}
+[32.512079] (xterra_perception_api) JobEnded: {'identifier': 'xterra_perception_api', 'rc': 0}
+[32.513784] (-) EventReactorShutdown: {}

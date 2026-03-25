@@ -1,0 +1,37 @@
+Consolidate compiler generated dependencies of target xterra_perception_api
+[100%] Built target xterra_perception_api
+-- Install configuration: ""
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/library_path.sh
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/library_path.dsv
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/camera_interface
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/camera_interface/camera_config.hpp
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/camera_interface/base_camera.hpp
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/orbbec
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/orbbec/orbbec_multi_cam_manager.hpp
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/orbbec/orbbec_camera.hpp
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/orbbec/orbbec_camera_config.hpp
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/utils
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/include/utils/image_overlay_utils.hpp
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/lib/libxterra_perception_api.so
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/config
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/config/camera_meta_data.yaml
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/ament_index/resource_index/package_run_dependencies/xterra_perception_api
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/ament_index/resource_index/parent_prefix_path/xterra_perception_api
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/path.sh
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/environment/path.dsv
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/local_setup.bash
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/local_setup.sh
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/local_setup.zsh
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/local_setup.dsv
+-- Installing: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/package.dsv
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/ament_index/resource_index/packages/xterra_perception_api
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/export_xterra_perception_apiExport.cmake
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/export_xterra_perception_apiExport-noconfig.cmake
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/xterra_perception_apiConfig.cmake
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/cmake/xterra_perception_apiConfig-version.cmake
+-- Up-to-date: /home/ros2_ws/install/xterra_perception_api/share/xterra_perception_api/package.xml

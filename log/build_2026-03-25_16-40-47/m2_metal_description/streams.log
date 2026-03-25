@@ -1,0 +1,83 @@
+[0.031s] Invoking command in '/home/ros2_ws/build/m2_metal_description': CMAKE_PREFIX_PATH=/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/livox_ros_driver2:/opt/OrbbecSDK_v2.4.11/lib:/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/m2_metal_description
+[0.091s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.401s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.471s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.475s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.488s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.509s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.536s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.604s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.607s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.646s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.748s] -- Found rclpy: 3.3.20 (/opt/ros/humble/share/rclpy/cmake)
+[0.748s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.765s] -- Found sensor_description: 0.0.0 (/home/ros2_ws/install/sensor_description/share/sensor_description/cmake)
+[0.765s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.926s] -- Configuring done
+[0.940s] -- Generating done
+[0.945s] -- Build files have been written to: /home/ros2_ws/build/m2_metal_description
+[1.015s] Invoked command in '/home/ros2_ws/build/m2_metal_description' returned '0': CMAKE_PREFIX_PATH=/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/livox_ros_driver2:/opt/OrbbecSDK_v2.4.11/lib:/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/m2_metal_description
+[1.045s] Invoking command in '/home/ros2_ws/build/m2_metal_description': CMAKE_PREFIX_PATH=/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/livox_ros_driver2:/opt/OrbbecSDK_v2.4.11/lib:/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/m2_metal_description
+[1.070s] -- Install configuration: ""
+[1.070s] -- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//launch
+[1.070s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//launch/m2_autonomy.launch.py
+[1.071s] -- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes
+[1.071s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/torso.STL
+[1.074s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FL_foot.STL
+[1.074s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/RL_thigh.STL
+[1.076s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FL_hip.STL
+[1.078s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/lydar_mount_with_head.STL
+[1.122s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/RR_hip.STL
+[1.124s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FL_shank.STL
+[1.125s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FL_thigh.STL
+[1.126s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FR_hip.STL
+[1.128s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/RL_hip.STL
+[1.131s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FR_foot.STL
+[1.132s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/RR_calf.STL
+[1.132s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/camera_mount_15deg..STL
+[1.269s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FR_shank.STL
+[1.270s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FR_thigh.STL
+[1.271s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/M2_METAL_HEAD_2026.STL
+[1.292s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/RR_foot.STL
+[1.293s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FR_calf.STL
+[1.294s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/RL_calf.STL
+[1.294s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/RR_thigh.STL
+[1.295s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/RL_foot.STL
+[1.296s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FL_calf.STL
+[1.297s] -- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//config
+[1.297s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//config/m2_metal_payload.rviz
+[1.297s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//config/mapping.rviz
+[1.297s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//config/nav2.rviz
+[1.298s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//config/elevation_mapping.rviz
+[1.298s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//config/elevation_mapping_sim.rviz
+[1.298s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//config/acuracy_test.rviz
+[1.298s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//config/m2_metal_rviz.rviz
+[1.299s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//config/api_test.rviz
+[1.299s] -- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//worlds
+[1.299s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//worlds/mujoco.world
+[1.300s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//worlds/world4.world
+[1.300s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//worlds/world3.world
+[1.300s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//worlds/stair.world
+[1.301s] -- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//xacro
+[1.301s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//xacro/materials.xacro
+[1.301s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//xacro/leg.xacro
+[1.301s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//xacro/robot.xacro
+[1.301s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//xacro/const.xacro
+[1.302s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//xacro/test_d435_camera.urdf.xacro
+[1.302s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//xacro/gazebo.xacro
+[1.303s] -- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/ament_index/resource_index/package_run_dependencies/m2_metal_description
+[1.303s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/ament_index/resource_index/parent_prefix_path/m2_metal_description
+[1.303s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/environment/ament_prefix_path.sh
+[1.304s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/environment/ament_prefix_path.dsv
+[1.304s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/environment/path.sh
+[1.304s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/environment/path.dsv
+[1.305s] -- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/local_setup.bash
+[1.305s] -- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/local_setup.sh
+[1.305s] -- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/local_setup.zsh
+[1.305s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/local_setup.dsv
+[1.306s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/package.dsv
+[1.306s] -- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/ament_index/resource_index/packages/m2_metal_description
+[1.306s] -- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/cmake/m2_metal_descriptionConfig.cmake
+[1.306s] -- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/cmake/m2_metal_descriptionConfig-version.cmake
+[1.306s] -- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/package.xml
+[1.311s] Invoked command in '/home/ros2_ws/build/m2_metal_description' returned '0': CMAKE_PREFIX_PATH=/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/livox_ros_driver2:/opt/OrbbecSDK_v2.4.11/lib:/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/m2_metal_description

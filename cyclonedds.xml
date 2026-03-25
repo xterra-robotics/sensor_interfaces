@@ -21,7 +21,7 @@
         <Peer address="localhost" />
         <Peer address="192.168.123.102" />
         <Peer address="192.168.123.101" />
-        <Peer address="172.19.65.10" />
+        <Peer address="192.168.123.194" />
       </Peers>
     </Discovery>
     <Tracing>

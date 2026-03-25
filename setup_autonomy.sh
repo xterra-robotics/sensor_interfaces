@@ -5,7 +5,7 @@ set -e
 
 # === CONFIGURATION ===
 CONTAINER_NAME="xterra_autonomy_container"
-IMAGE_NAME="xterra_autonomy"
+IMAGE_NAME="xterra_autonomy_beta"
 PACKAGE_NAME="m2_metal_description" # The ROS 2 package containing your launch files
 DEFAULT_LAUNCH_FILE="m2_autonomy.launch.py"
 
@@ -112,21 +112,16 @@ docker exec $CONTAINER_NAME bash -c "
     
     source /opt/ros/humble/setup.bash
     cd /home/ros2_ws
-      
+    
     echo 'Starting sequential build process...'
     
     colcon build --packages-select sensor_description && source install/setup.bash && \
     colcon build --packages-select m2_metal_description && source install/setup.bash && \
-    colcon build --packages-select xterra && source install/setup.bash && \
-    colcon build --packages-select xterra_perception_api && source install/setup.bash && \
+    colcon build --packages-select livox_ros_driver2 --cmake-args -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble && \
+    colcon build --packages-select realsense2_camera_msgs realsense2_camera --cmake-args -DCMAKE_BUILD_TYPE=Release -DFORCE_LIBUVC=ON && \
 
-    echo 'Build Complete.'
+    echo 'Build Complete. RMW set to: \$RMW_IMPLEMENTATION'
 
-    # 3. Launch Execution
-    # We use the passed variables here
-    # echo 'Launching: $PACKAGE_NAME $LAUNCH_FILE with args: $LAUNCH_ARGS'
-    
-    # ros2 launch $PACKAGE_NAME $LAUNCH_FILE $LAUNCH_ARGS
 " &
 
 # Capture the PID of the docker exec command
@@ -135,7 +130,24 @@ DOCKER_PID=$!
 # Wait for the process to finish
 wait $DOCKER_PID
 
-# Normal exit cleanup
-#echo "Process exited normally."
-#docker compose down
-#docker rm -f $CONTAINER_NAME 2>/dev/null || true
+echo ""
+echo "=== Build complete. Entering container... ==="
+echo "=== Type 'exit' to leave the container ==="
+echo ""
+
+# Drop into interactive shell inside the container
+docker exec -it $CONTAINER_NAME bash -c "
+    source /opt/ros/humble/setup.bash && \
+    source /home/ros2_ws/install/setup.bash && \
+    exec bash --rcfile <(echo '
+        source /opt/ros/humble/setup.bash
+        source /home/ros2_ws/install/setup.bash
+        export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+        cd /home/ros2_ws
+    ')
+"
+
+# Cleanup after user exits the container
+echo "Exited container. Cleaning up..."
+docker compose down
+docker rm -f $CONTAINER_NAME 2>/dev/null || true
