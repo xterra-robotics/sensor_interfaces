@@ -117,6 +117,7 @@ docker exec $CONTAINER_NAME bash -c "
     
     colcon build --packages-select sensor_description && source install/setup.bash && \
     colcon build --packages-select m2_metal_description && source install/setup.bash && \
+    colcon build --packages-select xterra && source install/setup.bash && \
     colcon build --packages-select livox_ros_driver2 --cmake-args -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble && \
     colcon build --packages-select realsense2_camera_msgs realsense2_camera --cmake-args -DCMAKE_BUILD_TYPE=Release -DFORCE_LIBUVC=ON && \
 

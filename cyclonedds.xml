@@ -19,8 +19,7 @@
       <MaxAutoParticipantIndex>2000</MaxAutoParticipantIndex>
       <Peers>
         <Peer address="localhost" />
-        <Peer address="192.168.123.102" />
-        <Peer address="192.168.123.101" />
+        <Peer address="192.168.123.33" />
         <Peer address="192.168.123.194" />
       </Peers>
     </Discovery>
