@@ -17,6 +17,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake"
   "ament_cmake_package_templates/templates.cmake"
   "realsense2_camera_msgs__py/CMakeLists.txt"
+  "realsense2_camera_msgs__rs/CMakeLists.txt"
   "rosidl_cmake/rosidl_cmake-extras.cmake"
   "rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake"
   "rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake"
@@ -309,6 +310,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_pyConfig.cmake"
   "/opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake"
   "/opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_get_typesupports.cmake"
+  "/opt/ros/humble/share/rosidl_generator_rs/cmake/ament_cmake_export_dependencies-extras.cmake"
+  "/opt/ros/humble/share/rosidl_generator_rs/cmake/register_rs.cmake"
+  "/opt/ros/humble/share/rosidl_generator_rs/cmake/rosidl_generator_rs-extras.cmake"
+  "/opt/ros/humble/share/rosidl_generator_rs/cmake/rosidl_generator_rsConfig-version.cmake"
+  "/opt/ros/humble/share/rosidl_generator_rs/cmake/rosidl_generator_rsConfig.cmake"
+  "/opt/ros/humble/share/rosidl_generator_rs/cmake/rosidl_generator_rs_generate_interfaces.cmake"
   "/opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake"
   "/opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_include_directories-extras.cmake"
   "/opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_libraries-extras.cmake"
@@ -496,11 +503,13 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "ament_cmake_core/realsense2_camera_msgsConfig-version.cmake"
   "ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/realsense2_camera_msgs"
   "ament_cmake_python/realsense2_camera_msgs/setup.py"
+  "ament_cmake_index/share/ament_index/resource_index/rust_packages/realsense2_camera_msgs"
   "ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/realsense2_camera_msgs"
   "ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/realsense2_camera_msgs"
   "ament_cmake_index/share/ament_index/resource_index/packages/realsense2_camera_msgs"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "realsense2_camera_msgs__py/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "realsense2_camera_msgs__rs/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -523,4 +532,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext.dir/DependInfo.cmake"
   "CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c__pyext.dir/DependInfo.cmake"
   "realsense2_camera_msgs__py/CMakeFiles/realsense2_camera_msgs__py.dir/DependInfo.cmake"
+  "realsense2_camera_msgs__rs/CMakeFiles/realsense2_camera_msgs__rs.dir/DependInfo.cmake"
   )

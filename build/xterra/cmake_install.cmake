@@ -356,6 +356,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rust_packages" TYPE FILE FILES "/home/ros2_ws/build/xterra/ament_cmake_index/share/ament_index/resource_index/rust_packages/xterra")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xterra" TYPE DIRECTORY FILES "/home/ros2_ws/build/xterra/rosidl_generator_rs/xterra/rust")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/xterra/msg" TYPE FILE FILES "/home/ros2_ws/build/xterra/rosidl_adapter/xterra/msg/JointData.idl")
 endif()
 
@@ -733,6 +741,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/ros2_ws/build/xterra/xterra__py/cmake_install.cmake")
+  include("/home/ros2_ws/build/xterra/xterra__rs/cmake_install.cmake")
 
 endif()
 

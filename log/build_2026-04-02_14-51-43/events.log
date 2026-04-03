@@ -1,0 +1,148 @@
+[0.000000] (-) TimerEvent: {}
+[0.000227] (-) JobUnselected: {'identifier': 'cyclonedds'}
+[0.000437] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.000758] (-) JobUnselected: {'identifier': 'm2_metal_description'}
+[0.001344] (-) JobUnselected: {'identifier': 'orbbec_camera'}
+[0.001650] (-) JobUnselected: {'identifier': 'orbbec_camera_msgs'}
+[0.001942] (-) JobUnselected: {'identifier': 'orbbec_description'}
+[0.002047] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.002132] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.002212] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.002288] (-) JobUnselected: {'identifier': 'xterra'}
+[0.002372] (sensor_description) JobQueued: {'identifier': 'sensor_description', 'dependencies': OrderedDict()}
+[0.002457] (sensor_description) JobStarted: {'identifier': 'sensor_description'}
+[0.023827] (sensor_description) JobProgress: {'identifier': 'sensor_description', 'progress': 'cmake'}
+[0.025413] (sensor_description) JobProgress: {'identifier': 'sensor_description', 'progress': 'build'}
+[0.026761] (sensor_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2_ws/build/sensor_description'], 'cwd': '/home/ros2_ws/build/sensor_description', 'env': OrderedDict([('CMAKE_BUILD_PARALLEL_LEVEL', '3'), ('HOSTNAME', 'xterra-orin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/home/ros/install/lib'), ('HOME', '/root'), ('OLDPWD', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('MAKEFLAGS', '-j3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('OrbbecSDK_DIR', '/usr/local/lib/cmake/OrbbecSDK'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/home/ros/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('CYCLONEDDS_HOME', '/home/ros/install'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros2_ws/build/sensor_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/OrbbecSDK_v2.4.11/lib::/opt/ros/humble')]), 'shell': False}
+[0.099256] (-) TimerEvent: {}
+[0.102692] (sensor_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199476] (-) TimerEvent: {}
+[0.299911] (-) TimerEvent: {}
+[0.400584] (-) TimerEvent: {}
+[0.420084] (sensor_description) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500931] (-) TimerEvent: {}
+[0.503632] (sensor_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.508461] (sensor_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.521466] (sensor_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.541884] (sensor_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.568248] (sensor_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600961] (-) TimerEvent: {}
+[0.640645] (sensor_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.645159] (sensor_description) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.693732] (sensor_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.701060] (-) TimerEvent: {}
+[0.801288] (-) TimerEvent: {}
+[0.832407] (sensor_description) StdoutLine: {'line': b'-- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.833417] (sensor_description) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.864610] (sensor_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.901458] (-) TimerEvent: {}
+[1.001835] (-) TimerEvent: {}
+[1.048666] (sensor_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.087447] (sensor_description) StdoutLine: {'line': b'-- Generating done\n'}
+[1.098823] (sensor_description) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2_ws/build/sensor_description\n'}
+[1.101947] (-) TimerEvent: {}
+[1.192844] (sensor_description) CommandEnded: {'returncode': 0}
+[1.195362] (sensor_description) JobProgress: {'identifier': 'sensor_description', 'progress': 'install'}
+[1.202091] (-) TimerEvent: {}
+[1.224661] (sensor_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2_ws/build/sensor_description'], 'cwd': '/home/ros2_ws/build/sensor_description', 'env': OrderedDict([('CMAKE_BUILD_PARALLEL_LEVEL', '3'), ('HOSTNAME', 'xterra-orin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/home/ros/install/lib'), ('HOME', '/root'), ('OLDPWD', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('MAKEFLAGS', '-j3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('OrbbecSDK_DIR', '/usr/local/lib/cmake/OrbbecSDK'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/home/ros/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('CYCLONEDDS_HOME', '/home/ros/install'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros2_ws/build/sensor_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/OrbbecSDK_v2.4.11/lib::/opt/ros/humble')]), 'shell': False}
+[1.252529] (sensor_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.253183] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes\n'}
+[1.253354] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/r200.jpg\n'}
+[1.253544] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/lydar.STL\n'}
+[1.287348] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/d415.stl\n'}
+[1.302259] (-) TimerEvent: {}
+[1.402973] (-) TimerEvent: {}
+[1.493673] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/rplidar-a2.stl\n'}
+[1.503064] (-) TimerEvent: {}
+[1.603312] (-) TimerEvent: {}
+[1.703538] (-) TimerEvent: {}
+[1.713508] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/lds.stl\n'}
+[1.715114] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/astra.dae\n'}
+[1.803669] (-) TimerEvent: {}
+[1.814727] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/plug_collision.stl\n'}
+[1.815307] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336\n'}
+[1.815930] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_color_frame.STL\n'}
+[1.818162] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_infra_1_optical_frame.STL\n'}
+[1.820340] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_depth_frame.STL\n'}
+[1.822600] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_infra2_optical_frame.STL\n'}
+[1.824911] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_depth_optical_frame.STL\n'}
+[1.827044] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_color_optical_frame.STL\n'}
+[1.829338] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_link.STL\n'}
+[1.841168] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_infra2_frame.STL\n'}
+[1.843444] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_infra_1_frame.STL\n'}
+[1.845498] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_bottom_screw_frame.STL\n'}
+[1.850798] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/rplidar.dae\n'}
+[1.852853] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/r200.dae\n'}
+[1.854038] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/t265.stl\n'}
+[1.854597] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/rplidar2.dae\n'}
+[1.855600] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/d435.dae\n'}
+[1.895650] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/astra.jpg\n'}
+[1.903803] (-) TimerEvent: {}
+[2.004080] (-) TimerEvent: {}
+[2.104361] (-) TimerEvent: {}
+[2.163465] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/plug.stl\n'}
+[2.165702] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//xacro\n'}
+[2.166201] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//xacro/threeD_lidar.xacro\n'}
+[2.167002] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//xacro/gemini_335.xacro\n'}
+[2.167585] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//xacro/livox_mid360.xacro\n'}
+[2.167990] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//xacro/d435.urdf.xacro\n'}
+[2.168511] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//xacro/rgbd_cam.xacro\n'}
+[2.168880] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//xacro/d435.gazebo.xacro\n'}
+[2.169327] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//xacro/twoD_lidar.xacro\n'}
+[2.169608] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/ament_index/resource_index/package_run_dependencies/sensor_description\n'}
+[2.184905] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/ament_index/resource_index/parent_prefix_path/sensor_description\n'}
+[2.204509] (-) TimerEvent: {}
+[2.304746] (-) TimerEvent: {}
+[2.404978] (-) TimerEvent: {}
+[2.505263] (-) TimerEvent: {}
+[2.605582] (-) TimerEvent: {}
+[2.607974] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description/environment/ament_prefix_path.sh\n'}
+[2.608850] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description/environment/ament_prefix_path.dsv\n'}
+[2.609466] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description/environment/path.sh\n'}
+[2.609928] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description/environment/path.dsv\n'}
+[2.610418] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description/local_setup.bash\n'}
+[2.610936] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description/local_setup.sh\n'}
+[2.611554] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description/local_setup.zsh\n'}
+[2.612117] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description/local_setup.dsv\n'}
+[2.612718] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description/package.dsv\n'}
+[2.613317] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/ament_index/resource_index/packages/sensor_description\n'}
+[2.613885] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description/cmake/sensor_descriptionConfig.cmake\n'}
+[2.614415] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description/cmake/sensor_descriptionConfig-version.cmake\n'}
+[2.614892] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description/package.xml\n'}
+[2.626569] (sensor_description) CommandEnded: {'returncode': 0}
+[2.705737] (-) TimerEvent: {}
+[2.806019] (-) TimerEvent: {}
+[2.906286] (-) TimerEvent: {}
+[3.006593] (-) TimerEvent: {}
+[3.106901] (-) TimerEvent: {}
+[3.207174] (-) TimerEvent: {}
+[3.307416] (-) TimerEvent: {}
+[3.408060] (-) TimerEvent: {}
+[3.508277] (-) TimerEvent: {}
+[3.608488] (-) TimerEvent: {}
+[3.708732] (-) TimerEvent: {}
+[3.808937] (-) TimerEvent: {}
+[3.909330] (-) TimerEvent: {}
+[4.009785] (-) TimerEvent: {}
+[4.110157] (-) TimerEvent: {}
+[4.210425] (-) TimerEvent: {}
+[4.310758] (-) TimerEvent: {}
+[4.411002] (-) TimerEvent: {}
+[4.511283] (-) TimerEvent: {}
+[4.611556] (-) TimerEvent: {}
+[4.711763] (-) TimerEvent: {}
+[4.811963] (-) TimerEvent: {}
+[4.912237] (-) TimerEvent: {}
+[5.012459] (-) TimerEvent: {}
+[5.112685] (-) TimerEvent: {}
+[5.212999] (-) TimerEvent: {}
+[5.313226] (-) TimerEvent: {}
+[5.413429] (-) TimerEvent: {}
+[5.513635] (-) TimerEvent: {}
+[5.613868] (-) TimerEvent: {}
+[5.714058] (-) TimerEvent: {}
+[5.814267] (-) TimerEvent: {}
+[5.914490] (-) TimerEvent: {}
+[9.950290] (sensor_description) JobEnded: {'identifier': 'sensor_description', 'rc': 0}
+[10.478560] (-) TimerEvent: {}
+[10.478996] (-) EventReactorShutdown: {}

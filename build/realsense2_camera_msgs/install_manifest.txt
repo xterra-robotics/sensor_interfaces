@@ -105,6 +105,14 @@
 /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
 /home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
 /home/ros2_ws/install/realsense2_camera_msgs/lib/librealsense2_camera_msgs__rosidl_generator_py.so
+/home/ros2_ws/install/realsense2_camera_msgs/share/ament_index/resource_index/rust_packages/realsense2_camera_msgs
+/home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/rust/Cargo.toml
+/home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/rust/build.rs
+/home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/rust/src/msg/rmw.rs
+/home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/rust/src/srv/rmw.rs
+/home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/rust/src/srv.rs
+/home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/rust/src/lib.rs
+/home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/rust/src/msg.rs
 /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/IMUInfo.idl
 /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Extrinsics.idl
 /home/ros2_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/msg/Metadata.idl

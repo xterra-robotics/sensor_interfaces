@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.000322] (-) JobUnselected: {'identifier': 'cyclonedds'}
+[0.000648] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.001272] (-) JobUnselected: {'identifier': 'orbbec_camera'}
+[0.001568] (-) JobUnselected: {'identifier': 'orbbec_camera_msgs'}
+[0.001612] (-) JobUnselected: {'identifier': 'orbbec_description'}
+[0.001873] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.001969] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.002044] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.002114] (-) JobUnselected: {'identifier': 'sensor_description'}
+[0.002182] (-) JobUnselected: {'identifier': 'xterra'}
+[0.002261] (m2_metal_description) JobQueued: {'identifier': 'm2_metal_description', 'dependencies': OrderedDict([('sensor_description', '/home/ros2_ws/install/sensor_description')])}
+[0.002355] (m2_metal_description) JobStarted: {'identifier': 'm2_metal_description'}
+[0.027483] (m2_metal_description) JobProgress: {'identifier': 'm2_metal_description', 'progress': 'cmake'}
+[0.029015] (m2_metal_description) JobProgress: {'identifier': 'm2_metal_description', 'progress': 'build'}
+[0.030367] (m2_metal_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2_ws/build/m2_metal_description'], 'cwd': '/home/ros2_ws/build/m2_metal_description', 'env': OrderedDict([('CMAKE_BUILD_PARALLEL_LEVEL', '3'), ('HOSTNAME', 'xterra-orin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2_ws/install/xterra_perception_api/lib:/home/ros2_ws/install/xterra/lib:/home/ros2_ws/install/realsense2_camera/lib:/home/ros2_ws/install/realsense2_camera_msgs/lib:/home/ros2_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/home/ros/install/lib'), ('HOME', '/root'), ('OLDPWD', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('MAKEFLAGS', '-j3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('OrbbecSDK_DIR', '/usr/local/lib/cmake/OrbbecSDK'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/home/ros/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('CYCLONEDDS_HOME', '/home/ros/install'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/livox_ros_driver2:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros2_ws/build/m2_metal_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages:/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/livox_ros_driver2:/opt/OrbbecSDK_v2.4.11/lib:/opt/ros/humble')]), 'shell': False}
+[0.099193] (-) TimerEvent: {}
+[0.133706] (m2_metal_description) CommandEnded: {'returncode': 0}
+[0.137259] (m2_metal_description) JobProgress: {'identifier': 'm2_metal_description', 'progress': 'install'}
+[0.164840] (m2_metal_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2_ws/build/m2_metal_description'], 'cwd': '/home/ros2_ws/build/m2_metal_description', 'env': OrderedDict([('CMAKE_BUILD_PARALLEL_LEVEL', '3'), ('HOSTNAME', 'xterra-orin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2_ws/install/xterra_perception_api/lib:/home/ros2_ws/install/xterra/lib:/home/ros2_ws/install/realsense2_camera/lib:/home/ros2_ws/install/realsense2_camera_msgs/lib:/home/ros2_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/home/ros/install/lib'), ('HOME', '/root'), ('OLDPWD', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('MAKEFLAGS', '-j3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('OrbbecSDK_DIR', '/usr/local/lib/cmake/OrbbecSDK'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/home/ros/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('CYCLONEDDS_HOME', '/home/ros/install'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/livox_ros_driver2:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros2_ws/build/m2_metal_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages:/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/livox_ros_driver2:/opt/OrbbecSDK_v2.4.11/lib:/opt/ros/humble')]), 'shell': False}
+[0.186579] (m2_metal_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.188706] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//launch\n'}
+[0.189413] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//launch/m2_autonomy.launch.py\n'}
+[0.189866] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes\n'}
+[0.190009] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/torso.STL\n'}
+[0.190147] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FL_foot.STL\n'}
+[0.190279] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/RL_thigh.STL\n'}
+[0.190692] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FL_hip.STL\n'}
+[0.190827] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/lydar_mount_with_head.STL\n'}
+[0.190958] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/RR_hip.STL\n'}
+[0.191110] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FL_shank.STL\n'}
+[0.191237] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FL_thigh.STL\n'}
+[0.191382] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FR_hip.STL\n'}
+[0.191507] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/RL_hip.STL\n'}
+[0.191630] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FR_foot.STL\n'}
+[0.191752] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/RR_calf.STL\n'}
+[0.191874] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/camera_mount_15deg..STL\n'}
+[0.191996] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FR_shank.STL\n'}
+[0.192118] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FR_thigh.STL\n'}
+[0.192238] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/M2_METAL_HEAD_2026.STL\n'}
+[0.192361] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/RR_foot.STL\n'}
+[0.192484] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FR_calf.STL\n'}
+[0.192604] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/RL_calf.STL\n'}
+[0.192723] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/RR_thigh.STL\n'}
+[0.192867] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/RL_foot.STL\n'}
+[0.192998] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FL_calf.STL\n'}
+[0.193124] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//config\n'}
+[0.193362] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//config/m2_metal_payload.rviz\n'}
+[0.193510] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//config/mapping.rviz\n'}
+[0.193978] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//config/nav2.rviz\n'}
+[0.195874] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//config/elevation_mapping.rviz\n'}
+[0.196355] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//config/elevation_mapping_sim.rviz\n'}
+[0.196946] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//config/acuracy_test.rviz\n'}
+[0.197354] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//config/m2_metal_rviz.rviz\n'}
+[0.198456] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//config/api_test.rviz\n'}
+[0.198750] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//worlds\n'}
+[0.199756] (-) TimerEvent: {}
+[0.199881] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//worlds/mujoco.world\n'}
+[0.200355] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//worlds/world4.world\n'}
+[0.200785] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//worlds/world3.world\n'}
+[0.201238] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//worlds/stair.world\n'}
+[0.201790] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//xacro\n'}
+[0.202078] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//xacro/materials.xacro\n'}
+[0.202417] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//xacro/leg.xacro\n'}
+[0.202917] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//xacro/robot.xacro\n'}
+[0.203285] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//xacro/const.xacro\n'}
+[0.203831] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//xacro/test_d435_camera.urdf.xacro\n'}
+[0.204152] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//xacro/gazebo.xacro\n'}
+[0.204622] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/ament_index/resource_index/package_run_dependencies/m2_metal_description\n'}
+[0.205399] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/ament_index/resource_index/parent_prefix_path/m2_metal_description\n'}
+[0.205807] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/environment/ament_prefix_path.sh\n'}
+[0.206295] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/environment/ament_prefix_path.dsv\n'}
+[0.206700] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/environment/path.sh\n'}
+[0.207151] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/environment/path.dsv\n'}
+[0.207383] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/local_setup.bash\n'}
+[0.207710] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/local_setup.sh\n'}
+[0.208241] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/local_setup.zsh\n'}
+[0.208528] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/local_setup.dsv\n'}
+[0.208893] (m2_metal_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/package.dsv\n'}
+[0.209359] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/ament_index/resource_index/packages/m2_metal_description\n'}
+[0.209767] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/cmake/m2_metal_descriptionConfig.cmake\n'}
+[0.211639] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/cmake/m2_metal_descriptionConfig-version.cmake\n'}
+[0.211879] (m2_metal_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/package.xml\n'}
+[0.212490] (m2_metal_description) CommandEnded: {'returncode': 0}
+[0.260557] (m2_metal_description) JobEnded: {'identifier': 'm2_metal_description', 'rc': 0}
+[0.262443] (-) EventReactorShutdown: {}

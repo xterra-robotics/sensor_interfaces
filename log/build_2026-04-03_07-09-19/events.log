@@ -1,0 +1,465 @@
+[0.000000] (-) TimerEvent: {}
+[0.000616] (-) JobUnselected: {'identifier': 'cyclonedds'}
+[0.001276] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.001574] (-) JobUnselected: {'identifier': 'm2_metal_description'}
+[0.001836] (-) JobUnselected: {'identifier': 'orbbec_camera'}
+[0.001936] (-) JobUnselected: {'identifier': 'orbbec_camera_msgs'}
+[0.002016] (-) JobUnselected: {'identifier': 'orbbec_description'}
+[0.002088] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.002156] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.002227] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.002299] (-) JobUnselected: {'identifier': 'sensor_description'}
+[0.002379] (xterra) JobQueued: {'identifier': 'xterra', 'dependencies': OrderedDict()}
+[0.002462] (xterra) JobStarted: {'identifier': 'xterra'}
+[0.025371] (xterra) JobProgress: {'identifier': 'xterra', 'progress': 'cmake'}
+[0.027046] (xterra) JobProgress: {'identifier': 'xterra', 'progress': 'build'}
+[0.028573] (xterra) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2_ws/build/xterra'], 'cwd': '/home/ros2_ws/build/xterra', 'env': OrderedDict([('CMAKE_BUILD_PARALLEL_LEVEL', '3'), ('HOSTNAME', 'xterra-orin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2_ws/install/xterra_perception_api/lib:/home/ros2_ws/install/xterra/lib:/home/ros2_ws/install/realsense2_camera/lib:/home/ros2_ws/install/realsense2_camera_msgs/lib:/home/ros2_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/home/ros/install/lib'), ('HOME', '/root'), ('OLDPWD', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('MAKEFLAGS', '-j3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('OrbbecSDK_DIR', '/usr/local/lib/cmake/OrbbecSDK'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/home/ros/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('CYCLONEDDS_HOME', '/home/ros/install'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/livox_ros_driver2:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros2_ws/build/xterra'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages:/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/livox_ros_driver2:/opt/OrbbecSDK_v2.4.11/lib::/opt/ros/humble')]), 'shell': False}
+[0.099227] (-) TimerEvent: {}
+[0.169803] (xterra) StdoutLine: {'line': b'[  1%] Built target xterra__cpp\n'}
+[0.170617] (xterra) StdoutLine: {'line': b'[  1%] Built target xterra__rs\n'}
+[0.182599] (xterra) StdoutLine: {'line': b'[ 13%] Built target xterra__rosidl_generator_c\n'}
+[0.199461] (-) TimerEvent: {}
+[0.257007] (xterra) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_copy_xterra\n'}
+[0.257642] (xterra) StdoutLine: {'line': b'[ 36%] Built target xterra__rosidl_typesupport_fastrtps_cpp\n'}
+[0.257809] (xterra) StdoutLine: {'line': b'[ 37%] Built target xterra__rosidl_typesupport_fastrtps_c\n'}
+[0.299768] (-) TimerEvent: {}
+[0.331454] (xterra) StdoutLine: {'line': b'[ 61%] Built target xterra__rosidl_typesupport_introspection_c\n'}
+[0.332171] (xterra) StdoutLine: {'line': b'[ 61%] Built target xterra__rosidl_typesupport_c\n'}
+[0.334385] (xterra) StdoutLine: {'line': b'[ 73%] Built target xterra__rosidl_typesupport_introspection_cpp\n'}
+[0.399832] (-) TimerEvent: {}
+[0.406617] (xterra) StdoutLine: {'line': b'[ 85%] Built target xterra__rosidl_typesupport_cpp\n'}
+[0.459973] (xterra) StdoutLine: {'line': b'[ 85%] Built target xterra\n'}
+[0.500076] (-) TimerEvent: {}
+[0.519464] (xterra) StdoutLine: {'line': b'[ 86%] Built target xterra__py\n'}
+[0.598585] (xterra) StdoutLine: {'line': b'[ 97%] Built target xterra__rosidl_generator_py\n'}
+[0.600426] (-) TimerEvent: {}
+[0.660622] (xterra) StdoutLine: {'line': b'[ 99%] Built target xterra__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.661234] (xterra) StdoutLine: {'line': b'[ 99%] Built target xterra__rosidl_typesupport_introspection_c__pyext\n'}
+[0.700659] (-) TimerEvent: {}
+[0.723448] (xterra) StdoutLine: {'line': b'[100%] Built target xterra__rosidl_typesupport_c__pyext\n'}
+[0.800835] (-) TimerEvent: {}
+[0.849785] (xterra) StdoutLine: {'line': b'running egg_info\n'}
+[0.850879] (xterra) StdoutLine: {'line': b'writing xterra.egg-info/PKG-INFO\n'}
+[0.851790] (xterra) StdoutLine: {'line': b'writing dependency_links to xterra.egg-info/dependency_links.txt\n'}
+[0.852335] (xterra) StdoutLine: {'line': b'writing top-level names to xterra.egg-info/top_level.txt\n'}
+[0.858312] (xterra) StdoutLine: {'line': b"reading manifest file 'xterra.egg-info/SOURCES.txt'\n"}
+[0.859952] (xterra) StdoutLine: {'line': b"writing manifest file 'xterra.egg-info/SOURCES.txt'\n"}
+[0.901013] (-) TimerEvent: {}
+[0.967239] (xterra) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_xterra_egg\n'}
+[0.999024] (xterra) CommandEnded: {'returncode': 0}
+[1.001387] (xterra) JobProgress: {'identifier': 'xterra', 'progress': 'install'}
+[1.001535] (-) TimerEvent: {}
+[1.030855] (xterra) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2_ws/build/xterra'], 'cwd': '/home/ros2_ws/build/xterra', 'env': OrderedDict([('CMAKE_BUILD_PARALLEL_LEVEL', '3'), ('HOSTNAME', 'xterra-orin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2_ws/install/xterra_perception_api/lib:/home/ros2_ws/install/xterra/lib:/home/ros2_ws/install/realsense2_camera/lib:/home/ros2_ws/install/realsense2_camera_msgs/lib:/home/ros2_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/home/ros/install/lib'), ('HOME', '/root'), ('OLDPWD', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('MAKEFLAGS', '-j3'), ('COLCON_PREFIX_PATH', '/home/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('OrbbecSDK_DIR', '/usr/local/lib/cmake/OrbbecSDK'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/home/ros/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('CYCLONEDDS_HOME', '/home/ros/install'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/livox_ros_driver2:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros2_ws/build/xterra'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages:/home/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/xterra_perception_api:/home/ros2_ws/install/xterra:/home/ros2_ws/install/m2_metal_description:/home/ros2_ws/install/sensor_description:/home/ros2_ws/install/realsense2_camera:/home/ros2_ws/install/realsense2_camera_msgs:/home/ros2_ws/install/livox_ros_driver2:/opt/OrbbecSDK_v2.4.11/lib::/opt/ros/humble')]), 'shell': False}
+[1.053667] (xterra) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.057350] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/ament_index/resource_index/rosidl_interfaces/xterra\n'}
+[1.057816] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra\n'}
+[1.058684] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg\n'}
+[1.059419] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/float_scalar.h\n'}
+[1.059887] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/rgb_frame.h\n'}
+[1.063259] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.064578] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/sensor_data.h\n'}
+[1.064953] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/quad_log.h\n'}
+[1.065466] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/point3_d.h\n'}
+[1.066934] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/motor_gain_multiplier.h\n'}
+[1.067297] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/joint_data.h\n'}
+[1.067543] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail\n'}
+[1.067914] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__functions.c\n'}
+[1.069620] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__functions.c\n'}
+[1.069967] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__functions.h\n'}
+[1.070190] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__type_support.h\n'}
+[1.070557] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__functions.c\n'}
+[1.071110] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__struct.h\n'}
+[1.071336] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__type_support.h\n'}
+[1.071705] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__functions.h\n'}
+[1.072088] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__struct.h\n'}
+[1.073172] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__functions.h\n'}
+[1.074622] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__type_support.h\n'}
+[1.074855] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__struct.h\n'}
+[1.075072] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__functions.h\n'}
+[1.075286] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__struct.h\n'}
+[1.075497] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__functions.h\n'}
+[1.075771] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__functions.c\n'}
+[1.075985] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__functions.c\n'}
+[1.076194] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__functions.h\n'}
+[1.076396] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__struct.h\n'}
+[1.076650] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__functions.h\n'}
+[1.076858] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__type_support.h\n'}
+[1.077064] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__functions.h\n'}
+[1.077272] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__type_support.h\n'}
+[1.077475] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__type_support.h\n'}
+[1.077677] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__struct.h\n'}
+[1.077879] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__type_support.h\n'}
+[1.078082] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__type_support.h\n'}
+[1.078285] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__functions.h\n'}
+[1.078489] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__type_support.h\n'}
+[1.078689] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__type_support.h\n'}
+[1.078891] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__functions.c\n'}
+[1.079094] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__struct.h\n'}
+[1.079295] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__functions.c\n'}
+[1.079498] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__type_support.h\n'}
+[1.079732] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__functions.h\n'}
+[1.079936] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__functions.c\n'}
+[1.080137] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__functions.c\n'}
+[1.080337] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__functions.c\n'}
+[1.080536] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__functions.h\n'}
+[1.080736] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__functions.h\n'}
+[1.080936] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__struct.h\n'}
+[1.081137] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__functions.c\n'}
+[1.081357] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__functions.c\n'}
+[1.081558] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__struct.h\n'}
+[1.081760] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__struct.h\n'}
+[1.081962] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__functions.c\n'}
+[1.082165] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__type_support.h\n'}
+[1.082387] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__functions.h\n'}
+[1.082596] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__struct.h\n'}
+[1.082801] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__struct.h\n'}
+[1.083008] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__struct.h\n'}
+[1.083212] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__type_support.h\n'}
+[1.083413] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/base_orientation_wrench_debug.h\n'}
+[1.083641] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/solver_stats.h\n'}
+[1.083848] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/camera_frame.h\n'}
+[1.084051] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/quaternion.h\n'}
+[1.084254] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/joy_data.h\n'}
+[1.084459] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/indicator_data.h\n'}
+[1.084665] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv\n'}
+[1.084866] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail\n'}
+[1.085105] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__type_support.h\n'}
+[1.085310] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__functions.c\n'}
+[1.085512] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__struct.h\n'}
+[1.085714] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__functions.h\n'}
+[1.085915] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/capture_image.h\n'}
+[1.086116] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/environment/library_path.sh\n'}
+[1.086319] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/environment/library_path.dsv\n'}
+[1.086520] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/lib/libxterra__rosidl_generator_c.so\n'}
+[1.086721] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra\n'}
+[1.086923] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg\n'}
+[1.087124] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.087354] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail\n'}
+[1.087583] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__rosidl_typesupport_fastrtps_c.h\n'}
+[1.087800] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__rosidl_typesupport_fastrtps_c.h\n'}
+[1.088003] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__rosidl_typesupport_fastrtps_c.h\n'}
+[1.088205] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__rosidl_typesupport_fastrtps_c.h\n'}
+[1.088405] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__rosidl_typesupport_fastrtps_c.h\n'}
+[1.088603] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__rosidl_typesupport_fastrtps_c.h\n'}
+[1.088807] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__rosidl_typesupport_fastrtps_c.h\n'}
+[1.089006] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__rosidl_typesupport_fastrtps_c.h\n'}
+[1.089202] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__rosidl_typesupport_fastrtps_c.h\n'}
+[1.089404] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__rosidl_typesupport_fastrtps_c.h\n'}
+[1.089601] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__rosidl_typesupport_fastrtps_c.h\n'}
+[1.089801] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__rosidl_typesupport_fastrtps_c.h\n'}
+[1.090031] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__rosidl_typesupport_fastrtps_c.h\n'}
+[1.090236] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv\n'}
+[1.090434] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail\n'}
+[1.090631] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__rosidl_typesupport_fastrtps_c.h\n'}
+[1.090827] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_fastrtps_c.so\n'}
+[1.091024] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra\n'}
+[1.091221] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg\n'}
+[1.091419] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/motor_gain_multiplier.hpp\n'}
+[1.091657] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/base_orientation_wrench_debug.hpp\n'}
+[1.091868] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/sensor_data.hpp\n'}
+[1.092072] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/quaternion.hpp\n'}
+[1.092274] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/float_scalar.hpp\n'}
+[1.092474] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.092674] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/indicator_data.hpp\n'}
+[1.092898] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/quad_log.hpp\n'}
+[1.093097] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail\n'}
+[1.093296] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__type_support.hpp\n'}
+[1.093533] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__builder.hpp\n'}
+[1.093735] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__builder.hpp\n'}
+[1.093934] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__struct.hpp\n'}
+[1.094134] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__traits.hpp\n'}
+[1.094333] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__type_support.hpp\n'}
+[1.094531] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__builder.hpp\n'}
+[1.094729] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__traits.hpp\n'}
+[1.094926] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__type_support.hpp\n'}
+[1.095122] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__traits.hpp\n'}
+[1.095318] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__builder.hpp\n'}
+[1.095537] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__builder.hpp\n'}
+[1.095753] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__struct.hpp\n'}
+[1.095957] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__type_support.hpp\n'}
+[1.096157] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__traits.hpp\n'}
+[1.096354] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__type_support.hpp\n'}
+[1.096552] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__traits.hpp\n'}
+[1.096751] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__type_support.hpp\n'}
+[1.096951] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__type_support.hpp\n'}
+[1.097150] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__builder.hpp\n'}
+[1.097347] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__traits.hpp\n'}
+[1.097546] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__struct.hpp\n'}
+[1.097767] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__struct.hpp\n'}
+[1.097970] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__traits.hpp\n'}
+[1.098172] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__struct.hpp\n'}
+[1.098393] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__builder.hpp\n'}
+[1.098591] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__struct.hpp\n'}
+[1.098788] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__builder.hpp\n'}
+[1.098984] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__type_support.hpp\n'}
+[1.099182] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__traits.hpp\n'}
+[1.099378] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__struct.hpp\n'}
+[1.099596] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__traits.hpp\n'}
+[1.099802] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__traits.hpp\n'}
+[1.100000] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__builder.hpp\n'}
+[1.100198] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__struct.hpp\n'}
+[1.100394] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__type_support.hpp\n'}
+[1.100592] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__struct.hpp\n'}
+[1.100790] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__type_support.hpp\n'}
+[1.100988] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__struct.hpp\n'}
+[1.101184] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__traits.hpp\n'}
+[1.101425] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__type_support.hpp\n'}
+[1.101620] (-) TimerEvent: {}
+[1.101679] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__struct.hpp\n'}
+[1.101880] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__builder.hpp\n'}
+[1.102078] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__struct.hpp\n'}
+[1.102276] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__struct.hpp\n'}
+[1.102473] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__traits.hpp\n'}
+[1.102672] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__builder.hpp\n'}
+[1.102868] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__type_support.hpp\n'}
+[1.103066] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__builder.hpp\n'}
+[1.103262] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__traits.hpp\n'}
+[1.103459] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__builder.hpp\n'}
+[1.103695] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__type_support.hpp\n'}
+[1.103925] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/joy_data.hpp\n'}
+[1.104126] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/point3_d.hpp\n'}
+[1.104327] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/solver_stats.hpp\n'}
+[1.104526] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/camera_frame.hpp\n'}
+[1.104725] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/rgb_frame.hpp\n'}
+[1.104923] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/joint_data.hpp\n'}
+[1.105127] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv\n'}
+[1.105349] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail\n'}
+[1.105554] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__type_support.hpp\n'}
+[1.105754] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__traits.hpp\n'}
+[1.105952] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__struct.hpp\n'}
+[1.106151] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__builder.hpp\n'}
+[1.106349] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/capture_image.hpp\n'}
+[1.106544] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra\n'}
+[1.106741] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg\n'}
+[1.106940] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail\n'}
+[1.107137] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.107337] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.107560] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.107781] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.107986] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.108185] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.108383] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.108582] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.108778] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.108976] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.109172] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.109391] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.109624] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/dds_fastrtps\n'}
+[1.109823] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.110019] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.110215] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv\n'}
+[1.110413] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail\n'}
+[1.110609] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.110807] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/dds_fastrtps\n'}
+[1.111004] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.111201] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra\n'}
+[1.111397] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg\n'}
+[1.112073] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.112283] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail\n'}
+[1.112473] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__type_support.c\n'}
+[1.112713] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__rosidl_typesupport_introspection_c.h\n'}
+[1.112907] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__rosidl_typesupport_introspection_c.h\n'}
+[1.113118] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__type_support.c\n'}
+[1.113310] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__rosidl_typesupport_introspection_c.h\n'}
+[1.113496] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__rosidl_typesupport_introspection_c.h\n'}
+[1.113679] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__rosidl_typesupport_introspection_c.h\n'}
+[1.113861] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__type_support.c\n'}
+[1.114041] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__rosidl_typesupport_introspection_c.h\n'}
+[1.114222] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__rosidl_typesupport_introspection_c.h\n'}
+[1.114403] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__type_support.c\n'}
+[1.114582] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__type_support.c\n'}
+[1.114761] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__type_support.c\n'}
+[1.114942] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__rosidl_typesupport_introspection_c.h\n'}
+[1.115147] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__type_support.c\n'}
+[1.115330] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__rosidl_typesupport_introspection_c.h\n'}
+[1.115513] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__type_support.c\n'}
+[1.115745] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__rosidl_typesupport_introspection_c.h\n'}
+[1.115932] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__rosidl_typesupport_introspection_c.h\n'}
+[1.116117] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__rosidl_typesupport_introspection_c.h\n'}
+[1.116302] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__type_support.c\n'}
+[1.116485] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__rosidl_typesupport_introspection_c.h\n'}
+[1.116665] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__type_support.c\n'}
+[1.116844] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__type_support.c\n'}
+[1.117072] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__type_support.c\n'}
+[1.117257] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__type_support.c\n'}
+[1.117439] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv\n'}
+[1.117620] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail\n'}
+[1.117801] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__rosidl_typesupport_introspection_c.h\n'}
+[1.117986] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__type_support.c\n'}
+[1.118167] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_introspection_c.so\n'}
+[1.118346] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_c.so\n'}
+[1.118526] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra\n'}
+[1.118706] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg\n'}
+[1.118884] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail\n'}
+[1.119064] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__type_support.cpp\n'}
+[1.119244] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__type_support.cpp\n'}
+[1.119441] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.120047] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__type_support.cpp\n'}
+[1.120233] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.120428] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__type_support.cpp\n'}
+[1.120649] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.120825] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__type_support.cpp\n'}
+[1.120994] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.121165] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__type_support.cpp\n'}
+[1.121332] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__type_support.cpp\n'}
+[1.121498] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.121667] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.121833] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__type_support.cpp\n'}
+[1.121999] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.122166] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.122332] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.122498] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__type_support.cpp\n'}
+[1.122665] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.122830] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__type_support.cpp\n'}
+[1.122996] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.123163] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.123330] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.123497] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__type_support.cpp\n'}
+[1.123692] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__type_support.cpp\n'}
+[1.123860] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__type_support.cpp\n'}
+[1.124068] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv\n'}
+[1.124238] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail\n'}
+[1.124406] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__type_support.cpp\n'}
+[1.124573] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.124758] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_introspection_cpp.so\n'}
+[1.124926] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_cpp.so\n'}
+[1.125092] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/environment/pythonpath.sh\n'}
+[1.125256] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/environment/pythonpath.dsv\n'}
+[1.125422] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra-0.0.0-py3.10.egg-info\n'}
+[1.125591] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.125775] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.125948] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.126119] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.126289] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra\n'}
+[1.126457] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/xterra_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.126629] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/_xterra_s.ep.rosidl_typesupport_c.c\n'}
+[1.126795] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg\n'}
+[1.126961] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_sensor_data.py\n'}
+[1.127127] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_quaternion.py\n'}
+[1.127293] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_indicator_data.py\n'}
+[1.127459] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_quaternion_s.c\n'}
+[1.127981] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_solver_stats_s.c\n'}
+[1.128151] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_joy_data_s.c\n'}
+[1.128311] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_sensor_data_s.c\n'}
+[1.128467] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_motor_gain_multiplier_s.c\n'}
+[1.128663] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_float_scalar.py\n'}
+[1.128823] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_quad_log.py\n'}
+[1.128979] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_joint_data_s.c\n'}
+[1.129137] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_float_scalar_s.c\n'}
+[1.129292] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_rgb_frame.py\n'}
+[1.129446] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_point3_d.py\n'}
+[1.129621] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_joy_data.py\n'}
+[1.129779] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_indicator_data_s.c\n'}
+[1.129932] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_camera_frame_s.c\n'}
+[1.130085] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_motor_gain_multiplier.py\n'}
+[1.130241] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_base_orientation_wrench_debug.py\n'}
+[1.130396] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_point3_d_s.c\n'}
+[1.130548] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_rgb_frame_s.c\n'}
+[1.130703] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_quad_log_s.c\n'}
+[1.130891] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_joint_data.py\n'}
+[1.131048] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/__init__.py\n'}
+[1.131202] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_solver_stats.py\n'}
+[1.131356] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_base_orientation_wrench_debug_s.c\n'}
+[1.131512] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_camera_frame.py\n'}
+[1.132000] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/libxterra__rosidl_generator_py.so\n'}
+[1.132161] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/_xterra_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.132314] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/xterra_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.132500] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/srv\n'}
+[1.132653] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/srv/_capture_image_s.c\n'}
+[1.132807] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/srv/_capture_image.py\n'}
+[1.132953] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/srv/__init__.py\n'}
+[1.133100] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/_xterra_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.133246] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/xterra_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.133393] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/__init__.py\n'}
+[1.153485] (xterra) StdoutLine: {'line': b"Listing '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra'...\n"}
+[1.153697] (xterra) StdoutLine: {'line': b"Listing '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg'...\n"}
+[1.153858] (xterra) StdoutLine: {'line': b"Listing '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/srv'...\n"}
+[1.167632] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/xterra_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.168400] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/xterra_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.168869] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/xterra_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.169291] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/lib/libxterra__rosidl_generator_py.so\n'}
+[1.169795] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/ament_index/resource_index/rust_packages/xterra\n'}
+[1.171003] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/rust\n'}
+[1.172062] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/rust/Cargo.toml\n'}
+[1.172297] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/rust/build.rs\n'}
+[1.173231] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/rust/src\n'}
+[1.174404] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/rust/src/msg\n'}
+[1.174625] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/rust/src/msg/rmw.rs\n'}
+[1.175555] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/rust/src/srv\n'}
+[1.176567] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/rust/src/srv/rmw.rs\n'}
+[1.176803] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/rust/src/srv.rs\n'}
+[1.177021] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/rust/src/lib.rs\n'}
+[1.177230] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/rust/src/msg.rs\n'}
+[1.177448] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/msg/JointData.idl\n'}
+[1.177862] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/msg/SensorData.idl\n'}
+[1.178222] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/msg/MotorGainMultiplier.idl\n'}
+[1.178600] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/msg/QuadLog.idl\n'}
+[1.179113] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/msg/Point3D.idl\n'}
+[1.179479] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/msg/Quaternion.idl\n'}
+[1.180004] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/msg/SolverStats.idl\n'}
+[1.180491] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/msg/RGBFrame.idl\n'}
+[1.180990] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/msg/IndicatorData.idl\n'}
+[1.181519] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/msg/BaseOrientationWrenchDebug.idl\n'}
+[1.182011] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/msg/FloatScalar.idl\n'}
+[1.182663] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/msg/JoyData.idl\n'}
+[1.183461] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/msg/CameraFrame.idl\n'}
+[1.184186] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/srv/CaptureImage.idl\n'}
+[1.184413] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/msg/JointData.msg\n'}
+[1.184659] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/msg/SensorData.msg\n'}
+[1.184868] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/msg/MotorGainMultiplier.msg\n'}
+[1.185080] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/msg/QuadLog.msg\n'}
+[1.185286] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/msg/Point3D.msg\n'}
+[1.185489] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/msg/Quaternion.msg\n'}
+[1.185689] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/msg/SolverStats.msg\n'}
+[1.185894] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/msg/RGBFrame.msg\n'}
+[1.186092] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/msg/IndicatorData.msg\n'}
+[1.186291] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/msg/BaseOrientationWrenchDebug.msg\n'}
+[1.186493] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/msg/FloatScalar.msg\n'}
+[1.186692] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/msg/JoyData.msg\n'}
+[1.186892] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/msg/CameraFrame.msg\n'}
+[1.187090] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/srv/CaptureImage.srv\n'}
+[1.187290] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/srv/CaptureImage_Request.msg\n'}
+[1.187490] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/srv/CaptureImage_Response.msg\n'}
+[1.187758] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/ament_index/resource_index/package_run_dependencies/xterra\n'}
+[1.187974] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/ament_index/resource_index/parent_prefix_path/xterra\n'}
+[1.188182] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/environment/ament_prefix_path.sh\n'}
+[1.188388] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/environment/ament_prefix_path.dsv\n'}
+[1.188593] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/environment/path.sh\n'}
+[1.188800] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/environment/path.dsv\n'}
+[1.189000] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/local_setup.bash\n'}
+[1.189197] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/local_setup.sh\n'}
+[1.189397] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/local_setup.zsh\n'}
+[1.189596] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/local_setup.dsv\n'}
+[1.189795] (xterra) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/xterra/share/xterra/package.dsv\n'}
+[1.189995] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/ament_index/resource_index/packages/xterra\n'}
+[1.190193] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/cmake/export_xterra__rosidl_generator_cExport.cmake\n'}
+[1.190389] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/cmake/export_xterra__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.190586] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/cmake/export_xterra__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.190786] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/cmake/export_xterra__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.191024] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/cmake/export_xterra__rosidl_generator_cppExport.cmake\n'}
+[1.191228] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/cmake/export_xterra__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.191436] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/cmake/export_xterra__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.191692] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/cmake/xterra__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.191909] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/cmake/xterra__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.192122] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/cmake/xterra__rosidl_typesupport_cExport.cmake\n'}
+[1.192353] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/cmake/xterra__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.192564] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/cmake/xterra__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.193806] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/cmake/xterra__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.194232] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/cmake/xterra__rosidl_typesupport_cppExport.cmake\n'}
+[1.197447] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/cmake/xterra__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.198021] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/cmake/export_xterra__rosidl_generator_pyExport.cmake\n'}
+[1.198961] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/cmake/export_xterra__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.200287] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/cmake/rosidl_cmake-extras.cmake\n'}
+[1.200868] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.201629] (-) TimerEvent: {}
+[1.201781] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.202259] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.202794] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.203393] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.203735] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.204286] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/cmake/xterraConfig.cmake\n'}
+[1.204587] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/cmake/xterraConfig-version.cmake\n'}
+[1.204903] (xterra) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/xterra/share/xterra/package.xml\n'}
+[1.205476] (xterra) CommandEnded: {'returncode': 0}
+[1.292723] (xterra) JobEnded: {'identifier': 'xterra', 'rc': 0}
+[1.295017] (-) EventReactorShutdown: {}

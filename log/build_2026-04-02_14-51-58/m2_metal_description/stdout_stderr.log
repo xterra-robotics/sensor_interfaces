@@ -1,0 +1,79 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found sensor_description: 0.0.0 (/home/ros2_ws/install/sensor_description/share/sensor_description/cmake)
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ros2_ws/build/m2_metal_description
+-- Install configuration: ""
+-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//launch
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//launch/m2_autonomy.launch.py
+-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/torso.STL
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FL_foot.STL
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/RL_thigh.STL
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FL_hip.STL
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/lydar_mount_with_head.STL
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/RR_hip.STL
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FL_shank.STL
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FL_thigh.STL
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FR_hip.STL
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/RL_hip.STL
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FR_foot.STL
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/RR_calf.STL
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/camera_mount_15deg..STL
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FR_shank.STL
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FR_thigh.STL
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/M2_METAL_HEAD_2026.STL
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/RR_foot.STL
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FR_calf.STL
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/RL_calf.STL
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/RR_thigh.STL
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/RL_foot.STL
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//meshes/FL_calf.STL
+-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//config
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//config/m2_metal_payload.rviz
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//config/mapping.rviz
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//config/nav2.rviz
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//config/elevation_mapping.rviz
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//config/elevation_mapping_sim.rviz
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//config/acuracy_test.rviz
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//config/m2_metal_rviz.rviz
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//config/api_test.rviz
+-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//worlds
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//worlds/mujoco.world
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//worlds/world4.world
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//worlds/world3.world
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//worlds/stair.world
+-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//xacro
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//xacro/materials.xacro
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//xacro/leg.xacro
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//xacro/robot.xacro
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//xacro/const.xacro
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//xacro/test_d435_camera.urdf.xacro
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description//xacro/gazebo.xacro
+-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/ament_index/resource_index/package_run_dependencies/m2_metal_description
+-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/ament_index/resource_index/parent_prefix_path/m2_metal_description
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/environment/ament_prefix_path.sh
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/environment/ament_prefix_path.dsv
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/environment/path.sh
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/environment/path.dsv
+-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/local_setup.bash
+-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/local_setup.sh
+-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/local_setup.zsh
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/local_setup.dsv
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/package.dsv
+-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/ament_index/resource_index/packages/m2_metal_description
+-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/cmake/m2_metal_descriptionConfig.cmake
+-- Up-to-date: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/cmake/m2_metal_descriptionConfig-version.cmake
+-- Installing: /home/ros2_ws/install/m2_metal_description/share/m2_metal_description/package.xml

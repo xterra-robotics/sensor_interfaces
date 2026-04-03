@@ -1,0 +1,101 @@
+[0.033s] Invoking command in '/home/ros2_ws/build/livox_ros_driver2': /usr/bin/cmake --build /home/ros2_ws/build/livox_ros_driver2
+[0.103s] -- livox_ros_driver2 version: 1.2.4
+[0.104s] -- Found ament_cmake_auto: 1.3.14 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.402s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.448s] CMake Error: File /home/ros2_ws/src/livox_ros_driver2/package.xml does not exist.
+[0.449s] CMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):
+[0.449s]   configure_file Problem configuring file
+[0.449s] Call Stack (most recent call first):
+[0.449s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:73 (stamp)
+[0.449s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.450s]   /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:42 (ament_package_xml)
+[0.450s]   CMakeLists.txt:225 (ament_auto_find_build_dependencies)
+[0.450s] 
+[0.450s] 
+[0.491s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.527s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.593s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[0.666s] -- Found GLEW: /usr/lib/aarch64-linux-gnu/libGLEW.so  
+[0.673s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[0.936s] -- Found MPI_C: /usr/lib/aarch64-linux-gnu/libmpi.so (found version "3.1") 
+[0.937s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[0.945s] -- Found JsonCpp: /usr/lib/aarch64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[0.980s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[1.016s] -- Found PNG: /usr/lib/aarch64-linux-gnu/libpng.so (found version "1.6.37") 
+[1.042s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.100s] -- Found X11: /usr/include   
+[1.159s] -- Found EXPAT: /usr/lib/aarch64-linux-gnu/libexpat.so (found version "2.4.7") 
+[1.161s] -- Found double-conversion: /usr/lib/aarch64-linux-gnu/libdouble-conversion.so  
+[1.165s] -- Found LZ4: /usr/lib/aarch64-linux-gnu/liblz4.so (found version "1.9.3") 
+[1.167s] -- Found LZMA: /usr/lib/aarch64-linux-gnu/liblzma.so (found version "5.2.5") 
+[1.203s] -- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so (found version "80") 
+[1.211s] -- Found TIFF: /usr/lib/aarch64-linux-gnu/libtiff.so (found version "4.3.0")  
+[1.220s] -- Found Freetype: /usr/lib/aarch64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[1.231s] -- Found utf8cpp: /usr/include/utf8cpp  
+[1.304s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[1.304s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.316s] -- Found OpenNI2: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[1.316s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.316s] ** WARNING ** io features related to pcap will be disabled
+[1.627s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.641s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.653s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.943s] -- Found Qhull version 8.0.2
+[2.251s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.546s] -- looking for PCL_COMMON
+[2.546s] -- looking for PCL_KDTREE
+[2.547s] -- looking for PCL_OCTREE
+[2.548s] -- looking for PCL_SEARCH
+[2.548s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.549s] -- looking for PCL_FILTERS
+[2.550s] -- looking for PCL_2D
+[2.551s] -- looking for PCL_GEOMETRY
+[2.551s] -- looking for PCL_IO
+[2.552s] -- looking for PCL_FEATURES
+[2.553s] -- looking for PCL_ML
+[2.554s] -- looking for PCL_SEGMENTATION
+[2.555s] -- looking for PCL_VISUALIZATION
+[2.556s] -- looking for PCL_SURFACE
+[2.556s] -- looking for PCL_REGISTRATION
+[2.559s] -- looking for PCL_KEYPOINTS
+[2.560s] -- looking for PCL_TRACKING
+[2.560s] -- looking for PCL_RECOGNITION
+[2.561s] -- looking for PCL_STEREO
+[2.562s] -- looking for PCL_APPS
+[2.564s] -- looking for PCL_IN_HAND_SCANNER
+[2.564s] -- looking for PCL_MODELER
+[2.565s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.565s] -- looking for PCL_OUTOFCORE
+[2.566s] -- looking for PCL_PEOPLE
+[2.568s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[2.569s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[2.612s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.617s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.630s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.651s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.678s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.729s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.768s] /usr/include/apr-1.0
+[2.768s] apr-1
+[3.107s] CMake Error: File /home/ros2_ws/src/livox_ros_driver2/package.xml does not exist.
+[3.108s] CMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):
+[3.108s]   configure_file Problem configuring file
+[3.108s] Call Stack (most recent call first):
+[3.109s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:73 (stamp)
+[3.109s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[3.109s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[3.109s]   CMakeLists.txt:241 (rosidl_generate_interfaces)
+[3.110s] 
+[3.110s] 
+[3.110s] CMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[3.110s]   Packages installing interfaces must include
+[3.111s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[3.111s]   package.xml
+[3.111s] Call Stack (most recent call first):
+[3.111s]   CMakeLists.txt:241 (rosidl_generate_interfaces)
+[3.111s] 
+[3.112s] 
+[3.112s] -- Configuring incomplete, errors occurred!
+[3.112s] See also "/home/ros2_ws/build/livox_ros_driver2/CMakeFiles/CMakeOutput.log".
+[3.171s] gmake: *** [Makefile:1423: cmake_check_build_system] Error 1
+[3.176s] Invoked command in '/home/ros2_ws/build/livox_ros_driver2' returned '2': /usr/bin/cmake --build /home/ros2_ws/build/livox_ros_driver2

@@ -1,0 +1,70 @@
+[0.027s] Invoking command in '/home/ros2_ws/build/sensor_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/sensor_description
+[0.101s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.418s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.502s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.506s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.519s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.540s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.566s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.639s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.643s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.692s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.830s] -- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+[0.831s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.862s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.047s] -- Configuring done
+[1.086s] -- Generating done
+[1.097s] -- Build files have been written to: /home/ros2_ws/build/sensor_description
+[1.191s] Invoked command in '/home/ros2_ws/build/sensor_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2_ws/build/sensor_description
+[1.223s] Invoking command in '/home/ros2_ws/build/sensor_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/sensor_description
+[1.251s] -- Install configuration: ""
+[1.251s] -- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes
+[1.251s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/r200.jpg
+[1.251s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/lydar.STL
+[1.285s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/d415.stl
+[1.492s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/rplidar-a2.stl
+[1.711s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/lds.stl
+[1.713s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/astra.dae
+[1.813s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/plug_collision.stl
+[1.813s] -- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336
+[1.814s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_color_frame.STL
+[1.816s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_infra_1_optical_frame.STL
+[1.818s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_depth_frame.STL
+[1.820s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_infra2_optical_frame.STL
+[1.823s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_depth_optical_frame.STL
+[1.825s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_color_optical_frame.STL
+[1.827s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_link.STL
+[1.839s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_infra2_frame.STL
+[1.841s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_infra_1_frame.STL
+[1.843s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_bottom_screw_frame.STL
+[1.849s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/rplidar.dae
+[1.851s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/r200.dae
+[1.852s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/t265.stl
+[1.852s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/rplidar2.dae
+[1.853s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/d435.dae
+[1.893s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/astra.jpg
+[2.162s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/plug.stl
+[2.164s] -- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//xacro
+[2.164s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//xacro/threeD_lidar.xacro
+[2.165s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//xacro/gemini_335.xacro
+[2.165s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//xacro/livox_mid360.xacro
+[2.166s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//xacro/d435.urdf.xacro
+[2.166s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//xacro/rgbd_cam.xacro
+[2.167s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//xacro/d435.gazebo.xacro
+[2.167s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description//xacro/twoD_lidar.xacro
+[2.167s] -- Installing: /home/ros2_ws/install/sensor_description/share/ament_index/resource_index/package_run_dependencies/sensor_description
+[2.183s] -- Installing: /home/ros2_ws/install/sensor_description/share/ament_index/resource_index/parent_prefix_path/sensor_description
+[2.606s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description/environment/ament_prefix_path.sh
+[2.607s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description/environment/ament_prefix_path.dsv
+[2.607s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description/environment/path.sh
+[2.608s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description/environment/path.dsv
+[2.608s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description/local_setup.bash
+[2.609s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description/local_setup.sh
+[2.609s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description/local_setup.zsh
+[2.610s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description/local_setup.dsv
+[2.610s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description/package.dsv
+[2.611s] -- Installing: /home/ros2_ws/install/sensor_description/share/ament_index/resource_index/packages/sensor_description
+[2.612s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description/cmake/sensor_descriptionConfig.cmake
+[2.612s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description/cmake/sensor_descriptionConfig-version.cmake
+[2.613s] -- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description/package.xml
+[2.626s] Invoked command in '/home/ros2_ws/build/sensor_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2_ws/build/sensor_description

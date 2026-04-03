@@ -405,6 +405,19 @@ xterra__py/fast:
 	$(MAKE) $(MAKESILENT) -f xterra__py/CMakeFiles/xterra__py.dir/build.make xterra__py/CMakeFiles/xterra__py.dir/build
 .PHONY : xterra__py/fast
 
+#=============================================================================
+# Target rules for targets named xterra__rs
+
+# Build rule for target.
+xterra__rs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 xterra__rs
+.PHONY : xterra__rs
+
+# fast build rule for target.
+xterra__rs/fast:
+	$(MAKE) $(MAKESILENT) -f xterra__rs/CMakeFiles/xterra__rs.dir/build.make xterra__rs/CMakeFiles/xterra__rs.dir/build
+.PHONY : xterra__rs/fast
+
 rosidl_generator_c/xterra/msg/detail/base_orientation_wrench_debug__functions.o: rosidl_generator_c/xterra/msg/detail/base_orientation_wrench_debug__functions.c.o
 .PHONY : rosidl_generator_c/xterra/msg/detail/base_orientation_wrench_debug__functions.o
 
@@ -3184,6 +3197,7 @@ help:
 	@echo "... xterra"
 	@echo "... xterra__cpp"
 	@echo "... xterra__py"
+	@echo "... xterra__rs"
 	@echo "... xterra_uninstall"
 	@echo "... xterra__rosidl_generator_c"
 	@echo "... xterra__rosidl_generator_py"

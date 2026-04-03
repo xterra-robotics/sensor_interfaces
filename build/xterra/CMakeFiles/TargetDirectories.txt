@@ -30,3 +30,11 @@
 /home/ros2_ws/build/xterra/xterra__py/CMakeFiles/install.dir
 /home/ros2_ws/build/xterra/xterra__py/CMakeFiles/install/local.dir
 /home/ros2_ws/build/xterra/xterra__py/CMakeFiles/install/strip.dir
+/home/ros2_ws/build/xterra/xterra__rs/CMakeFiles/xterra__rs.dir
+/home/ros2_ws/build/xterra/xterra__rs/CMakeFiles/test.dir
+/home/ros2_ws/build/xterra/xterra__rs/CMakeFiles/edit_cache.dir
+/home/ros2_ws/build/xterra/xterra__rs/CMakeFiles/rebuild_cache.dir
+/home/ros2_ws/build/xterra/xterra__rs/CMakeFiles/list_install_components.dir
+/home/ros2_ws/build/xterra/xterra__rs/CMakeFiles/install.dir
+/home/ros2_ws/build/xterra/xterra__rs/CMakeFiles/install/local.dir
+/home/ros2_ws/build/xterra/xterra__rs/CMakeFiles/install/strip.dir

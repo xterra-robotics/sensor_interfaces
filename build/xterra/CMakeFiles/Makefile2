@@ -77,10 +77,12 @@ all: CMakeFiles/xterra__rosidl_typesupport_fastrtps_c__pyext.dir/all
 all: CMakeFiles/xterra__rosidl_typesupport_introspection_c__pyext.dir/all
 all: CMakeFiles/xterra__rosidl_typesupport_c__pyext.dir/all
 all: xterra__py/all
+all: xterra__rs/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: xterra__py/preinstall
+preinstall: xterra__rs/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -102,6 +104,7 @@ clean: CMakeFiles/xterra__rosidl_typesupport_fastrtps_c__pyext.dir/clean
 clean: CMakeFiles/xterra__rosidl_typesupport_introspection_c__pyext.dir/clean
 clean: CMakeFiles/xterra__rosidl_typesupport_c__pyext.dir/clean
 clean: xterra__py/clean
+clean: xterra__rs/clean
 .PHONY : clean
 
 #=============================================================================
@@ -118,6 +121,21 @@ xterra__py/preinstall:
 # Recursive "clean" directory target.
 xterra__py/clean: xterra__py/CMakeFiles/xterra__py.dir/clean
 .PHONY : xterra__py/clean
+
+#=============================================================================
+# Directory level rules for directory xterra__rs
+
+# Recursive "all" directory target.
+xterra__rs/all: xterra__rs/CMakeFiles/xterra__rs.dir/all
+.PHONY : xterra__rs/all
+
+# Recursive "preinstall" directory target.
+xterra__rs/preinstall:
+.PHONY : xterra__rs/preinstall
+
+# Recursive "clean" directory target.
+xterra__rs/clean: xterra__rs/CMakeFiles/xterra__rs.dir/clean
+.PHONY : xterra__rs/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/uninstall.dir
@@ -183,6 +201,7 @@ CMakeFiles/xterra.dir/all: CMakeFiles/xterra__rosidl_typesupport_introspection_c
 CMakeFiles/xterra.dir/all: CMakeFiles/xterra__rosidl_typesupport_c.dir/all
 CMakeFiles/xterra.dir/all: CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/all
 CMakeFiles/xterra.dir/all: CMakeFiles/xterra__rosidl_typesupport_cpp.dir/all
+CMakeFiles/xterra.dir/all: xterra__rs/CMakeFiles/xterra__rs.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/xterra.dir/build.make CMakeFiles/xterra.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/xterra.dir/build.make CMakeFiles/xterra.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ros2_ws/build/xterra/CMakeFiles --progress-num= "Built target xterra"
@@ -190,7 +209,7 @@ CMakeFiles/xterra.dir/all: CMakeFiles/xterra__rosidl_typesupport_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/xterra.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros2_ws/build/xterra/CMakeFiles 84
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros2_ws/build/xterra/CMakeFiles 85
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/xterra.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros2_ws/build/xterra/CMakeFiles 0
 .PHONY : CMakeFiles/xterra.dir/rule
@@ -367,7 +386,7 @@ CMakeFiles/xterra__rosidl_typesupport_c.dir/clean:
 CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/all: CMakeFiles/xterra__cpp.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ros2_ws/build/xterra/CMakeFiles --progress-num=89,90,91,92,93,94,95,96,97,98,99,100 "Built target xterra__rosidl_typesupport_introspection_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ros2_ws/build/xterra/CMakeFiles --progress-num=88,89,90,91,92,93,94,95,96,97,98,99 "Built target xterra__rosidl_typesupport_introspection_cpp"
 .PHONY : CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -478,7 +497,7 @@ CMakeFiles/xterra__rosidl_generator_py.dir/all: xterra__py/CMakeFiles/xterra__py
 
 # Build rule for subdir invocation for target.
 CMakeFiles/xterra__rosidl_generator_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros2_ws/build/xterra/CMakeFiles 96
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros2_ws/build/xterra/CMakeFiles 97
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/xterra__rosidl_generator_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros2_ws/build/xterra/CMakeFiles 0
 .PHONY : CMakeFiles/xterra__rosidl_generator_py.dir/rule
@@ -508,7 +527,7 @@ CMakeFiles/xterra__rosidl_typesupport_fastrtps_c__pyext.dir/all: xterra__py/CMak
 
 # Build rule for subdir invocation for target.
 CMakeFiles/xterra__rosidl_typesupport_fastrtps_c__pyext.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros2_ws/build/xterra/CMakeFiles 97
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros2_ws/build/xterra/CMakeFiles 98
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/xterra__rosidl_typesupport_fastrtps_c__pyext.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros2_ws/build/xterra/CMakeFiles 0
 .PHONY : CMakeFiles/xterra__rosidl_typesupport_fastrtps_c__pyext.dir/rule
@@ -533,7 +552,7 @@ CMakeFiles/xterra__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles
 CMakeFiles/xterra__rosidl_typesupport_introspection_c__pyext.dir/all: xterra__py/CMakeFiles/xterra__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/xterra__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/xterra__rosidl_typesupport_introspection_c__pyext.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/xterra__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/xterra__rosidl_typesupport_introspection_c__pyext.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ros2_ws/build/xterra/CMakeFiles --progress-num=87,88 "Built target xterra__rosidl_typesupport_introspection_c__pyext"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ros2_ws/build/xterra/CMakeFiles --progress-num=87 "Built target xterra__rosidl_typesupport_introspection_c__pyext"
 .PHONY : CMakeFiles/xterra__rosidl_typesupport_introspection_c__pyext.dir/all
 
 # Build rule for subdir invocation for target.
@@ -567,7 +586,7 @@ CMakeFiles/xterra__rosidl_typesupport_c__pyext.dir/all: xterra__py/CMakeFiles/xt
 
 # Build rule for subdir invocation for target.
 CMakeFiles/xterra__rosidl_typesupport_c__pyext.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros2_ws/build/xterra/CMakeFiles 97
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros2_ws/build/xterra/CMakeFiles 98
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/xterra__rosidl_typesupport_c__pyext.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros2_ws/build/xterra/CMakeFiles 0
 .PHONY : CMakeFiles/xterra__rosidl_typesupport_c__pyext.dir/rule
@@ -593,7 +612,7 @@ xterra__py/CMakeFiles/xterra__py.dir/all: CMakeFiles/xterra.dir/all
 
 # Build rule for subdir invocation for target.
 xterra__py/CMakeFiles/xterra__py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros2_ws/build/xterra/CMakeFiles 85
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros2_ws/build/xterra/CMakeFiles 86
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 xterra__py/CMakeFiles/xterra__py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros2_ws/build/xterra/CMakeFiles 0
 .PHONY : xterra__py/CMakeFiles/xterra__py.dir/rule
@@ -606,6 +625,32 @@ xterra__py: xterra__py/CMakeFiles/xterra__py.dir/rule
 xterra__py/CMakeFiles/xterra__py.dir/clean:
 	$(MAKE) $(MAKESILENT) -f xterra__py/CMakeFiles/xterra__py.dir/build.make xterra__py/CMakeFiles/xterra__py.dir/clean
 .PHONY : xterra__py/CMakeFiles/xterra__py.dir/clean
+
+#=============================================================================
+# Target rules for target xterra__rs/CMakeFiles/xterra__rs.dir
+
+# All Build rule for target.
+xterra__rs/CMakeFiles/xterra__rs.dir/all:
+	$(MAKE) $(MAKESILENT) -f xterra__rs/CMakeFiles/xterra__rs.dir/build.make xterra__rs/CMakeFiles/xterra__rs.dir/depend
+	$(MAKE) $(MAKESILENT) -f xterra__rs/CMakeFiles/xterra__rs.dir/build.make xterra__rs/CMakeFiles/xterra__rs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ros2_ws/build/xterra/CMakeFiles --progress-num=100 "Built target xterra__rs"
+.PHONY : xterra__rs/CMakeFiles/xterra__rs.dir/all
+
+# Build rule for subdir invocation for target.
+xterra__rs/CMakeFiles/xterra__rs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros2_ws/build/xterra/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 xterra__rs/CMakeFiles/xterra__rs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros2_ws/build/xterra/CMakeFiles 0
+.PHONY : xterra__rs/CMakeFiles/xterra__rs.dir/rule
+
+# Convenience name for target.
+xterra__rs: xterra__rs/CMakeFiles/xterra__rs.dir/rule
+.PHONY : xterra__rs
+
+# clean rule for target.
+xterra__rs/CMakeFiles/xterra__rs.dir/clean:
+	$(MAKE) $(MAKESILENT) -f xterra__rs/CMakeFiles/xterra__rs.dir/build.make xterra__rs/CMakeFiles/xterra__rs.dir/clean
+.PHONY : xterra__rs/CMakeFiles/xterra__rs.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

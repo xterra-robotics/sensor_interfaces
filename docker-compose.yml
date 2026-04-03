@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: xterra_autonomy_beta
+    image: xterra_autonomy_dds_v1
     container_name: xterra_autonomy_container
     runtime: nvidia
     privileged: true

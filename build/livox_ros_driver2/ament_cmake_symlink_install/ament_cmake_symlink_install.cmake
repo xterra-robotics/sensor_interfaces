@@ -363,6 +363,12 @@ include("/home/ros2_ws/build/livox_ros_driver2/ament_cmake_symlink_install_targe
 # install("TARGETS" "livox_ros_driver2__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/livox_ros_driver2")
 include("/home/ros2_ws/build/livox_ros_driver2/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
+# install(FILES "/home/ros2_ws/build/livox_ros_driver2/ament_cmake_index/share/ament_index/resource_index/rust_packages/livox_ros_driver2" "DESTINATION" "share/ament_index/resource_index/rust_packages")
+ament_cmake_symlink_install_files("/home/ros2_ws/src/livox_ros_driver2" FILES "/home/ros2_ws/build/livox_ros_driver2/ament_cmake_index/share/ament_index/resource_index/rust_packages/livox_ros_driver2" "DESTINATION" "share/ament_index/resource_index/rust_packages")
+
+# install(DIRECTORY "/home/ros2_ws/build/livox_ros_driver2/rosidl_generator_rs/livox_ros_driver2/rust" "DESTINATION" "share/livox_ros_driver2")
+ament_cmake_symlink_install_directory("/home/ros2_ws/src/livox_ros_driver2" DIRECTORY "/home/ros2_ws/build/livox_ros_driver2/rosidl_generator_rs/livox_ros_driver2/rust" "DESTINATION" "share/livox_ros_driver2")
+
 # install(FILES "/home/ros2_ws/build/livox_ros_driver2/rosidl_adapter/livox_ros_driver2/msg/CustomPoint.idl" "DESTINATION" "share/livox_ros_driver2/msg")
 ament_cmake_symlink_install_files("/home/ros2_ws/src/livox_ros_driver2" FILES "/home/ros2_ws/build/livox_ros_driver2/rosidl_adapter/livox_ros_driver2/msg/CustomPoint.idl" "DESTINATION" "share/livox_ros_driver2/msg")
 

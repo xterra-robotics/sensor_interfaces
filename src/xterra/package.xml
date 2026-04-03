@@ -11,11 +11,6 @@
 
   <depend>std_msgs</depend>
   <depend>rclcpp</depend>
-  <depend>gazebo_dev</depend>
-  <depend>gazebo_msgs</depend>
-  <depend>gazebo_ros</depend>
-  <!-- <depend>motion_planner</depend> -->
-  <depend>ignition-math6</depend>
 
 
   <buildtool_depend>rosidl_default_generators</buildtool_depend>

@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5f488fef122a80b89bb4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						18
+					]
+				},
+				{
+					"build" : "xterra__py",
+					"jsonFile" : "directory-xterra__py-f60b0a58d937bb449ac8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ros2_ws/build/xterra/xterra__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "xterra__rs",
+					"jsonFile" : "directory-xterra__rs-cc8e1a01110e0d3976b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/ros2_ws/build/xterra/xterra__rs",
+					"targetIndexes" : 
+					[
+						17
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "xterra",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_xterra_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_xterra_egg-591445bf47d0595e2ae6.json",
+					"name" : "ament_cmake_python_build_xterra_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_xterra::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_xterra-3935fd796e363abfc690.json",
+					"name" : "ament_cmake_python_copy_xterra",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f2e18fa2f91a41d83a7d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xterra::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xterra-c10d95eb73493c8ae40e.json",
+					"name" : "xterra",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xterra__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xterra__cpp-63fdf82de4c3b1917bf5.json",
+					"name" : "xterra__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "xterra__py::@ae31f17ca9adcb19296f",
+					"jsonFile" : "target-xterra__py-58cebd1e1d1ac3adcd33.json",
+					"name" : "xterra__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xterra__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xterra__rosidl_generator_c-a1ebe433203aaad02945.json",
+					"name" : "xterra__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xterra__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xterra__rosidl_generator_py-eec1bbf0b98068352c79.json",
+					"name" : "xterra__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xterra__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xterra__rosidl_typesupport_c-efde6b83a16c61d2caaa.json",
+					"name" : "xterra__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xterra__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xterra__rosidl_typesupport_c__pyext-d7f07d942775a675ceb2.json",
+					"name" : "xterra__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xterra__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xterra__rosidl_typesupport_cpp-8cd4eeb6ca314efa9e61.json",
+					"name" : "xterra__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xterra__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xterra__rosidl_typesupport_fastrtps_c-3f110fa9ab9c7e14f955.json",
+					"name" : "xterra__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xterra__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xterra__rosidl_typesupport_fastrtps_c__pyext-07ee940715200e4c0c61.json",
+					"name" : "xterra__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xterra__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xterra__rosidl_typesupport_fastrtps_cpp-32ce54f7c462cc835a88.json",
+					"name" : "xterra__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xterra__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xterra__rosidl_typesupport_introspection_c-df757f3085a99c3fa09f.json",
+					"name" : "xterra__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xterra__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xterra__rosidl_typesupport_introspection_c__pyext-c23b5005f01fa522dd87.json",
+					"name" : "xterra__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xterra__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xterra__rosidl_typesupport_introspection_cpp-70332eb02ed9c90ec7ac.json",
+					"name" : "xterra__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "xterra__rs::@55ba2982edbf9891cc6b",
+					"jsonFile" : "target-xterra__rs-26f40ef62e1c720910a1.json",
+					"name" : "xterra__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xterra_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xterra_uninstall-9b1c278e71953dc8d005.json",
+					"name" : "xterra_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ros2_ws/build/xterra",
+		"source" : "/home/ros2_ws/src/xterra"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -20,6 +20,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake"
   "rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake"
   "xterra__py/CMakeLists.txt"
+  "xterra__rs/CMakeLists.txt"
   "/home/ros2_ws/src/xterra/CMakeLists.txt"
   "/home/ros2_ws/src/xterra/msg/BaseOrientationWrenchDebug.msg"
   "/home/ros2_ws/src/xterra/msg/CameraFrame.msg"
@@ -479,6 +480,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_pyConfig.cmake"
   "/opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake"
   "/opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_get_typesupports.cmake"
+  "/opt/ros/humble/share/rosidl_generator_rs/cmake/ament_cmake_export_dependencies-extras.cmake"
+  "/opt/ros/humble/share/rosidl_generator_rs/cmake/register_rs.cmake"
+  "/opt/ros/humble/share/rosidl_generator_rs/cmake/rosidl_generator_rs-extras.cmake"
+  "/opt/ros/humble/share/rosidl_generator_rs/cmake/rosidl_generator_rsConfig-version.cmake"
+  "/opt/ros/humble/share/rosidl_generator_rs/cmake/rosidl_generator_rsConfig.cmake"
+  "/opt/ros/humble/share/rosidl_generator_rs/cmake/rosidl_generator_rs_generate_interfaces.cmake"
   "/opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake"
   "/opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_include_directories-extras.cmake"
   "/opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_libraries-extras.cmake"
@@ -725,11 +732,13 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "ament_cmake_core/xterraConfig-version.cmake"
   "ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/xterra"
   "ament_cmake_python/xterra/setup.py"
+  "ament_cmake_index/share/ament_index/resource_index/rust_packages/xterra"
   "ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/xterra"
   "ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/xterra"
   "ament_cmake_index/share/ament_index/resource_index/packages/xterra"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "xterra__py/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "xterra__rs/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -752,4 +761,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/xterra__rosidl_typesupport_introspection_c__pyext.dir/DependInfo.cmake"
   "CMakeFiles/xterra__rosidl_typesupport_c__pyext.dir/DependInfo.cmake"
   "xterra__py/CMakeFiles/xterra__py.dir/DependInfo.cmake"
+  "xterra__rs/CMakeFiles/xterra__rs.dir/DependInfo.cmake"
   )

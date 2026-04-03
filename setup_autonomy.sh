@@ -5,7 +5,7 @@ set -e
 
 # === CONFIGURATION ===
 CONTAINER_NAME="xterra_autonomy_container"
-IMAGE_NAME="xterra_autonomy_beta"
+IMAGE_NAME="xterra_autonomy_dds_v1"
 PACKAGE_NAME="m2_metal_description" # The ROS 2 package containing your launch files
 DEFAULT_LAUNCH_FILE="m2_autonomy.launch.py"
 

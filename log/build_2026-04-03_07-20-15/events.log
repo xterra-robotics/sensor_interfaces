@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000352] (-) JobUnselected: {'identifier': 'cyclonedds'}
+[0.000695] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.001288] (-) JobUnselected: {'identifier': 'm2_metal_description'}
+[0.001614] (-) JobUnselected: {'identifier': 'orbbec_camera'}
+[0.001895] (-) JobUnselected: {'identifier': 'orbbec_camera_msgs'}
+[0.001996] (-) JobUnselected: {'identifier': 'orbbec_description'}
+[0.002077] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.002154] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.002227] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.002300] (-) JobUnselected: {'identifier': 'xterra'}
+[0.002376] (sensor_description) JobQueued: {'identifier': 'sensor_description', 'dependencies': OrderedDict()}
+[0.002449] (sensor_description) JobStarted: {'identifier': 'sensor_description'}
+[0.023273] (sensor_description) JobProgress: {'identifier': 'sensor_description', 'progress': 'cmake'}
+[0.024828] (sensor_description) JobProgress: {'identifier': 'sensor_description', 'progress': 'build'}
+[0.026231] (sensor_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2_ws/build/sensor_description'], 'cwd': '/home/ros2_ws/build/sensor_description', 'env': OrderedDict([('CMAKE_BUILD_PARALLEL_LEVEL', '3'), ('HOSTNAME', 'xterra-orin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/home/ros/install/lib'), ('HOME', '/root'), ('OLDPWD', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('MAKEFLAGS', '-j3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('OrbbecSDK_DIR', '/usr/local/lib/cmake/OrbbecSDK'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/home/ros/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('CYCLONEDDS_HOME', '/home/ros/install'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros2_ws/build/sensor_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/OrbbecSDK_v2.4.11/lib::/opt/ros/humble')]), 'shell': False}
+[0.099247] (-) TimerEvent: {}
+[0.132809] (sensor_description) CommandEnded: {'returncode': 0}
+[0.135006] (sensor_description) JobProgress: {'identifier': 'sensor_description', 'progress': 'install'}
+[0.161635] (sensor_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2_ws/build/sensor_description'], 'cwd': '/home/ros2_ws/build/sensor_description', 'env': OrderedDict([('CMAKE_BUILD_PARALLEL_LEVEL', '3'), ('HOSTNAME', 'xterra-orin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/home/ros/install/lib'), ('HOME', '/root'), ('OLDPWD', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('MAKEFLAGS', '-j3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('OrbbecSDK_DIR', '/usr/local/lib/cmake/OrbbecSDK'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/home/ros/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('CYCLONEDDS_HOME', '/home/ros/install'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros2_ws/build/sensor_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/OrbbecSDK_v2.4.11/lib::/opt/ros/humble')]), 'shell': False}
+[0.187134] (sensor_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.188393] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes\n'}
+[0.189121] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/r200.jpg\n'}
+[0.189768] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/lydar.STL\n'}
+[0.189923] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/d415.stl\n'}
+[0.190064] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/rplidar-a2.stl\n'}
+[0.190198] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/lds.stl\n'}
+[0.190627] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/astra.dae\n'}
+[0.190757] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/plug_collision.stl\n'}
+[0.190885] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336\n'}
+[0.191010] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_color_frame.STL\n'}
+[0.191137] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_infra_1_optical_frame.STL\n'}
+[0.191262] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_depth_frame.STL\n'}
+[0.191386] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_infra2_optical_frame.STL\n'}
+[0.191508] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_depth_optical_frame.STL\n'}
+[0.191632] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_color_optical_frame.STL\n'}
+[0.191752] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_link.STL\n'}
+[0.191875] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_infra2_frame.STL\n'}
+[0.191995] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_infra_1_frame.STL\n'}
+[0.192116] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/gemini335_336/camera_bottom_screw_frame.STL\n'}
+[0.192236] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/rplidar.dae\n'}
+[0.192359] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/r200.dae\n'}
+[0.192480] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/t265.stl\n'}
+[0.192601] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/rplidar2.dae\n'}
+[0.192723] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/d435.dae\n'}
+[0.192870] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/astra.jpg\n'}
+[0.192988] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//meshes/plug.stl\n'}
+[0.193976] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//xacro\n'}
+[0.195700] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//xacro/threeD_lidar.xacro\n'}
+[0.196223] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//xacro/gemini_335.xacro\n'}
+[0.196529] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//xacro/livox_mid360.xacro\n'}
+[0.197142] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//xacro/d435.urdf.xacro\n'}
+[0.197662] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//xacro/rgbd_cam.xacro\n'}
+[0.198805] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//xacro/d435.gazebo.xacro\n'}
+[0.199430] (-) TimerEvent: {}
+[0.199516] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description//xacro/twoD_lidar.xacro\n'}
+[0.199865] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/ament_index/resource_index/package_run_dependencies/sensor_description\n'}
+[0.200812] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/ament_index/resource_index/parent_prefix_path/sensor_description\n'}
+[0.201351] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description/environment/ament_prefix_path.sh\n'}
+[0.201838] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description/environment/ament_prefix_path.dsv\n'}
+[0.202356] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description/environment/path.sh\n'}
+[0.202698] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description/environment/path.dsv\n'}
+[0.203269] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description/local_setup.bash\n'}
+[0.203590] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description/local_setup.sh\n'}
+[0.203968] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description/local_setup.zsh\n'}
+[0.204467] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description/local_setup.dsv\n'}
+[0.204848] (sensor_description) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/sensor_description/share/sensor_description/package.dsv\n'}
+[0.205401] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/ament_index/resource_index/packages/sensor_description\n'}
+[0.206864] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description/cmake/sensor_descriptionConfig.cmake\n'}
+[0.207374] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description/cmake/sensor_descriptionConfig-version.cmake\n'}
+[0.207936] (sensor_description) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/sensor_description/share/sensor_description/package.xml\n'}
+[0.208345] (sensor_description) CommandEnded: {'returncode': 0}
+[0.283429] (sensor_description) JobEnded: {'identifier': 'sensor_description', 'rc': 0}
+[0.285888] (-) EventReactorShutdown: {}

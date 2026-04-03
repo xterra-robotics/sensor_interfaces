@@ -1,0 +1,607 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ros2_ws/build/xterra
+[  1%] Generating Rust code for ROS interfaces
+[  1%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/msg/detail/joint_data__functions.c.o
+[  2%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/msg/detail/sensor_data__functions.c.o
+[  3%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/msg/detail/motor_gain_multiplier__functions.c.o
+[  4%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/msg/detail/quad_log__functions.c.o
+[  4%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/msg/detail/point3_d__functions.c.o
+[  4%] Built target xterra__cpp
+[  5%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/msg/detail/quaternion__functions.c.o
+[  5%] Built target ament_cmake_python_copy_xterra
+[  6%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/msg/detail/solver_stats__functions.c.o
+[  7%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/msg/detail/rgb_frame__functions.c.o
+[  7%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/msg/detail/indicator_data__functions.c.o
+[  8%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/msg/detail/dds_fastrtps/joint_data__type_support.cpp.o
+[  8%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/msg/detail/base_orientation_wrench_debug__functions.c.o
+[  9%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/msg/detail/float_scalar__functions.c.o
+[ 10%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/msg/detail/joy_data__functions.c.o
+[ 10%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/msg/detail/camera_frame__functions.c.o
+[ 10%] Built target xterra__rs
+[ 10%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/msg/detail/joint_data__type_support.cpp.o
+[ 11%] Building C object CMakeFiles/xterra__rosidl_generator_c.dir/rosidl_generator_c/xterra/srv/detail/capture_image__functions.c.o
+[ 12%] Linking C shared library libxterra__rosidl_generator_c.so
+[ 13%] Built target xterra__rosidl_generator_c
+[ 13%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/msg/joint_data__type_support.cpp.o
+[ 14%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/msg/detail/dds_fastrtps/sensor_data__type_support.cpp.o
+[ 15%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/msg/detail/sensor_data__type_support.cpp.o
+[ 16%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/msg/sensor_data__type_support.cpp.o
+[ 17%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/msg/detail/dds_fastrtps/motor_gain_multiplier__type_support.cpp.o
+[ 18%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/msg/motor_gain_multiplier__type_support.cpp.o
+[ 19%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/msg/detail/motor_gain_multiplier__type_support.cpp.o
+[ 20%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/msg/quad_log__type_support.cpp.o
+[ 21%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/msg/detail/dds_fastrtps/quad_log__type_support.cpp.o
+[ 22%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/msg/detail/quad_log__type_support.cpp.o
+[ 22%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/msg/point3_d__type_support.cpp.o
+[ 22%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/msg/detail/dds_fastrtps/point3_d__type_support.cpp.o
+[ 23%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/msg/quaternion__type_support.cpp.o
+[ 23%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/msg/detail/point3_d__type_support.cpp.o
+[ 24%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/msg/solver_stats__type_support.cpp.o
+[ 25%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/msg/detail/dds_fastrtps/quaternion__type_support.cpp.o
+[ 26%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/msg/detail/quaternion__type_support.cpp.o
+[ 27%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/msg/rgb_frame__type_support.cpp.o
+[ 28%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/msg/detail/dds_fastrtps/solver_stats__type_support.cpp.o
+[ 28%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/msg/indicator_data__type_support.cpp.o
+[ 29%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/msg/detail/solver_stats__type_support.cpp.o
+[ 30%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/msg/base_orientation_wrench_debug__type_support.cpp.o
+[ 31%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/msg/detail/dds_fastrtps/rgb_frame__type_support.cpp.o
+[ 32%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/msg/detail/rgb_frame__type_support.cpp.o
+[ 33%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/msg/float_scalar__type_support.cpp.o
+[ 33%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/msg/detail/dds_fastrtps/indicator_data__type_support.cpp.o
+[ 34%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/msg/joy_data__type_support.cpp.o
+[ 34%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/msg/detail/indicator_data__type_support.cpp.o
+[ 34%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/msg/camera_frame__type_support.cpp.o
+[ 35%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/msg/detail/dds_fastrtps/base_orientation_wrench_debug__type_support.cpp.o
+[ 36%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/msg/detail/base_orientation_wrench_debug__type_support.cpp.o
+[ 37%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xterra/srv/capture_image__type_support.cpp.o
+[ 38%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/msg/detail/dds_fastrtps/float_scalar__type_support.cpp.o
+[ 39%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/msg/detail/float_scalar__type_support.cpp.o
+[ 40%] Linking CXX shared library libxterra__rosidl_typesupport_cpp.so
+[ 41%] Built target xterra__rosidl_typesupport_cpp
+running egg_info
+writing xterra.egg-info/PKG-INFO
+writing dependency_links to xterra.egg-info/dependency_links.txt
+writing top-level names to xterra.egg-info/top_level.txt
+reading manifest file 'xterra.egg-info/SOURCES.txt'
+writing manifest file 'xterra.egg-info/SOURCES.txt'
+[ 41%] Built target ament_cmake_python_build_xterra_egg
+[ 42%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/msg/detail/joy_data__type_support.cpp.o
+[ 42%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/msg/detail/camera_frame__type_support.cpp.o
+[ 43%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/msg/detail/dds_fastrtps/joy_data__type_support.cpp.o
+[ 44%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xterra/srv/detail/capture_image__type_support.cpp.o
+[ 44%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/msg/detail/dds_fastrtps/camera_frame__type_support.cpp.o
+[ 45%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xterra/srv/detail/dds_fastrtps/capture_image__type_support.cpp.o
+[ 46%] Linking CXX shared library libxterra__rosidl_typesupport_introspection_cpp.so
+[ 46%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/msg/detail/joint_data__type_support_c.cpp.o
+[ 47%] Linking CXX shared library libxterra__rosidl_typesupport_fastrtps_cpp.so
+[ 48%] Built target xterra__rosidl_typesupport_introspection_cpp
+[ 49%] Built target xterra__rosidl_typesupport_fastrtps_cpp
+[ 49%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/msg/detail/joint_data__type_support.c.o
+[ 49%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/msg/joint_data__type_support.cpp.o
+[ 51%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/msg/detail/sensor_data__type_support.c.o
+[ 51%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/msg/sensor_data__type_support.cpp.o
+[ 52%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/msg/motor_gain_multiplier__type_support.cpp.o
+[ 53%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/msg/detail/motor_gain_multiplier__type_support.c.o
+[ 53%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/msg/quad_log__type_support.cpp.o
+[ 53%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/msg/detail/quad_log__type_support.c.o
+[ 54%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/msg/point3_d__type_support.cpp.o
+[ 55%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/msg/quaternion__type_support.cpp.o
+[ 56%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/msg/detail/point3_d__type_support.c.o
+[ 57%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/msg/detail/sensor_data__type_support_c.cpp.o
+[ 58%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/msg/solver_stats__type_support.cpp.o
+[ 59%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/msg/detail/quaternion__type_support.c.o
+[ 59%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/msg/rgb_frame__type_support.cpp.o
+[ 60%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/msg/detail/solver_stats__type_support.c.o
+[ 61%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/msg/indicator_data__type_support.cpp.o
+[ 62%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/msg/base_orientation_wrench_debug__type_support.cpp.o
+[ 62%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/msg/detail/rgb_frame__type_support.c.o
+[ 63%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/msg/float_scalar__type_support.cpp.o
+[ 64%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/msg/detail/indicator_data__type_support.c.o
+[ 64%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/msg/joy_data__type_support.cpp.o
+[ 65%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/msg/detail/base_orientation_wrench_debug__type_support.c.o
+[ 66%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/msg/camera_frame__type_support.cpp.o
+[ 68%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/msg/detail/float_scalar__type_support.c.o
+[ 68%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_c.dir/rosidl_typesupport_c/xterra/srv/capture_image__type_support.cpp.o
+[ 69%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/msg/detail/joy_data__type_support.c.o
+[ 69%] Linking CXX shared library libxterra__rosidl_typesupport_c.so
+[ 70%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/msg/detail/camera_frame__type_support.c.o
+[ 71%] Built target xterra__rosidl_typesupport_c
+[ 72%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xterra/srv/detail/capture_image__type_support.c.o
+[ 73%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/msg/detail/motor_gain_multiplier__type_support_c.cpp.o
+[ 73%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/msg/detail/quad_log__type_support_c.cpp.o
+[ 74%] Linking C shared library libxterra__rosidl_typesupport_introspection_c.so
+[ 75%] Built target xterra__rosidl_typesupport_introspection_c
+[ 76%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/msg/detail/point3_d__type_support_c.cpp.o
+[ 78%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/msg/detail/solver_stats__type_support_c.cpp.o
+[ 78%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/msg/detail/quaternion__type_support_c.cpp.o
+[ 78%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/msg/detail/rgb_frame__type_support_c.cpp.o
+[ 79%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/msg/detail/indicator_data__type_support_c.cpp.o
+[ 80%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/msg/detail/base_orientation_wrench_debug__type_support_c.cpp.o
+[ 81%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/msg/detail/float_scalar__type_support_c.cpp.o
+[ 81%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/msg/detail/joy_data__type_support_c.cpp.o
+[ 82%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/msg/detail/camera_frame__type_support_c.cpp.o
+[ 83%] Building CXX object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xterra/srv/detail/capture_image__type_support_c.cpp.o
+[ 84%] Linking CXX shared library libxterra__rosidl_typesupport_fastrtps_c.so
+[ 85%] Built target xterra__rosidl_typesupport_fastrtps_c
+[ 85%] Built target xterra
+[ 86%] Built target xterra__py
+[ 88%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/msg/_joint_data_s.c.o
+[ 88%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/msg/_sensor_data_s.c.o
+[ 88%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/msg/_motor_gain_multiplier_s.c.o
+[ 89%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/msg/_quad_log_s.c.o
+[ 89%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/msg/_point3_d_s.c.o
+[ 90%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/msg/_quaternion_s.c.o
+[ 91%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/msg/_solver_stats_s.c.o
+[ 92%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/msg/_rgb_frame_s.c.o
+[ 92%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/msg/_indicator_data_s.c.o
+[ 93%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/msg/_base_orientation_wrench_debug_s.c.o
+[ 94%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/msg/_float_scalar_s.c.o
+[ 95%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/msg/_joy_data_s.c.o
+[ 95%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/msg/_camera_frame_s.c.o
+[ 96%] Building C object CMakeFiles/xterra__rosidl_generator_py.dir/rosidl_generator_py/xterra/srv/_capture_image_s.c.o
+[ 97%] Linking C shared library rosidl_generator_py/xterra/libxterra__rosidl_generator_py.so
+[ 97%] Built target xterra__rosidl_generator_py
+[ 97%] Building C object CMakeFiles/xterra__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/xterra/_xterra_s.ep.rosidl_typesupport_c.c.o
+[ 97%] Building C object CMakeFiles/xterra__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/xterra/_xterra_s.ep.rosidl_typesupport_introspection_c.c.o
+[ 97%] Building C object CMakeFiles/xterra__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/xterra/_xterra_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[ 99%] Linking C shared library rosidl_generator_py/xterra/xterra_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[ 99%] Linking C shared library rosidl_generator_py/xterra/xterra_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[100%] Linking C shared library rosidl_generator_py/xterra/xterra_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[100%] Built target xterra__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target xterra__rosidl_typesupport_introspection_c__pyext
+[100%] Built target xterra__rosidl_typesupport_c__pyext
+-- Install configuration: ""
+-- Installing: /home/ros2_ws/install/xterra/share/ament_index/resource_index/rosidl_interfaces/xterra
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/float_scalar.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/rgb_frame.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/sensor_data.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/quad_log.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/point3_d.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/motor_gain_multiplier.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/joint_data.h
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__functions.c
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__functions.c
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__functions.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__type_support.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__functions.c
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__struct.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__type_support.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__functions.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__struct.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__functions.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__type_support.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__struct.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__functions.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__struct.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__functions.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__functions.c
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__functions.c
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__functions.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__struct.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__functions.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__type_support.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__functions.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__type_support.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__type_support.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__struct.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__type_support.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__type_support.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__functions.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__type_support.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__type_support.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__functions.c
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__struct.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__functions.c
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__type_support.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__functions.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__functions.c
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__functions.c
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__functions.c
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__functions.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__functions.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__struct.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__functions.c
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__functions.c
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__struct.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__struct.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__functions.c
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__type_support.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__functions.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__struct.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__struct.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__struct.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__type_support.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/base_orientation_wrench_debug.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/solver_stats.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/camera_frame.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/quaternion.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/joy_data.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/indicator_data.h
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__type_support.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__functions.c
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__struct.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__functions.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/capture_image.h
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/environment/library_path.sh
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/environment/library_path.dsv
+-- Installing: /home/ros2_ws/install/xterra/lib/libxterra__rosidl_generator_c.so
+-- Set runtime path of "/home/ros2_ws/install/xterra/lib/libxterra__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/motor_gain_multiplier.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/base_orientation_wrench_debug.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/sensor_data.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/quaternion.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/float_scalar.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/indicator_data.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/quad_log.hpp
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__type_support.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__builder.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__builder.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__struct.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__traits.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__type_support.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__builder.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__traits.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__type_support.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__traits.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__builder.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__builder.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__struct.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__type_support.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__traits.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__type_support.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__traits.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__type_support.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__type_support.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__builder.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__traits.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__struct.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__struct.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__traits.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__struct.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__builder.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__struct.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__builder.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__type_support.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__traits.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__struct.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__traits.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__traits.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__builder.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__struct.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__type_support.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__struct.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__type_support.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__struct.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__traits.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__type_support.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__struct.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__builder.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__struct.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__struct.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__traits.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__builder.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__type_support.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__builder.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__traits.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__builder.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__type_support.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/joy_data.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/point3_d.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/solver_stats.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/camera_frame.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/rgb_frame.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/joint_data.hpp
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__type_support.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__traits.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__struct.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__builder.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/capture_image.hpp
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/dds_fastrtps
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/dds_fastrtps
+-- Installing: /home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__type_support.c
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__type_support.c
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__type_support.c
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__type_support.c
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__type_support.c
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__type_support.c
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__type_support.c
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__type_support.c
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__type_support.c
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__type_support.c
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__type_support.c
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__type_support.c
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__type_support.c
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__rosidl_typesupport_introspection_c.h
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__type_support.c
+-- Installing: /home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_c.so
+-- Set runtime path of "/home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__type_support.cpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__type_support.cpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__type_support.cpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__type_support.cpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/sensor_data__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__type_support.cpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__type_support.cpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__type_support.cpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/motor_gain_multiplier__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/solver_stats__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/float_scalar__type_support.cpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joy_data__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/base_orientation_wrench_debug__type_support.cpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/point3_d__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/joint_data__type_support.cpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quad_log__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/rgb_frame__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/indicator_data__type_support.cpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/quaternion__type_support.cpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/msg/detail/camera_frame__type_support.cpp
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv
+-- Up-to-date: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__type_support.cpp
+-- Installing: /home/ros2_ws/install/xterra/include/xterra/xterra/srv/detail/capture_image__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/ros2_ws/install/xterra/lib/libxterra__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/environment/pythonpath.sh
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/environment/pythonpath.dsv
+-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra-0.0.0-py3.10.egg-info
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/xterra_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/_xterra_s.ep.rosidl_typesupport_c.c
+-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_sensor_data.py
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_quaternion.py
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_indicator_data.py
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_quaternion_s.c
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_solver_stats_s.c
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_joy_data_s.c
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_sensor_data_s.c
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_motor_gain_multiplier_s.c
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_float_scalar.py
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_quad_log.py
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_joint_data_s.c
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_float_scalar_s.c
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_rgb_frame.py
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_point3_d.py
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_joy_data.py
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_indicator_data_s.c
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_camera_frame_s.c
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_motor_gain_multiplier.py
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_base_orientation_wrench_debug.py
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_point3_d_s.c
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_rgb_frame_s.c
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_quad_log_s.c
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_joint_data.py
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/__init__.py
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_solver_stats.py
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_base_orientation_wrench_debug_s.c
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_camera_frame.py
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/libxterra__rosidl_generator_py.so
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/_xterra_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/xterra_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/srv
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/srv/_capture_image_s.c
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/srv/_capture_image.py
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/srv/__init__.py
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/_xterra_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/xterra_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/__init__.py
+Listing '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra'...
+Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/__init__.py'...
+Listing '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg'...
+Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/__init__.py'...
+Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_base_orientation_wrench_debug.py'...
+Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_camera_frame.py'...
+Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_float_scalar.py'...
+Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_indicator_data.py'...
+Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_joint_data.py'...
+Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_joy_data.py'...
+Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_motor_gain_multiplier.py'...
+Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_point3_d.py'...
+Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_quad_log.py'...
+Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_quaternion.py'...
+Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_rgb_frame.py'...
+Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_sensor_data.py'...
+Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/msg/_solver_stats.py'...
+Listing '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/srv'...
+Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/srv/__init__.py'...
+Compiling '/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/srv/_capture_image.py'...
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/xterra_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Set runtime path of "/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/xterra_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/xterra_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Set runtime path of "/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/xterra_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+-- Installing: /home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/xterra_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Set runtime path of "/home/ros2_ws/install/xterra/local/lib/python3.10/dist-packages/xterra/xterra_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+-- Installing: /home/ros2_ws/install/xterra/lib/libxterra__rosidl_generator_py.so
+-- Set runtime path of "/home/ros2_ws/install/xterra/lib/libxterra__rosidl_generator_py.so" to ""
+-- Installing: /home/ros2_ws/install/xterra/share/ament_index/resource_index/rust_packages/xterra
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/rust
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/rust/Cargo.toml
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/rust/build.rs
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/rust/src
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/rust/src/msg
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/rust/src/msg/rmw.rs
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/rust/src/srv
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/rust/src/srv/rmw.rs
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/rust/src/srv.rs
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/rust/src/lib.rs
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/rust/src/msg.rs
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/JointData.idl
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/SensorData.idl
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/MotorGainMultiplier.idl
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/QuadLog.idl
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/Point3D.idl
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/Quaternion.idl
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/SolverStats.idl
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/RGBFrame.idl
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/IndicatorData.idl
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/BaseOrientationWrenchDebug.idl
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/FloatScalar.idl
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/JoyData.idl
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/CameraFrame.idl
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/srv/CaptureImage.idl
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/JointData.msg
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/SensorData.msg
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/MotorGainMultiplier.msg
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/QuadLog.msg
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/Point3D.msg
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/Quaternion.msg
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/SolverStats.msg
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/RGBFrame.msg
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/IndicatorData.msg
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/BaseOrientationWrenchDebug.msg
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/FloatScalar.msg
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/JoyData.msg
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/msg/CameraFrame.msg
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/srv/CaptureImage.srv
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/srv/CaptureImage_Request.msg
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/srv/CaptureImage_Response.msg
+-- Installing: /home/ros2_ws/install/xterra/share/ament_index/resource_index/package_run_dependencies/xterra
+-- Installing: /home/ros2_ws/install/xterra/share/ament_index/resource_index/parent_prefix_path/xterra
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/environment/ament_prefix_path.sh
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/environment/ament_prefix_path.dsv
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/environment/path.sh
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/environment/path.dsv
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/local_setup.bash
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/local_setup.sh
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/local_setup.zsh
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/local_setup.dsv
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/package.dsv
+-- Installing: /home/ros2_ws/install/xterra/share/ament_index/resource_index/packages/xterra
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/export_xterra__rosidl_generator_cExport.cmake
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/export_xterra__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/export_xterra__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/export_xterra__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/export_xterra__rosidl_generator_cppExport.cmake
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/export_xterra__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/export_xterra__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/xterra__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/xterra__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/xterra__rosidl_typesupport_cExport.cmake
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/xterra__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/xterra__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/xterra__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/xterra__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/xterra__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/export_xterra__rosidl_generator_pyExport.cmake
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/export_xterra__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/xterraConfig.cmake
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/cmake/xterraConfig-version.cmake
+-- Installing: /home/ros2_ws/install/xterra/share/xterra/package.xml

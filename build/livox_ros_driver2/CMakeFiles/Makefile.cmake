@@ -17,6 +17,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake"
   "ament_cmake_package_templates/templates.cmake"
   "livox_interfaces2__py/CMakeLists.txt"
+  "livox_interfaces2__rs/CMakeLists.txt"
   "rclcpp_components/node_main_configured_livox_ros_driver2_node.cpp.in"
   "rosidl_cmake/rosidl_cmake-extras.cmake"
   "rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake"
@@ -647,6 +648,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_pyConfig.cmake"
   "/opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake"
   "/opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_get_typesupports.cmake"
+  "/opt/ros/humble/share/rosidl_generator_rs/cmake/ament_cmake_export_dependencies-extras.cmake"
+  "/opt/ros/humble/share/rosidl_generator_rs/cmake/register_rs.cmake"
+  "/opt/ros/humble/share/rosidl_generator_rs/cmake/rosidl_generator_rs-extras.cmake"
+  "/opt/ros/humble/share/rosidl_generator_rs/cmake/rosidl_generator_rsConfig-version.cmake"
+  "/opt/ros/humble/share/rosidl_generator_rs/cmake/rosidl_generator_rsConfig.cmake"
+  "/opt/ros/humble/share/rosidl_generator_rs/cmake/rosidl_generator_rs_generate_interfaces.cmake"
   "/opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake"
   "/opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_include_directories-extras.cmake"
   "/opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_libraries-extras.cmake"
@@ -1052,6 +1059,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "ament_cmake_symlink_install_targets_0_.cmake"
   "ament_cmake_symlink_install_targets_1_.cmake"
   "ament_cmake_symlink_install_targets_2_.cmake"
+  "ament_cmake_index/share/ament_index/resource_index/rust_packages/livox_ros_driver2"
   "rclcpp_components/node_main_livox_ros_driver2_node.cpp"
   "ament_cmake_symlink_install_targets_3_.cmake"
   "ament_cmake_symlink_install_targets_4_.cmake"
@@ -1062,6 +1070,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "ament_cmake_index/share/ament_index/resource_index/rclcpp_components/livox_ros_driver2"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "livox_interfaces2__py/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "livox_interfaces2__rs/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -1086,4 +1095,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/livox_ros_driver2.dir/DependInfo.cmake"
   "CMakeFiles/livox_ros_driver2_node.dir/DependInfo.cmake"
   "livox_interfaces2__py/CMakeFiles/livox_interfaces2__py.dir/DependInfo.cmake"
+  "livox_interfaces2__rs/CMakeFiles/livox_interfaces2__rs.dir/DependInfo.cmake"
   )

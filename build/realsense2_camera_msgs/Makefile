@@ -405,6 +405,19 @@ realsense2_camera_msgs__py/fast:
 	$(MAKE) $(MAKESILENT) -f realsense2_camera_msgs__py/CMakeFiles/realsense2_camera_msgs__py.dir/build.make realsense2_camera_msgs__py/CMakeFiles/realsense2_camera_msgs__py.dir/build
 .PHONY : realsense2_camera_msgs__py/fast
 
+#=============================================================================
+# Target rules for targets named realsense2_camera_msgs__rs
+
+# Build rule for target.
+realsense2_camera_msgs__rs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 realsense2_camera_msgs__rs
+.PHONY : realsense2_camera_msgs__rs
+
+# fast build rule for target.
+realsense2_camera_msgs__rs/fast:
+	$(MAKE) $(MAKESILENT) -f realsense2_camera_msgs__rs/CMakeFiles/realsense2_camera_msgs__rs.dir/build.make realsense2_camera_msgs__rs/CMakeFiles/realsense2_camera_msgs__rs.dir/build
+.PHONY : realsense2_camera_msgs__rs/fast
+
 rosidl_generator_c/realsense2_camera_msgs/msg/detail/extrinsics__functions.o: rosidl_generator_c/realsense2_camera_msgs/msg/detail/extrinsics__functions.c.o
 .PHONY : rosidl_generator_c/realsense2_camera_msgs/msg/detail/extrinsics__functions.o
 
@@ -1263,6 +1276,7 @@ help:
 	@echo "... realsense2_camera_msgs"
 	@echo "... realsense2_camera_msgs__cpp"
 	@echo "... realsense2_camera_msgs__py"
+	@echo "... realsense2_camera_msgs__rs"
 	@echo "... realsense2_camera_msgs_uninstall"
 	@echo "... uninstall"
 	@echo "... realsense2_camera_msgs__rosidl_generator_c"
