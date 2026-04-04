@@ -38,6 +38,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/FloatScalar.msg"
   "msg/JoyData.msg"
   "msg/CameraFrame.msg"
+  "msg/CameraControl.msg"
+  "msg/FlashControl.msg"
   "srv/CaptureImage.srv"
   DEPENDENCIES std_msgs
 )

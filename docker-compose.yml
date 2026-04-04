@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: xterra_autonomy_dds_v1
+    image: xterra_autonomy_beta
     container_name: xterra_autonomy_container
     runtime: nvidia
     privileged: true
@@ -33,6 +33,7 @@ services:
     command: bash
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - /tmp/argus_socket:/tmp/argus_socket:rw
       - ${HOME}/.Xauthority:/home/ros/.Xauthority:rw
       - .:/home/ros2_ws
       - ${HOME}/.gazebo:/home/ros/.gazebo

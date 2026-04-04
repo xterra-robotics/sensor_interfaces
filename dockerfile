@@ -14,11 +14,9 @@ ENV NVIDIA_DRIVER_CAPABILITIES=all
 WORKDIR /home/ros2_ws
 
 # -------- 4. Install ROS 2 Desktop components manually ----------------------
-# NOTE: ros-humble-rmw-cyclonedds-cpp REMOVED — we build CycloneDDS from
-#       source below (with TOPIC_DISCOVERY + TYPE_DISCOVERY), so the RMW
-#       layer must also be rebuilt from source to link against our build.
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
+        ros-${ROS_DISTRO}-rmw-cyclonedds-cpp \
         python3-rosdep \
         python3-colcon-common-extensions \
         python3-vcstool \
@@ -41,59 +39,6 @@ RUN apt-get update && \
         nano vim \
         pkg-config && \
     rm -rf /var/lib/apt/lists/*
-
-# ===========================================================================
-# 6.5. CycloneDDS — Build from source (topic + type discovery enabled)
-#      Line-by-line replication of install_dds.sh
-# ===========================================================================
-# ---- CONFIG ----
-# WORKDIR is /home/ros2_ws, so:
-#   INSTALL_PREFIX = $(pwd)/../ros/install = /home/ros/install
-#   REPO_DIR       = $(pwd)/cyclonedds     = /home/ros2_ws/cyclonedds
-# ---- HARD CLEAN ENV (CRITICAL) ----
-ENV LD_LIBRARY_PATH=""
-ENV CYCLONEDDS_HOME=""
-ENV CMAKE_PREFIX_PATH=""
-
-RUN echo "=== CycloneDDS clean build ===" && \
-    # ---- CONFIG ----
-    INSTALL_PREFIX="/home/ros/install" && \
-    REPO_DIR="/home/ros2_ws/cyclonedds" && \
-    # ---- CLEAN PREVIOUS INSTALL ----
-    rm -rf "$INSTALL_PREFIX" && \
-    rm -rf "$REPO_DIR/build" && \
-    # ---- CLONE ----
-    git clone https://github.com/eclipse-cyclonedds/cyclonedds.git "$REPO_DIR" && \
-    # ---- BUILD ----
-    cd "$REPO_DIR" && \
-    mkdir build && \
-    cd build && \
-    cmake .. \
-        -DCMAKE_BUILD_TYPE=Release \
-        -DCMAKE_INSTALL_PREFIX="$INSTALL_PREFIX" \
-        -DENABLE_TYPE_DISCOVERY=ON \
-        -DENABLE_TOPIC_DISCOVERY=ON && \
-    make -j$(nproc) && \
-    make install && \
-    # ---- REGISTER LIBS ----
-    export LD_LIBRARY_PATH="$INSTALL_PREFIX/lib" && \
-    export CYCLONEDDS_HOME="$INSTALL_PREFIX" && \
-    export PATH="$INSTALL_PREFIX/bin:$PATH" && \
-    # ---- VERIFY idlc (IMPORTANT) ----
-    echo "Checking idlc linkage:" && \
-    ldd "$INSTALL_PREFIX/bin/idlc" | grep cyclonedds || true
-
-# CycloneDDS environment (persisted across layers)
-ENV LD_LIBRARY_PATH="/home/ros/install/lib"
-ENV CYCLONEDDS_HOME="/home/ros/install"
-ENV PATH="/home/ros/install/bin:${PATH}"
-
-# ---- PYTHON BINDINGS (NO ISOLATION) ----
-RUN python3 -m ensurepip --upgrade || (apt-get update && apt-get install -y python3-pip) && \
-    python3 -m pip install --no-build-isolation --no-cache-dir \
-        git+https://github.com/eclipse-cyclonedds/cyclonedds-python && \
-    echo "=== CycloneDDS + Python installed successfully ==="
-
 
 # -------- 7. ROS 2 additional tools ----------------------------------------
 RUN apt-get update && \
@@ -248,12 +193,17 @@ RUN apt-get update && \
         python3-requests && \
     rm -rf /var/lib/apt/lists/*
 
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends \
-        ros-${ROS_DISTRO}-rmw-cyclonedds-cpp &&\
-    rm -rf /var/lib/apt/lists/*
+# ---------- Gstreamer for Skydroid Series ----------------------
+RUN apt-get update && apt-get install -y \
+    kmod \
+    gstreamer1.0-tools \
+    gstreamer1.0-plugins-base \
+    gstreamer1.0-plugins-good \
+    gstreamer1.0-plugins-bad \
+    gstreamer1.0-libav \
+    && rm -rf /var/lib/apt/lists/*
+
 # -------- 12. Convenience: auto-source environments -------------------------
-# Set CycloneDDS as the default RMW
 RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> /root/.bashrc && \
     echo "if [ -f /home/ros2_ws/install/setup.bash ]; then source /home/ros2_ws/install/setup.bash; fi" >> /root/.bashrc
 
